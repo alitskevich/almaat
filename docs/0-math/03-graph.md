@@ -1,0 +1,137 @@
+# Graphs
+
+![Graphs](/images/0-math/02-graph.svg)
+
+| Term | Definition | Formula | Notes |
+|---|---|---|---|
+| `Vertex` | An `Azon` that is an Output for some `Arrow` | `Vertex ∈ DOM(A) ∧ COD(A)` |  |
+| `Singleton` | A fixed `Arrow` | `Singleton(C)(x) := (x IS C ? C : 0)` | As a `Set`, a `Singleton` contains exactly one `Element`. |
+| `Graph` | A `Set` of `Arrow` over a `Set` of `Vertex` | `Graph := (L, V)` such that `∀r ∈ L: DOM(r) ⊆ V ∧ COD(r) ⊆ V` | Every `Azon` has an equivalent `Graph` (its `Pair`-set). |
+| A connected `Graph` | for every subset of `Vertex` there exists an `Arrow` entering or exiting | `∀V' ⊊ V: ∃r ∈ L: (DOM(r) ∩ V' ≠ 0 ∧ COD(r) ⊄ V') ∨ (COD(r) ∩ V' ≠ 0 ∧ DOM(r) ⊄ V')` | Ensures structural coherence — no subset of `Vertex` is completely isolated. |
+
+A `Vertex` is classified by its in-degree and out-degree:
+
+| Type | Term | Description |
+|---|---|---|
+| `(0:n)` | `Source` | only outgoing `Arrow` — Origin |
+| `(n:0)` | `Sink` | only incoming `Arrow` — Terminus |
+| `(1:1)` | `Link` | one in, one out — pass-through |
+| `(1:n)` | `Fork` | one in, many out — Divergence |
+| `(n:1)` | `Merge` | many in, one out — Convergence |
+
+An `Azon` is **univalent** — i.e., functional — if its `Graph` has no `Fork`: every `Vertex` has at most one outgoing edge.
+
+## Fundamental Data Structures
+
+The concrete data structures used in computing — each defined through the upper primitives of [00-azon](00-azon.md), [01-set](01-set.md), and [02-graph](02-graph.md).
+
+| Structure | Definition | Formula | Used For |
+|---|---|---|---|
+| **Array** | An `Azon` from natural-number index to `Element` of a fixed `Set` | `A: ℕ → X` | Direct index-based access; sorting and searching algorithms |
+| **Set** | A collection of unique `Element` (see [01-set](01-set.md)) | `S ⊆ U` | Mathematical set operations (union, intersection, difference) |
+| **Map** | An `Azon` from `Key` to `Value` | `M: K → V` | Access to elements by key; dictionaries |
+| **Hash Table** | A `Map` accessed via `Composition` with a hash `Azon` | `H = M . hash` | Efficient searching and indexing; databases, caches, dictionaries |
+| **Graph** | A `Set` of `Arrow` over a `Set` of `Vertex` (see [02-graph](02-graph.md)) | `(L, V)` | Network problems; shortest path |
+| **Path** | A `Structure` with one `Source`, one `Sink`, all intermediate `Vertex` as `Link` | `{(0:1), (1:1)*, (1:0)}` | Linear traversal; routes |
+| **Cycle** | A `Structure` where every `Vertex` is a pass-through `Link` | `{(1:1)+}` | Closed loops; rotational sequences |
+| **Linked List** | A `Path` whose `Vertex` carry data — each has at most one prev/next sibling | `Path` over data-bearing `Vertex` | Dynamic memory allocation; stacks and queues |
+| **Stack** | A `Linked List` with insert/remove at one end (LIFO) | `push/pop` at one end of `Linked List` | Expression evaluation; backtracking; undo/redo |
+| **Queue** | A `Linked List` with insert at rear, remove at front (FIFO) | `push` rear, `pop` front of `Linked List` | Scheduling tasks; processing events; waiting lists |
+| **Tree** | A `Structure` with one `Source` and all other `Vertex` being `Fork` | `{(0:n), (1:n)*}` | Searching, sorting; file systems, database indexing |
+| **Trie (Prefix Tree)** | A `Tree` whose `Arrow` are labeled by individual characters | `Tree` with `Arrow ∈ Char` | String matching; spell checkers, IP routers, text editors |
+| **Suffix Tree** | A `Tree` indexing all suffixes of a string | `Tree` over suffix `Set` | Longest repeating substring; pattern occurrences |
+| **Heap** | A complete binary `Tree` with `Element` in min/max order | binary `Tree` + heap property | Finding min/max; sorting; priority queues |
+| **B-tree** | A self-balancing `Tree` with multi-child `Vertex` | balanced `Tree` | Search and insertion for large data sets; disk-based indexing |
+| **AVL Tree** | A self-balancing binary `Tree` where subtree heights differ by ≤ 1 | balanced binary `Tree` | Efficient searching and sorting |
+| **Red-Black Tree** | A self-balancing binary `Tree` where each `Vertex` is colored red or black | balanced binary `Tree` | Efficient searching and sorting |
+| **Segment Tree** | A `Tree` supporting range queries and updates | range-indexed `Tree` | Finding min/max in a given range |
+| **Fenwick Tree** | A binary indexed `Tree` for prefix sum computation | indexed binary `Tree` | Computing prefix sums efficiently |
+| **K-Tree** | A `Tree` for range searching in high-dimensional data sets | `Tree` over `K`-dimensional `Set` | Image processing; computer graphics |
+| **Tuple Space** | A shared `Set` of `Tuple` accessed by pattern matching | shared `Set` of `Tuple` | Distributed systems coordination |
+| **Bloom Filter** | A probabilistic `Set` (hashed bit-`Array`) with possible false positives, no false negatives | hashed bit-`Array` | Spell checkers; network routers; data compression |
+
+## Correspondence to Category Theory
+
+---
+
+**`Category`** := A `Set` of `Azon` closed under `Composition`, containing an `Unit` for each `Domain` / `Codomain` of its members.
+
+> `C ⊆ 1` such that `∀A, B ∈ C: COD(B) ⊆ DOM(A) ⟹ A.B ∈ C`, and `∀X ∈ Obj(C): 1_X ∈ C`
+
+---
+
+**`Object`** := A `Domain` or `Codomain` of some `Azon` in `C` — itself a `Set` (hence an `Azon`, see [01-set](01-set.md)).
+
+> `Obj(C) := {DOM(A) : A ∈ C} ∪ {COD(A) : A ∈ C}`
+
+---
+
+**`Morphism`** := An `Azon` `A ∈ C`, viewed structurally as `f: DOM(A) → COD(A)`.
+
+> `A: DOM(A) → COD(A)`
+
+*NOTE*: No extra structure — an `Azon` *is* a `Morphism`.
+
+---
+
+**`Identity Morphism`** := The `Azon` that fixes every `Element` of an `Object` `X` and is empty elsewhere — `Unit` localized to `X` (see [00-azon](00-azon.md)).
+
+> `1_X(a) := (a ∈ X ? a : 0)`
+
+*NOTE*: `A.1_{DOM(A)} = A` and `1_{COD(A)}.A = A`.
+
+---
+
+**`Isomorphism`** := A bijective `Azon` — exactly the **Bijection** case above.
+
+> `A.A⁻¹ = 1_{COD(A)}` and `A⁻¹.A = 1_{DOM(A)}`
+
+---
+
+**`Monoid`** := A `Category` over a single `Object` `X` — every member is endogenous on `X` (see [01-set](01-set.md)).
+
+> `∀A ∈ M: DOM(A) = COD(A) = X`
+
+---
+
+**`Functor`** := An `Azon` that maps one `Category` into another, preserving `Composition` and `Unit` — equivalent to a **relational `Translation`** (see [02-graph](02-graph.md)).
+
+> `F(A.B) = F(A).F(B)`, `F(1_X) = 1_{F(X)}`
+
+---
+
+**`Natural Transformation`** := An `Azon` `η` assigning to each `Object` `X` an `Azon` `η_X: F(X) → G(X)` that commutes with two `Functor` `F, G`.
+
+> `∀A ∈ C: η_{COD(A)} . F(A) = G(A) . η_{DOM(A)}`
+
+**Notes:**
+
+- A `Category` is *itself* an `Azon` — specifically a `Set` of `Azon`. Nothing leaves the framework.
+- An `Object` is not a separate kind of entity: it is a `Set`, which is an `Azon` (see [01-set](01-set.md)).
+- The categorical axioms (left/right unit, associativity, chain-composability) are exactly the properties of `Composition` listed above — re-named, not re-asserted.
+- `Functor` ≡ **relational `Translation`** of [02-graph](02-graph.md): preserving `Path` is the same condition as preserving `Composition`.
+- ALMA does not depend on category theory — but every `Composition`-based chapter (`Derivation` in `Language`, successor in `Number`, `Feedback` in `System`, `Validation` in `Mind`) inherits categorical structure for free.
+
+## References
+
+### Books
+
+- Cormen, Leiserson, Rivest, Stein — *Introduction to Algorithms* (CLRS), 4th ed., MIT Press, 2022.
+- Knuth — *The Art of Computer Programming*, vols. 1–4A, Addison-Wesley.
+- Sedgewick, Wayne — *Algorithms*, 4th ed., Addison-Wesley, 2011.
+- Skiena — *The Algorithm Design Manual*, 3rd ed., Springer, 2020.
+- Tarjan — *Data Structures and Network Algorithms*, SIAM, 1983.
+
+### Online
+
+- [Wikipedia: List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
+- [Wikipedia: List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
+- [VisuAlgo](https://visualgo.net) — interactive visualizations of data structures and algorithms.
+- [cp-algorithms.com](https://cp-algorithms.com) — algorithm reference for competitive programming.
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com) — complexity summary by structure and operation.
+
+### Foundations
+
+- [00-azon](00-azon.md) — Azon primitive (indexed mapping).
+- [01-set](01-set.md) — Set primitive.
+- [02-graph](02-graph.md) — Graph primitive (vertices and arrows).

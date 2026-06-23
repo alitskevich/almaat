@@ -1,5 +1,7 @@
 # Quotes
 
+![Quotes](/images/_quotes.svg)
+
 1. The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy. — Steven Weinberg
 
 2. Only when you accept yourself as you are, only then can you change and grow.

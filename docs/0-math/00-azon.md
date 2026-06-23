@@ -1,39 +1,51 @@
 # Foundations
 
-#### Azon
+![Foundations](/images/0-math/00-azon.svg)
 
-| Term | Definition | Formula | Notes |
-|---|---|---|---|
-| `Azon` | A *method* of associating each given `Azon`-`Sign` with some certain `Azon`-`Value` | `A := x → y` |  |  
+## Intro
 
-**Notes:**
+**`Azon`** := an *agreement* (made under three `Axioms` below) to always respond with some certain Azon(`Value`) to any given Azon(`Sign`).
 
-- The `Azon` is the framework's sole fundamental concept:
-  - It is defined recurrsively, thus self-sufficient.
-  - Every later construction is built from `Azon` and the three Axioms below.
+> `Azon := x → y`
 
-#### 0 and 1
+`Azon` is the sole fundamental concept of entire framework: It is self-sufficient (defined recurrsively) and every later concept is built on top of `Azon`.
 
-| Term | Definition | Formula | Notes |
-|---|---|---|---|
-| `Absorber` `0` | The `Azon` that always responds emptily (with `0`) | `∀x: 0(x) = 0` |  |
-| `Identity` `1` | The `Azon` that always responds with the same Sign, but emptily - for itself | `∀x ≠ 1: 1(x) = x`; `1(1) = 0` |  |
+---
 
-**Notes:**
+**`Zero`** := `Azon` that always responds with itself  
 
-- response with `0` called **empty**, otherwise - **valent**.
-- response with `Sign` called **fixed**.
+> `Zero := x → Zero`
 
-#### Axioms
+*DEF*: response with `Zero` *called* `empty`, otherwise - `valent`.
 
-| Axiom | Statement | Formula | Notes |
-|---|---|---|---|
-| `AXIOM-1` (Halt) | The response to `Absorber` is always empty | `∀A: A(0) = 0` | |
-| `AXIOM-2` (Self-Emptiness) | The response to oneself is always empty | `∀A: A(A) = 0` | |
-| `AXIOM-3` (Non-Self-Production) | A non-empty `Azon` cannot output itself as a valent value | `∀A ≠ 0, x: A(x) ≠ A` |  |
+---
 
-**Notes:**
+Response with `Sign` itself *called* **`fixed`**.
 
-- `AXIOM-1` makes `Absorber` an absorbing fixed point — composition-annihilating..
-- `AXIOM-2` establishes the fundamental asymmetry that prevents Russell-type paradoxes: no `Azon` may apply to itself with a valent response. In particular, no `Set` contains itself; no `Graph` references itself as a node within its own arrow-set.
-- `AXIOM-3` prevents circular self-generation. `Identity` satisfies it vacuously: `1(x) = 1` has *no solution* — for `x ≠ 1` we have `1(x) = x ≠ 1`, and for `x = 1` we have `1(1) = 0 ≠ 1`. There is no input that makes `Identity` output itself, so the antecedent of `AXIOM-3` is never triggered.
+**`Unit`** := `Azon` that always responds`fixed`, except `emptily` - to itself.
+
+> `Unit := x → x IS Unit : Zero : x`
+
+## Axioms
+
+**`AXIOM-1`** (Halt) := The response to `Zero` is always `Zero`.
+
+> `∀A: A(0) = 0`
+
+`AXIOM-1` makes `Zero` an absorbing fixed point — composition-annihilating.
+
+---
+
+**`AXIOM-2`** (Non-Self-Valent) := The response to oneself is always `Zero`.
+
+>`∀A: A(A) = 0`
+
+`AXIOM-2` establishes the fundamental asymmetry that prevents Russell-type paradoxes: no `Azon` may apply to itself with a valent response.
+
+---
+
+**`AXIOM-3`** (Non-Self-Generation) := non-zero `Azon` cannot respond with itself
+
+> `∀A ≠ 0, x: A(x) ISNT A`
+
+`Unit` satisfies it as `1(x) = 1` has no solution.

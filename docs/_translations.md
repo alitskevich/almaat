@@ -1,5 +1,7 @@
 # Term Translations
 
+![Term Translations](/images/_translations.svg)
+
 The framework uses **English Terms as canonical** throughout the content. This file is the reverse-mapping reference: each canonical English Term to its Belarusian-rooted equivalent — the original authorial transliteration that gives the framework its etymological signature.
 
 Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belarusian forms — not part of the original authorial layer. Treat them as candidates open to revision.
@@ -9,8 +11,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Term | Belarusian |
 |---|---|
 | `Azon` | Az |
-| `Absorber` | Puston |
-| `Identity` | Proston |
+| `Zero` | Puston |
+| `Unit` | Proston |
 
 ## Sets, Equivalence, Topology — `01-set`
 
@@ -41,7 +43,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Arrow` | Strelka |
 | `Pair` | Para |
 | `Singleton` | Ton |
-| `Plus-Constructor` | Plus |
+| `Plusator` | Plusator |
 | `Graph` | Tiaga |
 | `Vertex` | Styk |
 | `Structure` | Stroj |
@@ -122,7 +124,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Framework` | Ruxavik |
+| `Engine` | Ruxavik |
 | `Flow` | Rux |
 | `Plan` | Plan |
 | `Step` | Mig |
@@ -260,6 +262,10 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Dead-end / Line | QERTA |
 | Death | SMERT |
 | Embrace Mortality | PRYNIATTE SMERTI |
+| Self-role | JA-ROLIA* |
+| Self-observer | JA-NAZIRALNIK* |
+| Self-consciousness | JA-SVEDOMAST* |
+| Open Individualism | ADKRYTAJA ASOBNAST* |
 
 ## The Living Animal — `1-HUMAN/22-psycho`
 

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Intellect" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="rough" x="-15%" y="-40%" width="130%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.024" numOctaves="3" seed="90" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="13" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="canvas" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="66" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.6 0"/>
+    </filter>
+    <style>
+      .cap { font-family: "Marker Felt", "Segoe Print", "Bradley Hand", "Brush Script MT", "Comic Sans MS", cursive; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#FBF7EF"/>
+  <g filter="url(#soft)">
+    <ellipse cx="1171.4" cy="92.4" rx="329.9" ry="161.1" fill="#F3E8D5" opacity="0.7"/>
+    <ellipse cx="796.6" cy="157.5" rx="396.4" ry="204.2" fill="#E9D4AE" opacity="0.6"/>
+  </g>
+  <g filter="url(#rough)">
+    <path d="M 56.8 75.5 C 84.7 49.1, 650.8 49.1, 1133.3 92.9" fill="none" stroke="#37200F" stroke-width="36.3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 79.6 59.3 C 378.7 177.9, 1026.3 -27, 1181.8 61.2" fill="none" stroke="#1C3CC0" stroke-width="21.8" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 79.6 59.3 C 378.7 177.9, 1026.3 -27, 1181.8 61.2" fill="none" stroke="#B8481A" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 0.8 68.6 C 302.1 137.4, 578.6 137.4, 1080.5 69.2" fill="none" stroke="#EFAE16" stroke-width="27.3" stroke-linecap="round" opacity="1"/>
+    <path d="M 0.8 68.6 C 302.1 137.4, 578.6 137.4, 1080.5 69.2" fill="none" stroke="#8E4422" stroke-width="7.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 50.7 187.1 C 68.9 308.9, 727.9 308.9, 1229 187.2" fill="none" stroke="#E64A38" stroke-width="41" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 39.4 115.3 C 296.8 38.5, 1102.9 38.5, 1144.9 130" fill="none" stroke="#E64A38" stroke-width="23.4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 39.4 115.3 C 296.8 38.5, 1102.9 38.5, 1144.9 130" fill="none" stroke="#37200F" stroke-width="9.2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 15.8 169.3 C 447.3 65.5, 701.2 280.7, 1153.5 176.2" fill="none" stroke="#1C3CC0" stroke-width="26.8" stroke-linecap="round" opacity="1"/>
+    <polygon points="472.3,125 462.1,136.3 443.7,136 440.1,125 445.4,116 463.3,112.3" fill="#1C3CC0" opacity="0.6"/>
+    <polygon points="617,60.1 597.4,80.2 559.9,74.4 567,49.4 599.4,35.5" fill="#EFAE16" opacity="0.7"/>
+  </g>
+  <g>
+    <path d="M 787.3 108.3 q -6.6 33.8, -3 67.5" fill="none" stroke="#37200F" stroke-width="2.1" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="791.8" cy="175.8" r="3.4" fill="#37200F" opacity="0.6"/>
+    <path d="M 222.9 87.5 q -0.4 30, 3.9 60" fill="none" stroke="#1C3CC0" stroke-width="5.6" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="218.3" cy="147.6" r="9.3" fill="#1C3CC0" opacity="0.5"/>
+    <path d="M 944.1 148.2 q 6.7 18, -4 35.9" fill="none" stroke="#E64A38" stroke-width="2.7" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="949.3" cy="184.1" r="3" fill="#E64A38" opacity="0.7"/>
+  </g>
+  <g>
+    <circle cx="431.8" cy="212.7" r="1.7" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="562" cy="256" r="1.4" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="465.8" cy="263.1" r="2.6" fill="#E64A38" opacity="0.6"/>
+    <ellipse cx="506.2" cy="246.2" rx="5" ry="2.8" fill="#B8481A" opacity="0.8" transform="rotate(74 506.2 246.2)"/>
+    <circle cx="552.1" cy="186.2" r="2.1" fill="#B8481A" opacity="0.4"/>
+    <circle cx="317" cy="189.4" r="4.1" fill="#E64A38" opacity="0.6"/>
+    <ellipse cx="1182.9" cy="241" rx="7.6" ry="2.1" fill="#EFAE16" opacity="0.3" transform="rotate(25.5 1182.9 241)"/>
+    <circle cx="404.9" cy="187.7" r="2.2" fill="#1C3CC0" opacity="0.8"/>
+    <circle cx="586.5" cy="283.7" r="3.9" fill="#B8481A" opacity="0.6"/>
+    <circle cx="717" cy="84.5" r="4.4" fill="#37200F" opacity="0.7"/>
+    <ellipse cx="616.3" cy="102.8" rx="6.7" ry="1.7" fill="#1C3CC0" opacity="0.7" transform="rotate(150.6 616.3 102.8)"/>
+    <ellipse cx="686.2" cy="93.4" rx="7.9" ry="2.4" fill="#B8481A" opacity="0.5" transform="rotate(104.8 686.2 93.4)"/>
+    <circle cx="408.2" cy="165.7" r="2.7" fill="#1C3CC0" opacity="0.7"/>
+    <ellipse cx="522" cy="218.4" rx="3.5" ry="1.9" fill="#37200F" opacity="0.7" transform="rotate(41.2 522 218.4)"/>
+    <ellipse cx="587.3" cy="273.9" rx="8.4" ry="1.4" fill="#EFAE16" opacity="0.4" transform="rotate(112.7 587.3 273.9)"/>
+    <circle cx="766.9" cy="110.3" r="3.6" fill="#EFAE16" opacity="0.3"/>
+    <ellipse cx="776.8" cy="28.5" rx="9.6" ry="2.7" fill="#EFAE16" opacity="0.5" transform="rotate(40.6 776.8 28.5)"/>
+    <circle cx="441.3" cy="248.1" r="4.5" fill="#E64A38" opacity="0.5"/>
+    <ellipse cx="468.4" cy="9.2" rx="8.1" ry="2.4" fill="#1C3CC0" opacity="0.5" transform="rotate(54.7 468.4 9.2)"/>
+    <circle cx="697.5" cy="99.1" r="3.1" fill="#B8481A" opacity="0.8"/>
+    <circle cx="551.9" cy="269" r="5.6" fill="#EFAE16" opacity="0.4"/>
+    <ellipse cx="420.3" cy="196" rx="8.2" ry="2.4" fill="#EFAE16" opacity="0.9" transform="rotate(130.5 420.3 196)"/>
+    <circle cx="148.2" cy="162.2" r="3.7" fill="#37200F" opacity="0.8"/>
+    <circle cx="506.3" cy="195.8" r="5.2" fill="#8E4422" opacity="0.5"/>
+    <ellipse cx="546.6" cy="251.1" rx="5.6" ry="2.4" fill="#37200F" opacity="0.4" transform="rotate(98.7 546.6 251.1)"/>
+    <circle cx="440.1" cy="231.5" r="4" fill="#E64A38" opacity="0.3"/>
+    <circle cx="747.3" cy="34.2" r="2.1" fill="#1C3CC0" opacity="0.5"/>
+    <circle cx="327.8" cy="241.7" r="6" fill="#EFAE16" opacity="0.6"/>
+    <circle cx="457.8" cy="206" r="3.2" fill="#E64A38" opacity="0.5"/>
+  </g>
+  <rect width="1200" height="300" filter="url(#canvas)" opacity="0.05"/>
+  <g class="cap" text-anchor="middle">
+    <path d="M 467.2 189.6 q 66.4 2.4, 132.8 2 t 132.8 -0.7" fill="none" stroke="#1C3CC0" stroke-width="5.4" stroke-linecap="round" opacity="0.9" filter="url(#rough)"/>
+    <text x="600" y="150" font-size="60" font-family="'Marker Felt','Segoe Print','Bradley Hand','Brush Script MT','Comic Sans MS',cursive" font-weight="700" paint-order="stroke" stroke="#FBF7EF" stroke-width="8" stroke-linejoin="round" fill="#37200F"><tspan x="600" dy="0.34em" textLength="324" lengthAdjust="spacingAndGlyphs">Intellect</tspan></text>
+  </g>
+</svg>

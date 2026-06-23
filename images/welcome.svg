@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Welcome to ALMAAT" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="rough" x="-15%" y="-40%" width="130%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.024" numOctaves="3" seed="87" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="13" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="canvas" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="85" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.6 0"/>
+    </filter>
+    <style>
+      .cap { font-family: "Marker Felt", "Segoe Print", "Bradley Hand", "Brush Script MT", "Comic Sans MS", cursive; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#FBF7EF"/>
+  <g filter="url(#soft)">
+    <ellipse cx="1094.8" cy="231.9" rx="290.5" ry="165.5" fill="#F3E8D5" opacity="0.8"/>
+    <ellipse cx="1045.1" cy="202.1" rx="330.2" ry="153.8" fill="#F3E8D5" opacity="0.8"/>
+    <ellipse cx="812.4" cy="102.4" rx="409.2" ry="222.3" fill="#F3E8D5" opacity="0.6"/>
+  </g>
+  <g filter="url(#rough)">
+    <path d="M 92.6 130.5 C 346 33.3, 1058.5 231.9, 1210.6 143.1" fill="none" stroke="#37200F" stroke-width="38.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 92.6 130.5 C 346 33.3, 1058.5 231.9, 1210.6 143.1" fill="none" stroke="#1C3CC0" stroke-width="12.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 60.5 228 C 110.2 292.4, 949.5 124.3, 1163.9 198.6" fill="none" stroke="#B8481A" stroke-width="22.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 96.9 207.9 C 293.2 154.7, 944.8 154.7, 1120.6 179.3" fill="none" stroke="#B8481A" stroke-width="18.7" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 96.9 207.9 C 293.2 154.7, 944.8 154.7, 1120.6 179.3" fill="none" stroke="#8E4422" stroke-width="5.7" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 32.5 89.5 C 198.9 152.9, 788.1 41.2, 1146.8 103.5" fill="none" stroke="#E64A38" stroke-width="29" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 53.5 86.8 C 484.1 -2.1, 773.1 149.1, 1203.9 58.1" fill="none" stroke="#8E4422" stroke-width="34.4" stroke-linecap="round" opacity="0.9"/>
+    <polygon points="784.5,73.8 770.8,94.9 738,85.5 745.9,66.1 767.4,60" fill="#B8481A" opacity="0.7"/>
+    <polygon points="699.9,83.1 689,100.7 651,111.5 648.7,83.1 662.8,68.9 691.5,62.5" fill="#37200F" opacity="0.7"/>
+    <polygon points="282.5,80.9 270.8,90.9 247.5,90.4 250.7,73 276.2,59.4" fill="#E64A38" opacity="0.8"/>
+  </g>
+  <g>
+    <path d="M 308 144.4 q -6.9 24.5, 3.6 49" fill="none" stroke="#37200F" stroke-width="4.9" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="310.7" cy="193.4" r="7.4" fill="#37200F" opacity="0.5"/>
+  </g>
+  <g>
+    <circle cx="1118.1" cy="74.6" r="6.7" fill="#E64A38" opacity="0.7"/>
+    <circle cx="1112.9" cy="191.5" r="4.8" fill="#1C3CC0" opacity="0.6"/>
+    <circle cx="1141" cy="96.4" r="5.9" fill="#B8481A" opacity="0.4"/>
+    <circle cx="244.9" cy="86.1" r="1.4" fill="#EFAE16" opacity="0.5"/>
+    <circle cx="541" cy="217.7" r="6.7" fill="#EFAE16" opacity="0.8"/>
+    <circle cx="1062.6" cy="116.1" r="3.8" fill="#E64A38" opacity="0.5"/>
+    <circle cx="1059.4" cy="210.4" r="2" fill="#E64A38" opacity="0.5"/>
+    <circle cx="262.7" cy="166.6" r="2.6" fill="#E64A38" opacity="0.6"/>
+    <ellipse cx="1035.5" cy="165.6" rx="5.1" ry="1.9" fill="#B8481A" opacity="0.3" transform="rotate(20.5 1035.5 165.6)"/>
+    <circle cx="1043.6" cy="276" r="2.2" fill="#E64A38" opacity="0.5"/>
+    <circle cx="713.7" cy="235.3" r="2.1" fill="#EFAE16" opacity="0.8"/>
+    <ellipse cx="1068.3" cy="54.5" rx="6" ry="1.6" fill="#B8481A" opacity="0.6" transform="rotate(31.7 1068.3 54.5)"/>
+    <circle cx="1106.9" cy="154.7" r="2.4" fill="#1C3CC0" opacity="0.7"/>
+    <circle cx="1007.2" cy="122.1" r="1.9" fill="#EFAE16" opacity="0.4"/>
+    <circle cx="994.2" cy="92" r="6" fill="#E64A38" opacity="0.7"/>
+    <circle cx="762.8" cy="268.1" r="3.2" fill="#B8481A" opacity="0.7"/>
+    <circle cx="1080.7" cy="162.3" r="4.5" fill="#E64A38" opacity="0.8"/>
+    <circle cx="326.3" cy="187.2" r="4.5" fill="#37200F" opacity="0.7"/>
+    <ellipse cx="1059.3" cy="146.4" rx="8.4" ry="1.8" fill="#EFAE16" opacity="0.4" transform="rotate(138.6 1059.3 146.4)"/>
+    <circle cx="1152.4" cy="129.5" r="2" fill="#8E4422" opacity="0.5"/>
+    <circle cx="1011.9" cy="123.2" r="2.5" fill="#B8481A" opacity="0.6"/>
+    <circle cx="557.1" cy="114.2" r="1.9" fill="#EFAE16" opacity="0.8"/>
+    <circle cx="623.4" cy="214.5" r="6.8" fill="#E64A38" opacity="0.8"/>
+    <circle cx="473.9" cy="268.3" r="2.2" fill="#E64A38" opacity="0.8"/>
+    <circle cx="1133.2" cy="225.9" r="3.5" fill="#EFAE16" opacity="0.6"/>
+    <circle cx="1101" cy="163.3" r="5.1" fill="#EFAE16" opacity="0.3"/>
+    <circle cx="1055.1" cy="147.7" r="3.7" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="987.4" cy="97.7" r="4.5" fill="#1C3CC0" opacity="0.3"/>
+    <circle cx="1141.6" cy="113.4" r="2.4" fill="#1C3CC0" opacity="0.5"/>
+    <ellipse cx="1122.4" cy="174.7" rx="4" ry="1.4" fill="#8E4422" opacity="0.4" transform="rotate(139.8 1122.4 174.7)"/>
+    <circle cx="246" cy="228.7" r="2.6" fill="#E64A38" opacity="0.5"/>
+    <ellipse cx="835.1" cy="211.8" rx="4.3" ry="2.1" fill="#1C3CC0" opacity="0.5" transform="rotate(26.8 835.1 211.8)"/>
+    <circle cx="283.4" cy="82.2" r="3.4" fill="#E64A38" opacity="0.8"/>
+    <circle cx="1086.3" cy="112.6" r="3.8" fill="#EFAE16" opacity="0.4"/>
+  </g>
+  <rect width="1200" height="300" filter="url(#canvas)" opacity="0.05"/>
+  <g class="cap" text-anchor="middle">
+    <path d="M 349.1 189.6 q 125.5 1.9, 250.9 -1.8 t 250.9 -0.7" fill="none" stroke="#EFAE16" stroke-width="5.4" stroke-linecap="round" opacity="0.9" filter="url(#rough)"/>
+    <text x="600" y="150" font-size="60" font-family="'Marker Felt','Segoe Print','Bradley Hand','Brush Script MT','Comic Sans MS',cursive" font-weight="700" paint-order="stroke" stroke="#FBF7EF" stroke-width="8" stroke-linejoin="round" fill="#37200F"><tspan x="600" dy="0.34em" textLength="612" lengthAdjust="spacingAndGlyphs">Welcome to ALMAAT</tspan></text>
+  </g>
+</svg>

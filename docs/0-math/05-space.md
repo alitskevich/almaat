@@ -1,52 +1,147 @@
 # Space
 
-`Attribute-Space`, `Point`, `State`, and `Schema` — the framework for representing structured entities. `State` defined here is the primitive used heavily across [06-process](06-process.md), [07-intellect](07-intellect.md), [09-agency](09-agency.md), and [10-growth](10-growth.md).
+![Space](/images/0-math/05-space.svg)
+
+`Space`, `Point`, `State`, and `Schema` — the framework for representing *coordinated* entities.
 
 ## Coordinate Structure
 
-| Term | Definition | Formula | Notes |
-|---|---|---|---|
-| `Attribute-Space` | A `Row` of `Azon` with the same `Domain` (Attributes), each mapping entities to non-empty values | `Attribute-Space := [p₁, p₂, ..., pₙ]` | Each `pᵢ` is an `Azon` with a shared `Domain`. |
-| `Point` | A `Row` of values, one drawn from each Attribute's `Codomain` | `Point := [v₁, v₂, ..., vₙ]` with `vᵢ ∈ COD(pᵢ)` |  |
-| `Volume` | The `Set` of all possible `Point` of the `Attribute-Space` | `Volume := COD(p₁) × COD(p₂) × ... × COD(pₙ)` | The Cartesian product of attribute codomains. |
-| `Place` | A subset of the `Volume` | `Place ⊆ Volume` |  |
+---
 
-## Subjects and Identification
+**`Space`** := A `Row` of `Azon`s(`Attribute`) with the same `Domain`.
 
-| Term | Definition | Formula | Notes |
-|---|---|---|---|
-| `Presentation` | The `Point` of a Subject within the `Attribute-Space` | `Presentation(s) := (s, [p₁(s), p₂(s), ..., pₙ(s)])` | A Subject's manifestation in the `Attribute-Space` — the indexed pair of entity-and-its-coordinates. |
-| `Matter` | The `Set` of all `Presentation` | `Matter := {Presentation(s) : s in indexed entities}` |  |
-| `Content` | The `Set` of `Presentation` whose coordinates fall within a `Place` | `Content(Place) := {Presentation(s) : Presentation(s).coords ∈ Place}` | The *extension* of a region — every Subject currently within it. |
-| `Key` | An injective Attribute — distinct entities have distinct values | `∀a, b ∈ DOM(p): p(a) = p(b) ⟹ a = b` | A primary identifier. |
-| `Relation` | A `Place` whose Attributes are `Key` of other `Attribute-Space` | `Relation := {[K₁, K₂, ...]}` | Relational/database-like links between `Attribute-Space`. |
-| `Tuple` | A `Point` of a `Relation` | `[k₁, k₂, ...]` | A specific inter-entity connection. |
+> `Space<SDom> := [p₁, p₂, ..., pₙ] | DOM(pᵢ) = SDom`
 
-## State and Schema
+---
 
-| Term | Definition | Formula | Notes |
-|---|---|---|---|
-| `State` | A `Structure` whose `Vertex` are `Presentation` and whose `Arrow` are `Relation` | `State := Structure over {Presentation}, edges from Relation` | A snapshot of an entity-or-system at a moment — what a `Participant`'s `Behavior` projects outward (see [06-process](06-process.md)). |
-| `Schema` | A meta-`Structure` whose `Vertex` are `Attribute-Space` and whose `Arrow` are `Relation` between them | `Schema := Structure over {Attribute-Space}, edges from Relation` | The architecture of a knowledge domain — a database schema in the conventional sense. |
+**`Point`** := A `Row` of `Element`s, one drawn from `Codomain` of corresponding Attribute.
 
-## Correspondence to Data Normalization
+> `Point<Space> := [v₁, v₂, ..., vₙ] | vᵢ ∈ COD(pᵢ)`
 
-The primitives above align with the classical relational normal forms. `Schema` is the database schema; an `Attribute-Space` is a normalized table; a `Presentation` is a row; a `Relation` carries foreign-key links.
+---
 
-| Normal Form | Condition | Correspondence |
-|---|---|---|
-| **1NF** | Atomic values; no repeating groups | `Point := [v₁, ..., vₙ]` with `vᵢ ∈ COD(pᵢ)` — each coordinate is a single element of its Attribute's `Codomain`, atomic by construction. |
-| **2NF** | 1NF and every non-key attribute depends on the whole `Key` | An `Attribute-Space` whose non-`Key` Attributes are functions of the full `Key` only; partial dependencies force decomposition into separate `Attribute-Space` linked by `Relation`. |
-| **3NF** | 2NF and no transitive dependency between non-key attributes | Non-`Key` Attributes depend on the `Key` directly, not via another non-`Key` Attribute; transitive chains are factored into their own `Attribute-Space`. |
-| **BCNF** | Every functional determinant is a `Key` | For every functional dependency `X → Y` within an `Attribute-Space`, `X` is a `Key` (injective Attribute or Attribute composite). |
+**`Volume`** := The `Set` of all possible `Point` of the `Space`.
 
-A fully normalized `Schema` is therefore a `Structure` of `Attribute-Space` in BCNF, with every inter-table link expressed as a `Relation` over `Key` Attributes and every `Tuple` denoting one inter-entity connection.
+> `Volume<Space> := COD(p₁) × COD(p₂) × ... × COD(pₙ)`
+
+*NOTE*: The Cartesian product of attribute codomains.
+
+---
+
+**`Place`** := A `Set` of `Point`s of `Space` (or subset of its `Volume`).
+
+> `Place<Space> := {Point} (Place ⊆ Volume<Space>)`
+
+## Entities and Content
+
+**`Entity`** := an `Element` of the `Domain` of the `Space`.
+
+> `Entity<Space> ∈ DOM(Space)`
+
+---
+
+**`Presentation<Entity>`** := the `Point` relevant to the `Entity`.
+
+> `Presentation<Entity> :=  [p₁(Entity), p₂(Entity), ..., pₙ(Entity)]`
+
+---
+
+**`Matter`** := The `Set` of all `Entity`ies of the `Space`.
+
+> `Matter<Space> := {Presentation(Entity)}`
+
+---
+
+**`Content`** := The `Set` of `Entity`, whose `Presentation`s fall within a `Place`.
+
+> `Content(Place) := {Entity(s) : Presentation(Entity) ∈ Place}`
+
+## References and Relations
+
+**`Key`** (primary key) := a bijective Attribute — distinct entities have distinct values.
+
+> `∀a, b ∈ SDom: Key(a) = Key(b) ⟹ a = b`
+---
+
+**`Reference`** (foreign key) := Attribute, which `Values` are `Key`s of other `Space`s.
+
+---
+
+**`Relation`** := A `Place` in `Space` consisting of two or more `References`.
+
+> `Relation := {[Ref₁, Ref₂, ...]}`
+
+---
+
+**`Schema`** := A `Structure` whose `Vertex`es are `Space`s and `Arrow`s are `Relation`s between those `Space`s.
+
+> `Schema := [{Space}, {Relation}]`
 
 ## Projections and Categories
 
-| Term | Definition | Formula | Notes |
-|---|---|---|---|
-| `Region` | A `Row` of subsets of the `Codomain` of corresponding Attributes | `Region := [Set₁ ⊆ COD(p₁), Set₂ ⊆ COD(p₂), ...]` | A hyperrectangular constraint region in attribute space. |
-| `View` | A `Selection` over the Attributes of an `Attribute-Space` — a projection slice | `View := Selection over [p₁, ..., pₙ]` | A subset of attributes used to observe an entity; the rest are hidden. |
-| `Taxon` | A `Cluster` of the `Volume` by equal values of a Quality | `Taxon(q) := Cluster(Volume) by q-value` | A partition of the space by shared quality value. A Quality with one value: `Principle`; with two values: `Predicate` (Boolean). |
-| `Norm` | The smallest `Place` containing a `(n−1)/n` proportion of the `Matter` | `Norm := argmin_{Place} \|Place\| : \|Content(Place)\| ≥ ((n−1)/n) · \|Matter\|` | The minimal region capturing a specified fraction of the population — defines what is "normal" within a domain. |
+---
+
+**`Region`** := A hyperrectangular `Place` constrained by subsets of the `Codomain` of corresponding Attributes.
+
+> `Region := Set₁ ⊆ COD(p₁) × Set₂ ⊆ COD(p₂) × ... × Set₂ ⊆ COD(pₙ)`
+
+---
+
+**`View`** := A `Place` devived from `Place`-`Origin` by `Selection` over the Attributes of an `Space`.
+
+> `View<Selection over [p₁, ..., pₙ]> := Origin -> Selection(Place)`
+
+---
+
+**`Taxon`** := A `Cluster` of the `Volume` by equal values of a Quality.
+
+> `Taxon(q) := Cluster(Volume) by q-value`
+
+*NOTE*: A partition of the space by shared quality value. A Quality with one value: `Principle`; with two values: `Predicate` (Boolean).
+
+---
+
+**`Norm`** := The smallest `Place` containing a `(n−1)/n` proportion of the `Matter`.
+
+> `Norm := argmin_{Place} |Place| : |Content(Place)| ≥ ((n−1)/n) · |Matter|`
+
+*NOTE*: The minimal region capturing a specified fraction of the population — defines what is "normal" within a domain.
+
+## Correspondence to Data Normalization
+
+The primitives above align with the classical relational normal forms. `Schema` is the database schema; an `Space` is a normalized table; a `Presentation` is a row; a `Relation` carries foreign-key links.
+
+---
+
+**`1NF`** := Atomic values; no repeating groups.
+
+*NOTE*: `Point := [v₁, ..., vₙ]` with `vᵢ ∈ COD(pᵢ)` — each coordinate is a single element of its Attribute's `Codomain`, atomic by construction.
+
+---
+
+**`2NF`** := 1NF and every non-key attribute depends on the whole `Key`.
+
+*NOTE*: An `Space` whose non-`Key` Attributes are functions of the full `Key` only; partial dependencies force decomposition into separate `Space` linked by `Relation`.
+
+---
+
+**`3NF`** := 2NF and no transitive dependency between non-key attributes.
+
+*NOTE*: Non-`Key` Attributes depend on the `Key` directly, not via another non-`Key` Attribute; transitive chains are factored into their own `Space`.
+
+---
+
+**`BCNF`** := Every functional determinant is a `Key`.
+
+*NOTE*: For every functional dependency `X → Y` within an `Space`, `X` is a `Key` (injective Attribute or Attribute composite).
+
+A fully normalized `Schema` is therefore a `Structure` of `Space` in BCNF, with every inter-table link expressed as a `Relation` over `Key` Attributes and every `Tuple` denoting one inter-entity connection.
+
+```mermaid
+flowchart LR
+    Raw["Unnormalized"] --> NF1["1NF<br/>atomic values"]
+    NF1 --> NF2["2NF<br/>full Key dependency"]
+    NF2 --> NF3["3NF<br/>no transitive dependency"]
+    NF3 --> BCNF["BCNF<br/>determinant is Key"]
+    BCNF --> Schema["Schema of Space<br/>linked by Relation"]
+```
