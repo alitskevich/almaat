@@ -1,75 +1,38 @@
 # Formal Language
 
-The formal apparatus for words, grammars, and derivations.
+**`Alphabet`**  := `{ Symbolᵢ :: endemic }`
+:= A finite `Set` of endemic `Azon`s (`Symbol`s).
+
+**`Word<Alphabet>`** := `[Symbolᵢ,...] :: Symbolᵢ ∈ Alphabet`
+:= A `Row` of `Symbol`s of the same `Alphabet`.
+
+**`Dictionary<Alphabet>`** := `{ Word<Alphabet> }`
+:= A `Set` of `Word`s of the same `Alphabet`.
 
 ---
 
-**`Alphabet`** := A finite `Set` of endemic `Azon`s (`Symbols`).
+**`Rule<Dictionary>`** := `(S → S') :: S, S' ∈ Dictionary`
+:= An `Arrow` from/to `Word`s of the same `Dictionary`.
 
-> `Alphabet := {Symbol :: endemic}`
+**`Grammar<Dictionary>`** := `{ Rule × Rule :: Rule<Dictionary>}`
+:= A `Graph` on `Rule`s over the `Dictionary`.
 
----
+**`Conclusion<Grammar>`** := (*Rule₁ . … . Ruleₙ) :: [Rule₁,…,Ruleₙ] ∈ Path<Grammar>`
+:= A `Composition` over `Rule`s from some`Path` in the `Grammar`.
 
-**`Word`** := A `Row` of `Symbols`.
+**`Expression<Word, Grammar>`** := `Conclusion<Grammar>(Word)`
+:= the `Value` of some `Conclusion` within the `Grammar` for some input `Word`.
 
-> `Word<Alphabet> := [Symbol,... :: Symbol ∈ Alphabet]`
-
----
-
-**`Dictionary`** := A `Set` of `Word`s over an `Alphabet`.
-
-> `Dictionary<Alphabet> := { Word<Alphabet> }`
-
----
-
-**`Rule`** := An `Arrow` over `Word`s of the `Dictionary`.
-
-> `Rule<Dictionary> := (S → S')`, `S, S' ∈ Dictionary`
+**`Theory<Word, Grammar>`** := `{ Expression<Word, Grammar> }`
+:= the `Dictionary` of all `Expression`s that may be derived from the input `Word` within the `Grammar`.
 
 ---
 
-**`Conclusion`** := A `Composition` of endemic `Rule`s.
+**`Axiom<Grammar>`** := `¬∃ Word :: Expression<Word, Grammar> = Axiom`
+:= `Word` that cannot be expressed in the `Grammar`.
 
-> `Conclusion := R₁.R₂...Rₙ`
+**`Termin<Grammar>`** := `Word :: Theory<Termin, Grammar> = Zero`
+:= A terminal `Expression` from which nothing more can be derived.
 
-A chain of rule applications leading from one `Word` to another.
-
----
-
-**`Grammar`** := A `Graph` on `Rule`s over the `Dictionary`.
-
-> `Grammar<Dictionary> := { Rule x Rule :: Rule<Dictionary>}`
-
-*DEF* Conclusion is `restricted` by Grammar := it is a Path in this Grammar.
-
----
-
-**`Expression`** := the `Value` of a some `Conclusion` within the `Grammar` for some input `Word`.
-
-> `E := Conclusion(W)`
-
----
-
-**`Theory`** := the `Dictionary` of all `Expression`s may be derived from a input `Word`.
-
-> `Theory<Input,Grammar> := { Conclusion(Input) :: Conclusion restricted by Grammar }`
-
----
-
-**`Termin`** := A terminal `Expression` from which nothing more can be derived.
-
-> `Theory(Termin) = 0`
-
----
-
-**`Axiom`** := `Word` that cannot be expressed in the `Grammar`.
-
-> `Axiom := Word : ¬∃ Conclusion → Word`
-
-The irreducible starting axioms — every `Conclusion` begins at a `Ground`-word.
-
----
-
-**`Formal Language`** := A `Dictionary` of all `Termin`s, expressed from given `Axiom` and `Grammar`.
-
-> `Language<Axiom,Grammar> := { Termin: derivable from Axiom via Grammar})`
+**`Formal-Language<Axiom,Grammar>`** := `{ Termin :: Termin ∈ Theory<Axiom, Grammar> }`
+:= A `Dictionary` of all `Termin`s, expressed from given `Axiom` and `Grammar`.

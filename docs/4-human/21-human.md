@@ -37,7 +37,7 @@ where individuals have freely realized their potential, transcending current lim
 
 **`CoreValues`** := The set of `Principles` (1) reflecting one's `Truth` and (2) .
 
-**`Faith`** := unwavering commitment to `CoreValues` valued more than anything else.
+**`Faith`** := unwavering acceptance to `Truth` and commitment/following to `CoreValues` valued more than anything else.
 
 [[13,14,15,16]]
 

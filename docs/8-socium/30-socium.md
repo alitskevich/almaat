@@ -67,13 +67,6 @@ It consists of set of principles and strategies to use in interaction with socia
 
 **The Marketing Character (Erich Fromm)**: *"There exists a type of people whose entire life is directed toward receiving recognition and admiration. Fromm described a character oriented toward sales, toward displaying one's qualities and, more broadly, oneself. As a rule, such people have a deep inner conviction that they are not valuable in themselves and cannot be loved just like that. To prove their worth and right to love, they must do something, always be first, and receive admiration necessary like air. But even when they manage to receive love and recognition, they do not calm down: because now they love not them, but their mask, their successes and achievements."*  
 
-### The Impostor
-
-**Impostor pattern**: The felt tax of the Marketing Character. When worth is pinned to achievement, competence never feels owned — success is attributed to luck or timing, praise is discounted, and exposure as a "fraud" feels imminent.
-
-- It is installed in childhood, when approval arrived conditional on performance, and persists as an adult reflex regardless of real skill.
-- More achievement does not cure it; the pattern only re-discounts each new success. The exit is separating worth from output — the AspirationalSelf (Hero) is a direction to grow, not the price of being allowed to exist.
-
 ### Dark Shadow
 
 **Dark Shadow**: Hidden 'dark' subconscious side of the Persona — suppressed during upbringing, forbidden by external social frameworks, hidden under the opposing external Mask.  

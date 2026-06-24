@@ -139,15 +139,15 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Mind := System over {Neuron, Sensor}`
 
-*NOTE*: A `Mind` is a `System` whose **`State`** is `Thought` (the distribution of weights across `Neuron`s), whose internal **`Influence`** is the weighted signals between `Neuron`s, and whose **`Behavior`** is the projection of `Thought` into actions or expressed `Word`s (speech, motor output, written words).
+*NOTE*: A `Mind` is a `System` whose **`State`** is `Thought` (the distribution of weights across `Neuron`s), whose internal **`Communication`** is the weighted signals between `Neuron`s, and whose **`Behavior`** is the projection of `Thought` into actions or expressed `Word`s (speech, motor output, written words).
 
 ---
 
-**`Sensor`** := A `Source` that outputs a numerical Weight in response to external `Influence`.
+**`Sensor`** := A `Source` that outputs a numerical Weight in response to external `Communication`.
 
-> `Sensor :: external-Influence → Weight ∈ Number`
+> `Sensor :: external-Communication → Weight ∈ Number`
 
-*NOTE*: Within the `Mind`'s internal topology, `Sensor` is a `Source` (origin). Its effective input is `Influence` from outside the `Mind` — it converts external `Influence` into an internal `Signal`.
+*NOTE*: Within the `Mind`'s internal topology, `Sensor` is a `Source` (origin). Its effective input is `Communication` from outside the `Mind` — it converts external `Communication` into an internal `Signal`.
 
 ---
 

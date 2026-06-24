@@ -39,7 +39,7 @@ The lifecycle by which an `Agent` converts a `Goal` into executed action.
 
 ---
 
-**`Analysis`** := Survey of `Circumstances` — internal `Resources` and external `Influence` — yielding a `SWOT` partition.
+**`Analysis`** := Survey of `Circumstances` — internal `Resources` and external `Communication` — yielding a `SWOT` partition.
 
 > `Analysis :: Circumstances → (Strengths, Weaknesses, Opportunities, Threats)`
 
@@ -209,7 +209,7 @@ The four-cell partition produced by `Analysis` over `Circumstances`.
 
 > `Problem :: Circumstances → Δ(Goal-progress) < 0`
 
-*NOTE*: The negative `Influence` a `Solution` must overcome. `Risk` (above) measures anticipated `Problem`s.
+*NOTE*: The negative `Communication` a `Solution` must overcome. `Risk` (above) measures anticipated `Problem`s.
 
 ---
 

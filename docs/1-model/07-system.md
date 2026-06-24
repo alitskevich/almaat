@@ -4,19 +4,14 @@
 
 ---
 
-**`System`** := A`Engine` defined through mutual `Influence` of `Participant`.
+**`System`** := `System :: Framework over {Participant} with Communication`
+:= An `Engine` considered as `Framework` that allows a mutual `Communication` of `Participant`s.
 
-> `System :: Framework over {Participant} with Influence-edges`
+**`Participant`** := A `Thing` that communicates with other `Participant` of the `System`.
 
-*NOTE*: Behavior emerges from the network of`Influence` — the `System` is more than the sum of `Participant` specifications.
+> `Participant ∈ Source : ∃Communication(P → Q)`
 
----
-
-**`Participant`** := A`Source` that has influence on other `Participant` of the `System`.
-
-> `Participant ∈ Source : ∃Influence(P → Q)`
-
-*NOTE*: The atomic unit of a`System` — defined by its role in the network of `Influence`, not by its internal structure.
+*NOTE*: The atomic unit of a`System` — defined by its role in the network of `Communication`, not by its internal structure.
 
 ---
 
@@ -28,11 +23,11 @@
 
 ---
 
-**`Influence`** := Projections of`Outcome` of each `Participant` into the `Input` of other `Participant`.
+**`Communication`** := Projections of`Outcome` of each `Participant` into the `Input` of other `Participant`.
 
-> `Influence(A → B) := Behavior(A) . Attention(B)`
+> `Communication(A → B) := Behavior(A) . Attention(B)`
 
-*NOTE*: `Influence` is the *`Composition`* of A's outward projection with B's inward selection. Asymmetric: `A → B ≠ B → A`. Operates across a single `Step` — A's output at `Step[i]` becomes B's input at `Step[i+1]`.
+*NOTE*: `Communication` is the *`Composition`* of A's outward projection with B's inward selection. Asymmetric: `A → B ≠ B → A`. Operates across a single `Step` — A's output at `Step[i]` becomes B's input at `Step[i+1]`.
 
 ---
 
@@ -40,7 +35,7 @@
 
 > `Attention(B) :: State(other) → Input(B)`
 
-*NOTE*: The receiving half of`Influence`. `Attention` is selective: not every available `Behavior` enters a `Participant`'s input.
+*NOTE*: The receiving half of`Communication`. `Attention` is selective: not every available `Behavior` enters a `Participant`'s input.
 
 ---
 
@@ -48,49 +43,27 @@
 
 > `Behavior(A) :: State(A) → Input(other)`
 
-*NOTE*: The sending half of`Influence`. `Behavior` is the externally-visible aspect of a `Participant` — what it contributes to the `System`.
+*NOTE*: The sending half of`Communication`. `Behavior` is the externally-visible aspect of a `Participant` — what it contributes to the `System`.
 
 ---
 
-**`Environment`** := The part of the`System` that has mutual `Influence` with a `Participant`.
+**`Environment`** := The part of the`System` that has mutual `Communication` with a `Participant`.
 
-> `Environment(P) := {Q ∈ System : Influence(P↔Q) ≠ 0}`
+> `Environment(P) := {Q ∈ System : Communication(P↔Q) ≠ 0}`
 
 *NOTE*: The`Participant`'s local neighborhood of coupled `Participant` — the subset of the `System` it actually exchanges `Behavior`/`Attention` with.
-
----
-
-**`Being`** := The`Set` of `System` in which a `Participant` takes part.
-
-> `Being(P) := {System : P ∈ System}`
-
-*NOTE*: The totality of`System`s defining the complete context of existence for a `Participant`.
-
-## Communication
-
----
-
-**`Communication`** := Exchange of`Message` between `Mind` according to a common `Code`.
-
-> `Communication :: Behavior(M₁) ↔ Attention(M₂) under shared Code`
-
-*NOTE*: Distinguished from generic`Influence`: `Communication` requires a shared `Code` and bidirectional `Behavior`. `Message` is defined in [07-intellect](07-intellect.md).
-
----
 
 **`Interface`** := A Form that constrains the`Behavior` of `Participant` relative to each other.
 
 > `Interface :: admissible(Behavior, Attention) → {0, 1}`
 
-*NOTE*: A behavioral contract — a formal specification of admissible`Influence` patterns.
+*NOTE*: A behavioral contract — a formal specification of admissible`Communication` patterns.
 
 ---
 
-**`Coupling`** := The persistence of mutual`Influence` between two `Participant` across multiple `Step`.
+**`Coupling`** := The persistence of mutual`Communication` between two `Participant` across multiple `Step`.
 
-> `Coupling(A, B) := | {Step[i] : Influence(A↔B) ≠ 0 at Step[i]}|`
-
----
+> `Coupling(A, B) := | {Step[i] : Communication(A↔B) ≠ 0 at Step[i]}|`
 
 **`Feedback`** := A`Composition` in which a `Participant`'s `Behavior` flows, through other `Participant`s, back into its own `Attention`.
 
@@ -104,19 +77,19 @@
 
 > `Emergence :: Behavior(System) ⊄ ⋃ Behavior(Participant)`
 
-*NOTE*: The signature of`System`s: the whole exhibits properties no part can. Not predictable from the `State` of individual `Participant`s alone — must be observed under `Influence`.
+*NOTE*: The signature of`System`s: the whole exhibits properties no part can. Not predictable from the `State` of individual `Participant`s alone — must be observed under `Communication`.
 
 ---
 
-**`Equilibrium`** := A`State` of the `System` at which all `Influence` among `Participant`s balance, yielding a `Halt` for the whole.
+**`Equilibrium`** := A`State` of the `System` at which all `Communication` among `Participant`s balance, yielding a `Halt` for the whole.
 
 > `Equilibrium :: Framework(State_sys) = {State_sys}`
 
-*NOTE*: The system-level`Halt`. Disturbance by external `Influence` yields either return to the same `Equilibrium` (stable), drift to a different one (metastable), or unbounded divergence (unstable).
+*NOTE*: The system-level`Halt`. Disturbance by external `Communication` yields either return to the same `Equilibrium` (stable), drift to a different one (metastable), or unbounded divergence (unstable).
 
 ## Entropy
 
-Entropy is the bridge between the `State` of a `System` and the passage of `Step`s. It measures how much a `System`'s observable macro-`State` leaves undetermined about the underlying `State`s of its `Participant`s — and its tendency to grow over `Step`s is what gives a `System` an arrow of time. `Order` is never free: a `System` holds back `Entropy` only by drawing `Influence` from its `Environment`.
+Entropy is the bridge between the `State` of a `System` and the passage of `Step`s. It measures how much a `System`'s observable macro-`State` leaves undetermined about the underlying `State`s of its `Participant`s — and its tendency to grow over `Step`s is what gives a `System` an arrow of time. `Order` is never free: a `System` holds back `Entropy` only by drawing `Communication` from its `Environment`.
 
 ---
 
@@ -140,7 +113,7 @@ Entropy is the bridge between the `State` of a `System` and the passage of `Step
 
 > `Dissipation :: Entropy(System, Step[i+1]) ≥ Entropy(System, Step[i])` for an isolated `System`
 
-*NOTE*: The Second Law as a`Flow` property: with no external `Influence`, `Order` decays monotonically toward `Equilibrium`. This is the `System`-level arrow of time.
+*NOTE*: The Second Law as a`Flow` property: with no external `Communication`, `Order` decays monotonically toward `Equilibrium`. This is the `System`-level arrow of time.
 
 ---
 
@@ -188,17 +161,17 @@ Evolution is the dynamics of a `Paradigm` over time — how an `Agent` or `Syste
 
 ---
 
-**`Freedom`** := Independence of a`Paradigm` from `Influence` that would coerce its change.
+**`Freedom`** := Independence of a`Paradigm` from `Communication` that would coerce its change.
 
-> `Freedom(Paradigm, I) :: Paradigm invariant under Influence ∈ I`
+> `Freedom(Paradigm, I) :: Paradigm invariant under Communication ∈ I`
 
-*NOTE*: The`Agent`'s ability to act on its own `Goal` without coercion from the `Environment`. Always conditional and relative to specified `Influence` — never absolute.
+*NOTE*: The`Agent`'s ability to act on its own `Goal` without coercion from the `Environment`. Always conditional and relative to specified `Communication` — never absolute.
 
 ---
 
-**`Constraint`** := The set of`Influence` that limit the range of accessible `Plan` for an `Agent`.
+**`Constraint`** := The set of`Communication` that limit the range of accessible `Plan` for an `Agent`.
 
-> `Constraint := {Influence : restricts accessible Plan}`
+> `Constraint := {Communication : restricts accessible Plan}`
 
 *NOTE*: Dual to`Freedom`. Growth occurs through navigating constraints, not by eliminating them — an `Agent` with no constraints has nothing to grow against. Useful `Constraint` becomes the scaffold of `Mastery`.
 

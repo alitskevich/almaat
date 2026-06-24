@@ -2,6 +2,24 @@
 
 ![Culture of Coding](/images/5-engx/06-coding.svg)
 
+## Code and Composability
+
+**`Contract`** := Conditions and limitations that guarantee predictable runtime behavior; errors reported when violated.
+
+---
+
+**`Code`** := Text in some formal language interpreted by runtime as instructions for data transformations.
+
+---
+
+**`Referential Transparency`** := Ensuring an expression can be replaced with its value without changing program behavior.
+
+---
+
+**`Equivalence (≡)`** := Ensuring two expressions can be safely swapped in program text.
+
+---
+
 ### Clean Code Principles
 
 Clean code refers to writing code that is easy to understand and maintain by humans, not just computers.
@@ -29,168 +47,24 @@ flowchart LR
   Smell -->|No| Ship[Ship]
 ```
 
-## Design Pattern
-
-A **design pattern** is a generalized approach addressing frequently occurring problems.
-It is a template for how to solve a problem that can be used in many different situations.
-
-A design pattern isn't a finished design that can be transformed directly into code.
-
-```mermaid
-mindmap
-  root((Design Pattern))
-    Structural
-      Adapter
-      Bridge
-      Facade
-      Proxy
-      Decorator
-      Composite
-      Flyweight
-    Creational
-      Abstract Factory
-      Factory Method
-      Builder
-      Prototype
-      Singleton
-      Object Pool
-    Behavioral
-      Iterator
-      Observer
-      State
-      Visitor
-      Command
-      Strategy
-      Mediator
-    Concurrency
-      Lock
-      Active Object
-      Thread Pool
-      Reactor
-      Join
-    Anti-Patterns
-      Big Ball of Mud
-      God Object
-      Spaghetti Code
-      Cargo Cult
-      Gold Plating
-```
-
-### Structural Patterns - Prominent
-
-| Pattern | Short Description | Goal/Issue/Problem |
-| --------- | ------------------- | ------------------- |
-| **Adapter** | Wrapping own interface around an existing class | Allows existing classes with incompatible interfaces to work together. Convert the interface of a class into another interface clients expect. |
-| **Bridge** | Decouples an abstraction from its implementation | "Hardening of the software arteries" has occurred by using subclassing. Use interfaces instead of subclassing abstract classes. |
-| **Facade** | A single class representing simplified view of an entire complex subsystem | Client needs simplified interface to overall functionality of complex subsystem. Provide unified interface to a set of interfaces. |
-| **Proxy** | Provides a placeholder for another object with the same interface | To control access, reduce cost, and reduce complexity. |
-| **Decorator** | Adds/changes behavior in an existing method at runtime | Attach additional responsibilities dynamically keeping the same interface. Flexible alternative to subclassing. |
-
-### Structural Patterns - Others
-
-| Pattern | Description |
-| --------- | ------------- |
-| **Module/Namespace** | Group several related elements into a single conceptual entity |
-| **Composite/Node** | Compose objects into tree structures for part-whole hierarchies |
-| **Flyweight** | Use sharing to support large numbers of similar objects efficiently |
-| **Front Controller** | Provides centralized entry point for handling requests in web applications |
-| **Twin** | Multiple inheritance in languages that don't support it |
-| **Marker/Tag** | Empty interface to associate metadata with a class |
-
-### Creational Patterns
-
-*Creational patterns create objects for you, rather than having you instantiate objects directly, giving more flexibility in deciding which objects need to be created.*
-
-| Pattern | Description |
-| --------- | ------------- |
-| **Abstract Factory** | Create families of related or dependent objects without specifying concrete classes |
-| **Factory Method** | Define interface for creating objects, but let subclasses decide which classes to instantiate |
-| **Object Pool** | Recycle objects no longer in use to avoid expensive acquisition and release of resources |
-| **Builder** | Separate the construction of a complex object from its representation |
-| **Prototype** | Specify kinds of objects using a prototypical instance, create new objects by copying |
-| **Singleton** | Ensure a class has only one instance, provide global point of access |
-| **Multiton** | Ensure a class has only named instances |
-| **Lazy Initialization** | Delay creation of an object until first needed |
-| **RAII** | Ensure resources are properly released by tying them to lifespan of suitable objects |
-
-### Behavioral Patterns - Prominent
-
-*Most are specifically concerned with communication between objects, to decouple senders and receivers.*
-
-| Pattern | Description |
-| --------- | ------------- |
-| **Iterator** | Access elements of an object sequentially without exposing underlying representation |
-| **Observer** | One-to-many dispatching of changes of 'subject' across arbitrary observers |
-| **Pub/Sub** | Indirect Observers via EventBus |
-| **State** | Allow an object to alter its behavior when its internal state changes |
-| **Visitor** | Represent an external operation to be performed on elements of an object structure |
-| **Chain of Responsibility** | Chain receiving objects and pass request along until an object handles it |
-| **Command** | Encapsulate a request as an object to parameterize clients with different requests |
-| **Mediator** | Define interface for communication between objects; objects delegate interaction to mediator |
-
-### Behavioral Patterns - Exotic
-
-| Pattern | Description |
-| --------- | ------------- |
-| **Servant** | Define common functionality for a group of classes |
-| **Strategy** | Family of interchangeable algorithms selected on-the-fly at runtime |
-| **Memento** | Capture and externalize an object's internal state for later restoration (undo) |
-| **Interpreter** | Implement a specialized language; define representation for grammar |
-| **Template Method** | Define skeleton of algorithm as abstract class; subclasses provide concrete behavior |
-| **Null Object** | Avoid null references by providing a default object |
-| **Specification** | Recombinable business logic in Boolean fashion |
-
-### Concurrency Patterns
-
-| Pattern | Description |
-| --------- | ------------- |
-| **Lock** | Thread puts "lock" on a resource, preventing other access |
-| **Active Object** | Decouple method execution from invocation in their own thread of control |
-| **Balking** | Only execute an action when object is in a particular state |
-| **Thread Pool** | Number of threads performing tasks usually organized in a queue |
-| **Binding Properties** | Combine observers to force properties to be synchronized |
-| **Blockchain** | Decentralized way to store data and agree on processing in a Merkle tree |
-| **Double-checked Locking** | Reduce overhead of acquiring a lock by first testing in an unsafe manner |
-| **Guarded Suspension** | Manage operations requiring both lock and precondition |
-| **Join** | Write concurrent, parallel, distributed programs by message passing |
-| **Reactor** | Provide asynchronous interface to resources handled synchronously |
-
-### Anti-Patterns
-
-#### Software Design Anti-Patterns
-
-| Anti-Pattern | Description |
-| -------------- | ------------- |
-| **Big Ball of Mud** | A system with no recognizable structure |
-| **Abstraction Inversion** | Not exposing implemented functionality required by callers |
-| **Gold Plating** | Continuing work well past the point where extra effort adds value |
-| **Inner-Platform Effect** | A system so customizable it becomes a poor replica of the development platform |
-| **Interface Bloat** | Making an interface so powerful it is extremely difficult to implement |
-
-#### OOP Anti-Patterns
-
-| Anti-Pattern | Description |
-| -------------- | ------------- |
-| **Anemic Domain Model** | Domain model without business logic; validation/mutation logic placed elsewhere |
-| **God Object** | Concentrating too many functions in a single class |
-| **Object Orgy** | Failing to properly encapsulate objects, permitting unrestricted access |
-| **Poltergeists** | Objects whose sole purpose is to pass information to another object |
-| **Yo-yo Problem** | Structure (e.g., inheritance) hard to understand due to excessive fragmentation |
-
-#### Programming Anti-Patterns
-
-| Anti-Pattern | Description |
-| -------------- | ------------- |
-| **Cargo Cult Programming** | Using patterns and methods without understanding why |
-| **Spaghetti Code** | Programs whose structure is barely comprehensible |
-| **Lasagna Code** | Programs with too many layers of inheritance |
-| **Magic Numbers** | Including unexplained numbers in algorithms |
-| **Repeating Yourself** | Writing code with repetitive patterns; avoid with DRY principle |
-| **Shotgun Surgery** | Adding features spanning multiple implementations in a single change |
-
 ## Design principles
 
-#### Abstraction and Composition
+**`Component`** := A named piece of code that can be combined with others to build complex components.
+
+---
+**`Composability`** := Ability of code to be combined into new, more complicated code.
+
+### Principles of Composability
+
+Composability is state-of-art, and system design should follow correct
+Contracts around Separation, Ownership, and Responsibility:
+
+1. **Encapsulation**: Encapsulate tightly cohesed own state necessary and sufficient for its duty
+2. **Delegation**: Be responsible for one single duty; delegate all other functions outside
+3. **Single Language**: Operate on well-defined glossary concepts providing a single layer of abstraction
+4. **Server, not Service**: Communicate with outer context via pre-defined Contract in loosely coupled way
+
+### Abstraction and Composition
 
 | Principle | Description |
 | ----------- | ------------- |
@@ -203,7 +77,7 @@ mindmap
 | **Principle of Least Astonishment** | Component should behave as most users expect it to |
 | **Law of Demeter** | A method should only call methods of its immediate collaborators |
 
-#### SOLID Principles
+### SOLID Principles
 
 *SOLID principles aim to reduce module changes to addition and removal, supporting deferring technical decisions and dividing labor.*
 
@@ -215,7 +89,7 @@ mindmap
 | **I** | Interface Segregation | Make fine-grained interfaces that are client specific |
 | **D** | Dependency Injection | One should depend upon abstractions, not concretions |
 
-#### Minimalism
+### Minimalism
 
 | Principle | Description |
 | ----------- | ------------- |
@@ -227,9 +101,62 @@ mindmap
 | **YAGNI** | You Aren't Gonna Need It - don't implement until necessary |
 | **Rule of Least Power** | Use the least powerful language suitable for the purpose |
 
-### Code Smells
+## Lean Architecture
 
-#### Naming Conventions
+Lean Architecture is derived from principles of Lean Thinking and Lean Manufacturing,
+primarily used in software development, systems design, and enterprise architecture.
+
+**Focus**: Maximizing value, minimizing waste, creating systems that are adaptable, scalable, and aligned with business goals.
+
+> *"Think big, act small, fail fast; learn rapidly"*
+
+```mermaid
+flowchart LR
+    WHY["WHY<br/>Focus on Value"] --> HOW["HOW<br/>Optimize Whole<br/>Deliver Fast<br/>Decide Late"]
+    HOW --> WHOM["BY WHOM<br/>Empower Team<br/>Respect People<br/>Amplify Learning"]
+    WHOM --> WHAT["WHAT<br/>Simplicity<br/>Eliminate Waste<br/>Adaptability<br/>Build Quality In"]
+    WHAT -.feedback.-> WHY
+```
+
+### Key Principles
+
+#### WHY
+
+| Principle | Description |
+| ----------- | ------------- |
+| **Focus on Value** | Prioritize delivery of value to end-user; ensure every aspect of design adds value |
+
+#### HOW
+
+| Principle | Description |
+| ----------- | ------------- |
+| **Optimize the Whole** | Architecture should not be optimized in isolation but as part of a larger system |
+| **Deliver as Fast as Possible** | Deliver customer value early and continuously; shorten time to market; enable fast feedback loops |
+| **Decide as Late as Possible** | Avoid making decisions too early; remain open to change and new information (Last Responsible Moment) |
+
+#### BY WHOM
+
+| Principle | Description |
+| ----------- | ------------- |
+| **Empower the Team** | Trust collective wisdom; foster collaboration between architects, developers, operations, and stakeholders |
+| **Respect for People and Culture** | People are at the heart; foster continuous improvement; respect insights of all involved |
+| **Collaboration and Communication** | Promote close collaboration and open communication among all stakeholders |
+| **Integrated Project Delivery (IPD)** | Integrate people, systems, business structures to optimize results and reduce waste |
+| **Amplify Learning** | Build architecture encouraging fast feedback and learning; involve stakeholders early |
+| **Continuous Improvement** | Encourage culture where feedback and lessons enhance future processes |
+
+#### WHAT
+
+| Principle | Description |
+| ----------- | ------------- |
+| **Simplicity** | Design systems as simple as possible while meeting business needs; reduce complexity |
+| **Eliminate Waste** | Identify and remove wasteful elements: unnecessary features, redundant systems, overly complex structures |
+| **Flexibility and Adaptability** | Design for change; systems should be modular, decoupled, able to evolve with minimal disruption |
+| **Build Quality In** | Quality embedded from the beginning; systems designed to be robust, maintainable, easy to evolve |
+
+## Code Smells
+
+### Naming Conventions
 
 | Smell | Description |
 | ------- | ------------- |
@@ -237,7 +164,7 @@ mindmap
 | **Excessively Short Identifiers** | Names should reflect function unless obvious |
 | **Excessive Use of Literals** | Should be coded as named constants; externalize to resource files |
 
-#### Application-Level Smells
+### Application-Level Smells
 
 | Smell | Description |
 | ------- | ------------- |
@@ -245,7 +172,7 @@ mindmap
 | **Duplicated Code** | Identical or similar code in more than one location |
 | **Contrived Complexity** | Forced usage of overcomplicated design patterns |
 
-#### Class-Level Smells
+### Class-Level Smells
 
 | Smell | Description |
 | ------- | ------------- |
@@ -256,7 +183,7 @@ mindmap
 | **Lazy Class** | A class that does too little |
 | **Cyclomatic Complexity** | Too many branches or loops |
 
-#### Method-Level Smells
+### Method-Level Smells
 
 | Smell | Description |
 | ------- | ------------- |
@@ -264,7 +191,7 @@ mindmap
 | **Long Method** | A method that has grown too large |
 | **Excessive Return of Data** | Returning more than each caller needs |
 
-#### Design Smells
+### Design Smells
 
 | Smell | Description |
 | ------- | ------------- |

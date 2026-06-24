@@ -138,12 +138,11 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Participant` | Udelnik |
 | `Input` | Podaqa |
 | `Outcome` | Vynik |
-| `Influence` | Uplyv |
+| `Communication` | Uplyv |
 | `Attention` | Uvaga |
 | `Behavior` | Pavoda |
 | `Environment` | Aserodde |
 | `Being` | Najavnoe |
-| `Communication` | Beseda |
 | `Interface` | Oblik |
 | `Coupling` | Spluq |
 | `Feedback` | Vodguk |
@@ -297,6 +296,13 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Save Early | Ashqadnast |
 | Live Below Means | Skromnast |
 | Clear Vision | MROJA |
+| `Conformism` | Pakornast* |
+| `Moral Courage` | Smelast* |
+| `Inferiority Trance` | Trans Niepaŭnasci* |
+| `Real Self` | Ja-Sapraŭdnae* |
+| `Ideal Self` | Ja-Idealnae* |
+| `Self-Compassion` | Samaspaĉuvanne* |
+| `Radical Acceptance` | Skroznae Pryniacce* |
 
 ## Productivity — `5-HOWTO/31-productivity`
 

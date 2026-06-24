@@ -1,4 +1,4 @@
-# Neuro
+# Animal
 
 ![Neuro](/images/2-human/22-psycho.svg)
 

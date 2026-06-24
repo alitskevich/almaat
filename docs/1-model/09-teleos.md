@@ -26,7 +26,7 @@ This chapter defines the anatomy of intentional action: who the `Agent` is, what
 
 > `Agent := Participant + Goal-projection + Will`
 
-*NOTE*: Extends `Participant` with **telos**: the `Behavior` of an `Agent` is not solely a function of present `Influence` but is shaped by an internal model of an intended Future.
+*NOTE*: Extends `Participant` with **telos**: the `Behavior` of an `Agent` is not solely a function of present `Communication` but is shaped by an internal model of an intended Future.
 
 ---
 
@@ -42,7 +42,7 @@ This chapter defines the anatomy of intentional action: who the `Agent` is, what
 
 > `Will :: Goal → const across Circumstances → Circumstances'`
 
-*NOTE*: The `Agent`'s resistance to `Influence` from the `Environment` that would re-evaluate `Drive` toward competing `Core-Need`. Without `Will`, `Goal` dissolves under environmental pressure; with rigid `Will`, the `Agent` cannot adapt to legitimate new `Knowledge`. Productive agency lives in the band between commitment and revision.
+*NOTE*: The `Agent`'s resistance to `Communication` from the `Environment` that would re-evaluate `Drive` toward competing `Core-Need`. Without `Will`, `Goal` dissolves under environmental pressure; with rigid `Will`, the `Agent` cannot adapt to legitimate new `Knowledge`. Productive agency lives in the band between commitment and revision.
 
 ---
 
@@ -130,7 +130,7 @@ This chapter defines the anatomy of intentional action: who the `Agent` is, what
 
 > `Victory :: Success(self) ∧ ∃A_other: Failure(A_other)`
 
-*NOTE*: Zero-sum: one `Agent`'s `Success` is others' `Failure`. `Victory` is structurally fragile — those it costs become future `Influence` against the victor. See also: `Synergy`.
+*NOTE*: Zero-sum: one `Agent`'s `Success` is others' `Failure`. `Victory` is structurally fragile — those it costs become future `Communication` against the victor. See also: `Synergy`.
 
 ---
 

@@ -80,7 +80,34 @@ Focus on the most important task — the one that creates the most impact. Say n
 
 [Method Tracey](#the-six-questions-on-paper-method)
 
-### Environment Design
+## Interrogative Self-Talk
+
+Don't say "I can do it" — ask "Can I do it?"
+
+Your brain resists commands (even from you) but can't ignore unanswered questions.
+
+Questions activate problem-solving; statements trigger self-evaluation.
+
+**Five Power Questions:**
+
+1. *Initiation*: "What's the smallest step I could take in 5 minutes?"
+2. *Friction*: "What's making this harder than it needs to be?"
+3. *Agency*: "What part of this is within my control?"
+4. *Identity*: "What would a more confident version of me try here?"
+5. *Reflection*: "What did this teach me for next time?"
+
+## Build Mental Models
+
+Delve into context. Create mental models of your circumstances, processes, goals, and obstacles. Refine them through experience until they become simple and useful.
+
+- Understand the system you're operating in — its rules, dynamics, and leverage points.
+- Identify the critical path — the few key actions that create the most impact.
+- Anticipate obstacles and plan how to overcome them.
+- Visualize the process and results as if already achieved — first-person view.
+
+This creates a powerful sense of clarity and motivation.
+
+## Environment Design
 
 Environment beats willpower. Design your surroundings for the person you want to become.
 
@@ -91,7 +118,7 @@ Environment beats willpower. Design your surroundings for the person you want to
 
 **The "Butler" trick**: Treat your current self as a butler for your future self — set out your coffee machine, lay out your clothes, prepare everything the night before. This lowers the activation energy needed to take action in the morning.
 
-### Architecture over willpower
+## Architecture over willpower
 
 Against an **engineered compulsion** — a product built by a system that optimizes for your engagement — willpower is the wrong tool. You are not fighting your own weakness but a designed product backed by [extraction](../3-socium/30-socium.md#extraction). Spend willpower once, on the architecture, instead of daily on the urge.
 
@@ -105,7 +132,7 @@ Against an **engineered compulsion** — a product built by a system that optimi
 
 The reward circuit recovers once the [supernormal stimulus](../2-human/22-psycho.md#reward-and-compulsion) is removed — over weeks, not days. Discipline sets the architecture; the architecture then spends no willpower.
 
-### Breaking a Compulsion
+## Breaking a Compulsion
 
 A compulsion is a mechanism, not a moral flaw — and a mechanism has a switch. Relapse is not a failure of willpower: most who quit a habit slip within the first months, and people with high self-control slip just as often. They only feel more shame. Treat the urge as a process to manage, not a character to fix.
 
@@ -129,7 +156,7 @@ Three moves convert the urge from a command into a signal:
 
 > Source: video on breaking habits — neuroscience of craving, the pause/rename/replace method, and relapse recovery.
 
-### Surround yourself with those who elevate you
+## Surround yourself with those who elevate you
 
 - **Challenger**: Tells uncomfortable truths. "What's one thing I can do better?"
 - **Cheerleader**: Believes in you. Helps you recover when you'd otherwise quit.
@@ -149,18 +176,20 @@ mindmap
       Sees patterns
 ```
 
-### Daily Rhythms
+## Rhythms
+
+Daily
 
 - **Protect the First Hour**: Deep work only. No email. No phone. Your brain is most impressionable here.
 - **2-Minute Rule**: If a task takes <2 minutes, do it now. Clear cognitive clutter.
 - **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops.
 
-### Weekly Rhythms
+ Weekly
 
 - **Weekly Reset (Sunday, 15 min)**: Review calendar. Decide what's essential. Reclaim control.
 - **Shutdown Ritual (Friday)**: Set Monday's top 3 priorities. End with verbal cue ("Week over"). Cognitive closure enables real rest.
 
-### Quarterly Cycles
+Quarterly
 
 Break the year into 90-day seasons. Long enough for real progress, short enough to see the finish line.
 
@@ -170,7 +199,7 @@ Every quarter:
 - Reset what didn't.
 - Add one thing to your **To-Don't List** (subtraction > addition).
 
-### Momentum
+## Momentum
 
 Advance through steady, successful steps toward goals by iterating: Observe → Reflect → Decide → Plan → Act → Repeat.
 
@@ -183,15 +212,15 @@ flowchart LR
     Act --> Observe
 ```
 
-### Adaptability
+## Adaptability
 
 Adapt to stress and setbacks with resilience. Conditions will never be perfect — act anyway.
 
-### Risk Management
+## Risk Management
 
 Anticipate and mitigate risks to ensure steady progress. Plan for failure modes before they arrive.
 
-### Principles
+## Principles
 
 - **Action over planning.** Doing is the only way to understand.
 - **Persistence over talent.** Consistency (a little daily) beats intense, sporadic bursts.
@@ -204,13 +233,27 @@ Anticipate and mitigate risks to ensure steady progress. Plan for failure modes 
 - **Read to learn.** The most effective way to understand other minds.
 - **Hands-on.** Practical experience with platforms, languages, standards, frameworks, and tools.
 
-### Learning
+# Economic Wisdom
 
-Deliberate practice, the 85% rule, making knowledge stick, and the cognitive skills now live in their own file — see [Learning](06-learning.md).
+- **Save Early**: Automate savings. Compound interest is magic.
+- **Live Below Means**: Spend less than you can. Never spend to impress.
+- **Invest Wisely**: Put money to work in assets that grow over time. Avoid debt and speculation.
 
-### Leverage
+[[30,31]]
 
-Effort has a ceiling — hours are finite, and raw labor pays only while you spend them. **Leverage** multiplies the output of the same effort, so results stop scaling with hours worked and start scaling with judgment.
+## Strategic Reviews
+
+**Regret Review**: Identify last year's biggest regret. Extract the lesson. Create a plan to prevent repetition.
+
+**Pre-mortem**: Imagine December 31st — your goal failed. Why? Design the year to block those failure modes.
+
+[[40,41]]
+
+## Leverage
+
+Effort has a ceiling — hours are finite, and raw labor pays only while you spend them.
+
+**Leverage** multiplies the output of the same effort, so results stop scaling with hours worked and start scaling with judgment.
 
 | Form | What it multiplies | Note |
 | ---- | ------------------ | ---- |
@@ -241,7 +284,7 @@ Discipline is the input; leverage is the multiplier. "Work harder" hits a wall t
 | `Mastery` | A `Paradigm` in which the `Agent`'s constituent `Skill`s reliably reproduce `Excellence`-grade `Behavior` across `Circumstances` | `Mastery :: Paradigm \| ∀Circumstances: Behavior reproduces Excellence` | The realized form of `Excellence` — not merely the ceiling being possible, but consistently exhibited. `Mastery` is at the **`Paradigm` scope**; `Skill` (in [11-intellect](../1-nature/11-intellect.md)) is at the **`Behavior` scope**. Verified by reproducibility, not by single peak performance. |
 | `Calling` | A `Goal` whose `Success` is a `Core-Need` for the preservation of the `Agent`'s `Core-Value` | `Calling := Goal \| Success(Goal) ∈ Core-Need(Core-Value)` | Derivable: the `Goal` an `Agent` recognizes as inseparable from continued participation under its own value-criterion. Distinguishes purposeful direction from generic ambition. |
 
-### Depression
+## Depression
 
 Emotional emptiness that eliminates motivation and blocks all directed activity.
 
