@@ -207,6 +207,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Failure` | Praval |
 | `Risk` | Vatra* |
 | `Trade-off` | Vagaj* |
+| `Free-Will` | Svabodnaja Volia* |
+| `Determinism` | Pradvyznaqanasc* |
+| `Authorship-Illusion` | Maroka Dzejstva* |
+| `Veto` | Zaborona* |
+| `Forward-Responsibility` | Napieradnaja Adkaznasc* |
+| `Computational-Irreducibility` | Nieskaratnasc Liku* |
 
 ## Growth — `10-growth`
 

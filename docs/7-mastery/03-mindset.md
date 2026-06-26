@@ -2,15 +2,13 @@
 
 The inner foundation. Without it, all technique is noise.
 
-## Authenticity
+## Authenticity, Self-Emphaty and Self-Trust
 
 Realize and respect your intrinsic [Human Dignity](../2-human/21-human.md#human-dignity) — your inherent worth rooted in your transcending nature.
 
 Be true to yourself, your values, and your unique path — regardless of external pressure. Your authenticity attracts the right people and opportunities.
 
 [[32,33]]
-
-## Self-Emphaty and Self-Trust
 
 Establish trust and friendship with yourself.
 
@@ -124,6 +122,10 @@ Approach life with humor and optimism despite uncontrollable circumstances.
 Do less, but with attitude. Don't take yourself too seriously. Don't let stress consume you or setbacks discourage you. Don't let others' judgments affect your self-worth.
 
 [[37,38]]
+
+Stay spontaneous. Act from the present moment rather than rigid plans — let responses arise naturally as the context shifts.
+
+Find the flow: full immersion where action and awareness merge, effort feels effortless, and time dissolves. This is where enjoyment and mastery meet.
 
 ## Determination
 

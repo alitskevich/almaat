@@ -2,6 +2,17 @@
 
 ![Systems](/images/1-nature/07-system.svg)
 
+**`Thing(Entity)`** := `[Presentation(Entity, Step[i])]`
+:= A `Queue` of `Presentation`s of a single `Entity` according to a `Flow`.
+
+**`Event(Thing)`** := `(Step[i], State(Thing, Step[i]), State(Thing, Step[i+1]))`
+:= A change of `State` of a `Thing` between consecutive `Step` — a triple of moment, before-state, after-state.
+
+**`Trajectory(Thing)`** := `[State(Thing, Step[i]) for Step[i] in indices(Thing)]`
+:= The `Translation` of a `Thing` into the State-track of its `State`s.
+
+*NOTE*: A `Translation` from `Presentation`-space to State-space. The realized `Trajectory` is one sample path of the `Flow`; the space of possible `Trajectory`s is the `Engine`'s support unrolled. A `Trajectory` is a function of `Thing` only where every `Step` is a point mass.
+
 ---
 
 **`System`** := `System :: Framework over {Participant} with Communication`
@@ -174,6 +185,14 @@ Evolution is the dynamics of a `Paradigm` over time — how an `Agent` or `Syste
 > `Constraint := {Communication : restricts accessible Plan}`
 
 *NOTE*: Dual to`Freedom`. Growth occurs through navigating constraints, not by eliminating them — an `Agent` with no constraints has nothing to grow against. Useful `Constraint` becomes the scaffold of `Mastery`.
+
+---
+
+**`Synergy`** := A `Solution` whose `Success` is shared by all participating `Agent`s.
+
+> `Synergy :: ∀A ∈ Participants: Success(A)`
+
+*NOTE*: Positive-sum: mutual benefit. The highest-quality `Solution` within a multi-`Agent` `System` — and the only kind compatible with sustained `Evolution`.
 
 ---
 
