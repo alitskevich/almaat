@@ -24,6 +24,7 @@ encompassing the body's ability to function optimally, resist disease, and recov
 - Panic and "magic pills" don't work. Steady habits do.
 - Avoid shallow distractions. Depth over noise.
 - Protect yourself from things that overwhelm you.
+- Do less. Most things don't work.
 
 ### 2. Sleep — 75% of health
 
@@ -40,6 +41,7 @@ encompassing the body's ability to function optimally, resist disease, and recov
 - Poor sleep spreads. A partner who sleeps badly raises their cortisol and lowers your own sleep quality (see [stress](01-vitality.md#3-stress-management)).
 - A warm bath 1–2 hours before bed helps. Avoid bright/blue light for 1–3 hours before sleep.
 - 4-7-8 breathing helps you fall asleep: inhale 4, hold 7, exhale 8.
+- Keep a 1-hour wind-down routine and read a book before bed — the body is a clock and loves routine.
 
 ### 3. Stress management
 
@@ -56,6 +58,7 @@ encompassing the body's ability to function optimally, resist disease, and recov
 
 - Get morning sunlight within 1 hour of waking. It sets your body clock.
 - 5–25 minutes daily (more on cloudy days).
+- Protect your skin in the midday sun.
 - Sunset light signals your body to prepare for sleep.
 - Morning sun is the strongest natural antidepressant. 10 minutes without sunglasses (avoid midday glare) triggers serotonin, which later converts to melatonin — the hormone of sleep and recovery.
 
@@ -63,7 +66,8 @@ encompassing the body's ability to function optimally, resist disease, and recov
 
 - Keep your body, hair clean.
 - Wash hands before eating and after the bathroom.
-- Brush teeth after meals and before sleep. Checkup twice a year.
+- Water pick, floss, brush, and tongue scrape morning and night. Checkup twice a year.
+- Protect your hearing.
 - Design and Keep your style in clothes.
 
 ### 6. Nutrition
@@ -77,10 +81,12 @@ encompassing the body's ability to function optimally, resist disease, and recov
 - To control blood sugar: vegetables first, then protein/fat, then carbs. Walk 10 min after eating.
 - The first meal sets the day's blood-sugar tone. On waking, cortisol is at its peak and insulin is low — this is by design, and cells are still in autophagy "cleaning" mode. The brain needs fuel, not a sugar hit.
 - A sweet breakfast — sugary porridge, toast with jam, juice, even "healthy" honey — spikes blood sugar and keeps cells inflamed all day, which ages you faster. Build a low-glycemic first meal instead: eggs (choline for the brain, protein for repair, vitamin D), a handful of nuts or a spoon of olive oil (fat-soluble vitamins, less inflammation), and vegetables or greens (fiber to feed the microbiome that drives immunity and mood). People who eat a low-glycemic breakfast carry about 23% fewer inflammation markers by evening.
-- If you drink coffee, wait ~90 minutes after waking. Coffee on an empty stomach at wake-up blunts the natural cortisol peak — it triggers anxiety and an early-afternoon crash.
+- If you drink coffee, wait ~90 minutes after waking. Coffee on an empty stomach at wake-up blunts the natural cortisol peak — it triggers anxiety and an early-afternoon crash. Finish coffee before noon.
+- Eat calm foods for dinner.
 - No smoking, alcohol, or caffeine. No sugar, fried food, or late-night eating.
 - Get vitamins from food. Consider Vitamin D and creatine if needed.
 - Use antibiotics only when truly necessary.
+- If obese, consider GLP-1 medication.
 
 ### 7. Breathing
 
@@ -98,6 +104,7 @@ Exercise is the single best thing for your mind and body.
 - Morning routine: water → exercise/dance → cold shower.
 - 5 key exercises: Jefferson curl, reverse Nordic curl, farmer's walk, Cossack squat, weighted pull-up.
 - Stand tall, stretch, develop coordination.
+- Routinely lift heavy things. Avoid sitting for long stretches.
 
 ### 9. Longevity
 
@@ -106,3 +113,20 @@ Exercise is the single best thing for your mind and body.
 - Most chronic diseases come from laziness, excess, and short-sightedness.
 - Medicine treats. Only you can prevent.
 - Real detox isn't a smoothie — it's sweat. Skin removes over 30% of the heavy metals the liver can't keep up with. Finnish studies link regular sauna use to an extra ~8 years of life.
+
+### 10. Connection
+
+- See at least one friend a week.
+
+### 11. Digital & Focus
+
+- Turn off all notifications.
+- Limit social media use.
+- Never text while driving.
+
+### 12. Environment
+
+- Shoes off at the door.
+- Avoid plastic where you can.
+- Circulate air in your rooms.
+- Avoid long-distance travel where you can.
