@@ -33,7 +33,7 @@
 
 *NOTE*: Context-bound, not absolute.
 
-### Solution Stages
+## Solution Stages
 
 The lifecycle by which an `Agent` converts a `Goal` into executed action.
 

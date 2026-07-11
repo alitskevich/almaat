@@ -6,22 +6,20 @@
 biological circuitry, social membership, cultural inheritance,
 equipped with `Intellect` and `Inspiration`.
 
-**`Inspiration`** (Jaga) := The drive and curiosity to push beyond any limits. [[4,5,6,7,46]]
+**`Inspiration`** (Djaga) := The drive and curiosity to push beyond any limits. [[4,5,6,7,46]]
 
-**`Dignity`** := Worth of a `Human Being` ,
+**`Dignity`** (Guda) := Worth of a `Human Being` ,
 adaptability, long-term developments, cognitive power, emhathy, ability to cooperation, unstoppable creative potential
 but the most and only - from from its `Inspiration` and `Intellect` in persuing Truth.
 
-**`Awareness`** := Respect for one's own `Dignity`.
-
-`Awareness` grants the right — and moreover, the obligation — to fully realize one's Potential.
-
-**`Conscience`** := Considering each `Human Being` as a one of the entire Mankind, that entails:
+**`Conscience`** := Respect for own and each `Dignity`, Considering each `Human Being` as a one of the entire Mankind, that entails:
 
 - to recognise the `Dignity` of each individual in our common movement toward our Bright Future,
 where individuals have freely realized their potential, transcending current limitations and achieving greatness.
 - to accept the natural right to go their own path and pursue own Goals, as long as they do not infringe on the `Dignity` of others,
 - and to expect comprehensive mutual support/favor/trust from other conscientious people in return for the same.
+
+`Conscience` grants the right — and moreover, the obligation — to fully realize one's Potential.
 
 **`Truth`** := One's own answers to the existentional questions:
 

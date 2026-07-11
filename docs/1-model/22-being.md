@@ -2,16 +2,19 @@
 
 ## Being
 
-**`Being`** := transcendent process of experiencing itself as a whole.
+**`Being`** := transcendent process of experiencing/inventing/instantiating itself as a whole from miriads of different points.
 
-**`Universe`** := `Being` considered as having three sides:
-perceptive `Sensation`, transformative `Consciousness` and representative `Matter`.
+`Being` considered as having three sides:
 
-> Not me inside of Universe, but Universe inside of Me.
+- perceptive `Sensation` expirience,
+- transformative creative `Consciousness`
+- and representative material `Reality`.
+
+> Not me inside of `Reality`, but `Reality` inside of Me.
 
 Solidity, weight, color, sound — every property of the "physical" world reaches us only through sensation, and sensation occurs within experience. We never touch the world directly; we read an organized stream of impressions.
 
-Matter is a dashboard representation. With no instrument present — no living being observing — there is no representation, yet the thing represented remains. "Matter" is the readout, not the source.
+`Reality` is a dashboard representation. With no instrument present — no living being observing — there is no representation, yet the thing represented remains. `Reality` is the readout, not the source.
 
 **The brain is the appearance of `Consciousness`, not its cause.** From outside, a `Consciousness` looks like a brain — tissue and firing neurons. From inside, the same process is `Thought`, feeling, and memory. These are one event seen from two sides. The brain no more produces Consciousness than flames produce combustion; flames are what combustion looks like, and the brain is what mental activity looks like across a boundary. This keeps every neuroscientific result intact: a drug or injury changes experience because it changes the underlying mental chain whose appearance is the brain.
 
@@ -21,8 +24,8 @@ Matter is a dashboard representation. With no instrument present — no living b
 
 **Time and space are not fundamental.** They are a filing system the `Consciousness` generates to order experience — emergent structure, not the fabric of `Reality`. Beginning and end are therefore perspectives, not absolutes: birth and death are changes in appearance, not in what underlies them.
 
-**Free will as agency without alternatives.** You choose, and the choice is yours — but it follows from what you are, so there is no "could have done otherwise." A choice still matters because it reveals what you are.
+**Free will as agency without alternatives.** You choose, and the choice is yours — but it follows from what you are, so there is no "could have done otherwise." A choice still Realitys because it reveals what you are.
 
 And no one can know it in advance: the world is **computationally irreducible** — the only way to learn a choice is to let it play out. On this view even the whole cannot anticipate its own choices; there is no shortcut.
 
-Because dissociation is a natural process, it need not be perfect. The view therefore treats anomalous crossings of the boundary between minds as conceivable rather than impossible — a permitted possibility, not an asserted fact.
+Because **dissociation** is a natural process, it need not be perfect. The view therefore treats anomalous crossings of the boundary between minds as conceivable rather than impossible — a permitted possibility, not an asserted fact.

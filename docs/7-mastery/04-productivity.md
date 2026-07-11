@@ -233,7 +233,7 @@ Anticipate and mitigate risks to ensure steady progress. Plan for failure modes 
 - **Read to learn.** The most effective way to understand other minds.
 - **Hands-on.** Practical experience with platforms, languages, standards, frameworks, and tools.
 
-# Economic Wisdom
+## Economic Wisdom
 
 - **Save Early**: Automate savings. Compound interest is magic.
 - **Live Below Means**: Spend less than you can. Never spend to impress.
