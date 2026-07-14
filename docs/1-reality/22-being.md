@@ -10,11 +10,15 @@
 - transformative creative `Consciousness`
 - and representative material `Reality`.
 
-> Not me inside of `Reality`, but `Reality` inside of Me.
+`Reality` := a `System` used to by `Consciousness` represent perceived `Being` as a whole and in each its parts.
+
+`Reality` intended to be logically consistent, provide explanatory, and predicability functions.
+
+`Reality` is a representation. With no instrument present — no living being observing — there is no representation, yet the thing represented remains.
+
+> `Reality` is the readout, not the source. Not me inside of `Reality`, but `Reality` inside of Me.
 
 Solidity, weight, color, sound — every property of the "physical" world reaches us only through sensation, and sensation occurs within experience. We never touch the world directly; we read an organized stream of impressions.
-
-`Reality` is a dashboard representation. With no instrument present — no living being observing — there is no representation, yet the thing represented remains. `Reality` is the readout, not the source.
 
 **The brain is the appearance of `Consciousness`, not its cause.** From outside, a `Consciousness` looks like a brain — tissue and firing neurons. From inside, the same process is `Thought`, feeling, and memory. These are one event seen from two sides. The brain no more produces Consciousness than flames produce combustion; flames are what combustion looks like, and the brain is what mental activity looks like across a boundary. This keeps every neuroscientific result intact: a drug or injury changes experience because it changes the underlying mental chain whose appearance is the brain.
 

@@ -77,9 +77,11 @@
 
 > `Schema := [{Space}, {Relation}]`
 
-## Projections and Categories
+**`State`** := A `Structure` whose `Vertex`es are corresponded `Point`s of the given `Schema`.
 
----
+> `State<Schema> := {Point} <~ Schema`
+
+## Projections and Categories
 
 **`Region`** := A hyperrectangular `Place` constrained by subsets of the `Codomain` of corresponding Attributes.
 
