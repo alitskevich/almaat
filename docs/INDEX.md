@@ -20,7 +20,7 @@ The formal core: the primitive `Azon` and the structures built directly from it.
 - [Algebras](0-math/03-algebras.md) — operations, laws, and algebraic structures (magma, ring, lattice families) over `Azon`.
 - [Graphs](0-math/03-graph.md) — directed structure: `Arrow`, `Vertex`, `Path`, `Tree`, univalence.
 - [Sequence](0-math/04-numerals.md) — natural `Number`, intervals, sequences, and selections.
-- [Space](0-math/05-space.md) — `Attribute-Space`, `Point`, `State`, and `Schema` for structured entities.
+- [Space](0-math/01-space.md) — `Attribute-Space`, `Point`, `State`, and `Schema` for structured entities.
 - [Formal Language](0-math/09-language.md) — `Alphabet`, words, grammars, and derivations.
 
 ## 1 — Nature · Dynamics

@@ -103,7 +103,7 @@ follow the same banner convention (`/images/<folder>/index.svg`).
 ## Terminology and formatting
 
 - **Canonical Terms are capitalized and backticked**: `Azon`, `Set`, `Agent`, `Flow`.
-  Cross-reference related Terms with relative links, e.g. `[05-space](05-space.md)`.
+  Cross-reference related Terms with relative links, e.g. `[01-space](01-space.md)`.
 - **Definitions go in tables** with columns `Term | Definition | Formula | Notes`; keep
   formulas in backticks. Follow a table with a `**Notes:**` list when commentary helps.
 - **Formal statements** (axioms, laws) use the same tabular style; see

@@ -1,14 +1,12 @@
 # Space
 
-![Space](/images/0-math/05-space.svg)
+![Space](/images/0-math/01-space.svg)
 
 `Space`, `Point`, `State`, and `Schema` — the framework for representing *coordinated* entities.
 
-## Coordinate Structure
+## Space, Point, Volume, Place
 
----
-
-**`Space`** := A `Row` of `Azon`s(`Attribute`) with the same `Domain`.
+**`Space`** := A `Row` of `Set`s(`Attribute`).
 
 > `Space<SDom> := [p₁, p₂, ..., pₙ] | DOM(pᵢ) = SDom`
 
@@ -28,31 +26,29 @@
 
 ---
 
-**`Place`** := A `Set` of `Point`s of `Space` (or subset of its `Volume`).
+**`Place`** := A `Set` of `Point`s of `Space` (subset of its `Volume`).
 
 > `Place<Space> := {Point} (Place ⊆ Volume<Space>)`
 
-## Entities and Content
+## Content
 
-**`Entity`** := an `Element` of the `Domain` of the `Space`.
+**`State`** := A `Azon` whose `Codomain` is `Place` in  given `Space`.
 
-> `Entity<Space> ∈ DOM(Space)`
+> `State<Space> := E -> Point<Space>`
 
----
+**`Matter`** := `Domain` of the `State`.
 
-**`Presentation<Entity>`** := the `Point` relevant to the `Entity`.
+> `Matter<State> := DOM(State)`
 
-> `Presentation<Entity> :=  [p₁(Entity), p₂(Entity), ..., pₙ(Entity)]`
+**`Entity`** := an `Element` of the `Domain` of the `State`.
 
----
+> `Entity<State> := ∈ Matter<State>`
 
-**`Matter`** := The `Set` of all `Entity`ies of the `Space`.
+**`Presentation<Entity>`** (Appearance) := the `Point` relevant to the `Entity` in given `State`.
 
-> `Matter<Space> := {Presentation(Entity)}`
+> `Presentation<Entity> := State(Entity)`
 
----
-
-**`Content`** := The `Set` of `Entity`, whose `Presentation`s fall within a `Place`.
+**`Content`** := The `Set` of `Entity`ies, whose `Presentation`s fall within a `Place`.
 
 > `Content(Place) := {Entity(s) : Presentation(Entity) ∈ Place}`
 
@@ -61,13 +57,14 @@
 **`Key`** (primary key) := a bijective Attribute — distinct entities have distinct values.
 
 > `∀a, b ∈ SDom: Key(a) = Key(b) ⟹ a = b`
+
 ---
 
 **`Reference`** (foreign key) := Attribute, which `Values` are `Key`s of other `Space`s.
 
 ---
 
-**`Relation`** := A `Place` in `Space` consisting of two or more `References`.
+**`Relation`** := A `Place` in `Space` consisting of `References`.
 
 > `Relation := {[Ref₁, Ref₂, ...]}`
 
@@ -76,10 +73,6 @@
 **`Schema`** := A `Structure` whose `Vertex`es are `Space`s and `Arrow`s are `Relation`s between those `Space`s.
 
 > `Schema := [{Space}, {Relation}]`
-
-**`State`** := A `Structure` whose `Vertex`es are corresponded `Point`s of the given `Schema`.
-
-> `State<Schema> := {Point} <~ Schema`
 
 ## Projections and Categories
 

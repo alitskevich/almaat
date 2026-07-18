@@ -96,7 +96,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Matrix` | Mantra |
 | `Concatenation` | Sklejka |
 
-## Space — `05-space`
+## Space — `01-space`
 
 | Term | Belarusian |
 |---|---|
