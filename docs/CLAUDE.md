@@ -40,18 +40,20 @@ Content lives under numbered section folders, each one ontological layer or appl
 
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
-| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Algebras`, `Sequence`, `Space`. | `00`–`06`         |
-| `1-nature`     | Dynamics: `Process`, `System`, `Agency`.                                       | `06`, `07`, `09`  |
-| `3-intellect`  | Knowing: `Reasoning`, `Computation`, `Intellect`, `Science`, `Methodology`, `Psyche`. | `08`–`14`, `22`   |
-| `4-human`      | The human: body and joy.                                                       | `21`, `23`        |
-| `5-socium`     | The collective: society, ecology, politics, the manifesto.                     | `30`, `31`, `37`, `98` |
-| `7-mastery`    | The disciplines: vitality, productivity, mindset, defense, security, learning, biases. | own domain, `01`– |
+| `0-math`       | Formal foundations: `Azon`, `Composition`, `Set`, `Algebras`, `Graph`, `Numerals`. | `00`–`04`         |
+| `1-reality`    | Dynamics & metaphysics: `Space`, `Process`, `System`, `Probability`, `Being`.  | `01`, `02`, `07`, `10`, `22` |
+| `2-mind`       | Knowing & mind: `Language`, `Knowledge`, `Reasoning`, `Computation`, `Teleos`, `Intellect`, `Mind`. | `03`–`12` |
+| `4-human`      | The human: `Human`, `Rajdo`, `Animal`, the `Manifesto`.                        | `21`, `23`, `28`, `98` |
+| `7-mastery`    | Disciplines of thought & practice: mastery, mindset, self-discipline, learning, methodology, biases. | own domain, `01`– |
+| `8-socium`     | The collective: society, ecology, culture, influence, trances, politics.       | `30`–`37`         |
+| `8-sustain`    | Sustaining the body & self: vitality, defense, security.                       | own domain, `01`– |
 | `9-engx`       | Applied software engineering.                                                  | own domain, `01`– |
+| `A-science`    | Science and the branches of intellectual inquiry.                              | `90`, `99`        |
 
-The leading digit on a folder (`0-`, `1-`, `3-`, `4-`, `5-`, `7-`, `9-`) places it within
-the ontology's ordering; gaps (`2-`, `6-`, `8-`) are intentional reservations for future
-layers. Don't renumber a folder casually — it cascades through every banner image path and
-every cross-reference.
+The leading digit on a folder (`0-`, `1-`, `2-`, `4-`, `7-`, `8-`, `9-`, `A-`) places it within
+the ontology's ordering. The digit `8-` is shared by two applied folders (`8-socium`, `8-sustain`),
+and `A-science` sits at the end; gaps (`3-`, `5-`, `6-`) are reservations for future layers. Don't
+renumber a folder casually — it cascades through every banner image path and every cross-reference.
 
 Special top-level files, prefixed with `_` or named `welcome`:
 
@@ -74,7 +76,7 @@ Special top-level files, prefixed with `_` or named `welcome`:
 ## Naming
 
 Content files are `NN-topic.md`, lowercase hyphenated slug, `NN` a two-digit ordering
-number. The ontology folders (`0-math`, `1-nature`, `3-intellect`, `4-human`, `5-socium`)
+number. The ontology folders (`0-math`, `1-reality`, `2-mind`, `4-human`, `8-socium`, `A-science`)
 share **one global file-number sequence** that tracks the ontological progression
 (`00`→`98`, with `98` reserved as a capstone — the manifesto). Numbers do not strictly
 partition by folder; they roughly cluster by layer. `7-mastery` and `9-engx` are
@@ -126,15 +128,19 @@ This surfaces exactly which `docs/*.md` files were **added, renamed, removed, or
 retitled** since the baseline. For each change, update the matching `INDEX.md` entry
 (link path, title, and the intro-line description). Then record the new baseline:
 
-- **Baseline commit:** `9d497b9` ("add idealism", 2026-06-19) — last full sync.
-- After each sync, replace the commit above with the current `HEAD`.
+- **Last full reconciliation:** 2026-08-01 — `INDEX.md` was rebuilt from scratch against the live
+  tree after a folder reorg (`1-nature`→`1-reality`, `3-intellect`→`2-mind`, `5-socium`→`8-socium`,
+  new `8-sustain` and `A-science`). At that point every INDEX link resolved to a real file.
+- **Baseline commit:** set this to the commit that lands the 2026-08-01 reconciliation, then use the
+  diff method above for subsequent syncs. (`9d497b9`, "add idealism", 2026-06-19, was the prior baseline
+  but predates the reorg, so a diff from it is noisy — reconcile against the tree instead.)
 
 Notes:
 
 - INDEX entries are grouped by ontological-layer section; the description text mirrors each
   file's intro line (see Title, banner, intro).
 - Only sections that actually have a `<section>/index.md` should carry a
-  "See section index" link — currently just `7-mastery`.
+  "See section index" link — currently none do (the former `7-mastery/index.md` is gone).
 
 ## Editing checklist
 

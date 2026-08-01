@@ -130,3 +130,18 @@ Exercise is the single best thing for your mind and body.
 - Avoid plastic where you can.
 - Circulate air in your rooms.
 - Avoid long-distance travel where you can.
+
+### 13. Energy — the mitochondrial view
+
+You are energy, not just a body. Health is the sound allocation of a finite energy budget, and most chronic disease is better read as **energy resistance** — energy that no longer flows smoothly — than as an isolated molecular defect.
+
+- Mitochondria are both engine and messenger: ~1,000 per cell strip electrons from food toward oxygen to make ATP, and they signal cell-to-cell like a distributed inner brain. Their smooth flow *is* your energy.
+- "More energy" means smoother flow, not more fuel. You cannot eat your way to more energy — you can only become more efficient. That is why overeating today lowers today's performance, while under-eating is usually harmless (reserves last weeks).
+- Exercise works through recovery, not the workout. Training briefly raises energy resistance; the body adapts by building more mitochondria, so energy later flows more efficiently (see [Fitness](01-vitality.md#8-fitness)).
+- It is the stress *response*, not the stressor, that drains you. The chain is mental: an event → the story you tell about it → cortisol → energy cost (cortisol can raise cellular energy expenditure sharply). Awareness breaks the chain. Acute stress is useful; chronic stress does the damage (see [Stress management](01-vitality.md#3-stress-management)).
+- Excess glucose is like raising voltage on a weak circuit. Insulin resistance and visceral fat act partly as protection against that energy pressure — another reason to keep insulin low (see [Nutrition](01-vitality.md#6-nutrition)).
+- Purpose is physical. Coherent energy — like a laser against a diffuse bulb — mobilizes the body; a strong sense of purpose tracks more efficient mitochondria (cause runs both ways). This is the bodily side of "people without a why die younger."
+- Sustained mental and social stress raises the signal GDF-15, read by the brainstem as "running low" — producing fatigue, low motivation, and low mood while storing belly fat. Chronic low energy and low mood are often the same underlying state.
+- Fatigue is not always laziness. In long-COVID and ME/CFS, muscle shows genuinely lower mitochondrial capacity; blanket "just exercise" advice can trigger post-exertional crashes. Match load to actual capacity.
+
+> *Source: Dr. Martin Picard (mitochondrial psychobiology) — energy, stress, and disease as an energetic process.*

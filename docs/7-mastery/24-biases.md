@@ -49,6 +49,7 @@ Biases occur due to limitations of the human brain:
 
 | Bias | Description |
 | --- | --- |
+| **Conformity** | Yielding to group pressure to match others' judgments — even against the evidence of your own senses — to avoid standing out. In the classic conformity experiments, most people go along with a unanimous group at least once even when it is plainly wrong. We are social animals: the pull to not be the odd one out is often stronger than the pull to be right. |
 | **Social Proof** | Looking to others for cues on how to behave, especially in unfamiliar situations. |
 | **Bandwagon Effect** | Adopting beliefs or behaviors because many others do the same. |
 | **In-Group Favoritism** | Favoring members of one's own group over those in other groups. |
