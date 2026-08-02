@@ -65,6 +65,7 @@ Biases occur due to limitations of the human brain:
 | **Scarcity Bias** | Valuing things more when they are rare or perceived to be limited. |
 | **Contrast Effect** | Judging something by what sits next to it rather than on its own merits — a cost feels small beside a larger one. |
 | **Paradox of Choice** | Too many options reduce satisfaction and stall decisions instead of helping; more alternatives mean more regret and comparison. |
+| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible — so success stories teach the shape of luck, not a repeatable method. See [Luck & Serendipity](07-luck.md). |
 
 ## Logical Fallacies
 
@@ -96,6 +97,7 @@ Biases occur due to limitations of the human brain:
 | **Appeal to Authority** | Truth cannot be proven merely because an "authority" says it. |
 | **Appeal to Sentiments** | Using emotions to persuade rather than prove. |
 | **Statistics Manipulation** | Statistics can be biased to "prove" many different hypotheses. |
+| **Texas Sharpshooter** | Drawing the target around the bullet holes after firing — cherry-picking or clustering data after the fact to fit a hypothesis, then claiming it was predicted. |
 
 ## Sources
 

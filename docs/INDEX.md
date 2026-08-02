@@ -60,6 +60,7 @@ The applied disciplines that raise the human toward excellence — practice, min
 - [Mastery](7-mastery/01-mastery.md) — the capacity for abundant, effective activity toward constant improvement in one's Domain.
 - [Self-Discipline](7-mastery/04-productivity.md) — `Productivity`: systems and environments for consistent progress toward `Goal`s.
 - [Learning](7-mastery/06-learning.md) — how a `Mind` turns `Experience` into `Knowledge` and `Skill`.
+- [Luck & Serendipity](7-mastery/07-luck.md) — why some people are consistently "lucky": luck as half blind statistics and half a tunable interface of attention and position.
 - [Methodology](7-mastery/14-methodology.md) — `Method`, `Practice`, and `Pattern` applied consistently in a domain.
 - [Cognitive Biases and Logical Fallacies](7-mastery/24-biases.md) — systematic errors in thinking, and how to think past them.
 
