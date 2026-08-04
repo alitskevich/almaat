@@ -4,7 +4,7 @@
 := A finite `Set` of endemic `Azon`s (`Symbol`s).
 
 **`Word<Alphabet>`** := `[Symbolᵢ,...] :: Symbolᵢ ∈ Alphabet`
-:= A `Row` of `Symbol`s of the same `Alphabet`.
+:= A `Tuple` of `Symbol`s of the same `Alphabet`.
 
 **`Dictionary<Alphabet>`** := `{ Word<Alphabet> }`
 := A `Set` of `Word`s of the same `Alphabet`.

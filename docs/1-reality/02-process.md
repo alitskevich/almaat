@@ -2,7 +2,7 @@
 
 ![Dynamic Processes](/images/1-nature/06-process.svg)
 
-**`Flow` / `Plan` / `Moment`** := A `Queue` / `Row` / `Pair` of `State`s of the same `Schema`.
+**`Timeline` / `Plan` / `Moment`** := A `Queue` / `Tuple` / `Pair` of `State`s of the same `Schema`.
 
 > `[State[0], State[1], ... ]`
 
@@ -10,7 +10,7 @@
 := `Ingress<Schema> → PD(Volume<Schema>)`
 := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
 
-`Circuit` produces a set of `Flows`, where the next `State` is sampled from the `Circuit`'s distribution over the previous
+`Circuit` produces a set of `Timeline`s, where the next `State` is sampled from the `Circuit`'s distribution over the previous
 
 > `[State[0], State[1], ... :: State[i+1] ~ Circuit(State[i])]`
 

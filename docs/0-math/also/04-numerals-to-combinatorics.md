@@ -1,22 +1,22 @@
 # Correspondence to Combinatorics
 
-Combinatorics is the *counting* discipline over finite `Set` and `Row`. Every classical count reduces to a `Cardinality` of a constructed `Set` of `Row` or `Selection-Mask`. No new primitive is introduced — all variations (ordered/unordered, with/without repetition) are expressed by adjusting injectivity, surjectivity, and quotient-by-permutation of `Selection-Mask`.
+Combinatorics is the *counting* discipline over finite `Set` and `Tuple`. Every classical count reduces to a `Cardinality` of a constructed `Set` of `Tuple` or `Selection-Mask`. No new primitive is introduced — all variations (ordered/unordered, with/without repetition) are expressed by adjusting injectivity, surjectivity, and quotient-by-permutation of `Selection-Mask`.
 
 ---
 
-**`Cardinality`** := The unique `Number` `n` for which a bijective `Row` exists from `BI(n)` onto a finite `Set` `S`.
+**`Cardinality`** := The unique `Number` `n` for which a bijective `Tuple` exists from `BI(n)` onto a finite `Set` `S`.
 
 > `|S| := n`
 
 ---
 
-**`Tuple`** := A `Row` viewed as an ordered selection from a `Set`.
+**`Tuple`** := A `Tuple` viewed as an ordered selection from a `Set`.
 
 > `T :: BI(n) → S`
 
 ---
 
-**`Permutation`** := A bijective `Row` from `BI(n)` onto itself.
+**`Permutation`** := A bijective `Tuple` from `BI(n)` onto itself.
 
 > `π :: BI(n) → BI(n)` bijective
 
@@ -62,7 +62,7 @@ Combinatorics is the *counting* discipline over finite `Set` and `Row`. Every cl
 
 ---
 
-**`Composition-of-Number`** := A `Row` of positive `Number` summing to `n`.
+**`Composition-of-Number`** := A `Tuple` of positive `Number` summing to `n`.
 
 > `[n₁, ..., nₖ] : ∑nᵢ = n, nᵢ > 0`
 
@@ -85,7 +85,7 @@ Combinatorics is the *counting* discipline over finite `Set` and `Row`. Every cl
   - is the source *quotiented by permutation*? (order ignored)
   - is the target *quotiented by permutation*? (labels ignored)
 - **Pascal's identity** `C(n, k) = C(n−1, k−1) + C(n−1, k)` corresponds to partitioning the `Subset` of size `k` by whether they contain a chosen `Element` — i.e., a `Cluster` (see [01-set](01-set.md)) of the `Power-Set` indexed by membership.
-- **Bijective proof.** Equalities between counts (`C(n, k) = C(n, n−k)`, the binomial theorem) are most naturally expressed as bijective `Row` between the two `Set` being counted — staying inside the framework rather than appealing to algebraic manipulation.
+- **Bijective proof.** Equalities between counts (`C(n, k) = C(n, n−k)`, the binomial theorem) are most naturally expressed as bijective `Tuple` between the two `Set` being counted — staying inside the framework rather than appealing to algebraic manipulation.
 
 *SEE ALSO*:
 

@@ -88,7 +88,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Bounded-Interval` | Dlina |
 | `Ray` | Promenj |
 | `Range` | Adrezok |
-| `Row` | Radok |
+| `Tuple` | Radok |
 | `Queue` | Qerga |
 | `Grade` | Acenka |
 | `Selection-Mask` | Zrez |

@@ -12,7 +12,7 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 > `Plus := x -> Singleton(x)`
 
-**`Number`** := `Unit` or `Composition` of `Plusator` with `Number`.
+**`Number`** := `Unit` or `Composition` of `Plus` with `Number`.
 
 > `N := 1 | Plus.N`
 
@@ -44,9 +44,9 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 ## Sequences
 
-**`Row`** (Array) := An `Azon` whose `Domain` is a `Interval`.
+**`Tuple`** (,Array) := An `Azon` whose `Domain` is a `Interval`.
 
-> `Row :: DOM = BI(N)`
+> `Tuple :: DOM = BI(N)`
 
 *NOTE*: The fundamental array / tuple structure.
 
@@ -66,13 +66,13 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 ---
 
-**`Vector`**  := Grade Row.
+**`Vector`**  := Grade Tuple.
 
 > `Grade :: DOM = BI(N), COD ⊆ Number`
 
 ## Selection
 
-**`Selection-Mask`** := A bijective `Row` of length `n` into a `Interval` of length `m > n`.
+**`Selection-Mask`** := A bijective `Tuple` of length `n` into a `Interval` of length `m > n`.
 
 > `SM :: BI(n) → BI(m)`
 
@@ -80,20 +80,20 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 ---
 
-**`Selection`** := The `Composition` of a `Selection-Mask` with a `Row`.
+**`Selection`** := The `Composition` of a `Selection-Mask` with a `Tuple`.
 
 > `Selection := V . SM`
 
-*NOTE*: Extracts chosen `Element`s from a `Row`.
+*NOTE*: Extracts chosen `Element`s from a `Tuple`.
 
 ## 2D
 
-**`Matrix`** (2D-array) := A `Row` of `Row`.
+**`Matrix`** (2D-array) := A `Tuple` of `Tuple`.
 
-> `Matrix :: BI(n) → Row`
+> `Matrix :: BI(n) → Tuple`
 
 ---
 
-**`Concatenation`** := A `Row` built from a `Matrix` by joining each constituent `Row` end-to-end.
+**`Concatenation`** := A `Tuple` built from a `Matrix` by joining each constituent `Tuple` end-to-end.
 
-> `⊕ :: Matrix → Row`
+> `⊕ :: Matrix → Tuple`

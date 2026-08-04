@@ -1,6 +1,6 @@
 # Correspondence to Arithmetic
 
-Arithmetic is not introduced as a new primitive — it is *recovered* from `Number`, `Interval`, `Row`, and `Concatenation`.
+Arithmetic is not introduced as a new primitive — it is *recovered* from `Number`, `Interval`, `Tuple`, and `Concatenation`.
 
 ---
 
@@ -32,7 +32,7 @@ Arithmetic is not introduced as a new primitive — it is *recovered* from `Numb
 
 ---
 
-**`Exponentiation`** := The count of `Row` of length `a` over `BI(b)` — i.e., functions `BI(a) → BI(b)` : `b^a := |{f : BI(a) → BI(b)}|`
+**`Exponentiation`** := The count of `Tuple` of length `a` over `BI(b)` — i.e., functions `BI(a) → BI(b)` : `b^a := |{f : BI(a) → BI(b)}|`
 
 ---
 
@@ -48,7 +48,7 @@ Arithmetic is not introduced as a new primitive — it is *recovered* from `Numb
 
 **Properties:**
 
-- **Associativity of `+` and `×`** is inherited from `Concatenation`: `(a + b) + c` and `a + (b + c)` both correspond to the same flattened `Row`, and `Concatenation` flattening is associative by [02-graph](02-graph.md) line 47.
+- **Associativity of `+` and `×`** is inherited from `Concatenation`: `(a + b) + c` and `a + (b + c)` both correspond to the same flattened `Tuple`, and `Concatenation` flattening is associative by [02-graph](02-graph.md) line 47.
 - **Commutativity of `+` and `×`** follows from the bijective re-indexing of `Matrix` rows (a `Selection-Mask` of length `n` onto itself).
 - **Distributivity** `a × (b + c) = a × b + a × c` corresponds to splitting a `Matrix` of `a` rows of length `b + c` into two `Matrix` along the column boundary.
 - **Order** `≤` coincides with `Subset` on the Von Neumann encoding — so arithmetic order is a *special case* of set inclusion, not an extra relation.
