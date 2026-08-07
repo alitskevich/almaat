@@ -42,8 +42,6 @@ This part introduces `Set` and the topological structures over `Set`.
 
 > `DOM(A) := {x : A(x) ≠ 0}`
 
----
-
 **`Codomain`** := `Set` of valent Values of an `Azon`.
 
 > `COD(A) := {y : ∃x, A(x) = y ∧ y ≠ 0}`

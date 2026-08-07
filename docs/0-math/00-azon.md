@@ -4,15 +4,18 @@
 
 ## Intro
 
-**`Azon`** := an *agreement* (made under three `Axioms` below) to always respond with some certain Azon(`Value`) to any given Azon(`Sign`).
+**`Azon`** := a *contract* made under Axioms below, that responds for each given Azon(`Sign`) with a specific Azon(`Value`).
 
 > `Azon := x → y`
 
-`Azon` is the sole fundamental concept of entire framework: It is self-sufficient (defined recurrsively) and every later concept is built on top of `Azon`.
+`Azon` is the sole fundamental concept of entire framework:
+
+- It is self-sufficient (defined recurrsively)
+- and every later concept is built on top of `Azon`.
 
 ---
 
-**`Zero`** := `Azon` that always responds with itself  
+**`Zero`** := `Azon` that *always* responds with itself  
 
 > `Zero := x → Zero`
 
@@ -20,23 +23,23 @@
 
 ---
 
-Response with `Sign` itself *called* **`fixed`**.
+*DEF*: response with `Sign` itself *called* **`fixed`**.
 
-**`Unit`** := `Azon` that always responds`fixed`, except `emptily` - to itself.
+**`Unit`** := `Azon` that *always* responds `fixed`, *except* `emptily` - to itself.
 
 > `Unit := x → x IS Unit : Zero : x`
 
 ## Axioms
 
-**`AXIOM-1`** (Halt) := The response to `Zero` is always `Zero`.
+**`AXIOM-1`** (Halt) := The response to `Zero` is *always* `Zero`.
 
 > `∀A: A(0) = 0`
 
-`AXIOM-1` makes `Zero` an absorbing fixed point — composition-annihilating.
+`AXIOM-1` makes `Zero` an absorbing point — composition-annihilating.
 
 ---
 
-**`AXIOM-2`** (Non-Self-Valent) := The response to oneself is always `Zero`.
+**`AXIOM-2`** (Non-Self-Valent) := The response to oneself is *always* `Zero`.
 
 >`∀A: A(A) = 0`
 

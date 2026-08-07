@@ -104,16 +104,15 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Point` | Kropka |
 | `Volume` | Obshar |
 | `Place` | Mesto |
-| `Presentation` | Prajava |
+| `View` | Vid,Prajava |
 | `Matter` | Materia |
 | `Content` | Zmest |
 | `Key` | Kliuq |
 | `Relation` | Adnosiny |
-| `Tuple` | Zviaz |
 | `State` | Stan |
 | `Schema` | Skema |
 | `Region` | Ramka |
-| `View` | Vid |
+| `Projection` | Vid-zboku |
 | `Taxon` | Taksa |
 | `Principle` *(1-value Quality)* | Kon |
 | `Predicate` *(2-value Quality)* | Bikon |

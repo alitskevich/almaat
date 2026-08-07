@@ -17,11 +17,11 @@ The formal core: the primitive `Azon` and the structures built directly from it.
 - [Foundations](0-math/00-azon.md) — the `Azon` primitive: an agreement to respond with a `Value` to any `Sign`, under three `Axioms`.
 - [Composition](0-math/01-composition.md) — chaining `Azon`: `Arrow`, `Pair`, associativity, identity, absorber, bijection.
 - [Sets, Equivalence, Topology](0-math/02-set.md) — `Set` and the topological structures over `Set`.
-- [Algebras](0-math/03-algebras.md) — algebraic structures built on `Azon`: sets with closed operations, constrained by laws.
-- [Graphs](0-math/03-graph.md) — directed structure: `Arrow`, `Vertex`, `Path`, `Tree`, univalence.
+- [Composition](0-math/02-composition.md) — `Arrow`, `Vertex`.
+- [Graphs](0-math/03-graph.md) —  `Path`, `Tree`, univalence.
 - [Numerals](0-math/04-numerals.md) — natural `Number`, intervals, sequences, and selections.
-- [Presentations](0-math/05-presentations.md) — `Matter`, `Space`, `Point`, `State`, and `Schema` for representing coordinated entities.
-- Correspondences (`also/`) — bridges to standard mathematics: [Sets → Predicate Logic](0-math/also/02-set-to-predicates.md), [Graphs → Category Theory](0-math/also/03-graph-to-categories.md), [Numerals → Arithmetic](0-math/also/04-numerals-to-arithmetic.md), [Numerals → Combinatorics](0-math/also/04-numerals-to-combinatorics.md).
+- [Algebras](0-math/05-algebras.md) — algebraic structures built on `Azon`: sets with closed operations, constrained by laws.
+- [Presentations](0-math/06-view.md) — `Matter`, `Space`, `Point`, `State`, and `Schema` for representing coordinated entities.
 
 ## 1 — Reality · Dynamics & Metaphysics
 

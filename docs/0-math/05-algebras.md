@@ -2,21 +2,9 @@
 
 ![Algebras](/images/0-math/03-algebras.svg)
 
-This part introduces the algebraic structures built on `Azon` — sets equipped with closed operations and constrained by laws.
+**`Structure`** := `Set` equipped with `Operations` on it, which are constrained by `Law`s.
 
----
-
-**`Structure`** := a connected `Graph` — for every subset of `Vertex` there exists an `Arrow` entering or exiting
-
-> `∀V' ⊊ V: ∃r ∈ L: (DOM(r) ∩ V' ≠ 0 ∧ COD(r) ⊄ V') ∨ (COD(r) ∩ V' ≠ 0 ∧ DOM(r) ⊄ V')`
-
-Ensures structural coherence — no subset of `Vertex` is completely isolated. |
-
-Every structure here is a `Set` of `Azon` with one or more operations, and every law is a `Path`-preservation condition on those operations (see [02-graph](03-graph.md)).
-
-## Operations
-
-An `operation` on a set `S` is an `Azon` of arity `n` whose `Domain` is `Sⁿ` and `Codomain` is `S` — i.e. it is *closed* on `S`. Arity classifies operations; laws (below) constrain them.
+**`Operation`** of arity `n` on a set `S` := `Azon`  whose `Domain` is `Sⁿ` and `Codomain` is `S` — i.e. it is *closed* on `S`.
 
 | Arity | Term | Signature | Examples |
 | ----------- | ------------ | ------------ | ---------- |
@@ -27,38 +15,32 @@ An `operation` on a set `S` is an `Azon` of arity `n` whose `Domain` is `Sⁿ` a
 | `n-ary` | n-ary | `Sⁿ → S` | `combine: (a₁, …, aₙ) => …` |
 | `External` | Action | `Ω × S → S` | scalar multiplication `(λ, v) => λ·v` in a vector space |
 
-`Notes.`
-
-- A `Pointed Set` is a set equipped with one or more `constants` (0-ary operations).
-- A `Unary System` carries one `unary` operation; a `Magma` carries one `binary` operation; a `Ringoid` carries two binary operations linked by distributivity.
-- A `relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. `Setoid` and `Poset` are built on relations, not operations proper.
-- An `external` operation acts *from* a second set `Ω` — this is how `Module`, `Vector Space`, and `Group with Operators` extend a single-set algebra into a two-set structure (see [Two Sets with Operations](#two-sets-with-operations)).
-- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [02-graph](03-graph.md)) — operations and `Azon` are the same kind of thing.
-
-## Laws
-
-The laws referenced by the structures below. Each is a constraint on a unary, binary, or n-ary operation `*` over a set `S`.
+**`Law`** := a constraint on a `Operation`s of given `Structure`
 
 | Law | Formula | Notes |
 | ----------- | ------------ | ------ |
+| `Zero` | `∃0 ∈ S: ∀a ∈ S: 0 * a = a * 0 = 0` | An annihilating element. |
+| `Identity` | `∃e ∈ S: ∀a ∈ S: e * a = a * e = a` | A neutral element. |
+| `Inverse` | `∀a ∈ S: ∃a⁻¹ ∈ S: a * a⁻¹ = a⁻¹ * a = e` | Every element is undoable (requires identity). |
+| `Idempotent` | `a * a = a` | Repeating an operand has no effect. |
 | `Reflexive` | `∀a ∈ S: a * a` holds | For relations: every element relates to itself. |
 | `Symmetric` | `∀a, b ∈ S: a * b ⟹ b * a` | For relations; together with reflexivity and transitivity defines an equivalence. |
 | `Antisymmetric` | `∀a, b ∈ S: (a * b ∧ b * a) ⟹ a = b` | Distinguishes orders from equivalences. |
 | `Transitive` | `∀a, b, c ∈ S: (a * b ∧ b * c) ⟹ a * c` | Chains relate. |
 | `Associative` | `(a * b) * c = a * (b * c)` | Order of grouping is irrelevant. |
 | `Commutative` | `a * b = b * a` | Order of operands is irrelevant. |
-| `Idempotent` | `a * a = a` | Repeating an operand has no effect. |
-| `Identity (Unit)` | `∃e ∈ S: ∀a ∈ S: e * a = a * e = a` | A neutral element. |
-| `Inverse` | `∀a ∈ S: ∃a⁻¹ ∈ S: a * a⁻¹ = a⁻¹ * a = e` | Every element is undoable (requires identity). |
-| `Zero` | `∃0 ∈ S: ∀a ∈ S: 0 * a = a * 0 = 0` | An annihilating element. |
 | `Distributive` | `a * (b ⊕ c) = (a * b) ⊕ (a * c)` | One operation distributes over another. |
 | `Absorption` | `a ∨ (a ∧ b) = a` and `a ∧ (a ∨ b) = a` | Couples two operations in a lattice. |
 | `Latin square` | `∀a, b ∈ S: ∃! x, y ∈ S: a * x = b ∧ y * a = b` | Unique left- and right-solutions — defines a quasigroup. |
 | `Jacobi` | `a * (b * c) + b * (c * a) + c * (a * b) = 0` | A weakened associativity used in Lie algebras. |
 
-`Equivalence vs. order.` A `Setoid` requires Reflexive + Symmetric + Transitive (equivalence). A `Poset` requires Reflexive + Antisymmetric + Transitive (partial order). Replacing symmetry with antisymmetry is what turns *sameness* into *direction*.
-
 ## Basic Structures
+
+- A `Pointed Set` is a set equipped with one or more `constants` (0-ary operations).
+- A `Unary System` carries one `unary` operation; a `Magma` carries one `binary` operation; a `Ringoid` carries two binary operations linked by distributivity.
+- A `relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. `Setoid` and `Poset` are built on relations, not operations proper.
+- An `external` operation acts *from* a second set `Ω` — this is how `Module`, `Vector Space`, and `Group with Operators` extend a single-set algebra into a two-set structure (see [Two Sets with Operations](#two-sets-with-operations)).
+- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [02-graph](03-graph.md)) — operations and `Azon` are the same kind of thing.
 
 | Structure | Definition | Example |
 | ----------- | ------------ | --------- |
@@ -67,6 +49,8 @@ The laws referenced by the structures below. Each is a constraint on a unary, bi
 | `Pointed Unary System` | Unary system with a pointed set | `zero: ()=>0, unit: ()=>1, inv: (x)=> x==1 ? 0 : 1` |
 | `Poset` | Partially ordered set with `compare` defined partially | `≤: a,b => a,b in P ? (a < b ? T : F) : U` |
 | `Setoid` | Set with `eq` equivalence | `eq: (a, b) => a == b ? T : F` (Reflexive+Associative+Transitive) |
+
+`Equivalence vs. order.` A `Setoid` requires Reflexive + Symmetric + Transitive (equivalence). A `Poset` requires Reflexive + Antisymmetric + Transitive (partial order). Replacing symmetry with antisymmetry is what turns *sameness* into *direction*.
 
 ## Magma and Descendants
 

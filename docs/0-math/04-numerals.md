@@ -97,3 +97,14 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 **`Concatenation`** := A `Tuple` built from a `Matrix` by joining each constituent `Tuple` end-to-end.
 
 > `⊕ :: Matrix → Tuple`
+
+## Currying
+
+---
+**`Currying`** := The `Azon` that corresponds an `Azon` over a `Tuple`s to a chain of single-input `Azon`s.
+
+> `curry := (X,Y) → Z =>  X → (Y → Z)`
+
+`Currying` reconciles multi-input `Azon` with the single-input model assumed by `Composition`.
+
+The result of applying `curry(A)` to one `Element` — yields an `Partial Application` of reduced arity.
