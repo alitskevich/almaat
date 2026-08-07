@@ -15,13 +15,12 @@ disciplines of mastery, and the collective. Sections are ordered by ontological 
 The formal core: the primitive `Azon` and the structures built directly from it.
 
 - [Foundations](0-math/00-azon.md) — the `Azon` primitive: an agreement to respond with a `Value` to any `Sign`, under three `Axioms`.
-- [Composition](0-math/01-composition.md) — chaining `Azon`: `Arrow`, `Pair`, associativity, identity, absorber, bijection.
-- [Sets, Equivalence, Topology](0-math/02-set.md) — `Set` and the topological structures over `Set`.
-- [Composition](0-math/02-composition.md) — `Arrow`, `Vertex`.
+- [Sets, Equivalence, Topology](0-math/01-set.md) — `Set` and the topological structures over `Set`.
+- [Composition](0-math/02-composition.md) — chaining `Azon`: `Arrow`, `Vertex`, `Pair`, associativity, identity, absorber, bijection.
 - [Graphs](0-math/03-graph.md) —  `Path`, `Tree`, univalence.
 - [Numerals](0-math/04-numerals.md) — natural `Number`, intervals, sequences, and selections.
 - [Algebras](0-math/05-algebras.md) — algebraic structures built on `Azon`: sets with closed operations, constrained by laws.
-- [Presentations](0-math/06-view.md) — `Matter`, `Space`, `Point`, `State`, and `Schema` for representing coordinated entities.
+- [Presentational View](0-math/06-view.md) — `Matter`, `Space`, `Point`, `State`, and `Schema` for representing coordinated entities.
 
 ## 1 — Reality · Dynamics & Metaphysics
 

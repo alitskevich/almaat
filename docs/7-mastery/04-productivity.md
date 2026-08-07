@@ -162,6 +162,11 @@ Three moves convert the urge from a command into a signal:
 
 ## Surround yourself with those who elevate you
 
+Norms are absorbed, not chosen. What counts as normal effort, normal income, normal ambition drifts toward the average of whoever you are in contact with most often — which makes the composition of that set a decision rather than an accident.
+
+- **Prune the permanent complaint.** Company that reads every outcome as done *to* them installs that reading in you: it is the [external locus](01-mastery.md#accountability) arriving socially.
+- **Your information diet is company too.** Channels, feeds, and podcasts fill the same slot as people and set the same norms, without the friction that would make you notice. Choose sources the way you would choose the room.
+
 - **Challenger**: Tells uncomfortable truths. "What's one thing I can do better?"
 - **Cheerleader**: Believes in you. Helps you recover when you'd otherwise quit.
 - **Coach**: Already played your game. Sees patterns you can't.
@@ -227,7 +232,7 @@ Daily
 
 - **Protect the First Hour**: Deep work only. No email, no phone, no warm-up routine — the hour is already focus and does not need to be entered. Under employment, spend it on your own work before the employer's: the paid work gets done under its deadline, yours never gets done after hours. See [The Shape of the Day](#the-shape-of-the-day).
 - **2-Minute Rule**: If a task takes <2 minutes, do it now. Clear cognitive clutter.
-- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops.
+- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../4-human/28-animal.md#the-self-memory-and-death), so a page from five years ago is the only honest evidence of how far you moved, and rereading it shows most of what then read as catastrophe to have been small. That is the cheapest available proof that today's worry will also pass.
 
  Weekly
 

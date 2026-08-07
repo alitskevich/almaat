@@ -105,6 +105,7 @@ Define it as a generalized expectation of positive or manageable outcomes — no
 - **Don't outsource self-belief.** Validation and consensus are emotional subcontracting. The same door that lets praise lift you lets criticism lower you. Keep the source internal — see [Accountability](#accountability) and [Authenticity](#authenticity).
 - **Move before you feel ready.** Confidence follows action; it does not precede it. You do not need permission to act as if you belong.
 - **Regulate before you perform.** Confidence is not volume, charisma, or dominance. It is safety and composure, which give rise to authority.
+- **Measure against yesterday, not against others.** A feed sets your interior — costs, doubts, unfinished parts — against an edited exterior whose price is not shown. The only usable metric is the delta from your own prior state: what you now know, handle, or do that you could not. See [Rajdo → Acceptance](../4-human/23-rajdo.md).
 
 ### Curiosity, Openness and Continuous Learning
 
@@ -126,7 +127,9 @@ An unfrozen view of the world, with room for error and growth.
 
 Be hungry, zealous, enthusiastic, keen. Be unafraid of inner inertia or external pressures.
 
-You will regret what you didn't do more than what you did.
+You will regret what you didn't do more than what you did. The danger of a mistake is routinely overrated and the cost of not acting routinely ignored — only the first comes with a vivid picture attached.
+
+**Do not defer the living.** The postponed-life stance — endure this stretch, tolerate these people, earn the money, *then* begin — spends the only part of life actually available on a later that returns nothing. A life is measured in what was lived, not in years accumulated. See [Rajdo → Acceptance](../4-human/23-rajdo.md).
 
 [[36]]
 
@@ -143,6 +146,8 @@ Find the flow: full immersion where action and awareness merge, effort feels eff
 ### Determination
 
 Define your authentic Way — life's mission, ambitions, high-level goals. Devote yourself with unwavering dedication.
+
+**Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../2-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why resolutions written as a shopping list (a car, a flat, a larger income) mostly expire within weeks of being made. The test is whether the goal produces a felt response rather than an approving one. A `Goal` you cannot feel belongs to someone else.
 
 [[39]]
 
@@ -161,6 +166,8 @@ An emotional structure strong enough to sustain:
 ### Accountability
 
 Take full ownership of your personal life. Accept all consequences. Make your own choices, walk your own path. Be independent in reasoning and decisions.
+
+Named plainly, this is an **internal locus of control** — reading the causes of what happens to you as mostly your own: you left late, the traffic did not detain you; you misjudged the risk, the market did not betray you. An **external locus** reads the same events as done to you, and hands the controls to whoever is blamed. The reading is largely a choice, and it decides what is actionable: only a cause you own is a cause you can work on. It is not a claim that outcomes are deserved — see [Luck → the honest caveat](07-luck.md#the-honest-caveat) — but the assumption that leaves the most room to move. It is [Self-Honesty](#self-honesty)'s victim-to-creator move applied to causation.
 
 - Don't blame others or circumstances for your failures.
 - Don't make excuses, wait for permission, or rely on luck.
