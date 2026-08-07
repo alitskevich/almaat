@@ -5,6 +5,7 @@
   "type": "module",
   "description": "ALMAAT documentation and generated heading illustrations",
   "scripts": {
-    "banners": "node scripts/gen-banners.mjs"
+    "gen-banners": "node scripts/gen-banners.mjs",
+    "absorb-watch-later": "node scripts/wl-absorb.mjs"
   }
 }
