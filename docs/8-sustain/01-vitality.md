@@ -72,10 +72,14 @@ encompassing the body's ability to function optimally, resist disease, and recov
 
 ### 6. Nutrition
 
-- Drink water. Morning and before sleep to avoid dehydration at night.
+- Drink water — plain water. Morning and before sleep to avoid dehydration at night.
+- Thirst is a late signal. By the time you feel it, attention and working memory have already measurably declined. Keep water within arm's reach so drinking costs neither a trip nor a decision; a bottle you must go and fill is a bottle you don't drink.
+- Mineral and medicinal waters are a treatment, not a substitute. Taken as the daily drink they are their own slow problem.
 - Lower insuline by all means - for sake of longevity.
 - Eat real food, mostly plants. Avoid processed food. Cheap, ultra-processed food is engineered for overconsumption, not nourishment — calorie-dense, nutrient-poor, and tuned to slip past your satiety signal so you keep eating. Chronic reliance drives weight gain, insulin resistance, and the hormonal decline (including suppressed testosterone) that tracks metabolic dysfunction. If it was built in a factory to be irresistible, it was built to sell, not to feed you.
 - Eat protein first — it keeps blood sugar stable. Prioritize lean protein: meat, eggs, cottage cheese. Less bread.
+- Protein alone under-fuels a long working block. When the morning demands sustained work, pair it with a slow carbohydrate — buckwheat, rice, oats. Fast sugar plus processed meat is the worst of both: the spike sedates within about ninety minutes and the protein never arrives.
+- Cook in batches. Three to seven days of meals prepared at once and portioned into containers. This removes three daily switches into cooking — each one a full break in attention — and, more importantly, makes the good option the ready one. Sweets win because they are the only thing that requires no work. One shop per batch removes several more trips, and each trip avoided is a set of impulse buys never brought home.
 - Try intermittent fasting (16:8 or longer) if it suits you.
 - A 12–16 hour gap between dinner and breakfast triggers autophagy — cellular "self-cleaning". Yoshinori Ohsumi won the 2016 Nobel Prize for proving this. Skipping food after 7 PM beats most pills as cancer prevention.
 - To control blood sugar: vegetables first, then protein/fat, then carbs. Walk 10 min after eating.
@@ -120,7 +124,7 @@ Exercise is the single best thing for your mind and body.
 
 ### 11. Digital & Focus
 
-- Turn off all notifications.
+- Turn notifications off by default and grant them back by name — see [Self-Discipline → The Shape of the Day](../7-mastery/04-productivity.md#the-shape-of-the-day).
 - Limit social media use.
 - Never text while driving.
 

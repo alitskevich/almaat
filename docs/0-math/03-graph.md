@@ -23,15 +23,15 @@ An `Azon` is **univalent** — i.e., functional — if its `Graph` has no `Fork`
 
 ## Fundamental Data Structures
 
-The concrete data structures used in computing — each defined through the upper primitives of [00-azon](00-azon.md), [01-set](01-set.md), and [02-graph](02-graph.md).
+The concrete data structures used in computing — each defined through the upper primitives of [00-azon](00-azon.md), [01-set](02-set.md), and [02-graph](03-graph.md).
 
 | Structure | Definition | Formula | Used For |
 |---|---|---|---|
 | **Array** | An `Azon` from natural-number index to `Element` of a fixed `Set` | `A: ℕ → X` | Direct index-based access; sorting and searching algorithms |
-| **Set** | A collection of unique `Element` (see [01-set](01-set.md)) | `S ⊆ U` | Mathematical set operations (union, intersection, difference) |
+| **Set** | A collection of unique `Element` (see [01-set](02-set.md)) | `S ⊆ U` | Mathematical set operations (union, intersection, difference) |
 | **Map** | An `Azon` from `Key` to `Value` | `M: K → V` | Access to elements by key; dictionaries |
 | **Hash Table** | A `Map` accessed via `Composition` with a hash `Azon` | `H = M . hash` | Efficient searching and indexing; databases, caches, dictionaries |
-| **Graph** | A `Set` of `Arrow` over a `Set` of `Vertex` (see [02-graph](02-graph.md)) | `(L, V)` | Network problems; shortest path |
+| **Graph** | A `Set` of `Arrow` over a `Set` of `Vertex` (see [02-graph](03-graph.md)) | `(L, V)` | Network problems; shortest path |
 | **Path** | A `Structure` with one `Source`, one `Sink`, all intermediate `Vertex` as `Link` | `{(0:1), (1:1)*, (1:0)}` | Linear traversal; routes |
 | **Cycle** | A `Structure` where every `Vertex` is a pass-through `Link` | `{(1:1)+}` | Closed loops; rotational sequences |
 | **Linked List** | A `Path` whose `Vertex` carry data — each has at most one prev/next sibling | `Path` over data-bearing `Vertex` | Dynamic memory allocation; stacks and queues |

@@ -7,7 +7,7 @@ Staying sovereign against threats from others, across two planes:
 - **Social** — coercion, manipulation, boundary violation. The attack on your judgment and autonomy.
 - **Physical** — intimidation and violence. The attack on your body.
 
-Both rest on the same [Animal](../2-human/22-psycho.md) that reacts before thought and the same [biases](../1-nature/11-intellect.md#cognitive-biases-and-logical-fallacies) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../3-socium/30-socium.md#ethics).
+Both rest on the same [Animal](../4-human/28-animal.md) that reacts before thought and the same [biases](../2-mind/11-intellect.md#cognitive-biases-and-logical-fallacies) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../8-socium/30-socium.md#ethics).
 
 > The fight you avoid is the one you win. You don't rise to the occasion — you fall to the level of your training.
 
@@ -77,7 +77,7 @@ stateDiagram-v2
 
 #### The body under threat
 
-Under threat the **sympathetic nervous system** floods the body with catecholamines (adrenaline, noradrenaline) — the **fight / flight / freeze / fawn** response. This is the [Stress and Fear](../2-human/22-psycho.md) of the Animal made physical: it shuts down deliberation to mobilize the body. The same dump fires in a hostile negotiation as in a mugging.
+Under threat the **sympathetic nervous system** floods the body with catecholamines (adrenaline, noradrenaline) — the **fight / flight / freeze / fawn** response. This is the [Stress and Fear](../4-human/28-animal.md) of the Animal made physical: it shuts down deliberation to mobilize the body. The same dump fires in a hostile negotiation as in a mugging.
 
 | Effect | Consequence |
 | ------ | ----------- |
@@ -92,7 +92,7 @@ Under threat the **sympathetic nervous system** floods the body with catecholami
 
 #### Biases that get you hurt
 
-Why prepared people still freeze. Each is a [cognitive bias](../1-nature/11-intellect.md#cognitive-biases-and-logical-fallacies) turned dangerous — and each stalls both the boundary you don't enforce and the exit you don't take.
+Why prepared people still freeze. Each is a [cognitive bias](../2-mind/11-intellect.md#cognitive-biases-and-logical-fallacies) turned dangerous — and each stalls both the boundary you don't enforce and the exit you don't take.
 
 | Bias | Failure it causes |
 | ---- | ----------------- |
@@ -122,9 +122,9 @@ flowchart LR
 
 ## Social Security
 
-Defense against manipulation and coercion — the skills that keep you sovereign under pressure. This is the defensive half of [Influence](../3-socium/30-socium.md#influence).
+Defense against manipulation and coercion — the skills that keep you sovereign under pressure. This is the defensive half of [Influence](../8-socium/30-socium.md#influence).
 
-Most people are trained from childhood to be *convenient* — to defer, soothe, and over-give for approval. The habit hardens into the **Rescuer**, who absorbs others' problems to feel needed, surrendering time, money, attention, and standing one concession at a time. It builds on the [Persona, Mask, and Shadow](../2-human/22-psycho.md#persona).
+Most people are trained from childhood to be *convenient* — to defer, soothe, and over-give for approval. The habit hardens into the **Rescuer**, who absorbs others' problems to feel needed, surrendering time, money, attention, and standing one concession at a time. It builds on the [Persona, Mask, and Shadow](../4-human/28-animal.md#persona).
 
 ### Frame
 
@@ -174,7 +174,7 @@ Speech leaks status. **Self-diminishing phrases** invite others to discount you 
 
 [Composure](#composure) and [Manipulation & Defense](#manipulation--defense) handle covert pressure. **De-escalation** handles open aggression — someone already shouting, insulting, or threatening. The method here is George Thompson's *Verbal Judo*: a system for breaking aggression with words alone, built for police who cannot afford to lose control on the job.
 
-**The mechanism it exploits.** An insult does not land on reason. It hits the [`Animal`](../2-human/22-psycho.md) — the ancient guard that answers a threat with fight or flight before thought engages. Daniel Goleman named this the **amygdala hijack**: the reactive brain seizes the wheel and the deliberating brain goes briefly offline. Under it you are, plainly, dumber — the part that weighs and plans is switched off. This is why the perfect reply arrives at 2 a.m., hours after the fight, when deliberation finally comes back online to answer a question no longer being asked. See [the body under threat](#the-body-under-threat).
+**The mechanism it exploits.** An insult does not land on reason. It hits the [`Animal`](../4-human/28-animal.md) — the ancient guard that answers a threat with fight or flight before thought engages. Daniel Goleman named this the **amygdala hijack**: the reactive brain seizes the wheel and the deliberating brain goes briefly offline. Under it you are, plainly, dumber — the part that weighs and plans is switched off. This is why the perfect reply arrives at 2 a.m., hours after the fight, when deliberation finally comes back online to answer a question no longer being asked. See [the body under threat](#the-body-under-threat).
 
 So a confrontation has two silent goals:
 
@@ -187,7 +187,7 @@ Whoever keeps the deliberating brain working — not the guard — wins the exch
 
 | Principle | Karate (loses) | Judo (leads) |
 | --------- | -------------- | ------------ |
-| **React to the goal, not the insult** | Defend your ego; forget what you came for | The insult is bait — see past it to the [`Goal`](../1-nature/09-agency.md). A short, near-empty *deflector* ("I hear you." / "I appreciate that.") strips the jab of force without swallowing it. |
+| **React to the goal, not the insult** | Defend your ego; forget what you came for | The insult is bait — see past it to the [`Goal`](../2-mind/09-teleos.md). A short, near-empty *deflector* ("I hear you." / "I appreciate that.") strips the jab of force without swallowing it. |
 | **Empathy as a tool, not kindness** | Throw arguments at someone who cannot hear them | Naming the other's state ("I understand why you're furious") releases the hijack and brings their thinking brain back. Empathy ≠ agreement; it is reconnaissance — see what drives them and where the lever is. |
 | **Redirect, don't collide** | Pin them in front of others; demand they yield whole | Agree with the emotion, then steer the substance: "You're right to be angry — *that's exactly why* let's do this." Leave them an exit; a cornered person fights, one given a door walks through it. |
 
@@ -251,7 +251,7 @@ Two formulas put the principles in order.
 | **Victim-player** | Helplessness that recruits you | Declining the rescuer role |
 | **Withdrawer** | Silent treatment, sulking | Not chasing; letting the cost sit with them |
 
-**The second conversation.** Words are the most controlled thing a person owns — chosen, rehearsed, revised. The body runs on the older, faster [`Animal`](../2-human/22-psycho.md) that reacts before deliberation engages (see [the body under threat](#the-body-under-threat)), so in the gap between impulse and mask the truth leaks. The leak is largest where the stakes are highest — money, loyalty, fault — because that is where the mask is held hardest. Read **deviation from baseline** across these channels, never a lone gesture:
+**The second conversation.** Words are the most controlled thing a person owns — chosen, rehearsed, revised. The body runs on the older, faster [`Animal`](../4-human/28-animal.md) that reacts before deliberation engages (see [the body under threat](#the-body-under-threat)), so in the gap between impulse and mask the truth leaks. The leak is largest where the stakes are highest — money, loyalty, fault — because that is where the mask is held hardest. Read **deviation from baseline** across these channels, never a lone gesture:
 
 | Channel | What leaks | How to read it |
 | ------- | ---------- | -------------- |
@@ -306,7 +306,7 @@ So vary the response and leave the principle untouched: sometimes a plain "thank
 
 ### Manipulation & Defense
 
-Manipulation works by **hijacking the Animal** — triggering an emotional reflex (fear, guilt, urgency, belonging) so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../1-nature/11-intellect.md#cognitive-biases-and-logical-fallacies).
+Manipulation works by **hijacking the Animal** — triggering an emotional reflex (fear, guilt, urgency, belonging) so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../2-mind/11-intellect.md#cognitive-biases-and-logical-fallacies).
 
 **The seven levers.** Cialdini's principles of influence are neutral tools — persuasion when honest, manipulation when concealed.
 
@@ -349,7 +349,7 @@ Manipulation works by **hijacking the Animal** — triggering an emotional refle
 Manipulation hijacks the `Animal` in a single moment;
 **conditioning** shapes behavior across many.
 
-Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the same methods used to train animals work on people, because both run on the [Habit Loop](02-productivity.md#the-habit-loop) of cue and `Reward`.
+Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the same methods used to train animals work on people, because both run on the [Habit Loop](../7-mastery/04-productivity.md#the-habit-loop) of cue and `Reward`.
 
 You are conditioned whenever someone farms a reliable response out of you; you condition others by what you consistently reinforce — and attention itself is the `Reward`.
 

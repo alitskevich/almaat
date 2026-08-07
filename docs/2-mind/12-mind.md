@@ -75,7 +75,7 @@ The definitions above give the substrate. But where does the *content* of `Thoug
 - **Thought is accomplished, not merely expressed, in the `Word`.** A `Thought` does not pre-exist as a finished packet the `Word` wraps; until uttered — even inwardly — it is a vague cloud of intention, *born* in the act of saying it. So dialogue does not exchange the ready-made; it jointly produces what neither party held before.
 - **Zone of proximal development.** The gap between what a `Mind` can do alone and what it can do with help. Instruction should run *ahead* of development, waking what is ripening rather than drilling what has already matured — the applied side is [Learning](../7-mastery/06-learning.md).
 
-*Implication.* If a `Mind` is assembled from outside through `Word` and sign by describable laws, that same blueprint is a manipulation manual: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/05-security.md)) — the human parallel to `Alignment` in [AI](../9-engx/22-ai.md).
+*Implication.* If a `Mind` is assembled from outside through `Word` and sign by describable laws, that same blueprint is a manipulation manual: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/05-security.md)) — the human parallel to `Alignment` in artificial minds.
 
 > *Source: Lev Vygotsky, cultural-historical psychology (*Thinking and Speech*), with A. Luria and A. Leontiev.*
 

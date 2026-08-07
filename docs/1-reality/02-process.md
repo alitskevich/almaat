@@ -57,7 +57,7 @@
 
 > `|support(Circuit(State))| > 1`
 
-*NOTE*: A weighted branch — the `Circuit` assigns each next `State` its transition probability. The realized choice samples from that distribution; `Communication` from outside the `State` biases the weights. `Crisis` in [10-growth](10-growth.md) is a `State` at a `Bifurcation`.
+*NOTE*: A weighted branch — the `Circuit` assigns each next `State` its transition probability. The realized choice samples from that distribution; `Communication` from outside the `State` biases the weights. `Crisis` in [10-growth](07-system.md) is a `State` at a `Bifurcation`.
 
 **`Recurrent` / `Transient`** := A `State` returned to with probability 1 (recurrent) versus eventually abandoned (transient).
 

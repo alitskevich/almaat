@@ -70,7 +70,9 @@ The Animal seeks pleasure and novelty. Modern products supply both past any natu
 
 **Coolidge effect**: Novelty itself renews arousal. Endless variety — not only intensity — keeps the circuit firing, which is why an infinite digital feed escalates faster than any fixed stimulus.
 
-The circuit is not broken. Removed from the supernormal stimulus, it up-regulates over weeks — the basis of [Architecture over willpower](../4-mastery/02-productivity.md#architecture-over-willpower).
+**Foraging search**: The Animal scans a wide field for the few items worth taking — the berry among the leaves — and treats each find as possibly survival-relevant. A feed is a field of nothing but berries: a search that once ended when the bush was stripped now has no stopping point. Wide-search attention is caught hardest, since the trait that makes it good at finding is the one the feed consumes.
+
+The circuit is not broken. Removed from the supernormal stimulus, it up-regulates over weeks — the basis of [Architecture over willpower](../7-mastery/04-productivity.md#architecture-over-willpower).
 
 ## The Self, Memory, and Death
 
@@ -83,7 +85,7 @@ The word "I" points at two different things, and a third lies beneath both.
 | `Self-observer` | The first-person perspective that watches the `Self-role`, as a viewer watches a play. | Seems deeper and less replaceable than the `Self-role`, but it too is produced, not given. |
 | `Self-Consciousness` | Bare awareness — the felt sense of being, prior to any split into observer and observed, inner and outer. | Non-dual: no `Self`, no object, just awareness aware of itself. The base level present in infants and in flow states, before thought cuts experience into labelled pieces. |
 
-**Memory is reconstruction, not record.** A recalled event is not the event but a copy of the last time you recalled it — a copy of a copy. `Memory` is a form of imagination, so the `Self-role`, built on it, is unstable and partly invented (cf. *Personal Fiction* in [11-intellect](../3-intellect/11-intellect.md)).
+**Memory is reconstruction, not record.** A recalled event is not the event but a copy of the last time you recalled it — a copy of a copy. `Memory` is a form of imagination, so the `Self-role`, built on it, is unstable and partly invented (cf. *Personal Fiction* in [11-intellect](../2-mind/11-intellect.md)).
 
 **Remove `Memory` and the `Self-role` is gone.** Retrograde amnesia erases the story while the person stays healthy: name, age, history all unreachable. The `Self-observer` remains, but blank — a clean page. Everyone meets this gap each morning, in the second between waking and remembering who they are.
 
@@ -105,7 +107,7 @@ they have lived a great and happy life.
 
 **Death is amnesia.** On this reading, as long as one bearer of Consciousness remains, death takes only the `Self-role` — body, opinions, knowledge, habits, self-image, `Memory` — all of which already die and are rewritten many times within a single life. `Self-Consciousness` is a property of certain matter (the brain among them); it was there before this organism and remains after it. *"After I die, a child is born and my Consciousness passes into it, but I lose all memory of this life"* and *"After I die, a child is born"* describe the same fact. Unlike an afterlife, this offers the personality nothing — the `Self-role` is genuinely lost. What it denies is that the loss is total.
 
-The reframe: death is not a vandal but a **cache reset** — worn hardware replaced, a clouded mirror wiped. Repeated stimulus dulls perception (cf. *Desensitization* in [22-neuro](../3-intellect/22-neuro.md)); a child gets more joy from a dirty chestnut than an adult gets from far more. Even cured aging would reinvent death as deliberately induced amnesia, just to recover that freshness. And the ethic follows directly: every harm you do, you do to yourself; every hand you extend, you extend to yourself — you will, in time, play every role.
+The reframe: death is not a vandal but a **cache reset** — worn hardware replaced, a clouded mirror wiped. Repeated stimulus dulls perception (cf. *Desensitization* in [22-neuro](../4-human/28-animal.md)); a child gets more joy from a dirty chestnut than an adult gets from far more. Even cured aging would reinvent death as deliberately induced amnesia, just to recover that freshness. And the ethic follows directly: every harm you do, you do to yourself; every hand you extend, you extend to yourself — you will, in time, play every role.
 
 ## Sources
 

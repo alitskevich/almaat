@@ -103,7 +103,7 @@ Force is lawful only within limits (which vary by jurisdiction — this is not l
 - **Force ends when the threat ends** — pursuing once they're stopped or fleeing turns defense into assault.
 - **Retreat** — some jurisdictions require retreating if safely possible; know your local law.
 
-Ethically this mirrors [the prohibition on violence](../3-socium/30-socium.md#ethics): force is permitted in defense against oppression, never as imposition.
+Ethically this mirrors [the prohibition on violence](../8-socium/30-socium.md#ethics): force is permitted in defense against oppression, never as imposition.
 
 ---
 

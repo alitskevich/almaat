@@ -76,7 +76,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Skill :: Knowledge + Experience → Behavior reliable under Circumstances`
 
-*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [03-mindset](../4-mastery/03-mindset.md)) is the corresponding `Paradigm`-scope concept.
+*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [03-mindset](../7-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
 
 ---
 
@@ -84,7 +84,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Bias :: systematic offset in Code(Signal) ≠ ground-truth Thought`
 
-*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [07-system](07-system.md)).
+*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [07-system](../1-reality/07-system.md)).
 
 ---
 

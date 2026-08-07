@@ -65,7 +65,7 @@ The strongest and most dangerous technique — high status + vulnerability: only
 ### Interpersonal Dynamics
 
 **Respect dignity equally; differentiate by behavior and merit.**
-People are equal in inherent dignity. People differ in mindset, conduct, and competence. Don't measure others by yourself. See [Casta: The Human Typology](../articles/casta.md)
+People are equal in inherent dignity. People differ in mindset, conduct, and competence. Don't measure others by yourself.
 
 **Choose your circle.**
 Do not work with toxic people regardless of talent. The people around you shape you. If you're the smartest in the room, find a new room.

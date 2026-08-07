@@ -26,7 +26,7 @@ The inner foundation. Without it, all technique is noise.
 
 ### Authenticity, Self-Emphaty and Self-Trust
 
-Realize and respect your intrinsic [Human Dignity](../2-human/21-human.md#human-dignity) — your inherent worth rooted in your transcending nature.
+Realize and respect your intrinsic [Human Dignity](../4-human/21-human.md#human-dignity) — your inherent worth rooted in your transcending nature.
 
 Be true to yourself, your values, and your unique path — regardless of external pressure. Your authenticity attracts the right people and opportunities.
 

@@ -12,7 +12,7 @@ This part introduces the algebraic structures built on `Azon` — sets equipped 
 
 Ensures structural coherence — no subset of `Vertex` is completely isolated. |
 
-Every structure here is a `Set` of `Azon` with one or more operations, and every law is a `Path`-preservation condition on those operations (see [02-graph](02-graph.md)).
+Every structure here is a `Set` of `Azon` with one or more operations, and every law is a `Path`-preservation condition on those operations (see [02-graph](03-graph.md)).
 
 ## Operations
 
@@ -33,7 +33,7 @@ An `operation` on a set `S` is an `Azon` of arity `n` whose `Domain` is `Sⁿ` a
 - A `Unary System` carries one `unary` operation; a `Magma` carries one `binary` operation; a `Ringoid` carries two binary operations linked by distributivity.
 - A `relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. `Setoid` and `Poset` are built on relations, not operations proper.
 - An `external` operation acts *from* a second set `Ω` — this is how `Module`, `Vector Space`, and `Group with Operators` extend a single-set algebra into a two-set structure (see [Two Sets with Operations](#two-sets-with-operations)).
-- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [02-graph](02-graph.md)) — operations and `Azon` are the same kind of thing.
+- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [02-graph](03-graph.md)) — operations and `Azon` are the same kind of thing.
 
 ## Laws
 
