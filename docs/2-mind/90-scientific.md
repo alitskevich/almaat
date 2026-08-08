@@ -1,12 +1,12 @@
-# Science
-
-### The Scientific Method
+# The Scientific Method
 
 `ScientificMethod` IS a generalized empirical ***a posteriori*** approach to earning `ScientificKnowledge` from experimental data, with awareness of cognitive abilities and `Bias`.
 
-`Scientific Knowledge` IS a `Knowledge` that definitely meets `Scientific Criteria`.
+## Scientific Criteria
 
 `Scientific Criteria` IS set of principles over `Knowledge`, to accept it in terms of consistency, adequacy, reliability, predictability, completeness, and non-redundancy.
+
+`Scientific Knowledge` IS a `Knowledge` that definitely meets `Scientific Criteria`.
 
 ---
 
@@ -43,6 +43,8 @@
 ---
 
 **`Reproducibility`** := Should be stable when reproduced under described conditions and steps.
+
+## Scientific process
 
 `Scientific process` IS an iterative process to acquire NEW *a posteriori* `Knowledge` in four phases:
 

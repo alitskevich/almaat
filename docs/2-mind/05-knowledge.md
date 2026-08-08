@@ -6,6 +6,10 @@
 
 *NOTE*: The atomic unit of belief — a proposition asserting membership of entities in categories.
 
+**`Doubt`** := A suspended `Opinion` — the recognition that current `Knowledge` is insufficient to evaluate membership of a `Presentation` in a `Place`.
+
+> `Doubt :: Opinion → suspended`
+
 ---
 
 **`Thesis`** := A `Set` of `Opinion` in Logic.
