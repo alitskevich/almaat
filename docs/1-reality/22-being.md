@@ -4,7 +4,7 @@
 
 **`Being`** := transcendent process of experiencing/inventing/instantiating itself as a whole from miriads of different points.
 
-`Being` considered as having three sides:
+`Being` considered as comprised of three sides:
 
 - perceptive `Sensation` expirience,
 - transformative creative `Consciousness`

@@ -8,11 +8,9 @@ This part introduces `Set` and the topological structures over `Set`.
 
 ---
 
-**`Set`** := an `Azon` which `Value`s are either `fixed` or `empty`
+**`Set`** := an `Azon` which `Value`s are either `fixed` or `empty`.
 
-> `Set := x → x OR Zero`
-
-*NOTE*: `Set` is a *filter*: it passes its input unchanged if a member, returns `Zero` otherwise. `Set` is distinguished from the 0/1-indicator function.
+> `Set := x → (x | Zero)`
 
 ---
 
@@ -25,8 +23,6 @@ This part introduces `Set` and the topological structures over `Set`.
 *NOTE*:  By `AXIOM-2`: `S ∉ S`. By `AXIOM-1`: `0 ∉ S` and `S ∉ 0`.
 
 *NOTE*: `Unit` as a Set contains all `Azon`s except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
-
-## Derived Sets
 
 ---
 
@@ -144,17 +140,23 @@ This part introduces `Set` and the topological structures over `Set`.
 
 > `⋂ := K -> Intersection{x : ∀S ∈ K, x ∈ S}`
 
+*DEF*: A `Collection` is **non-intersecting** if `⋂K = 0`.
+
 ---
 
 **`Union`** := `Set` of `Element`s which belongs to at least one `Set` of the `Collection`.
 
 > `⋃ := K -> Union{x : ∃S ∈ K, x ∈ S}`
 
+*DEF*: A `Collection` is **saturated to `S`** if `⋃K = S`. For any `Q ⊆ S`: `Q ∩ S = Q`, `Q ∪ S = S`.
+
 ---
 
 **`Set-Difference`** := `Element` in the `Union` of the `Collection` but NOT in the reference `Set`.
 
 > `SetDiff(K, S) := {x : x ∈ ⋃K ∧ x ∉ S}`
+
+*NOTE*: For the `Complement`: `!S ∩ S = 0`, `!S ∪ S = 1` (when working in `P = 1`).
 
 ---
 
@@ -169,11 +171,3 @@ This part introduces `Set` and the topological structures over `Set`.
 > `Cluster :: ⋂(K) = 0 ∧ ⋃(K) = S`
 
 *NOTE*: A partition — mutually disjoint `Set` whose `Union` covers the reference `Set`.
-
-**Properties.**
-
-A `Collection` is **non-intersecting** if `⋂K = 0`.
-
-A `Collection` is **saturated to `S`** if `⋃K = S`. For any `Q ⊆ S`: `Q ∩ S = Q`, `Q ∪ S = S`.
-
-For the `Complement`: `!S ∩ S = 0`, `!S ∪ S = 1` (when working in `P = 1`).

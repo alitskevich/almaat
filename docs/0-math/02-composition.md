@@ -16,6 +16,8 @@
 
 > `(A.B).C = A.(B.C)`
 
+*NOTE*: `Composition` over the same Azon called `Power`: A^0 = Unit, A^1 = Azon itself, A^n = is A...A n-times.
+
 ---
 **`Identity`** := Composition-preserving Azon.
 
@@ -46,4 +48,12 @@
 
 > `Singleton(C) := x → (x IS C ? C : 0)`
 
-`Singleton` is a `Set` with exactly one `Element`.
+*NOTE*: `Singleton` is a `Set` with exactly one `Element`.
+
+---
+
+**`Currying`** := The `Azon` that corresponds an (`Azon` over a `Arrow`s) to a (`Azon` into a `Arrow`s).
+
+> `curry := (({X → Y}) → Z) => (X → {(Y → Z)})`
+
+The result of applying `curry(A)` to one `Element` — yields an `Partial Application` of reduced arity.

@@ -2,17 +2,30 @@
 
 ![Dynamic Processes](/images/1-nature/06-process.svg)
 
-**`Timeline` / `Plan` / `Moment`** := A `Queue` / `Tuple` / `Pair` of `State`s of the same `Schema`.
+**`Text<Dictionary> : [ Word ∈ Dictionary, ...]`** :=  `Tuple=Plan` of `Word`s the same `Dictionary=SampleSpace`.
 
-> `[State[0], State[1], ... ]`
+**`Event<Dictionary> := (Context, {Word}, Probability)`** := triplet of
 
-**`Circuit<Schema>`**
+- `Context` := some `Text<Dictionary>`
+- `State` := some `Subset` from `SampleSpace`.
+- `Probability` := some rational number from 0 to 1.
+
+**`Circuit := {Event} :: LTP`** := `Set` of `MutuallyExclusiveEvents`s with same-sized `Context`s under `Law of Total Probability`.
+
+**`Law of Total Probability`** := Sum of `Probabilities` of `MutuallyExclusiveEvents` is 1.
+
+**`MutuallyExclusiveEvents`** :=  set of `Event` with the same `Context`, and whose `State`s comprise `Cluster` of `SampleSpace`.
+
+**`Independent Events`** := Presence/absence of `State` of one `Event` in `Context` of other one doesn't affect `Probability` of other one.
+
+**`Random Variable`** := context-free `Circuit`, i.e. for all `Event`s with the same `State` - `Probability` is also the same.
+
+**`Probability Distribution`** := `Azon` that responds with `Probability` to `State`s of a `random variable`.
+
+**`Expected Value (Mean)`** := Average State over many trials: E(X) = Σ[x × P(x)].
+
+**`Circuit<Schema>`** := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
 := `Ingress<Schema> → PD(Volume<Schema>)`
-:= A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
-
-`Circuit` produces a set of `Timeline`s, where the next `State` is sampled from the `Circuit`'s distribution over the previous
-
-> `[State[0], State[1], ... :: State[i+1] ~ Circuit(State[i])]`
 
 *DEF*: `Circuit` is `memoryless`
 := `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`
@@ -43,7 +56,7 @@
 
 > `Circuit(State) = δ_Step`, `P(State | State) = 1`, `T[i][i] = 1`
 
-*NOTE*: A fixed point at the `Flow` level — the only `Outcome` with non-zero probability is the `State` itself. A `Flow` may contain several; which one absorbs is itself random. Compatible with `AXIOM-2` because the distribution `δ_Step` is distinct from `State`.
+*NOTE*: A fixed point at the `Flow` level — the only `State` with non-zero probability is the `State` itself. A `Flow` may contain several; which one absorbs is itself random. Compatible with `AXIOM-2` because the distribution `δ_Step` is distinct from `State`.
 
 ---
 
@@ -53,7 +66,7 @@
 **`Future<State>`** := `{ M :: Plan reachable from State}`
 := `Set` of `State` accessible from given `State`
 
-**`Bifurcation`** := A `State` whose `Circuit` distribution has more than one `Outcome` of non-zero probability.
+**`Bifurcation`** := A `State` whose `Circuit` distribution has more than one `State` of non-zero probability.
 
 > `|support(Circuit(State))| > 1`
 
@@ -76,3 +89,15 @@
 > `lim T^k → π` for every initial `State`
 
 *NOTE*: Requires irreducibility (every `State` reachable) and aperiodicity (no fixed cycle length). The long-run fraction of time in each `State` equals `π`, independent of where the `Flow` began.
+
+---
+
+**`Conditional Probability`** := Probability of A given B occurred: P(A|B) = P(A ∩ B) / P(B).
+
+**`Bayes' Theorem`** := Updates probability with new evidence: P(A|B) = [P(B|A) × P(A)] / P(B).
+
+**`Law of Large Numbers`** := Average State approaches expected value over many trials.
+
+**`Central Limit Theorem`** := Averages of many trials form a normal distribution.
+
+**`Variance and Standard Deviation`** := Measures spread: Var(X) = E[(X - E(X))²], SD = √Var(X).

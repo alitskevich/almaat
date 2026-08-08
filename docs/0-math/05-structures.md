@@ -1,4 +1,4 @@
-# Algebras
+# Structures
 
 ![Algebras](/images/0-math/03-algebras.svg)
 

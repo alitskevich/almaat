@@ -18,6 +18,4 @@
 
 **DEF**: `Graph` is `connected` if for any subset of its `Vertex`s exists an entering/exiting `Arrow`.
 
-`∀V' ⊊ V: ∃r ∈ L: (DOM(r) ∩ V' ≠ 0 ∧ COD(r) ⊄ V') ∨ (COD(r) ∩ V' ≠ 0 ∧ DOM(r) ⊄ V')`
-
-**DEF**: An `Graph` is `univalent(functional)` if it has no `Fork` : every `Vertex` has at most one outgoing edge.
+`∀V' ⊊ V: ∃Arrow ∈ Graph: (DOM(Arrow) ∩ V' ≠ 0 ∧ COD(Arrow) ⊄ V') ∨ (COD(Arrow) ∩ V' ≠ 0 ∧ DOM(Arrow) ⊄ V')`

@@ -8,83 +8,73 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 ## Natural Numbers
 
-**`Plus`** := The `Azon` that wraps each Sign in a `Singleton`.
+**`Plus`** := The `Azon` that responds to a `Sign` with its `Singleton`.
 
-> `Plus := x -> Singleton(x)`
+> `Plus := x -> {x}`
 
-**`Number`** := `Unit` or `Composition` of `Plus` with `Number`.
+**`Namerals`** := `Set` of all `Power`s of `Plus`.
 
-> `N := 1 | Plus.N`
+> `NAT := { 1 , Plus, Plus^... }`
+
+**`Number`** := `Element` of `Namerals`.
+
+> `N := Plus^N`
 
 **`Total Order`** := property of `Number`s that for any `a, b`, exactly one of `a < b`, `a = b`, `a > b` holds, `∀a, b: ∃c: a.c = b ∨ b.c = a`.
 
-## Intervals
+## Ranges
 
-**`Interval`** := All `Number` not greater than `N`.
+**`Interval`** := Set of all `Number`s not greater than `N`.
 
-> `I(N) := {n : n ≤ N}`
-
-*NOTE*: i.e., `{0, 1, ..., N}`.
+> `Interval(N) := {n : n ≤ N}`
 
 ---
 
-**`Ray`** := All `Number` strictly greater than `N`.
+**`Ray`** := Set of all `Number`s strictly greater than `N`.
 
 > `Ray(N) := {n : n > N}`
 
-*NOTE*: i.e., `{N+1, N+2, ...}`.
-
 ---
 
-**`Range`** := All `Number` strictly greater than `N` and at most `M`, with `N < M`.
+**`Range`** := Set of all `Number`s strictly greater than `N` and at most `M`, with `N < M`.
 
 > `Range(N, M) := {n : N < n ≤ M}`
 
-*NOTE*: i.e., `{N+1, ..., M}`.
-
 ## Sequences
 
-**`Tuple`** (,Array) := An `Azon` whose `Domain` is a `Interval`.
+**`Tuple`** := `Azon` over `Interval`.
 
-> `Tuple :: DOM = BI(N)`
-
-*NOTE*: The fundamental array / tuple structure.
+> `Tuple<N> :: Azon :: DOM = Interval(N)`
 
 ---
 
-**`Queue`** := An `Azon` whose `Domain` is a `Ray`.
+**`Queue`** := `Azon` over `Ray`.
 
-> `Queue :: DOM = Ray(N)`
-
-*NOTE*: An infinite sequence.
+> `Queue = Azon :: DOM = Ray(N)`
 
 ---
 
-**`Grade`**  (numerical scoring function) := An `Azon` whose `Codomain` is a subset of `Number`.
+**`Scoring`** := `Azon` into `Numerals`.
 
-> `Grade :: COD ⊆ Number`
+> `Scoring := Azon :: COD ⊆ Number`
 
 ---
 
-**`Vector`**  := Grade Tuple.
+**`Vector`**  := `Scoring` `Tuple`.
 
-> `Grade :: DOM = BI(N), COD ⊆ Number`
+> `Vector := Scoring :: DOM = BI(N), COD ⊆ Number`
 
 ## Selection
 
-**`Selection-Mask`** := A bijective `Tuple` of length `n` into a `Interval` of length `m > n`.
+**`Mask`** := bijective `Tuple` of length `n` into a `Interval` of length `m > n`.
 
-> `SM :: BI(n) → BI(m)`
-
-*NOTE*: A combination / index selector.
+> `Mask := BI(n) → BI(m)`
 
 ---
 
-**`Selection`** := The `Composition` of a `Selection-Mask` with a `Tuple`.
+**`Selection`** := `Composition` of a `Selection-Mask` with a `Tuple`.
 
-> `Selection := V . SM`
-
-*NOTE*: Extracts chosen `Element`s from a `Tuple`.
+> `Selection := Tuple . Mask`
 
 ## 2D
 
@@ -94,17 +84,6 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 ---
 
-**`Concatenation`** := A `Tuple` built from a `Matrix` by joining each constituent `Tuple` end-to-end.
+**`Flat`** := A `Tuple` built from a `Matrix` by joining each constituent `Tuple` end-to-end.
 
 > `⊕ :: Matrix → Tuple`
-
-## Currying
-
----
-**`Currying`** := The `Azon` that corresponds an `Azon` over a `Tuple`s to a chain of single-input `Azon`s.
-
-> `curry := (X,Y) → Z =>  X → (Y → Z)`
-
-`Currying` reconciles multi-input `Azon` with the single-input model assumed by `Composition`.
-
-The result of applying `curry(A)` to one `Element` — yields an `Partial Application` of reduced arity.
