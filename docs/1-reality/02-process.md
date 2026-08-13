@@ -2,11 +2,16 @@
 
 ![Dynamic Processes](/images/1-nature/06-process.svg)
 
+**`Process`** := `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+
+**`Circuit<Schema>`** := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
+:= `Ingress<Schema> → PD(Volume<Schema>)`
+
 **`Text<Dictionary> : [ Word ∈ Dictionary, ...]`** :=  `Tuple=Plan` of `Word`s the same `Dictionary=SampleSpace`.
 
-**`Event<Dictionary> := (Context, {Word}, Probability)`** := triplet of
+**`Event<Dictionary> := (Context, { Word }, Probability)`** := triplet of
 
-- `Context` := some `Text<Dictionary>`
+- `Context` := some `Text<SampleSpace>` or `Zero`.
 - `State` := some `Subset` from `SampleSpace`.
 - `Probability` := some rational number from 0 to 1.
 
@@ -23,9 +28,6 @@
 **`Probability Distribution`** := `Azon` that responds with `Probability` to `State`s of a `random variable`.
 
 **`Expected Value (Mean)`** := Average State over many trials: E(X) = Σ[x × P(x)].
-
-**`Circuit<Schema>`** := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
-:= `Ingress<Schema> → PD(Volume<Schema>)`
 
 *DEF*: `Circuit` is `memoryless`
 := `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`
