@@ -1,3 +1,13 @@
+---
+title: "Welcome to ALMAAT"
+description: "ALMAAT is a general-purpose universal cognitive framework."
+keywords: [welcome]
+license: UNLICENSED
+created: 2026-05-26
+modified: 2026-06-23
+source: docs/welcome.md
+---
+
 # Welcome to ALMAAT
 
 ![Welcome to ALMAAT](/images/welcome.svg)

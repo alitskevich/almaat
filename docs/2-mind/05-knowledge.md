@@ -1,3 +1,13 @@
+---
+title: "Knowledge"
+description: "Knowledge built from opinion, doubt, and thesis — the atomic units of belief and how knowledge is organized."
+keywords: [mind, knowledge]
+license: UNLICENSED
+created: 2026-07-18
+modified: 2026-08-08
+source: docs/2-mind/05-knowledge.md
+---
+
 # Knowledge
 
 **`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether `Presentation` belongs to `Place`.

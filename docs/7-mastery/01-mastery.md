@@ -1,3 +1,13 @@
+---
+title: "Mastery"
+description: "Mastery := The capacity for abundant, effective activity toward constant improvement in one's chosen Domain."
+keywords: [mastery]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-08-07
+source: docs/7-mastery/01-mastery.md
+---
+
 # Mastery
 
 ![Mastery](/images/4-mastery/03-mindset.svg)

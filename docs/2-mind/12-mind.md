@@ -1,3 +1,12 @@
+---
+title: "Mind"
+description: "Mind as a system of neurons and sensors — sources, thought as state, the social origin of mind, and the predictive brain."
+keywords: [mind]
+license: UNLICENSED
+created: 2026-07-18
+modified: 2026-08-07
+source: docs/2-mind/12-mind.md
+---
 
 # Mind
 

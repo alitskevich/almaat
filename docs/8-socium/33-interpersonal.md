@@ -1,3 +1,12 @@
+---
+title: "Influence"
+description: "External: constrain evil, compel good Ethical: work on yourself — provide example rather than correcting others"
+keywords: [socium, interpersonal]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-08-07
+source: docs/8-socium/33-interpersonal.md
+---
 
 # Influence
 

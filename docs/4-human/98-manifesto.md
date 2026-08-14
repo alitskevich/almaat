@@ -1,3 +1,12 @@
+---
+title: "Manifesto of Humankind"
+description: "Each Human is manifestation of God - born equal among others in your human dignity, which is stemmed from our innate, limitless creative potential, and the relentless striving to transcend beyond boundaries."
+keywords: [human, manifesto]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-06-23
+source: docs/4-human/98-manifesto.md
+---
 
 # Manifesto of Humankind  
 

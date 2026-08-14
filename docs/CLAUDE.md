@@ -1,3 +1,13 @@
+---
+title: "ALMAAT — Project Guide"
+description: "ALMAAT is a general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown."
+keywords: [almaat]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-07
+source: docs/CLAUDE.md
+---
+
 # ALMAAT — Project Guide
 
 ALMAAT is a general-purpose framework for cognitive modeling, written as a layered

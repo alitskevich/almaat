@@ -1,3 +1,13 @@
+---
+title: "Sets, Equivalence, Topology"
+description: "This part introduces Set and the topological structures over Set."
+keywords: [math, sets]
+license: UNLICENSED
+created: 2026-08-08
+modified: 2026-08-08
+source: docs/0-math/01-sets.md
+---
+
 # Sets, Equivalence, Topology
 
 ![Sets, Equivalence, Topology](/images/0-math/01-set.svg)

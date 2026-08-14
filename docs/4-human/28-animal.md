@@ -1,3 +1,13 @@
+---
+title: "Animal"
+description: "Animal: The interwine of psychic, energetic, and hormonal processes that aimed to satisfy animalistic needs"
+keywords: [human, animal]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-08-07
+source: docs/4-human/28-animal.md
+---
+
 # Animal
 
 ![Neuro](/images/2-human/22-psycho.svg)

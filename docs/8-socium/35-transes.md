@@ -1,3 +1,12 @@
+---
+title: "Social Trances"
+description: "Impostor pattern: The felt tax of the Marketing Character."
+keywords: [socium, transes]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-08-07
+source: docs/8-socium/35-transes.md
+---
 
 # Social Trances
 

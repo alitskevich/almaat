@@ -1,3 +1,13 @@
+---
+title: "Luck & Serendipity"
+description: "Why some people are consistently \"lucky\": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train."
+keywords: [mastery, luck]
+license: UNLICENSED
+created: 2026-08-02
+modified: 2026-08-07
+source: docs/7-mastery/07-luck.md
+---
+
 # Luck & Serendipity
 
 Why some people are consistently "lucky": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train.

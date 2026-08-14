@@ -1,3 +1,13 @@
+---
+title: "Formal Language"
+description: "Formal language layer: codes, alphabets, words, dictionaries, rules, grammars, expressions, and theories."
+keywords: [math, language]
+license: UNLICENSED
+created: 2026-08-08
+modified: 2026-08-08
+source: docs/0-math/07-language.md
+---
+
 # Formal Language
 
 **`Code := [ 0 | 1 ]`**  := finite tuple from `0` and `1`.

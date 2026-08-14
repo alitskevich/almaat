@@ -1,3 +1,13 @@
+---
+title: "Dynamic Processes"
+description: "Process := Queue of Words from the same Dictionary=SampleSpace."
+keywords: [reality, process]
+license: UNLICENSED
+created: 2026-07-14
+modified: 2026-08-13
+source: docs/1-reality/02-process.md
+---
+
 # Dynamic Processes
 
 ![Dynamic Processes](/images/1-nature/06-process.svg)

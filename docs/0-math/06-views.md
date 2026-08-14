@@ -1,3 +1,13 @@
+---
+title: "Presentational View"
+description: "The presentational view: Matter as a basis equipped with attributes, and the Entity, Type, and Relation built on it."
+keywords: [math, views]
+license: UNLICENSED
+created: 2026-08-08
+modified: 2026-08-08
+source: docs/0-math/06-views.md
+---
+
 # Presentational View
 
 ![Type](/images/0-math/01-space.svg)

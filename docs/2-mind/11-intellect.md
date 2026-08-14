@@ -1,3 +1,13 @@
+---
+title: "Intellect"
+description: "Intellect is the capacity to form, validate, and apply own Reality."
+keywords: [mind, intellect]
+license: UNLICENSED
+created: 2026-07-16
+modified: 2026-08-07
+source: docs/2-mind/11-intellect.md
+---
+
 # Intellect
 
 ![Intellect](/images/1-nature/11-intellect.svg)

@@ -1,3 +1,13 @@
+---
+title: "The Scientific Method"
+description: "ScientificMethod IS a generalized empirical a posteriori approach to earning ScientificKnowledge from experimental data, with awareness of cognitive abilities and Bias."
+keywords: [mind, scientific]
+license: UNLICENSED
+created: 2026-08-08
+modified: 2026-08-08
+source: docs/2-mind/90-scientific.md
+---
+
 # The Scientific Method
 
 `ScientificMethod` IS a generalized empirical ***a posteriori*** approach to earning `ScientificKnowledge` from experimental data, with awareness of cognitive abilities and `Bias`.

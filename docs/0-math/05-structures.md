@@ -1,3 +1,13 @@
+---
+title: "Structures"
+description: "Structure := Set equipped with Operations on it, which are constrained by Laws."
+keywords: [math, structures]
+license: UNLICENSED
+created: 2026-08-08
+modified: 2026-08-08
+source: docs/0-math/05-structures.md
+---
+
 # Structures
 
 ![Algebras](/images/0-math/03-algebras.svg)

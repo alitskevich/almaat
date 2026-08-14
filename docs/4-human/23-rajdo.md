@@ -1,3 +1,13 @@
+---
+title: "Rajdo"
+description: "The human's opening into Rajdo — perceiving and accepting Being as-is, as one interweaving whole — and the Awareness, Acceptance, and Love it entails."
+keywords: [human, rajdo]
+license: UNLICENSED
+created: 2026-07-18
+modified: 2026-08-02
+source: docs/4-human/23-rajdo.md
+---
+
 # Rajdo
 
 The human's opening into `Rajdo` — perceiving and accepting Being `as-is`, as one interweaving whole — and the `Awareness`, `Acceptance`, and `Love` it entails.

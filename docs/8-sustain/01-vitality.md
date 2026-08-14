@@ -1,3 +1,12 @@
+---
+title: "VITALITY"
+description: "Definition: The physical foundation of human life, health, and performance, encompassing the body's ability to function optimally, resist disease, and recover from stress."
+keywords: [sustain, vitality]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-07
+source: docs/8-sustain/01-vitality.md
+---
 
 ## VITALITY
 

@@ -1,3 +1,13 @@
+---
+title: "Reasoning"
+description: "Reasoning := The process of generating new a priori Knowledge (conclusions) from existing Knowledge (premises)."
+keywords: [mind, reasoning]
+license: UNLICENSED
+created: 2026-07-16
+modified: 2026-08-08
+source: docs/2-mind/08-reasoning.md
+---
+
 # Reasoning
 
 **`Reasoning`** := The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).

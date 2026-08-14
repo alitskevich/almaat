@@ -1,3 +1,13 @@
+---
+title: "Term Translations"
+description: "The framework uses English Terms as canonical throughout the content."
+keywords: [translations]
+license: UNLICENSED
+created: 2026-05-26
+modified: 2026-08-07
+source: docs/_translations.md
+---
+
 # Term Translations
 
 ![Term Translations](/images/_translations.svg)

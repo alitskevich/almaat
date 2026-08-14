@@ -1,3 +1,13 @@
+---
+title: "Physical Security"
+description: "Physical security: reading threat, fighting tactics and technique, and the legal and ethical frame."
+keywords: [sustain, defense]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-07
+source: docs/8-sustain/04-defense.md
+---
+
 # Physical Security
 
 ![Physical Security](/images/4-mastery/04-defense.svg)

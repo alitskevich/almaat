@@ -1,3 +1,13 @@
+---
+title: "Cognitive Biases and Logical Fallacies"
+description: "A cognitive bias is a systematic error in thinking that occurs when people are processing and interpreting information, affecting the decisions and judgments they make."
+keywords: [mastery, biases]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-02
+source: docs/7-mastery/24-biases.md
+---
+
 # Cognitive Biases and Logical Fallacies
 
 ## What is Cognitive Bias?

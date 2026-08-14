@@ -1,3 +1,13 @@
+---
+title: "Power Architecture"
+description: "Distribution of power through non-violent means via social institutions."
+keywords: [socium, politics]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-06-24
+source: docs/8-socium/37-politics.md
+---
+
 # Power Architecture
 
 ![Power Architecture](/images/3-socium/37-politics.svg)

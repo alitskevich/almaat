@@ -1,3 +1,13 @@
+---
+title: "Human Being"
+description: "Human Being := composition of biological circuitry, social membership, cultural inheritance, equipped with Intellect and Inspiration."
+keywords: [human]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-07-11
+source: docs/4-human/21-human.md
+---
+
 # Human Being
 
 ![Human Being](/images/2-human/21-human.svg)

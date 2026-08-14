@@ -1,3 +1,13 @@
+---
+title: "SECURITY"
+description: "Staying sovereign against threats from others, across two planes"
+keywords: [sustain, security]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-07
+source: docs/8-sustain/05-security.md
+---
+
 # SECURITY
 
 ![SECURITY](/images/4-mastery/05-security.svg)

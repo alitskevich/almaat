@@ -1,3 +1,13 @@
+---
+title: "Transcendence"
+description: "Being := transcendent process of experiencing/inventing/instantiating itself as a whole from miriads of different points."
+keywords: [reality, being]
+license: UNLICENSED
+created: 2026-07-14
+modified: 2026-08-08
+source: docs/1-reality/22-being.md
+---
+
 # Transcendence
 
 ## Being

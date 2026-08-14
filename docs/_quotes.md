@@ -1,3 +1,13 @@
+---
+title: "Quotes"
+description: "The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy."
+keywords: [quotes]
+license: UNLICENSED
+created: 2026-05-26
+modified: 2026-06-23
+source: docs/_quotes.md
+---
+
 # Quotes
 
 ![Quotes](/images/_quotes.svg)

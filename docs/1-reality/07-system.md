@@ -1,3 +1,13 @@
+---
+title: "Systems"
+description: "Things as queues of presentations over a flow — events, trajectories, entropy, and evolution."
+keywords: [reality, system]
+license: UNLICENSED
+created: 2026-07-14
+modified: 2026-07-14
+source: docs/1-reality/07-system.md
+---
+
 # Systems
 
 ![Systems](/images/1-nature/07-system.svg)

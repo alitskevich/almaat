@@ -1,3 +1,13 @@
+---
+title: "Graph"
+description: "Vertexes of Graph are classified by its (in/out)-connectivity"
+keywords: [math, graphs]
+license: UNLICENSED
+created: 2026-08-08
+modified: 2026-08-08
+source: docs/0-math/03-graphs.md
+---
+
 # Graph
 
 ![Graphs](/images/0-math/02-graph.svg)

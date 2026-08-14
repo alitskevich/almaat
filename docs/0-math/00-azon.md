@@ -1,3 +1,13 @@
+---
+title: "Azon"
+description: "Azon := a contract made under Axioms below, that responds for each given Azon(Sign) with a specific Azon(Value)."
+keywords: [math, azon]
+license: UNLICENSED
+created: 2026-05-26
+modified: 2026-08-08
+source: docs/0-math/00-azon.md
+---
+
 # Azon
 
 ![Foundations](/images/0-math/00-azon.svg)

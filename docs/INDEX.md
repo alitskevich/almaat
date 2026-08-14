@@ -1,3 +1,13 @@
+---
+title: "ALMAAT — Content Index"
+description: "Master index of the ALMAAT framework."
+keywords: [almaat]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-07
+source: docs/INDEX.md
+---
+
 # ALMAAT — Content Index
 
 ![Content Index](/images/_index.svg)

@@ -1,3 +1,13 @@
+---
+title: "Ecology"
+description: "Ecology is a sustainable social Contract"
+keywords: [socium, ecology]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-06-24
+source: docs/8-socium/31-ecology.md
+---
+
 # Ecology
 
 **Ecology** is a sustainable social `Contract`:

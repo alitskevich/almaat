@@ -1,3 +1,13 @@
+---
+title: "Culture"
+description: "The shared archetypes, symbols, and active ideas that form a culture's cognitive foundation."
+keywords: [socium, culture]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-08-07
+source: docs/8-socium/32-culture.md
+---
+
 # Culture
 
 ## Collective Mind (Mentality)

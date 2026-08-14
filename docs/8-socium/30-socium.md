@@ -1,3 +1,13 @@
+---
+title: "SOCIUM"
+description: "Humans do not live alone — we live for others."
+keywords: [socium]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-06-24
+source: docs/8-socium/30-socium.md
+---
+
 # SOCIUM
 
 ![SOCIUM](/images/3-socium/30-socium.svg)

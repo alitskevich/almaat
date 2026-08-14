@@ -1,3 +1,13 @@
+---
+title: "Learning"
+description: "How a Mind turns Experience into Knowledge and Skill — the disciplines and conditions that make learning reliable rather than accidental."
+keywords: [mastery, learning]
+license: UNLICENSED
+created: 2026-06-23
+modified: 2026-08-07
+source: docs/7-mastery/06-learning.md
+---
+
 # Learning
 
 ![Learning](/images/4-mastery/06-learning.svg)

@@ -1,3 +1,12 @@
+---
+title: "Composition"
+description: "Arrows, vertexes, and composition — building compound Azons by feeding one Azon's output into another; associativity and powers."
+keywords: [math, composition]
+license: UNLICENSED
+created: 2026-08-07
+modified: 2026-08-08
+source: docs/0-math/02-composition.md
+---
 
 # Composition
 

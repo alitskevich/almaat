@@ -1,3 +1,13 @@
+---
+title: "Self-Discipline"
+description: "Productivity is about creating systems and environments that enable consistent meaningful and effective progress toward your Goals."
+keywords: [mastery, productivity]
+license: UNLICENSED
+created: 2026-06-24
+modified: 2026-08-07
+source: docs/7-mastery/04-productivity.md
+---
+
 # Self-Discipline
 
 ![Self-Discipline](/images/4-mastery/02-productivity.svg)

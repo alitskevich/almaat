@@ -1,3 +1,13 @@
+---
+title: "Agency & Teleology"
+description: "This chapter defines the anatomy of intentional action: who the Agent is, what makes the Future relevant, what drives motion toward it, what means are deployed, and how outcomes are evaluated —…"
+keywords: [mind, teleos]
+license: UNLICENSED
+created: 2026-07-16
+modified: 2026-08-07
+source: docs/2-mind/09-teleos.md
+---
+
 # Agency & Teleology
 
 ![Agency & Teleology](/images/1-nature/09-agency.svg)
