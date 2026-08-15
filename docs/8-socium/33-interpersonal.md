@@ -4,7 +4,7 @@ description: "External: constrain evil, compel good Ethical: work on yourself â€
 keywords: [socium, interpersonal]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-08-07
+modified: 2026-08-15
 source: docs/8-socium/33-interpersonal.md
 ---
 
@@ -131,3 +131,30 @@ Youth favors yes. Experience favors no. Say yes to opportunities; learn to say n
 
 **Send thank-you notes.**
 One handwritten note every two weeks. Gratitude compounds.
+
+## Company and Norms
+
+Norms are absorbed, not chosen. What counts as normal effort, normal income, normal ambition drifts toward the average of whoever you are in contact with most often â€” which makes the composition of that set a decision rather than an accident.
+
+- **Prune the permanent complaint.** Company that reads every outcome as done *to* them installs that reading in you: it is the [external locus](../7-mastery/02-mindset.md#accountability) arriving socially.
+- **Your information diet is company too.** Channels, feeds, and podcasts fill the same slot as people and set the same norms, without the friction that would make you notice. Choose sources the way you would choose the room.
+
+Three roles are worth keeping deliberately:
+
+- **Challenger**: Tells uncomfortable truths. "What's one thing I can do better?"
+- **Cheerleader**: Believes in you. Helps you recover when you'd otherwise quit.
+- **Coach**: Already played your game. Sees patterns you can't.
+
+```mermaid
+mindmap
+  root((Tribe))
+    Challenger
+      Uncomfortable truths
+      Sharpens standards
+    Cheerleader
+      Belief
+      Recovery from quitting
+    Coach
+      Played your game
+      Sees patterns
+```

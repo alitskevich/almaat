@@ -4,7 +4,7 @@ description: "Definition: The physical foundation of human life, health, and per
 keywords: [sustain, vitality]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-07
+modified: 2026-08-15
 source: docs/8-sustain/01-vitality.md
 ---
 
@@ -158,3 +158,19 @@ You are energy, not just a body. Health is the sound allocation of a finite ener
 - Fatigue is not always laziness. In long-COVID and ME/CFS, muscle shows genuinely lower mitochondrial capacity; blanket "just exercise" advice can trigger post-exertional crashes. Match load to actual capacity.
 
 > *Source: Dr. Martin Picard (mitochondrial psychobiology) — energy, stress, and disease as an energetic process.*
+
+### 14. Depression
+
+Emotional emptiness that eliminates motivation and blocks all directed activity.
+
+Root causes:
+
+- Insufficient physical or psychic energy.
+- No goal worth spending energy on.
+- No clear understanding of the situation, preventing a decision.
+- Fear of being incapable of achieving a result.
+- No step-by-step plan broken into small, rewarded tasks.
+
+*Antidote*: Address the specific root cause. Restore energy (sleep, movement, nutrition). Clarify the goal — see [Vision](../7-mastery/03-vision.md). Break it into the smallest possible next step — see [Discipline](../7-mastery/04-discipline.md). Act — even poorly.
+
+> Source: [How to Literally Motivate Yourself](https://www.youtube.com/watch?v=ubjW4aq_MAg)
