@@ -1,14 +1,18 @@
 ---
-title: "Cognitive Biases and Logical Fallacies"
-description: "A cognitive bias is a systematic error in thinking that occurs when people are processing and interpreting information, affecting the decisions and judgments they make."
+title: "Clear Thinking"
+description: "Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible."
 keywords: [mastery, biases]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-02
-source: docs/7-mastery/24-biases.md
+modified: 2026-08-15
+source: docs/7-mastery/11-thinking.md
 ---
 
-# Cognitive Biases and Logical Fallacies
+# Clear Thinking
+
+![Clear Thinking](/images/7-mastery/11-thinking.svg)
+
+Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 
 ## What is Cognitive Bias?
 
@@ -75,7 +79,7 @@ Biases occur due to limitations of the human brain:
 | **Scarcity Bias** | Valuing things more when they are rare or perceived to be limited. |
 | **Contrast Effect** | Judging something by what sits next to it rather than on its own merits — a cost feels small beside a larger one. |
 | **Paradox of Choice** | Too many options reduce satisfaction and stall decisions instead of helping; more alternatives mean more regret and comparison. |
-| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible — so success stories teach the shape of luck, not a repeatable method. See [Luck & Serendipity](07-luck.md). |
+| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible — so success stories teach the shape of luck, not a repeatable method. See [Luck & Serendipity](10-luck.md). |
 
 ## Logical Fallacies
 

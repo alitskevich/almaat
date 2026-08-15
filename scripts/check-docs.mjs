@@ -99,8 +99,11 @@ if (conventionsDir) {
     const description = frontmatter[1].match(/^description:\s*"?([\s\S]*?)"?\s*$/m)?.[1];
     const bodyLines = body.split("\n");
     const intro = bodyLines.slice(bodyLines.findIndex((l) => l.startsWith("![")) + 1).find((l) => l.trim() !== "");
+    // Frontmatter descriptions in this repo drop `backticks` and escape "quotes";
+    // compare on the normalized text so that convention is not treated as drift.
+    const normalize = (t) => t.trim().replace(/`/g, "").replace(/\\"/g, '"');
     if (!intro) cfail(`no intro line after banner`);
-    else if (description && intro.trim() !== description.trim()) {
+    else if (description && normalize(intro) !== normalize(description)) {
       cfail(`intro line and frontmatter description differ:\n    intro: ${intro.trim()}\n    desc:  ${description.trim()}`);
     }
   }

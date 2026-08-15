@@ -4,11 +4,13 @@ description: "Why some people are consistently \"lucky\": luck is half blind sta
 keywords: [mastery, luck]
 license: UNLICENSED
 created: 2026-08-02
-modified: 2026-08-07
-source: docs/7-mastery/07-luck.md
+modified: 2026-08-15
+source: docs/7-mastery/10-luck.md
 ---
 
 # Luck & Serendipity
+
+![Luck & Serendipity](/images/7-mastery/10-luck.svg)
 
 Why some people are consistently "lucky": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train.
 
@@ -19,7 +21,7 @@ Chronic bad luck is not a curse. It is largely a side effect of **perceptual bli
 Honesty first: at the level of large numbers, chance is disciplined and cannot be out-played inside the standard field.
 
 - **Talent loses to luck.** In a fair-start agent simulation (Pluchino, Rapisarda & Biondo, 2018), the wealthiest agents were not the most talented but **mediocrities who caught an early streak of random positive events**. A first random nudge compounds into *cumulative advantage* — the *Matthew effect*, "to those who have, more is given" — and swamps personal merit.
-- **Survivorship bias.** Studying the biographies of winners (the Forbes list) teaches the shape of luck, not a repeatable method — you never see the identical effort that lost. (See [Biases → Survivorship Bias](24-biases.md#evaluation).)
+- **Survivorship bias.** Studying the biographies of winners (the Forbes list) teaches the shape of luck, not a repeatable method — you never see the identical effort that lost. (See [Clear Thinking → Survivorship Bias](11-thinking.md#evaluation).)
 - **Chance is regular in bulk.** Rare independent events follow a Poisson distribution — Bortkiewicz's classic count of Prussian cavalry deaths from horse-kicks (late 19th c.). On large numbers the macro-statistic takes its due.
 - **Black swans dominate the tail.** Taleb's warning: crises and regulatory shocks grind up plans regardless of anyone's inner state, and crediting your own intuition for a random hit is the *Texas sharpshooter* fallacy — drawing the target around the bullet holes after the fact.
 

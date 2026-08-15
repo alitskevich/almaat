@@ -4,17 +4,17 @@ description: "How a Mind turns Experience into Knowledge and Skill — the disci
 keywords: [mastery, learning]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-07
-source: docs/7-mastery/06-learning.md
+modified: 2026-08-15
+source: docs/7-mastery/09-learning.md
 ---
 
 # Learning
 
-![Learning](/images/4-mastery/06-learning.svg)
+![Learning](/images/7-mastery/09-learning.svg)
 
 How a `Mind` turns `Experience` into `Knowledge` and `Skill` — the disciplines and conditions that make learning reliable rather than accidental.
 
-`Learning` is defined formally in [Intellect → Knowledge](../2-mind/11-intellect.md#knowledge) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
+`Learning` is defined formally in [Intellect](../2-mind/11-intellect.md) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
 
 ## The Learning Loop
 
@@ -58,4 +58,4 @@ Reading is the highest-bandwidth way into other `Mind`s — compressed `Experien
 
 ---
 
-Learning needs the will to stay in discomfort — see [Self-Discipline](04-productivity.md) — and aims, over years, at [Mastery](01-mastery.md), the `Paradigm`-scope counterpart of `Skill`.
+Learning needs the will to stay in discomfort — see [Discipline](04-discipline.md) — and aims, over years, at [Mastery](01-mastery.md), the `Paradigm`-scope counterpart of `Skill`.
