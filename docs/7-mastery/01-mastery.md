@@ -30,11 +30,7 @@ Mastery is measured by:
 - Productivity multiplies output.
 - Growth compounds everything.
 
-## Master Mindset
-
-The inner foundation. Without it, all technique is noise.
-
-### Authenticity, Self-Emphaty and Self-Trust
+## Authenticity, Self-Emphaty and Self-Trust
 
 Realize and respect your intrinsic [Human Dignity](../4-human/21-human.md#human-dignity) — your inherent worth rooted in your transcending nature.
 
@@ -54,7 +50,7 @@ Understanding and accepting own emotions; expressing, using, and consciously inf
 - Opposite emotions often manifest similarly — we can name them as we choose
 - Congruence is the simplest path to social presence
 
-### Acceptance of Imperfection
+## Acceptance of Imperfection
 
 Accept the chaos and imperfections of Existence — most of which you cannot control or fully understand. Accept yourself as a whole, including bright and shadow sides.
 
@@ -62,7 +58,7 @@ Start with humble, honest acknowledgment of your own weaknesses, biases, and blu
 
 [[34]]
 
-### Self-Honesty
+## Self-Honesty
 
 The mechanism that dissolves the inner problems — procrastination, laziness, lost motivation, guilt, shame, anger, fear. These are labels, not entities. Underneath each is the same structure: two `Goal`s in conflict, one of which you refuse to own.
 
@@ -91,7 +87,7 @@ This is the move from victim to creator — not a different person, but a differ
 
 > Source: [Honesty as the exit from problem-states into the creator state](https://www.youtube.com/watch?v=ItG2g9iOjc8)
 
-### Inner Before Outer
+## Inner Before Outer
 
 The order is fixed: the inner state shifts first, the outer condition follows — never the reverse. Most apparent battles with circumstance are misread rules. Treat life less as a fight won by force and more as a game won by understanding: when a situation will not move, the block is usually a rule you have not yet seen, not a verdict against you. This continues [Self-Honesty](#self-honesty) and the move from victim to creator.
 
@@ -104,7 +100,7 @@ Four operating principles:
 
 > Source: [Five distinctions from Florence Scovel Shinn's *The Game of Life and How to Play It*](https://www.youtube.com/watch?v=Ec7VbXHg0uI)
 
-### Confidence
+## Confidence
 
 Confidence is a skill, not a trait. It can be built, and it transfers across every area of life.
 
@@ -117,7 +113,7 @@ Define it as a generalized expectation of positive or manageable outcomes — no
 - **Regulate before you perform.** Confidence is not volume, charisma, or dominance. It is safety and composure, which give rise to authority.
 - **Measure against yesterday, not against others.** A feed sets your interior — costs, doubts, unfinished parts — against an edited exterior whose price is not shown. The only usable metric is the delta from your own prior state: what you now know, handle, or do that you could not. See [Rajdo → Acceptance](../4-human/23-rajdo.md).
 
-### Curiosity, Openness and Continuous Learning
+## Curiosity, Openness and Continuous Learning
 
 Be less certain. Stay open and receptive to ever-changing contexts.
 
@@ -133,7 +129,7 @@ An unfrozen view of the world, with room for error and growth.
 - Seek feedback; challenge existing knowledge
 - Clear preconceptions and biases
 
-### Courage and Enjoyment
+## Courage and Enjoyment
 
 Be hungry, zealous, enthusiastic, keen. Be unafraid of inner inertia or external pressures.
 
@@ -153,7 +149,7 @@ Stay spontaneous. Act from the present moment rather than rigid plans — let re
 
 Find the flow: full immersion where action and awareness merge, effort feels effortless, and time dissolves. This is where enjoyment and mastery meet.
 
-### Determination
+## Determination
 
 Define your authentic Way — life's mission, ambitions, high-level goals. Devote yourself with unwavering dedication.
 
@@ -173,7 +169,7 @@ An emotional structure strong enough to sustain:
 
 *The Conflict*: Determination creates an existential tension between immediate animal satisfaction and long-term rational goals. This confrontation defines the human being's tragedy and greatness.
 
-### Accountability
+## Accountability
 
 Take full ownership of your personal life. Accept all consequences. Make your own choices, walk your own path. Be independent in reasoning and decisions.
 
