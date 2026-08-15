@@ -82,7 +82,7 @@ The Animal seeks pleasure and novelty. Modern products supply both past any natu
 
 **Foraging search**: The Animal scans a wide field for the few items worth taking — the berry among the leaves — and treats each find as possibly survival-relevant. A feed is a field of nothing but berries: a search that once ended when the bush was stripped now has no stopping point. Wide-search attention is caught hardest, since the trait that makes it good at finding is the one the feed consumes.
 
-The circuit is not broken. Removed from the supernormal stimulus, it up-regulates over weeks — the basis of [Architecture over willpower](../7-mastery/04-productivity.md#architecture-over-willpower).
+The circuit is not broken. Removed from the supernormal stimulus, it up-regulates over weeks — the basis of [Architecture over willpower](../7-mastery/06-environment.md#architecture-over-willpower).
 
 ## The Self, Memory, and Death
 

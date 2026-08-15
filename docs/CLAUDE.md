@@ -41,7 +41,7 @@ Never paste raw source. Ingestion means rewriting into the framework's voice.
 
 - Translate → "Discipline matters more than motivation — it is a habit, not a character trait."
 - Reduce → state it plainly in the framework's register, mark concepts as `Terms`.
-- Route → this extends self-discipline, so it goes into `7-mastery/02-productivity.md`; no new file.
+- Route → this extends self-discipline, so it goes into `7-mastery/04-discipline.md`; no new file.
 - Index → no title/scope change, so indexes stay as-is. (If scope had widened, update both indexes.)
 
 ## Repository layout
@@ -54,7 +54,7 @@ Content lives under numbered section folders, each one ontological layer or appl
 | `1-reality`    | Dynamics & metaphysics: `Process`, `System`, `Probability`, `Being`.           | `02`, `07`, `10`, `22` |
 | `2-mind`       | Knowing & mind: `Language`, `Knowledge`, `Reasoning`, `Teleos`, `Intellect`, `Mind`, plus science and the branches of inquiry. | `03`–`12`, `90`, `99` |
 | `4-human`      | The human: `Human`, `Rajdo`, `Animal`, the `Manifesto`.                        | `21`, `23`, `28`, `98` |
-| `7-mastery`    | Disciplines of thought & practice: mastery, self-discipline, learning, luck, biases. | own domain, `01`– |
+| `7-mastery`    | Mastery and its stages: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
 | `8-socium`     | The collective: society, ecology, culture, influence, trances, politics.       | `30`–`37`         |
 | `8-sustain`    | Sustaining the body & self: vitality, defense, security.                       | own domain, `01`– |
 
@@ -145,6 +145,13 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
   removed `2-mind/09-computation` and `7-mastery/14-methodology`. In the same pass, 75 relative
   links left stale by the earlier `1-nature`/`3-intellect`/`5-socium` reorg were retargeted.
   At that point every INDEX link and every relative `.md` link in `docs/` resolved to a real file.
+- **2026-08-15 — `7-mastery` restructured.** The folder's six files became eleven, laid out as the
+  `Mindset → Vision → Discipline → Productivity → Growth` spine it had always declared:
+  `01-mastery` is now the hub, `04-productivity` was split across `03`–`08`, `06`/`07`/`24` were
+  renumbered `09`/`10`/`11`, and the 0-byte `03-mindset` was deleted. `Depression` moved to
+  `8-sustain/01-vitality.md`; the tribe section moved to `8-socium/33-interpersonal.md`.
+  The claim above that every link resolved as of 2026-08-07 no longer held: a later `0-math`/`2-mind`
+  rename left 17 dead links, now recorded in `scripts/check-docs.baseline.txt`.
 - **Baseline commit:** `c4dcb67` ("up", 2026-08-04) — the commit whose changes the 2026-08-07
   reconciliation absorbed. Diff from here for the next sync.
 
@@ -153,13 +160,17 @@ Notes:
 - INDEX entries are grouped by ontological-layer section; the description text mirrors each
   file's intro line (see Title, banner, intro).
 - Only sections that actually have a `<section>/index.md` should carry a
-  "See section index" link — currently none do (the former `7-mastery/index.md` is gone).
+  "See section index" link — currently none do. `7-mastery` uses `01-mastery.md` as its hub
+  instead: it carries the spine table linking every file in the section.
+- **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
+  link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks frontmatter,
+  the single H1, the banner path, and that the intro line matches the frontmatter description.
+  Pre-existing breakage is listed in `scripts/check-docs.baseline.txt`, so the gate is
+  "no new failures"; fix an entry and delete its line.
 - **Banner paths are stale tree-wide.** `images/` still carries the pre-reorg folder names
   (`1-nature`, `2-human`, `3-socium`) and content files point at paths like
   `/images/4-mastery/02-productivity.svg` that no longer exist. This is a `scripts/gen-banners.mjs`
   job, not an INDEX one — don't hand-patch individual banner paths.
-- `7-mastery/03-mindset.md` is an empty file left by the merge of mindset into `01-mastery.md`.
-  It is deliberately absent from `INDEX.md`; delete it or fill it, but don't index an empty file.
 
 ## Editing checklist
 

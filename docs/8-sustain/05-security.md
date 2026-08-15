@@ -17,7 +17,7 @@ Staying sovereign against threats from others, across two planes:
 - **Social** — coercion, manipulation, boundary violation. The attack on your judgment and autonomy.
 - **Physical** — intimidation and violence. The attack on your body.
 
-Both rest on the same [Animal](../4-human/28-animal.md) that reacts before thought and the same [biases](../2-mind/11-intellect.md#cognitive-biases-and-logical-fallacies) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../8-socium/30-socium.md#ethics).
+Both rest on the same [Animal](../4-human/28-animal.md) that reacts before thought and the same [biases](../7-mastery/11-thinking.md) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../8-socium/30-socium.md#ethics).
 
 > The fight you avoid is the one you win. You don't rise to the occasion — you fall to the level of your training.
 
@@ -102,7 +102,7 @@ Under threat the **sympathetic nervous system** floods the body with catecholami
 
 #### Biases that get you hurt
 
-Why prepared people still freeze. Each is a [cognitive bias](../2-mind/11-intellect.md#cognitive-biases-and-logical-fallacies) turned dangerous — and each stalls both the boundary you don't enforce and the exit you don't take.
+Why prepared people still freeze. Each is a [cognitive bias](../7-mastery/11-thinking.md) turned dangerous — and each stalls both the boundary you don't enforce and the exit you don't take.
 
 | Bias | Failure it causes |
 | ---- | ----------------- |
@@ -316,7 +316,7 @@ So vary the response and leave the principle untouched: sometimes a plain "thank
 
 ### Manipulation & Defense
 
-Manipulation works by **hijacking the Animal** — triggering an emotional reflex (fear, guilt, urgency, belonging) so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../2-mind/11-intellect.md#cognitive-biases-and-logical-fallacies).
+Manipulation works by **hijacking the Animal** — triggering an emotional reflex (fear, guilt, urgency, belonging) so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../7-mastery/11-thinking.md).
 
 **The seven levers.** Cialdini's principles of influence are neutral tools — persuasion when honest, manipulation when concealed.
 
@@ -359,7 +359,7 @@ Manipulation works by **hijacking the Animal** — triggering an emotional refle
 Manipulation hijacks the `Animal` in a single moment;
 **conditioning** shapes behavior across many.
 
-Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the same methods used to train animals work on people, because both run on the [Habit Loop](../7-mastery/04-productivity.md#the-habit-loop) of cue and `Reward`.
+Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the same methods used to train animals work on people, because both run on the [Habit Loop](../7-mastery/05-habits.md#the-habit-loop) of cue and `Reward`.
 
 You are conditioned whenever someone farms a reliable response out of you; you condition others by what you consistently reinforce — and attention itself is the `Reward`.
 

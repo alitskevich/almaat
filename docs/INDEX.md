@@ -65,13 +65,19 @@ The human as a layered composition of body and psyche, and what lies beyond.
 
 ## 7 — Mastery · The Disciplines
 
-The applied disciplines that raise the human toward excellence — practice, mind, learning, and clear thinking.
+The applied disciplines that raise the human toward excellence, ordered as the framework itself runs: Mindset → Vision → Discipline → Productivity → Growth.
 
-- [Mastery](7-mastery/01-mastery.md) — the capacity for abundant, effective activity toward constant improvement in one's Domain.
-- [Self-Discipline](7-mastery/04-productivity.md) — `Productivity`: systems and environments for consistent progress toward `Goal`s; attention profiles and the shape of the working day.
-- [Learning](7-mastery/06-learning.md) — how a `Mind` turns `Experience` into `Knowledge` and `Skill`.
-- [Luck & Serendipity](7-mastery/07-luck.md) — why some people are consistently "lucky": luck as half blind statistics and half a tunable interface of attention and position.
-- [Cognitive Biases and Logical Fallacies](7-mastery/24-biases.md) — systematic errors in thinking, and how to think past them.
+- [Mastery](7-mastery/01-mastery.md) — **Mastery** := The capacity for abundant, effective activity toward constant improvement in one's chosen Domain.
+- [Mindset](7-mastery/02-mindset.md) — the inner stance mastery is built on: owning every desire as your own, and reading cause from the inside.
+- [Vision](7-mastery/03-vision.md) — direction: the authentic Way, the `Goal`s worth spending a life on, and the reviews that keep them honest.
+- [Discipline](7-mastery/04-discipline.md) — the will to act without waiting to feel like it: a system of ritual and integrity, not a character trait.
+- [Habits](7-mastery/05-habits.md) — the mechanism discipline runs on: a `Cue` → `Craving` → `Response` → `Reward` loop that compounds small actions into `Identity`.
+- [Environment](7-mastery/06-environment.md) — architecture beats willpower: design the surroundings, cut the cue, replace the reward, and spend resolve once instead of daily.
+- [Attention](7-mastery/07-attention.md) — what the working day is made of: attention profiles, the order of stimulation, and the block that must be protected to reach the work.
+- [Productivity](7-mastery/08-productivity.md) — cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.
+- [Learning](7-mastery/09-learning.md) — how a `Mind` turns `Experience` into `Knowledge` and `Skill`.
+- [Luck & Serendipity](7-mastery/10-luck.md) — why some people are consistently "lucky": luck as half blind statistics and half a tunable interface of attention and position.
+- [Clear Thinking](7-mastery/11-thinking.md) — systematic errors in thinking: the biases and fallacies that corrupt judgment, and the names that make them visible.
 
 ## 8 — Socium · The Collective
 

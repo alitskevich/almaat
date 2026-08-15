@@ -133,7 +133,7 @@ Exercise is the single best thing for your mind and body.
 
 ### 11. Digital & Focus
 
-- Turn notifications off by default and grant them back by name — see [Self-Discipline → The Shape of the Day](../7-mastery/04-productivity.md#the-shape-of-the-day).
+- Turn notifications off by default and grant them back by name — see [Self-Discipline → The Shape of the Day](../7-mastery/07-attention.md#the-shape-of-the-day).
 - Limit social media use.
 - Never text while driving.
 

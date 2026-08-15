@@ -86,7 +86,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Skill :: Knowledge + Experience → Behavior reliable under Circumstances`
 
-*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [03-mindset](../7-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
+*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mindset](../7-mastery/02-mindset.md)) is the corresponding `Paradigm`-scope concept.
 
 ---
 

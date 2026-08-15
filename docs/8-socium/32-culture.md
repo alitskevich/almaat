@@ -67,6 +67,6 @@ The product is engineered to capture, not to serve: your attention, reward circu
 
 **The insider tell.** The clearest sign that a product is extractive is that the people who build it withhold it from their own children — engineers who ration their kids' screens, sellers who avoid their own supply. What is kept from insiders but pushed onto the public is rarely built for the public's benefit.
 
-**The effortlessness tell.** A second sign is the promise that the result comes without resistance — easy money, permanent flow, a life that arranges itself. Capability is built at the edge of what one cannot yet do (see [Learning → Deliberate Practice](../7-mastery/06-learning.md#deliberate-practice)), so the ease is never the method being sold; it is the bait attached to it.
+**The effortlessness tell.** A second sign is the promise that the result comes without resistance — easy money, permanent flow, a life that arranges itself. Capability is built at the edge of what one cannot yet do (see [Learning → Deliberate Practice](../7-mastery/09-learning.md#deliberate-practice)), so the ease is never the method being sold; it is the bait attached to it.
 
 The defense mirrors the one against [manipulation](../8-sustain/05-security.md#manipulation--defense): make consumption **deliberate, not reflexive**. An appetite you did not choose is one someone else is steering.
