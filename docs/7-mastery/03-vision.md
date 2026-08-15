@@ -18,7 +18,7 @@ Direction: the authentic Way, the Goals worth spending a life on, and the review
 
 Define your authentic Way — life's mission, ambitions, high-level goals. Devote yourself with unwavering dedication.
 
-**Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../2-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why resolutions written as a shopping list (a car, a flat, a larger income) mostly expire within weeks of being made. The test is whether the goal produces a felt response rather than an approving one. A `Goal` you cannot feel belongs to someone else.
+**Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../2-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why resolutions written as a shopping list mostly expire within weeks. The test is whether the goal produces a felt response rather than an approving one: a `Goal` you cannot feel belongs to someone else.
 
 [[39]]
 
@@ -39,11 +39,9 @@ An emotional structure strong enough to sustain:
 Delve into context. Create mental models of your circumstances, processes, goals, and obstacles. Refine them through experience until they become simple and useful.
 
 - Understand the system you're operating in — its rules, dynamics, and leverage points.
-- Identify the critical path — the few key actions that create the most impact.
+- Identify the critical path — the few actions that create the most impact.
 - Anticipate obstacles and plan how to overcome them.
-- Visualize the process and results as if already achieved — first-person view.
-
-This creates a powerful sense of clarity and motivation.
+- Visualize process and result as if already achieved, in first person.
 
 ## Seasons
 

@@ -31,9 +31,9 @@ Without feedback there is no learning, only repetition. A loop run on honest, fa
 
 Reps alone plateau. Practice compounds only when aimed at the edge of what you cannot yet do.
 
-**The 85% rule.** Optimal learning happens at ~85% success. Too easy means no growth; too hard means noise. Seek the band where you fail just often enough to correct.
+**The 85% rule.** Optimal learning happens at ~85% success — too easy means no growth, too hard means noise. Seek the band where you fail just often enough to correct.
 
-**Discomfort is the signal.** Awkward, effortful feelings mark growth, not failure — effort is the neurological cue for improvement. Comfort means you have left the learning zone.
+**Discomfort is the signal.** Effort is the neurological cue for improvement; comfort means you have left the learning zone.
 
 - **Aim at the weakness.** Drill the specific sub-skill that fails, not the whole performance you already pass.
 - **Tighten the feedback.** Shorten the gap between attempt and correction; delayed feedback teaches little (see [Conditioning → timing](../8-sustain/05-security.md#conditioning)).
