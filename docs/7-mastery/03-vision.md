@@ -73,4 +73,4 @@ A problem exists only as long as it stays blurry. Written down concretely, most 
 | 4 | **What price am I paying for inaction?** | Use numbers — money, years, missed chances. Once the real price is visible, fear of change becomes smaller than fear of staying. | Postponing a job change: 2 million missed over three years. |
 | 5 | **What will I do right now?** | Not tomorrow — within the hour. One action. A decision without immediate action turns into a daydream. | Wrote the resume. Made the call. Deleted the app. |
 
-When direction is present but the energy to move on it is not, the block is usually physical — see [Vitality → Depression](../8-sustain/01-vitality.md#14-depression).
+When direction is present but the energy to move on it is not, the block is usually physical — see [Vitality → Depression](../8-sustain/05-energy.md#depression).

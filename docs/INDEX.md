@@ -81,23 +81,31 @@ The applied disciplines that raise the human toward excellence, ordered as the f
 
 ## 8 — Socium · The Collective
 
-Society as a self-perpetuating system, and the individual's standing within it.
+Society as a self-perpetuating system, and the individual's standing within it: binding → mind → contact → self → failure → power.
 
-- [Socium](8-socium/30-socium.md) — humans live for others; social interaction as the medium through which potential unfolds.
-- [Ecology](8-socium/31-ecology.md) — the sustainable social `Contract`.
-- [Culture](8-socium/32-culture.md) — the shared archetypes, symbols, and active ideas that form a culture's cognitive foundation.
-- [Influence](8-socium/33-interpersonal.md) — interpersonal influence and the relationships that matter most.
-- [Social Trances](8-socium/35-transes.md) — installed patterns (e.g. the impostor pattern) that run below awareness.
-- [Power Architecture](8-socium/37-politics.md) — distribution of power through non-violent means; power as the hidden currency of interaction.
+- [Socium](8-socium/30-socium.md) — humans do not live alone: society is a self-perpetuating system with its own logic, which reproduces through `Culture`, regulates through `Contract`, and uses individuals as carriers.
+- [Ecology](8-socium/31-ecology.md) — a sustainable social `Contract`: one that protects individual rights, renews the conditions for development, and leaves room for new meaning.
+- [Culture](8-socium/32-culture.md) — the shared archetypes, symbols, and active ideas that form a culture's cognitive foundation, and determine which thoughts are possible inside it.
+- [Influence](8-socium/33-interpersonal.md) — society improves two ways: constrain evil from outside, or work on yourself and provide the example. The second is primary.
+- [Identity](8-socium/34-identity.md) — the continuous story a person tells about themselves, in which boundaries, self-esteem, and the imperatives to follow are formed and maintained.
+- [Social Trances](8-socium/35-transes.md) — the near-constant, invisible sense that something is wrong with you: the `Inferiority Trance` and the impostor pattern it produces.
+- [Conformism and Moral Courage](8-socium/36-conformism.md) — conformism is not a neutral position but an active choice with a cost; moral courage is acting on your own judgment against social pressure.
+- [Power Architecture](8-socium/37-politics.md) — the distribution of power through non-violent means via social institutions; status as its hidden currency.
 
 ## 8 — Sustain · Body & Defense
 
-Sustaining the organism and defending the self against harm.
+Sustaining the organism and defending the self against harm, in two halves: the body (`02`–`05`) and the self against others (`06`–`13`).
 
-- [Vitality](8-sustain/01-vitality.md) — the physical foundation of health and performance.
-- [Physical Security](8-sustain/04-defense.md) — defense against violence: reading threat, fighting tactics, the legal and ethical frame.
-- [Security](8-sustain/05-security.md) — staying sovereign against social and physical threats; shared foundations and recovery.
-
----
-
-*Applied software engineering (the former `9-engx` section) now lives in its own repository — see [arrmagazin/engx](https://github.com/arrmagazin/engx).*
+- [Sustain](8-sustain/01-sustain.md) — sustaining the body and the self: the physical foundation of health and performance, and staying sovereign against threats from others.
+- [Vitality](8-sustain/02-vitality.md) — the physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
+- [Recovery](8-sustain/03-recovery.md) — recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
+- [Nutrition](8-sustain/04-nutrition.md) — what you drink, what you eat, and when: the three levers that set blood sugar, insulin, and the fuel a working day runs on.
+- [Energy](8-sustain/05-energy.md) — health as the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like.
+- [Security](8-sustain/06-security.md) — staying sovereign against threats from others, across two planes, and the hierarchy, awareness, and physiology both planes share.
+- [Frame](8-sustain/07-frame.md) — whoever sets the frame sets the terms: the definition of the situation, the pause that slows it, and the words that keep your standing intact.
+- [De-escalation](8-sustain/08-de-escalation.md) — breaking open aggression with words: keep your own deliberation online, let the other side stay in reaction, and give them a door to walk through.
+- [Manipulation](8-sustain/09-manipulation.md) — manipulation hijacks the `Animal` in a single moment and conditioning shapes it across many: the levers, the tactics, and the counters to both.
+- [Reading People](8-sustain/10-reading.md) — reading the channels a person controls least, and denying an observer the map of your own reactions.
+- [Hidden Hostility](8-sustain/11-hostility.md) — ressentiment is suppressed malice, the hatred of someone who cannot strike openly: the seven signs that reveal it, and the response that leaves it powerless.
+- [Boundaries](8-sustain/12-boundaries.md) — a boundary is a stated limit paired with what you will do if it is crossed; the relationship audit applies the same rule to the whole circle.
+- [Physical Security](8-sustain/13-defense.md) — defense against violence. Most of it is won before contact; the fight is the rarest, costliest, least reliable layer.

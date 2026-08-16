@@ -96,7 +96,7 @@ A yogic reading (Patanjali's *Yoga Sutras*, via *Autobiography of a Yogi*) gives
 
 **Practices that train the shift** (do them, don't just read them):
 
-- **Breath inward.** A daily seated breathing practice that draws attention inward and steadies the mind before any external input (see [Vitality → Breathing](../8-sustain/01-vitality.md#7-breathing)).
+- **Breath inward.** A daily seated breathing practice that draws attention inward and steadies the mind before any external input (see [Vitality → Breathing](../8-sustain/03-recovery.md#breathing)).
 - **The mirror journal.** Take one stuck area and ask, "if this is a mirror, what is it reflecting?" — follow it down to the belief that carries a charge. What you can see clearly you can work with; what stays dark runs you automatically.
 - **Chosen state in company.** Hold a genuine inner state of calm and goodwill in a public setting and watch how interactions shift — direct evidence that inner state is not private (cf. [inner speech / broadcast](../2-mind/12-mind.md#the-social-origin-of-mind)).
 - **Weekly intention.** Clarify a *direction* that is genuinely yours (not a specific form), commit fully, then explicitly release the timeline and the shape it takes.

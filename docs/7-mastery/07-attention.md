@@ -56,7 +56,7 @@ The order of stimulation across a day decides what work is possible inside it. T
 | **Decide the target while rested** | Choose tomorrow's first task during today's working hours. An evening decision is made by a depleted `Agent`, and planning at night restarts the mind against sleep. |
 | **Leave the work open** | Laptop open on the right file, everything else closed. Waking should require no decision — only sitting down. |
 | **Phone out of the room overnight** | Not silenced — absent. Picked up after the first block, never before it. |
-| **Work first, eat second** | Take the first block before breakfast. See [Vitality → Nutrition](../8-sustain/01-vitality.md#6-nutrition). |
+| **Work first, eat second** | Take the first block before breakfast. See [Vitality → Nutrition](../8-sustain/04-nutrition.md#timing). |
 | **Hard-stop the day** | Fix the day at a length you can hold — six hours is a common ceiling. Work expands into whatever it is given; a hard edge forces the compression and exposes what should be delegated. |
 | **Peaks after the stop** | Games, feeds, sugar, loud music — once the day is closed, and not before. |
 

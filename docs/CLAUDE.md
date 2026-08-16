@@ -55,8 +55,8 @@ Content lives under numbered section folders, each one ontological layer or appl
 | `2-mind`       | Knowing & mind: `Language`, `Knowledge`, `Reasoning`, `Teleos`, `Intellect`, `Mind`, plus science and the branches of inquiry. | `03`–`12`, `90`, `99` |
 | `4-human`      | The human: `Human`, `Rajdo`, `Animal`, the `Manifesto`.                        | `21`, `23`, `28`, `98` |
 | `7-mastery`    | Mastery and its stages: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
-| `8-socium`     | The collective: society, ecology, culture, influence, trances, politics.       | `30`–`37`         |
-| `8-sustain`    | Sustaining the body & self: vitality, defense, security.                       | own domain, `01`– |
+| `8-socium`     | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
+| `8-sustain`    | Sustaining the body & self: vitality, recovery, nutrition, energy; security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `01`–`13` |
 
 The leading digit on a folder (`0-`, `1-`, `2-`, `4-`, `7-`, `8-`) places it within the ontology's
 ordering. The digit `8-` is shared by two applied folders (`8-socium`, `8-sustain`); gaps (`3-`,
@@ -149,9 +149,15 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
   `Mindset → Vision → Discipline → Productivity → Growth` spine it had always declared:
   `01-mastery` is now the hub, `04-productivity` was split across `03`–`08`, `06`/`07`/`24` were
   renumbered `09`/`10`/`11`, and the 0-byte `03-mindset` was deleted. `Depression` moved to
-  `8-sustain/01-vitality.md`; the tribe section moved to `8-socium/33-interpersonal.md`.
+  `8-sustain/05-energy.md`; the tribe section moved to `8-socium/33-interpersonal.md`.
   The claim above that every link resolved as of 2026-08-07 no longer held: a later `0-math`/`2-mind`
   rename left 17 dead links, now recorded in `scripts/check-docs.baseline.txt`.
+- **2026-08-16 — `8-socium` and `8-sustain` restructured** on the same pattern. `8-socium` went 6 → 8
+  files, staying in the global `30`–`37` range (`34-identity` and `36-conformism` extracted; `30-socium`
+  is now the hub). `8-sustain` went 3 → 13 files in its own `01`–`13` space: the 460-line
+  `05-security.md` split across `06`–`13`, the 14-item `01-vitality.md` regrouped by mechanism into
+  `02`–`05`, and `01-sustain.md` is the hub. Six of the baselined link failures were fixed in the
+  process; 11 remain, all from the `0-math`/`2-mind` rename.
 - **Baseline commit:** `c4dcb67` ("up", 2026-08-04) — the commit whose changes the 2026-08-07
   reconciliation absorbed. Diff from here for the next sync.
 

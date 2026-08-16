@@ -1,88 +1,34 @@
 ---
-title: "SOCIUM"
-description: "Humans do not live alone — we live for others."
+title: "Socium"
+description: "Humans do not live alone: society is a self-perpetuating system with its own logic, which reproduces through Culture, regulates through Contract, and uses individuals as carriers."
 keywords: [socium]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-06-24
+modified: 2026-08-16
 source: docs/8-socium/30-socium.md
 ---
 
-# SOCIUM
+# Socium
 
-![SOCIUM](/images/3-socium/30-socium.svg)
+![Socium](/images/8-socium/30-socium.svg)
+
+Humans do not live alone: society is a self-perpetuating system with its own logic, which reproduces through `Culture`, regulates through `Contract`, and uses individuals as carriers.
 
 ## Tribe
 
-Humans do not live alone — we live for others.
+Social interaction is the primary way human potential unfolds. The tribe answers three drives — joining your own, strengthening through shared experience and common cause, and gaining standing within the group — which the [`Persona`](34-identity.md#persona) then works to satisfy.
 
-Social interaction is the primary way human potential unfolds.
+## The Socium Spine
 
-Society is not a sum of individuals — it is a self-perpetuating system with its own logic, independent of individual intentions.
+> Binding → Mind → Contact → Self → Failure → Power.
 
-It reproduces through culture, regulates through contracts and norms, and uses individuals as carriers.
+The section reads outside-in and back out — from what holds a group together to the power built on the failures of the self it produces.
 
-Core drives of belonging:
-
-- Finding and joining your own — people similar to you
-- Strengthening through shared experience and common cause
-- Gaining standing within the group
-
-## Identity
-
-**Identity**: a continuous story about oneself,
-where boundaries, self-esteem, guidances and imperatives to follow
-are formed and maintained.
-
-Human identity is a multi-layered construct integrating:
-
-- biology (what we are - Body/Genes),
-- mind (who we feel we are - Truth/Faith),
-- society (our roles - Persona),
-- culture (shared meaning - Tribe/Idemon),
-- and personal narrative (our life story - Mission/Way).
-
-**The Three Sides of Identity**:
-
-1. **PerceivedSelf** — who I perceive myself to be
-2. **AspirationalSelf (Hero)** — who I want to become
-3. **ProjectedSelf (Mask)** — who I want others to perceive me as
-
-The gap between these sides is psychically painful,
-but is also the source of emotional drive toward development/growth.
-
-Persona is seeking for social connection over personal comfort:
-
-- Belonging: acceptance and feeling of being part to the own tribe - *I am like you, I am with you all!*
-- Validation: external approval, recognition and respect of Identity from others - *I am valuable, I am worthy of love and respect!*
-- Significance: powerful status, enticed value, admiration, worship - *I am important, I am special, I am better than others!*
-- and thus, multiplicative social support, protection, and resources. - *I am safe, I am comfortable, I am happy!*
-
-## Persona
-
-**Persona** (Social Mask): manifestation of a Human in its communication/relations with other People.
-
-It consists of set of principles and strategies to use in interaction with social Environment.
-
-**Functions**:
-
-- Hide weak/vulnerable sides — shame, guilt, loneliness, pain, fear
-- Show attractive sides that evoke approval and respect from Environment, gaining more external Validation and support from community
-- Soften possible stresses and reduce their risks
-
-**Reactions**:
-
-- In response to contempt or rejection: becomes hurt, turns angry and vengeful — toward self and everyone around
-- In response to deterioration/loss of social status: demands to be like everyone, not worse than others, divides into "us" and "them"
-
-**The Marketing Character (Erich Fromm)**: *"There exists a type of people whose entire life is directed toward receiving recognition and admiration. Fromm described a character oriented toward sales, toward displaying one's qualities and, more broadly, oneself. As a rule, such people have a deep inner conviction that they are not valuable in themselves and cannot be loved just like that. To prove their worth and right to love, they must do something, always be first, and receive admiration necessary like air. But even when they manage to receive love and recognition, they do not calm down: because now they love not them, but their mask, their successes and achievements."*  
-
-### Dark Shadow
-
-**Dark Shadow**: Hidden 'dark' subconscious side of the Persona — suppressed during upbringing, forbidden by external social frameworks, hidden under the opposing external Mask.  
-
-**Properties**:
-
-- Persona needs can suppress Animal ones and push them into the subconscious space
-- A strongly assigned social Mask of Masculinity leads to formation of the Anima, and vice versa
-- Mask and Shadow are products of upbringing through experiencing pain and seeking reward in close environment in childhood
+| Layer | Reading |
+| --- | --- |
+| **Binding** — what holds a group | [Ecology](31-ecology.md) — the social `Contract`, its prohibitions, and the game theory that makes cooperation win |
+| **Mind** — what a group thinks with | [Culture](32-culture.md) — collective mind, idemons, crowd, transmission, extraction |
+| **Contact** — person to person | [Influence](33-interpersonal.md) — conduct, presence, reading people, the company you keep |
+| **Self** — what the group makes of a person | [Identity](34-identity.md) — the story, the `Persona`, the shadow behind it |
+| **Failure** — how that self breaks | [Social Trances](35-transes.md) — the inferiority trance · [Conformism](36-conformism.md) — obedience and moral courage |
+| **Power** — what is built on it | [Power Architecture](37-politics.md) — status, the state, the instruments of control |

@@ -1,65 +1,30 @@
 ---
 title: "Ecology"
-description: "Ecology is a sustainable social Contract"
-keywords: [socium, ecology]
+description: "Ecology is a sustainable social Contract — one that protects individual rights, renews the conditions for development, and leaves room for new meaning."
+keywords: [socium, ecology, ethics]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-06-24
+modified: 2026-08-16
 source: docs/8-socium/31-ecology.md
 ---
 
 # Ecology
 
-**Ecology** is a sustainable social `Contract`:
+![Ecology](/images/8-socium/31-ecology.svg)
 
-- Protects individual rights and freedoms
-- Maintains conditions for well-being, development, and resource renewal
-- Creates space for new meanings and higher forms of existence
+Ecology is a sustainable social `Contract` — one that protects individual rights, renews the conditions for development, and leaves room for new meaning.
 
-Prerequisites:
-
-- Freedom of expression
-- Quality education
-- Public discourse on equal terms
-- Critical thinking and willingness to acknowledge error publicly
-
-Core principles:
-
-- Human rights are absolute; power is not
-- Laws formalize rights — they do not define or limit them
-- All persons have equal rights, voice, and standing before law
+It requires freedom of expression, quality education, public discourse on equal terms, and the willingness to acknowledge error in public. Its core principles: human rights are absolute and power is not; laws formalize rights rather than define or limit them; all persons hold equal rights, voice, and standing before law.
 
 ## Social Contract
 
- **Role** is a defined set of rights and obligations governing interaction with others. Each `Person` holds multiple roles simultaneously.
-
-**Contract** ia an allocation of roles among parties around a shared objective. Valid agreements require:
-
-- Mutual maturity, consent and trust
-- Reciprocal benefit — either multiplication of force or specialization of effort
-- Defined scope and termination criteria
-
-**Maturity** is a capacity
-
-- to keep `Contract` regardless of external pressure,
-- to bear responsibility for one's choices within a `Contract`.
-- to signal that enables long-term cooperation.
-
-**Community** is a unity of mature agents under defined contractual relationships.
-
-**Trust** is a confidence that agreements will be honored. Built on:
-
-- Solidarity (shared values)
-- Mutual respect and responsibility
-- Recognized competence
-
-### Enemy Image
-
-The brain assembles an "enemy" with little effort — a survival mechanism for rapid threat detection. Fear and anger fire before the prefrontal cortex catches up. For our ancestors, mistaking kin for a predator cost less than missing a real one, so the system is tuned toward false positives.
-
-The oldest brain structures react before conscious thought engages. As frontal lobes grew alongside social complexity, the us/them split became cognitive shorthand: a generalized enemy lets the mind decide without examining each individual. Stereotype is the price of speed.
-
-A shared enemy is among the strongest accelerants of solidarity and mobilization. The "enemy image" is not a malfunction — it is the residue of tribal adaptation, when reacting instantly to outsiders was an evolutionary advantage.
+| Term | Definition | Notes |
+| --- | --- | --- |
+| `Role` | A defined set of rights and obligations governing interaction with others | Each `Person` holds several at once. |
+| `Contract` | An allocation of `Role`s among parties around a shared objective | Requires mutual maturity, consent, and trust; reciprocal benefit — multiplied force or specialized effort; defined scope and termination criteria. |
+| `Maturity` | The capacity to keep a `Contract` under pressure and bear responsibility for one's choices within it | The signal that makes long-term cooperation possible. |
+| `Community` | A unity of mature `Agent`s under defined contractual relations | The `Contract` is what makes it a community rather than a crowd. |
+| `Trust` | Confidence that agreements will be honored | Built on solidarity, mutual respect and responsibility, and recognized competence. |
 
 ## Ethics
 
@@ -89,53 +54,28 @@ A choice is ethical if it remains good when applied universally to all members o
 9. The triumph of despotism is forcing slaves to declare themselves free
 10. Only unconditional principle has the force of moral law
 
-## Game theory
+## Game Theory
 
-Cooperation is not naive — it is a strategy that wins.
-
-Game theory models how rational agents act when outcomes depend on others' choices, and it shows mathematically why conscience outperforms predation over time.
+Cooperation is not naive — it is the strategy that wins. Game theory models agents whose outcomes depend on others' choices, and shows why conscience outperforms predation over time.
 
 ### The Prisoner's Dilemma
 
-Two accomplices are interrogated separately. Each can stay silent (cooperate) or betray the other (defect). The payoffs:
+Two accomplices are interrogated separately. Each can stay silent (cooperate) or betray the other (defect).
 
-| | Other cooperates| Other defects|
+| | Other cooperates | Other defects |
 | --- | --- | --- |
-| **You cooperate** | Both gain (light sentence)| You lose most (heavy sentence), they go free |
-| **You defect**| You go free, they lose most | Both lose (medium sentence)|
+| **You cooperate** | Both gain (light sentence) | You lose most (heavy sentence), they go free |
+| **You defect** | You go free, they lose most | Both lose (medium sentence) |
 
-For a single round, defection is the rational choice:
-
-> *minimize looses* overcomes *maximize benefits*
-
-whatever the other does, betraying yields a better individual result.
-
-So two rational agents both defect — and both end up worse off than if they had cooperated.
-
-Individual rationality produces collective ruin.
-
-This is the structure behind arms races, overfishing, and broken contracts.
+In a single round, betrayal yields a better individual result whatever the other does — *minimize losses* overcomes *maximize benefits*. So both defect, and both end worse off than if they had cooperated. Individual rationality produces collective ruin: this is the structure behind arms races, overfishing, and broken contracts.
 
 ### Tit for Tat
 
-The dilemma changes when the game repeats — when you meet the same people again, as you do in any real community.
-
-Across Axelrod's tournaments, the simplest strategy won: **Tit for Tat**.
-
-1. **Cooperate first** — open with trust, **Then mirror** — do whatever the other did last move.
-
-Its strength comes from four traits:
+The dilemma changes when the game repeats — when you meet the same people again, as in any real community. Across Axelrod's tournaments the simplest strategy won: **cooperate first, then mirror**. Its strength comes from four traits:
 
 - **Nice** IS Never defect first.
 - **Retaliatory** IS Punish betrayal immediately, so you are not a tool to be exploited.
 - **Forgiving** IS Do not hold grudges; one defection earns one response, not endless war.
 - **Clear** IS Be predictable, so others can learn to cooperate with you.
 
-### Why this matters
-
-Repeated interaction makes conscience the dominant strategy.
-Reputation becomes an asset because the game is iterated — defectors are remembered and isolated.
-This is the formal echo of the axioms: *if you cannot be a threat, you are only a tool* (you must retaliate),
-and *people of conscience have no insurmountable conflicts* (cooperators converge).
-
-Ethics is not a constraint on winning — over a long enough horizon, it is how you win.
+Repetition makes conscience the dominant strategy and reputation an asset, because defectors are remembered and isolated — the formal echo of axioms 6 and 7. Ethics is not a constraint on winning; over a long enough horizon, it is how you win.

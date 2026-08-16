@@ -12,9 +12,9 @@ source: docs/1-reality/02-process.md
 
 ![Dynamic Processes](/images/1-nature/06-process.svg)
 
-**`Process`** := `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+**`Process`** := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
 
-**`Circuit<Schema>`** := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
+**`Controller<Schema>`** := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
 := `Ingress<Schema> → PD(Volume<Schema>)`
 
 **`Text<Dictionary> : [ Word ∈ Dictionary, ...]`** :=  `Tuple=Plan` of `Word`s the same `Dictionary=SampleSpace`.

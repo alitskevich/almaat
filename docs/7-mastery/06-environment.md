@@ -32,7 +32,7 @@ Against an **engineered compulsion** — a product built by a system that optimi
 | **Cut access at the source** | Block at the router or DNS, not the app — friction you cannot undo in a weak moment. |
 | **Raise activation energy** | Phone out of the bedroom, logged out, screen grayscale. Every added step is a decision point in your favor. |
 | **Break the scene** | Habits bind to place, time, and people (phone in bed, cigarette on the balcony). Physically removing the cue stops the automatic trigger. |
-| **Replace the reward** | Leave no vacuum — substitute a strong natural reward: hard training, cold exposure, real connection. See [Vitality](../8-sustain/01-vitality.md). |
+| **Replace the reward** | Leave no vacuum — substitute a strong natural reward: hard training, cold exposure, real connection. See [Vitality](../8-sustain/05-energy.md#fitness). |
 | **Taper and expect the dip** | Cutting a supernormal stimulus often brings a temporary crash before baseline pleasure returns. Plan for it; it passes. |
 | **Cut the whole class** | Short-form video, feeds, and games run the same loop — removing one while feeding another stalls recovery. |
 
