@@ -117,10 +117,24 @@ follow the same banner convention (`/images/<folder>/index.svg`).
 
 - **Canonical Terms are capitalized and backticked**: `Azon`, `Set`, `Agent`, `Flow`.
   Cross-reference related Terms with relative links, e.g. `[07-system](../1-reality/07-system.md)`.
-- **Definitions go in tables** with columns `Term | Definition | Formula | Notes`; keep
-  formulas in backticks. Follow a table with a `**Notes:**` list when commentary helps.
-- **Formal statements** (axioms, laws) use the same tabular style; see
-  `0-math/00-azon.md` as the reference example.
+- **Formal definitions are prose, not tables.** A definition opens with the bolded backticked
+  Term, then `:=`, then the defining clause; the formula follows as a blockquote, and `---`
+  separates consecutive definitions. See `0-math/00-azon.md`, the reference example:
+
+  ```markdown
+  **`Zero`** := `Azon` that *always* responds with itself
+
+  > `Zero := x → Zero`
+
+  *DEF*: response with `Zero` *called* `empty`, otherwise - `valent`.
+  ```
+
+  (This rule previously mandated `Term | Definition | Formula | Notes` tables, which no file in
+  the ontology layers has ever used — including the reference example it cited. Corrected
+  2026-08-16 in favour of what the tree actually does.)
+- **Tables are for enumerations**, not definitions: parallel lists of moves, forms, biases, or
+  comparisons, where every row shares a shape. The applied folders (`7-mastery`, `8-socium`,
+  `8-sustain`) use them heavily and correctly.
 - **Prose** is plain and direct — basic terminology, short sentences, no filler.
   Declarative, defined, unhurried.
 - When a new canonical Term is coined, add it to `_translations.md` under the matching
