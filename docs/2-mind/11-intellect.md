@@ -1,18 +1,20 @@
 ---
 title: "Intellect"
-description: "Intellect is the capacity to form, validate, and apply own Reality."
+description: "The capacity to form, validate, and apply one's own Reality — cognition, validation, learning, skill, bias, and judgment under uncertainty."
 keywords: [mind, intellect]
 license: UNLICENSED
 created: 2026-07-16
-modified: 2026-08-07
+modified: 2026-08-16
 source: docs/2-mind/11-intellect.md
 ---
 
 # Intellect
 
-![Intellect](/images/1-nature/11-intellect.svg)
+![Intellect](/images/2-mind/11-intellect.svg)
 
-Intellect is the capacity to form, validate, and apply own `Reality`.
+The capacity to form, validate, and apply one's own `Reality` — cognition, validation, learning, skill, bias, and judgment under uncertainty.
+
+## Reality and Experience
 
 **`Reality`** := The totality of conceptions about Being — the space of which `Knowledge` is the validated subset.
 
@@ -28,27 +30,19 @@ Intellect is the capacity to form, validate, and apply own `Reality`.
 
 *NOTE*: The empirical counterweight to `Thesis`: `Experience` grounds `Knowledge` in actually-traversed `Trajectory`.
 
----
-
-## Intelligence — Cognitive Skills
+## Cognitive Skills
 
 The general capacities that learning develops and then deploys:
 
-**Logical Thinking** — apply analysis, formalization, verification, and reasoning on a rigorous basis. Foster fundamental and applied mathematics: discrete math, statistics, optimization.
+| Skill | What it does |
+| --- | --- |
+| **Logical Thinking** | Apply analysis, formalization, verification, and reasoning on a rigorous basis. Fostered by fundamental and applied mathematics: discrete math, statistics, optimization. |
+| **Critical Thinking** | Iteratively adapt existing `Knowledge` to meet the [scientific criteria](90-scientific.md), questioning deeply — *why, what-if-not, what-else* — to challenge and revise assumptions and shift viewpoints. The disciplined exercise of `Doubt` in service of `Validation`. |
+| **Strategic Thinking** | Make balanced decisions with regard for broader context and long-term outcomes. |
+| **Problem Solving** | Diagnose with attention to detail; identify root causes and estimate required effort. |
+| **Creativity** | Embrace innovation, flexibility, and paradoxical thinking to break conventional patterns. |
 
-**Critical Thinking** is an iterative process to adapt EXISTING `Knowledge` to meet scientific criteria.
-
-It operates by questioning deeply with a *"why, what-if-not, what-else"* approach — challenging and revising assumptions, refreshing perspectives, and shifting viewpoints.
-
-It is the disciplined exercise of `Doubt` in service of `Validation`.
-
-**Strategic Thinking** — make balanced decisions with regard for broader context and long-term outcomes.
-
-**Problem Solving** — diagnose with attention to detail. Identify root causes; estimate required effort.
-
-**Creativity** — embrace innovation, flexibility, and paradoxical thinking to break conventional patterns.
-
----
+## The Cognitive Cycle
 
 **`Cognition`** := The process of creating new or accessing existing `Knowledge`.
 
@@ -70,7 +64,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Learning :: (Knowledge, Experience) → Knowledge'` where `Knowledge'` better predicts further `Experience`
 
-*NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`.
+*NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`. Applied side: [Learning](../7-mastery/09-learning.md).
 
 ---
 
@@ -86,7 +80,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Skill :: Knowledge + Experience → Behavior reliable under Circumstances`
 
-*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mindset](../7-mastery/02-mindset.md)) is the corresponding `Paradigm`-scope concept.
+*NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mastery](../7-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
 
 ---
 
@@ -94,7 +88,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Bias :: systematic offset in Code(Signal) ≠ ground-truth Thought`
 
-*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [07-system](../1-reality/07-system.md)).
+*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [07-system](../1-reality/15-evolution.md)).
 
 ---
 
@@ -104,9 +98,7 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 *NOTE*: Based on empirical `Knowledge`, scientific method, and proven `Experience`. The integrated apparatus that converts `Knowledge` into `Solution` — and the central object of `Evolution`.
 
-### Uncertainty
-
----
+## Under Uncertainty
 
 **`Rationale`** := A set of universal principles for making `Solution` under conditions of insufficient `Knowledge`.
 
@@ -128,5 +120,4 @@ It is the disciplined exercise of `Doubt` in service of `Validation`.
 
 > `Wisdom :: (Knowledge, Experience, Rationale) → reliable Solution across Circumstances`
 
-*NOTE*: The capacity to apply the right principle in the right situation. Bound to the `Agent`'s lived path — not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones.
-`Wisdom`: The ability to apply one's `Truth` effectively along the Way.
+*NOTE*: The capacity to apply the right principle — one's own `Truth` — in the right situation, effectively along the Way. Bound to the `Agent`'s lived path, not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones.

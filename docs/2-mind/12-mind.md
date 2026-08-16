@@ -1,14 +1,20 @@
 ---
 title: "Mind"
-description: "Mind as a system of neurons and sensors — sources, thought as state, the social origin of mind, and the predictive brain."
+description: "Mind as a System of Neuron and Sensor — thought as state, memory as disposition, and the social origin of the inner voice."
 keywords: [mind]
 license: UNLICENSED
 created: 2026-07-18
-modified: 2026-08-07
+modified: 2026-08-16
 source: docs/2-mind/12-mind.md
 ---
 
 # Mind
+
+![Mind](/images/2-mind/12-mind.svg)
+
+`Mind` as a `System` of `Neuron` and `Sensor` — thought as state, memory as disposition, and the social origin of the inner voice.
+
+## The Substrate
 
 **`Source`** := An `Azon` with a non-empty `Codomain` — an `Azon` considered from the perspective of its outputs.
 
@@ -30,7 +36,7 @@ source: docs/2-mind/12-mind.md
 
 > `Sensor :: external-Communication → Weight ∈ Number`
 
-*NOTE*: Within the `Mind`'s internal topology, `Sensor` is a `Source` (origin). Its effective input is `Communication` from outside the `Mind` — it converts external `Communication` into an internal `Signal`.
+*NOTE*: Within the `Mind`'s internal topology, `Sensor` is a `Source` (origin): it converts `Communication` from outside the `Mind` into an internal `Signal`.
 
 ---
 
@@ -78,7 +84,7 @@ The definitions above give the substrate. But where does the *content* of `Thoug
 
 - **Two floors.** *Natural* functions (involuntary attention, mechanical memory) are shared with animals. *Higher* functions — voluntary attention, logical memory, planning, will — are distinctly human, and are the ones that need explaining.
 - **Interpsychic → intrapsychic.** Every higher function appears twice: first *between* people as shared `Communication`, then *within* one person as private `Thought`. Your attention, memory, and conscience were first a relation with someone else that later became you.
-- **The sign as a psychological tool.** A physical tool (axe, hammer) is aimed outward at the world; a *sign* — a `Word`, a number, a knot tied to remember — is a tool aimed *inward*, at one's own `Mind`. "With a hammer I drive a nail; with a `Word` I drive a `Thought`." (See [Language](03-language.md).)
+- **The sign as a psychological tool.** A physical tool (axe, hammer) is aimed outward at the world; a *sign* — a `Word`, a number, a knot tied to remember — is a tool aimed *inward*, at one's own `Mind`. "With a hammer I drive a nail; with a `Word` I drive a `Thought`." (See [Language](../0-math/07-language.md).)
 - **Internalization.** A sign starts as an external prop in the hand; then the same operation runs silently in the `Mind` — the tool "grows in" and disappears into the personality. (Shown in the lab: children who need colored cards to hold a rule later hold it without them.)
 - **Inner speech.** The near-constant inner voice is *former external dialogue*, condensed and turned inward. You think in a `Language` you did not invent, with words and intonations you absorbed. The competing voices when you deliberate are the interiorized [Socium](../8-socium/30-socium.md); conscience is appropriated foreign speech you now call your own. This does not deny the person — it shows what the person is *made of*, as a unique house is still built of borrowed bricks.
 - **Thought is accomplished, not merely expressed, in the `Word`.** A `Thought` does not pre-exist as a finished packet the `Word` wraps; until uttered — even inwardly — it is a vague cloud of intention, *born* in the act of saying it. So dialogue does not exchange the ready-made; it jointly produces what neither party held before.
@@ -87,25 +93,3 @@ The definitions above give the substrate. But where does the *content* of `Thoug
 *Implication.* If a `Mind` is assembled from outside through `Word` and sign by describable laws, that same blueprint is a manipulation manual: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to `Alignment` in artificial minds.
 
 > *Source: Lev Vygotsky, cultural-historical psychology (*Thinking and Speech*), with A. Luria and A. Leontiev.*
-
-## The Predictive Brain
-
-Your brain is not reactive, but a prediction engine constructing reality from past experience, updated by sensory data.
-
-It feels like "seeing" is controlled hallucination. This is why you can catch a ball — a purely reactive brain would be too slow.
-
-*Implication*: Much of what feels like objective reality is your brain's running simulation.
-
-> *Source: [You're Living Inside a Prediction](https://www.youtube.com/watch?v=4bdwDYd7rdE)*
-
-### Core Mental Models
-
-**Control Dichotomy**: You control exactly two things — your actions and your reactions. Everything else is noise. Find satisfaction in the process itself.
-
-**Personal Fiction**: Memories are malleable Wikipedia pages, rewritten each time you recall them. Since you're already the editor, consciously choose which parts of your story to emphasize.
-
-**The Happiness Trap**: Happiness is a byproduct of meaning, growth, and contribution — not a destination. Your brain's hedonic set point means external achievements only temporarily raise mood.
-
-**The Effort Paradox**: The harder you desperately force an outcome (sleep, happiness, love), the more it eludes you. Practice effort without attachment.
-
-**Cognitive Bias Awareness**: Your brain is a pattern-matching machine, not truth-seeking. It runs confirmation bias, illusory superiority, and others to edit reality. Awareness of these filters is your superpower.

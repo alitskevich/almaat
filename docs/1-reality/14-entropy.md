@@ -1,0 +1,49 @@
+---
+title: "Entropy"
+description: "Entropy is the bridge between the State of a System and the passage of Steps: Order is never free, and a System holds Entropy back only by drawing Communication from its Environment."
+keywords: [reality, entropy, order, self-organization]
+license: UNLICENSED
+created: 2026-07-14
+modified: 2026-08-16
+source: docs/1-reality/14-entropy.md
+---
+
+# Entropy
+
+![Entropy](/images/1-reality/14-entropy.svg)
+
+`Entropy` is the bridge between the `State` of a `System` and the passage of `Step`s: `Order` is never free, and a `System` holds `Entropy` back only by drawing `Communication` from its `Environment`.
+
+It measures how much a `System`'s observable macro-`State` leaves undetermined about the underlying `State`s of its `Participant`s — and its tendency to grow over `Step`s is what gives a `System` an arrow of time.
+
+## Measure
+
+**`Entropy`** := a measure of the uncertainty in a `System`'s `State` — the count of micro-configurations of `Participant`s consistent with one observed macro-`State`.
+
+> `Entropy(System) := −Σ P(State_i) · log P(State_i)`
+
+*NOTE*: high `Entropy` means many indistinguishable `State`s, so the macro-`State` carries little information about the micro-`State`. The Boltzmann (counting) and Shannon (information) forms coincide. Maximal at `Equilibrium`.
+
+---
+
+**`Order`** := the complement of `Entropy` — the degree to which a `System`'s macro-`State` constrains the `State` of its `Participant`s.
+
+> `Order := Entropy_max − Entropy`
+
+*NOTE*: structure, pattern, distinguishability — what makes a `System` more than noise. Sometimes called *negentropy*. Sustained only against `Dissipation`.
+
+## Direction
+
+**`Dissipation`** := the tendency of an isolated `System` to lose `Order` across `Step`s.
+
+> `Dissipation :: Entropy(System, Step[i+1]) ≥ Entropy(System, Step[i])` for an isolated `System`
+
+*NOTE*: the Second Law as a `Flow` property: with no external `Communication`, `Order` decays monotonically toward `Equilibrium`. This is the `System`-level arrow of time.
+
+---
+
+**`Self-Organization`** := a local decrease of `Entropy` in an open `System`, paid for by a greater increase of `Entropy` in its `Environment`.
+
+> `Self-Organization :: ΔEntropy(System) < 0 ∧ ΔEntropy(System ∪ Environment) > 0`
+
+*NOTE*: the mechanism behind `Emergence` of `Order` — life, learning, every durable structure. Not a violation of `Dissipation`: `Order` is imported from the `Environment` and `Entropy` is exported back to it. Requires `Feedback` to stay bounded.

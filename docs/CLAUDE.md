@@ -51,9 +51,9 @@ Content lives under numbered section folders, each one ontological layer or appl
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
 | `0-math`       | Formal foundations: `Azon`, `Composition`, `Set`, `Algebras`, `Graph`, `Numerals`, `Presentations`. | `00`–`05`         |
-| `1-reality`    | Dynamics & metaphysics: `Process`, `System`, `Probability`, `Being`.           | `02`, `07`, `10`, `22` |
-| `2-mind`       | Knowing & mind: `Language`, `Knowledge`, `Reasoning`, `Teleos`, `Intellect`, `Mind`, plus science and the branches of inquiry. | `03`–`12`, `90`, `99` |
-| `4-human`      | The human: `Human`, `Rajdo`, `Animal`, the `Manifesto`.                        | `21`, `23`, `28`, `98` |
+| `1-reality`    | Dynamics & metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `02`, `07`, `10`, `14`–`16`, `22`, `24`, `27` |
+| `2-mind`       | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
+| `4-human`      | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
 | `7-mastery`    | Mastery and its stages: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
 | `8-socium`     | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
 | `8-sustain`    | Sustaining the body & self: vitality, recovery, nutrition, energy; security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `01`–`13` |
@@ -166,6 +166,13 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
   `8-sustain/05-energy.md`; the tribe section moved to `8-socium/33-interpersonal.md`.
   The claim above that every link resolved as of 2026-08-07 no longer held: a later `0-math`/`2-mind`
   rename left 17 dead links, now recorded in `scripts/check-docs.baseline.txt`.
+- **2026-08-16 — `1-reality`, `2-mind` and `4-human` restructured.** The ontology layers had the
+  opposite defect from the applied folders: dense formal material with almost no navigation
+  (`02-process.md` and `21-human.md` had zero headings). Each folder gained a hub with a spine table
+  and per-file sections; `1-reality` 3 → 9 files, `2-mind` 6 → 11, `4-human` 4 → 8, all keeping the
+  global number sequence. Every Term definition was preserved (verified by diff, not assertion).
+  These folders GREW — +12%, +6.5%, +2.9% — because navigation costs words and formal definitions
+  have no slack. That is the expected outcome here, not a failure.
 - **2026-08-16 — `8-socium` and `8-sustain` restructured** on the same pattern. `8-socium` went 6 → 8
   files, staying in the global `30`–`37` range (`34-identity` and `36-conformism` extracted; `30-socium`
   is now the hub). `8-sustain` went 3 → 13 files in its own `01`–`13` space: the 460-line

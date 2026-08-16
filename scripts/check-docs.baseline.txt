@@ -1,13 +1,8 @@
 # Accepted pre-existing breakage. Keyed as `file → target`, no line numbers.
 # Regenerate: node scripts/check-docs.mjs --write-baseline
 docs/0-math/05-structures.md → 03-graph.md (file not found)
-docs/2-mind/12-mind.md → 03-language.md (file not found)
 docs/CLAUDE.md → ../1-reality/07-system.md (file not found)
 docs/INDEX.md → 0-math/01-set.md (file not found)
 docs/INDEX.md → 0-math/03-graph.md (file not found)
 docs/INDEX.md → 0-math/05-algebras.md (file not found)
 docs/INDEX.md → 0-math/06-view.md (file not found)
-docs/INDEX.md → 1-reality/10-probability.md (file not found)
-docs/INDEX.md → 2-mind/03-language.md (file not found)
-docs/INDEX.md → 2-mind/90-science.md (file not found)
-docs/INDEX.md → 2-mind/99-branches.md (file not found)

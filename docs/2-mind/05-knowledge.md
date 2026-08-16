@@ -1,20 +1,28 @@
 ---
 title: "Knowledge"
-description: "Knowledge built from opinion, doubt, and thesis — the atomic units of belief and how knowledge is organized."
+description: "The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into."
 keywords: [mind, knowledge]
 license: UNLICENSED
 created: 2026-07-18
-modified: 2026-08-08
+modified: 2026-08-16
 source: docs/2-mind/05-knowledge.md
 ---
 
 # Knowledge
 
+![Knowledge](/images/2-mind/05-knowledge.svg)
+
+The atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `Concept` — and the forms `Knowledge` is organized into.
+
+## Units of Belief
+
 **`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether `Presentation` belongs to `Place`.
 
 > `Opinion :: Expression → (Presentation × Place → {0, 1})`
 
-*NOTE*: The atomic unit of belief — a proposition asserting membership of entities in categories.
+*NOTE*: A proposition asserting membership of entities in categories.
+
+---
 
 **`Doubt`** := A suspended `Opinion` — the recognition that current `Knowledge` is insufficient to evaluate membership of a `Presentation` in a `Place`.
 
@@ -36,7 +44,7 @@ source: docs/2-mind/05-knowledge.md
 
 *NOTE*: A *coordinated vocabulary plus the inferential machinery* that lets `Opinion` combine into `Thesis`.
 
----
+## Naming
 
 **`Name`** := An `Expression` of `Language` associated with `Presentation` (Entities) of the `Attribute-Space`.
 
@@ -54,7 +62,6 @@ source: docs/2-mind/05-knowledge.md
 
 ## Knowledge Organization
 
----
 **`Knowledge`** := A `Set` of `Opinion`s that a `Mind` uses to predict and act upon `Reality`.
 
 > `Knowledge := {Theory, Concept, Opinion}_validated`
@@ -65,18 +72,10 @@ source: docs/2-mind/05-knowledge.md
 
 **`Taxonomy`** := A hierarchical structure defining "is-a" general/specific relations between concepts, organizing into groups based on shared characteristics. Answers: "What are the types of things?"
 
----
-
 **`Ontology`** := A formal explicit declarative description of a domain comprising concepts, properties, and restrictions. Answers: "What are there and how do they relate?"
-
----
 
 **`Knowledge Base`** := An ontology with a set of individual instances of classes.
 
----
-
 **`Data Model`** := Mathematical representations of physical systems containing equations that describe behavioral relationships.
-
----
 
 **`Domain-Specific Language (DSL)`** := A specialized language tailored to express operations, configurations, or processes within a specific domain.

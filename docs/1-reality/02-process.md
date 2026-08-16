@@ -1,43 +1,83 @@
 ---
 title: "Dynamic Processes"
-description: "Process := Queue of Words from the same Dictionary=SampleSpace."
-keywords: [reality, process]
+description: "**Process** := controlled Queue of Words from the same Dictionary=SampleSpace."
+keywords: [reality, process, circuit, flow]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-13
+modified: 2026-08-16
 source: docs/1-reality/02-process.md
 ---
 
 # Dynamic Processes
 
-![Dynamic Processes](/images/1-nature/06-process.svg)
+![Dynamic Processes](/images/1-reality/02-process.svg)
 
 **`Process`** := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
 
-**`Controller<Schema>`** := A `Azon` that responds to an State-`Ingress` with a `Probability Distribution` over `Volume` .
-:= `Ingress<Schema> → PD(Volume<Schema>)`
+## The Reality Spine
 
-**`Text<Dictionary> : [ Word ∈ Dictionary, ...]`** :=  `Tuple=Plan` of `Word`s the same `Dictionary=SampleSpace`.
+> Process → System → Probability → Entropy → Evolution → Being.
 
-**`Event<Dictionary> := (Context, { Word }, Probability)`** := triplet of
+The section reads outward from the single step, and ends with what is taking it.
+
+| Layer | Reading |
+| --- | --- |
+| **Process** — how one step is taken | this file — `Circuit`, its kinds, and the landmarks of a `Flow` |
+| **System** — what many things make | [Systems](07-system.md) — `Participant`, `Communication`, `Emergence`, `Equilibrium` |
+| **Probability** — how likelihood is measured | [Probability](10-probability.md) — expectation, updating, limit laws, long-run behavior |
+| **Entropy** — what `Order` costs | [Entropy](14-entropy.md) — dissipation and self-organization |
+| **Evolution** — how a `Paradigm` moves | [Evolution](15-evolution.md) — adaptation, stagnation, crisis · [Limits](16-limits.md) — freedom, the ceiling, breakthrough |
+| **Being** — what is doing all this | [Being](22-being.md) — `Reality` as representation · [Transcendence](24-transcendence.md) — one `Consciousness` · [The Given](27-given.md) — perceived versus constructed |
+
+## Parts of a Process
+
+**`Controller<Schema>`** := an `Azon` that responds to a State-`Ingress` with a `Probability Distribution` over `Volume`.
+
+> `Ingress<Schema> → PD(Volume<Schema>)`
+
+---
+
+**`Text<Dictionary>`** := `Tuple=Plan` of `Word`s from the same `Dictionary=SampleSpace`.
+
+> `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
+
+---
+
+**`Event<Dictionary>`** := triplet of `Context`, `State`, and `Probability`.
+
+> `Event<Dictionary> := (Context, { Word }, Probability)`
 
 - `Context` := some `Text<SampleSpace>` or `Zero`.
 - `State` := some `Subset` from `SampleSpace`.
 - `Probability` := some rational number from 0 to 1.
 
-**`Circuit := {Event} :: LTP`** := `Set` of `MutuallyExclusiveEvents`s with same-sized `Context`s under `Law of Total Probability`.
+---
 
-**`Law of Total Probability`** := Sum of `Probabilities` of `MutuallyExclusiveEvents` is 1.
+**`Circuit`** := `Set` of `MutuallyExclusiveEvents` with same-sized `Context`s under the `Law of Total Probability`.
 
-**`MutuallyExclusiveEvents`** :=  set of `Event` with the same `Context`, and whose `State`s comprise `Cluster` of `SampleSpace`.
+> `Circuit := {Event} :: LTP`
 
-**`Independent Events`** := Presence/absence of `State` of one `Event` in `Context` of other one doesn't affect `Probability` of other one.
+---
 
-**`Random Variable`** := context-free `Circuit`, i.e. for all `Event`s with the same `State` - `Probability` is also the same.
+**`Law of Total Probability`** := the `Probabilities` of `MutuallyExclusiveEvents` sum to 1.
 
-**`Probability Distribution`** := `Azon` that responds with `Probability` to `State`s of a `random variable`.
+---
 
-**`Expected Value (Mean)`** := Average State over many trials: E(X) = Σ[x × P(x)].
+**`MutuallyExclusiveEvents`** := set of `Event` with the same `Context`, whose `State`s comprise a `Cluster` of `SampleSpace`.
+
+---
+
+**`Independent Events`** := presence or absence of one `Event`'s `State` in the `Context` of another does not affect the other's `Probability`.
+
+---
+
+**`Random Variable`** := context-free `Circuit` — for all `Event`s with the same `State`, the `Probability` is also the same.
+
+---
+
+**`Probability Distribution`** := `Azon` that responds with a `Probability` to the `State`s of a `Random Variable`.
+
+## Kinds of Circuit
 
 *DEF*: `Circuit` is `memoryless`
 := `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`
@@ -45,71 +85,48 @@ source: docs/1-reality/02-process.md
 
 *NOTE*: any finite-history process is recovered by enlarging the `State` to encode it.
 
+---
+
 **`TransitionMatrix`** := a matrix of transition probabilities between `State`s.
 
 > `T[i][j] := P(State → j | State = i) :: rows sum to 1`
 
+*NOTE*: a Markov kernel — the transition rule of the `Flow`. Since every `Circuit` is one, every `Flow` is a Markov chain: the `Circuit` is the kernel, the `Flow` is the process it unrolls. Multi-`State` evolution is matrix power — the `k`-step distribution is `T^k`.
+
 ---
-
-*NOTE*: A Markov kernel — the transition rule of the `Flow`.
-
-*NOTE*: Since every `Circuit` is a Markov kernel, every `Flow` is a Markov chain
-— the `Circuit` is the kernel, the `Flow` is the process it unrolls.
 
 *DEF*: `Circuit` is `deterministic`
 := `∃Point<i> :: i -> PD(x) = x IS Point ? 1 : 0`
 := exist `MassPoint`.
 
+---
+
 *DEF*: `Circuit` is `periodic`
 := `∃m, k: ∀n > k, State[m+n] = State[n]`
-:= A `Flow` composed of infinite repetitions of a `Plan`.
+:= a `Flow` composed of infinite repetitions of a `Plan`.
 
-**`Halt` / `Absorbing State`** := A `State` whose `Circuit` distribution is the point mass on itself — once entered, never left.
+## Landmarks of a Flow
+
+**`Potency`** := an evaluation of a `Plan` under given `Circumstances`.
+
+---
+
+**`Future<State>`** := `Set` of `State` accessible from a given `State`.
+
+> `Future<State> := { M :: Plan reachable from State }`
+
+---
+
+**`Halt` / `Absorbing State`** := a `State` whose `Circuit` distribution is the point mass on itself — once entered, never left.
 
 > `Circuit(State) = δ_Step`, `P(State | State) = 1`, `T[i][i] = 1`
 
-*NOTE*: A fixed point at the `Flow` level — the only `State` with non-zero probability is the `State` itself. A `Flow` may contain several; which one absorbs is itself random. Compatible with `AXIOM-2` because the distribution `δ_Step` is distinct from `State`.
+*NOTE*: a fixed point at the `Flow` level. A `Flow` may contain several; which one absorbs is itself random. Compatible with `AXIOM-2` because the distribution `δ_Step` is distinct from `State`.
 
 ---
 
-**`Potency`** := An evaluation of a `Plan` under given `Circumstances`.
-*NOTE*: Multi-`State` evolution is matrix power: the `k`-step distribution is `T^k`.
-
-**`Future<State>`** := `{ M :: Plan reachable from State}`
-:= `Set` of `State` accessible from given `State`
-
-**`Bifurcation`** := A `State` whose `Circuit` distribution has more than one `State` of non-zero probability.
+**`Bifurcation`** := a `State` whose `Circuit` distribution has more than one `State` of non-zero probability.
 
 > `|support(Circuit(State))| > 1`
 
-*NOTE*: A weighted branch — the `Circuit` assigns each next `State` its transition probability. The realized choice samples from that distribution; `Communication` from outside the `State` biases the weights. `Crisis` in [10-growth](07-system.md) is a `State` at a `Bifurcation`.
-
-**`Recurrent` / `Transient`** := A `State` returned to with probability 1 (recurrent) versus eventually abandoned (transient).
-
-> `recurrent ⟺ P(return to State) = 1`
-
-*NOTE*: Recurrent `State` are the long-run support of the `Flow`; the stochastic generalization of a `Circuit`. Transient `State` carry only the approach.
-
-**`Stationary Distribution`** := A `Probability Distribution` over `State` left unchanged by the `Circuit`.
-
-> `π T = π`, `Σ π = 1`
-
-*NOTE*: The stochastic `Equilibrium`: applying the `Circuit` reproduces the same distribution. Not a single resting `State` but a stable *mixture* of `State`.
-
-**`Ergodic`** := The `Flow` converges to a unique `Stationary Distribution` regardless of the starting `State`.
-
-> `lim T^k → π` for every initial `State`
-
-*NOTE*: Requires irreducibility (every `State` reachable) and aperiodicity (no fixed cycle length). The long-run fraction of time in each `State` equals `π`, independent of where the `Flow` began.
-
----
-
-**`Conditional Probability`** := Probability of A given B occurred: P(A|B) = P(A ∩ B) / P(B).
-
-**`Bayes' Theorem`** := Updates probability with new evidence: P(A|B) = [P(B|A) × P(A)] / P(B).
-
-**`Law of Large Numbers`** := Average State approaches expected value over many trials.
-
-**`Central Limit Theorem`** := Averages of many trials form a normal distribution.
-
-**`Variance and Standard Deviation`** := Measures spread: Var(X) = E[(X - E(X))²], SD = √Var(X).
+*NOTE*: a weighted branch — the `Circuit` assigns each next `State` its transition probability. The realized choice samples from that distribution; `Communication` from outside the `State` biases the weights. [`Crisis`](15-evolution.md) is a `State` at a `Bifurcation`.

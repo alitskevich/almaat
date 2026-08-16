@@ -22,7 +22,7 @@ Cadence and multipliers: the rhythms that keep progress steady, and the leverage
 
 - **Protect the First Hour**: Deep work only. No email, no phone, no warm-up routine — the hour is already focus and does not need to be entered. Under employment, spend it on your own work before the employer's: the paid work gets done under its deadline, yours never gets done after hours. See [The Shape of the Day](07-attention.md#the-shape-of-the-day).
 - **2-Minute Rule**: If a task takes <2 minutes, do it now. Clear cognitive clutter.
-- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../4-human/28-animal.md#the-self-memory-and-death), so a page from five years ago is the only honest evidence of how far you moved, and rereading it shows most of what then read as catastrophe to have been small. That is the cheapest available proof that today's worry will also pass.
+- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../4-human/29-self.md#memory-is-reconstruction), so a page from five years ago is the only honest evidence of how far you moved, and rereading it shows most of what then read as catastrophe to have been small. That is the cheapest available proof that today's worry will also pass.
 
 **Weekly**
 

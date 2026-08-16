@@ -34,34 +34,46 @@ The formal core: the primitive `Azon` and the structures built directly from it.
 
 ## 1 — Reality · Dynamics & Metaphysics
 
-How static primitives become living systems that act, and how `Reality` itself is read.
+How static primitives become living systems that act, and how `Reality` itself is read: Process → System → Probability → Entropy → Evolution → Being.
 
-- [Dynamic Processes](1-reality/02-process.md) — `Flow`, `Plan`, `Moment`; sequences of `State` over a shared `Schema`.
-- [Systems](1-reality/07-system.md) — `Thing`/`Entity` as a `Queue` of `Presentation`s along a `Flow`.
-- [Probability](1-reality/10-probability.md) — `Sample Space`, `Event`, outcomes, and likelihood.
-- [Transcendence](1-reality/22-being.md) — `Being` and `Reality` as representation ("the readout, not the source"); the given vs. the constructed.
+- [Dynamic Processes](1-reality/02-process.md) — `Process` := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+- [Systems](1-reality/07-system.md) — things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does.
+- [Probability](1-reality/10-probability.md) — how likelihood is measured over a `Random Variable`, updated by evidence, and what a `Flow` settles into over many `Step`s.
+- [Entropy](1-reality/14-entropy.md) — the bridge between the `State` of a `System` and the passage of `Step`s: `Order` is never free.
+- [Evolution](1-reality/15-evolution.md) — the dynamics of a `Paradigm` over time: how an `Agent` or `System` changes its `Potency` as `Circumstances` shift.
+- [Limits](1-reality/16-limits.md) — what bounds development: the `Communication` an `Agent` is free of, the `Constraint` it navigates, and the ceiling `Improvement` approaches.
+- [Being](1-reality/22-being.md) — `Being` := transcendent process of experiencing/inventing/instantiating itself as a whole from myriads of different points.
+- [Transcendence](1-reality/24-transcendence.md) — one `Consciousness` dissociated into many points of view; the brain as its appearance, time and space as the filing system it generates.
+- [The Given and the Constructed](1-reality/27-given.md) — start from what is actually given: the perceived world is small and the universe inferred, so the question is not what exists but what matters.
 
 ## 2 — Mind · Knowing
 
-The apparatus of knowing: how a `Mind` turns `Signal` into `Knowledge`, reasons, computes, and acts.
+The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
 
-- [Formal Language](2-mind/03-language.md) — `Alphabet`, `Symbol`, words, grammars, and derivations.
-- [Knowledge](2-mind/05-knowledge.md) — `Opinion`, `Thesis`, `Theory`, `Concept`, and how `Knowledge` is organized.
-- [Reasoning](2-mind/08-reasoning.md) — generating new a priori `Knowledge` (conclusions) from existing `Knowledge` (premises).
-- [Agency & Teleology](2-mind/09-teleos.md) — the anatomy of intentional action: `Agent`, `Goal`, `Will`, `Solution`, and the free-will question.
-- [Intellect](2-mind/11-intellect.md) — the capacity to form, validate, and apply one's own `Reality`.
-- [Mind](2-mind/12-mind.md) — `Mind` as a `System` of `Neuron` and `Sensor`; the predictive brain and the social origin of mind.
-- [Science](2-mind/90-science.md) — the scientific method and its criteria for `Scientific Knowledge`.
-- [Branches of Intellectual Work](2-mind/99-branches.md) — metaphysics, axiology, and the other fields of inquiry.
+- [Knowing](2-mind/04-knowing.md) — how a `Mind` builds `Knowledge`, proves and computes with it, commits to a `Goal`, and validates the result against `Reality`.
+- [Knowledge](2-mind/05-knowledge.md) — the atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `Concept` — and the forms `Knowledge` is organized into.
+- [Proof](2-mind/06-proof.md) — the formal apparatus that carries a `Thesis` to a `Proof`: formalism, interpretation, satisfaction, and the three bounds every logic runs into.
+- [Computation](2-mind/07-computation.md) — `Reasoning` mechanized: `Data` carried through `Transformer`s by a `Runtime`, prescribed by an `Algorithm`, judged against a `Specification`.
+- [Reasoning](2-mind/08-reasoning.md) — generating new a priori `Knowledge` from existing `Knowledge`: the `Inference` path, and the nine modes a `Mind` reasons in.
+- [Agency & Teleology](2-mind/09-teleos.md) — the anatomy of intentional action: who the `Agent` is, what drives motion toward a Future, and how the outcome is judged.
+- [Free Will](2-mind/10-free-will.md) — whether the `Solution` an `Agent` reaches is freely authored, or a determined output of a prior physical `State` reported after the fact.
+- [Intellect](2-mind/11-intellect.md) — the capacity to form, validate, and apply one's own `Reality`: cognition, validation, learning, skill, bias, and judgment under uncertainty.
+- [Mind](2-mind/12-mind.md) — `Mind` as a `System` of `Neuron` and `Sensor`: thought as state, memory as disposition, and the social origin of the inner voice.
+- [The Predictive Brain](2-mind/13-predictive.md) — the brain as a prediction engine constructing experience rather than receiving it, and the core mental models that correct for what it invents.
+- [The Scientific Method](2-mind/90-scientific.md) — a generalized empirical *a posteriori* approach to earning `Scientific Knowledge` from experimental data.
 
 ## 4 — Human · The Individual
 
-The human as a layered composition of body and psyche, and what lies beyond.
+The human as a layered composition of body and psyche, and what lies beyond: Composition → Opening → Truth → Life → Substrate → Self → Charter.
 
-- [Human Being](4-human/21-human.md) — the human as a composition of biological, social, and cultural layers.
-- [Rajdo](4-human/23-rajdo.md) — the human's opening into `Rajdo`: perceiving and accepting Being as-is; `Awareness`, `Acceptance`, `Love`.
-- [Animal](4-human/28-animal.md) — the intertwined psychic, energetic, and hormonal processes serving animalistic needs.
-- [Manifesto of Humankind](4-human/98-manifesto.md) — each human a manifestation of God, born equal in human dignity.
+- [Human Being](4-human/21-human.md) — `Human Being` := composition of biological circuitry, social membership, and cultural inheritance, equipped with `Intellect` and `Inspiration`.
+- [Rajdo](4-human/23-rajdo.md) — the human's opening into `Rajdo`: perceiving and accepting Being `as-is`, as one interweaving whole, and the `Awareness`, `Acceptance`, and `Love` it entails.
+- [Approaching Rajdo](4-human/24-approach.md) — `Rajdo` is given, not built: the shift that reveals it, the traps that imitate it, and the two intentions behind any aim.
+- [Truth and Faith](4-human/25-truth.md) — one's own answers to the existential questions, the `Principles` that follow from them, and the `Faith` that holds to both.
+- [Happiness and Greatness](4-human/26-greatness.md) — what a life is measured by: the saturation `Happiness` reports, the `Mission` chosen to pursue it, and `Kapot`, the line past which `Dignity` is abandoned.
+- [Animal](4-human/28-animal.md) — `Animal` := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
+- [The Self and Death](4-human/29-self.md) — what survives death depends on what the self actually is: the `Self-role`, the `Self-observer`, and the `Self-Consciousness` beneath both.
+- [Manifesto of Humankind](4-human/98-manifesto.md) — each Human is a manifestation of God, born equal in human dignity, which stems from our innate, limitless creative potential.
 
 ## 7 — Mastery · The Disciplines
 
