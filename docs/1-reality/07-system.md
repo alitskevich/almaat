@@ -16,9 +16,9 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ## Thing and Trajectory
 
-**`Thing(Entity)`** := a `Queue` of `Presentation`s of a single `Entity` according to a `Flow`.
+**`Thing(Entity)`** := a `Queue` of [`View`](../0-math/06-views.md)s of a single `Entity` across a [`Flow`](02-process.md#parts-of-a-process).
 
-> `Thing(Entity) := [Presentation(Entity, Step[i])]`
+> `Thing(Entity) := [View(Entity, Step[i])]`
 
 ---
 
@@ -28,17 +28,17 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ---
 
-**`Trajectory(Thing)`** := the `Translation` of a `Thing` into the track of its `State`s.
+**`Trajectory(Thing)`** := the track of a `Thing`'s `State`s across its `Step`s.
 
 > `Trajectory(Thing) := [State(Thing, Step[i]) for Step[i] in indices(Thing)]`
 
-*NOTE*: the realized `Trajectory` is one sample path of the `Flow`; the space of possible `Trajectory`s is the `Engine`'s support unrolled. A `Trajectory` is a function of `Thing` only where every `Step` is a point mass.
+*NOTE*: the realized `Trajectory` is one sample path of the `Flow`; the space of possible `Trajectory`s is the [`Circuit`](02-process.md#parts-of-a-process)'s support unrolled. A `Trajectory` is a function of `Thing` only where every `Step` is a point mass.
 
 ## System and Participant
 
-**`System`** := an `Engine` considered as a `Framework` that allows mutual `Communication` of `Participant`s.
+**`System`** := a `Set` of `Participant`s coupled by mutual `Communication`.
 
-> `System :: Framework over {Participant} with Communication`
+> `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P ↔ Q) ≠ 0`
 
 ---
 
@@ -58,7 +58,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ## Communication
 
-**`Communication`** := projection of the `Outcome` of each `Participant` into the `Input` of another.
+**`Communication`** := projection of one `Participant`'s `Behavior` into another's `Attention`.
 
 > `Communication(A → B) := Behavior(A) . Attention(B)`
 
@@ -66,17 +66,17 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ---
 
-**`Behavior`** := a `Participant`'s projection of its own `State` into other `Participant`s' `Input`.
+**`Behavior`** := a `Participant`'s projection of its own `State` toward other `Participant`s.
 
-> `Behavior(A) :: State(A) → Input(other)`
+> `Behavior(A) :: State(A) → Attention(other)`
 
-*NOTE*: the sending half. `Behavior` is the externally-visible aspect of a `Participant` — what it contributes to the `System`.
+*NOTE*: the sending half — the externally-visible aspect of a `Participant` — what it contributes to the `System`.
 
 ---
 
-**`Attention`** := a `Participant`'s projection of *other* `Participant`s' `State` into its own `Input`.
+**`Attention`** := a `Participant`'s selection of *other* `Participant`s' `Behavior` into its own `State`.
 
-> `Attention(B) :: State(other) → Input(B)`
+> `Attention(B) :: Behavior(other) → State(B)`
 
 *NOTE*: the receiving half. `Attention` is selective: not every available `Behavior` enters a `Participant`'s input.
 
