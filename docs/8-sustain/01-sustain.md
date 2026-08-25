@@ -25,7 +25,17 @@ Sustaining the body and the self: the physical foundation of health and performa
 
 ## Principles Under Pressure
 
-These ten govern the Self half of the folder; the Body half is governed by consistency rather than by rules.
+Ten for the Self half, five for the Body half.
+
+### The Body
+
+1. Consistency beats intensity: what you do daily decides more than what you do hard.
+2. Sleep is the habit the others depend on.
+3. Movement is not optional, and something beats nothing.
+4. Eat food you would recognize as food.
+5. Recovery is when the adaptation happens, not the session.
+
+### Under Pressure
 
 1. The fight you avoid is the one you win.
 2. Awareness is cheaper than technique, and stops more attacks — social or physical.
