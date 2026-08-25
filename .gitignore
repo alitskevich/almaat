@@ -3,3 +3,4 @@ graphify-out
 .venv
 .apikey
 scripts/.cache
+.claude/*.local.md

@@ -12,7 +12,7 @@ source: docs/1-reality/15-evolution.md
 
 ![Evolution](/images/1-reality/15-evolution.svg)
 
-`Evolution` is the dynamics of a `Paradigm` over time — how an `Agent` or `System` changes its `Potency` as `Circumstances` shift.
+`Evolution` is the dynamics of how a `System` changes its `Potency` over `Circumstances` shift.
 
 This file holds the trajectories: how a `Paradigm` improves, preserves, decays, or breaks. What bounds those trajectories is in [Limits](16-limits.md).
 
