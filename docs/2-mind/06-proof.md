@@ -4,7 +4,7 @@ description: "The formal apparatus that carries a Thesis to a Proof — formalis
 keywords: [mind, proof, logic]
 license: UNLICENSED
 created: 2026-08-16
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/2-mind/06-proof.md
 ---
 
@@ -22,13 +22,19 @@ The formal apparatus that carries a `Thesis` to a `Proof` — formalism, interpr
 
 ---
 
-**`Formalism`** := A defined way to construct some theory (formal/axiomatic system).
+**`Formalism`** := A defined way to construct some theory — a formal or axiomatic system.
+
+> `Formalism := (Axiom, Rule) generating a Theory`
 
 ## Interpretation
 
-**`Interpretation`** := A predefined mapping from each formula (signifier, name) of a given theory to either: a distinct corresponding entity (*denotation*: extension, referent, example) of a given external structure, or a set of predicates (*logic*: intension, meaning, sense) over such entities.
+**`Interpretation`** := A predefined mapping from each formula of a given theory into an external structure.
 
-**Formula qualities.** A formula is **satisfied** in a given logic IF its corresponding predicate is true. IF all formulae are satisfied in a given logic, THEN its knowledge is called a **model**. An expression is:
+> `Interpretation :: Formula → (Entity | {Predicate})`
+
+A formula maps either to one corresponding entity — *denotation*: extension, referent, example — or to a set of predicates over such entities — *logic*: intension, meaning, sense.
+
+**Formula qualities.** A formula is **satisfied** in a given logic if its corresponding predicate is true. An `Interpretation` that satisfies every formula of a theory is called a **model** of it. A formula is:
 
 - **Logically consistent** if it has at least one satisfied interpretation.
 - **Logically valid (logical truth)** if it is satisfied by every interpretation.
@@ -42,4 +48,6 @@ All logics are bounded along three axes:
 2. **Consistency** — not proving both true and false.
 3. **Decidability** — proving belonging to a theory.
 
-> See: Gödel's incompleteness theorems, Turing machines, intuitionism, logicism.
+No logic escapes all three at once: a formal system strong enough to express
+arithmetic cannot be both complete and consistent, and decidability fails
+separately from either.
