@@ -1,10 +1,10 @@
 ---
 title: "The Scientific Method"
-description: "**Scientific Method** := A generalized empirical *a posteriori* approach to earning Scientific Knowledge from experimental data, with awareness of cognitive abilities and Bias."
+description: "The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the four phases that produce it."
 keywords: [mind, scientific]
 license: UNLICENSED
 created: 2026-08-08
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/2-mind/90-scientific.md
 ---
 
@@ -12,42 +12,41 @@ source: docs/2-mind/90-scientific.md
 
 ![The Scientific Method](/images/2-mind/90-scientific.svg)
 
+The empirical route to `Scientific Knowledge`: the nine criteria a claim must meet, and the four phases that produce it.
+
+## Method
+
 **`Scientific Method`** := A generalized empirical *a posteriori* approach to earning `Scientific Knowledge` from experimental data, with awareness of cognitive abilities and `Bias`.
 
 ## Scientific Criteria
 
-**`Scientific Criteria`** := A set of principles over `Knowledge` for accepting it in terms of consistency, adequacy, reliability, predictability, completeness, and non-redundancy.
+**`Scientific Criteria`** := The set of principles a `Knowledge` claim must satisfy to be accepted as `Scientific Knowledge`.
 
 **`Scientific Knowledge`** := `Knowledge` that definitely meets `Scientific Criteria`.
 
 ---
 
-**`Inner Correctness`** := Should not break the axioms of logic.
-
-**`Occam's Razor`** := Be minimalistic in concepts used.
-
-**`Critical Resistance`** := Withstand comprehensive questioning from other points of view: be able to answer *why*, *what if not*, *what is the alternative*, *what about edge cases*.
-
-**`Fair Principle`** := Highlight weaknesses of theory; look for incorrectness.
-
-**`Popper Principle`** := Find ways to dismiss theory (falsifiability); keep the door open for future development, rejection, or mind-changing.
-
-**`Objectiveness`** := Stand apart from subjective prejudice and preferences. Subjective claims cannot be proved true or false by any generally accepted criteria.
-
-**`External Consistency`** := Be correlated with (not contradict) all existing `Knowledge` in the context.
-
-**`Predictability`** := Be able to predict the behavior of the object in question.
-
-**`Reproducibility`** := Should be stable when reproduced under described conditions and steps.
+| Criterion | Requirement |
+| --- | --- |
+| **`Inner Correctness`** | Does not break the axioms of logic |
+| **`Occam's Razor`** | Is minimal in the concepts it uses |
+| **`Critical Resistance`** | Withstands questioning from other points of view: *why*, *what if not*, *what is the alternative*, *what about edge cases* |
+| **`Fair Principle`** | Highlights its own weaknesses and looks for its own incorrectness |
+| **`Popper Principle`** | Offers ways to be dismissed (falsifiability), keeping the door open to revision |
+| **`Objectiveness`** | Stands apart from subjective prejudice and preference |
+| **`External Consistency`** | Does not contradict existing `Knowledge` in the context |
+| **`Predictability`** | Predicts the behavior of the object in question |
+| **`Reproducibility`** | Stays stable when reproduced under the described conditions and steps |
 
 ## The Scientific Process
 
-**`Scientific Process`** := An iterative process to acquire NEW *a posteriori* `Knowledge` in four phases:
+**`Scientific Process`** := An iterative process to acquire new *a posteriori* `Knowledge`:
 
 1. **Characterizations** — observations, definitions, and measurements of the subject of inquiry.
 2. **Hypotheses** — theoretical, hypothetical explanations of observations and measurements.
 3. **Predictions** — inductive and deductive [`Reasoning`](08-reasoning.md) from the hypothesis or theory.
-4. **Experiments** — peer review and tests of all of the above.
+4. **Experiments** — tests of the predictions under described conditions.
+5. **Review** — independent scrutiny of all of the above.
 
 ```mermaid
 stateDiagram-v2
