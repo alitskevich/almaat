@@ -1,16 +1,18 @@
 ---
 title: "Azon"
-description: "Azon := a contract made under Axioms below, that responds for each given Azon(Sign) with a specific Azon(Value)."
+description: "Azon is the framework's sole primitive: a contract responding to each given Sign with a specific Value, constrained by three axioms."
 keywords: [math, azon]
 license: UNLICENSED
 created: 2026-05-26
-modified: 2026-08-08
+modified: 2026-08-25
 source: docs/0-math/00-azon.md
 ---
 
 # Azon
 
 ![Azon](/images/0-math/00-azon.svg)
+
+`Azon` is the framework's sole primitive: a contract responding to each given `Sign` with a specific `Value`, constrained by three axioms.
 
 ## The Formal Spine
 
@@ -26,38 +28,31 @@ source: docs/0-math/00-azon.md
 
 ## Definitions
 
-**`Azon`** := a *contract* made under Axioms below, that responds for each given Azon(`Sign`) with a specific Azon(`Value`).
+**`Azon`** := a *contract* made under the axioms below, that responds for each given Azon(`Sign`) with a specific Azon(`Value`).
 
 > `Azon := x → y`
 
-`Azon` is the sole fundamental concept of entire framework:
-
-- It is self-sufficient (defined recurrsively)
-- and every later concept is built on top of `Azon`.
-
 ---
 
-**`Zero`** := `Azon` that *always* responds with itself  
+**`Zero`** := `Azon` that *always* responds with itself
 
 > `Zero := x → Zero`
 
-*DEF*: response with `Zero` *called* `empty`, otherwise - `valent`.
+*DEF*: a response with `Zero` is *called* `empty`; any other is `valent`.
 
 ---
 
-*DEF*: response with `Sign` itself *called* **`fixed`**.
+**`Unit`** := `Azon` that *always* responds with the `Sign` itself, *except* `emptily` — to itself.
 
-**`Unit`** := `Azon` that *always* responds `fixed`, *except* `emptily` - to itself.
+> `Unit := x → (x IS Unit ? Zero : x)`
 
-> `Unit := x → x IS Unit : Zero : x`
+*DEF*: a response with the `Sign` itself is *called* `fixed`.
 
 ## Axioms
 
 **`AXIOM-1`** (Halt) := The response to `Zero` is *always* `Zero`.
 
 > `∀A: A(0) = 0`
-
-`AXIOM-1` makes `Zero` an composition-annihilating `absorbing` point.
 
 ---
 
