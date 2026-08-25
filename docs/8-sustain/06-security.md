@@ -4,7 +4,7 @@ description: "Staying sovereign against threats from others, across two planes �
 keywords: [sustain, security]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/8-sustain/06-security.md
 ---
 
@@ -33,21 +33,11 @@ Options ranked by cost and reliability, identical on both planes. Spend your eff
 | **Escape** | Leave | Distance ends the threat |
 | **Resist** | Hold the frame / proportional force | Create the chance to get free |
 
-```mermaid
-flowchart TD
-    A[Awareness] --> B[Avoidance]
-    B --> C[De-escalation]
-    C --> D[Escape]
-    D --> E[Resist]
-    A -. cheaper, safer .-> E
-    E -. last resort .-> A
-```
 
-Resistance is the last resort, not the plan: socially, refusing and holding your line; physically, proportional force to escape. Every layer above it is cheaper and safer.
 
-## Mindset
+### Mindset
 
-A **defensive mindset** is the decision, made in advance, that you are willing and able to act — so the choice is already made when seconds matter. Skill without the will to use it fails; will without skill flails. You need both.
+A **defensive mindset** is the decision, made in advance, that you are willing and able to act — so the choice is already made when seconds matter. Skill without the will to use it fails, and will without skill is not enough either. You need both.
 
 ## Awareness — Cooper's Color Code
 
@@ -55,11 +45,11 @@ A scale of situational awareness, not paranoia. Live in Yellow — the same scal
 
 | Condition | State |
 | --------- | ----- |
-| **White** | Switched off, oblivious. The state victims are selected in. |
-| **Yellow** | Relaxed alertness. Aware of surroundings, no specific threat. The baseline to live in. |
-| **Orange** | A specific possible threat identified and watched. Forming a plan. |
-| **Red** | Threat is real and acting. Execute the plan. |
-| **Black** | Overwhelm/panic — the breakdown to avoid by training. |
+| **White** | Switched off, oblivious. The state victims are selected in |
+| **Yellow** | Relaxed alertness. Aware of surroundings, no specific threat. The baseline to live in |
+| **Orange** | A specific possible threat identified and watched. Forming a plan |
+| **Red** | Threat is real and acting. Execute the plan |
+| **Black** | Overwhelm/panic — the breakdown to avoid by training |
 
 ```mermaid
 stateDiagram-v2
@@ -75,11 +65,11 @@ stateDiagram-v2
 
 ## The OODA Loop
 
-**Observe → Orient → Decide → Act**, cycled continuously. Whoever runs the loop faster controls the encounter; a sudden, unexpected move *resets* the other side's loop and buys a window. A manipulator wins by keeping you reacting; so does an attacker. (John Boyd, USAF.)
+**Observe → Orient → Decide → Act**, cycled continuously. Whoever runs the loop faster controls the encounter; a sudden, unexpected move *resets* the other side's loop and buys a window. A manipulator wins by keeping you reacting; so does an attacker. (John Boyd, USAF)
 
 ## The Body Under Threat
 
-Under threat the **sympathetic nervous system** floods the body with catecholamines — the **fight / flight / freeze / fawn** response. This is the [Stress and Fear](../4-human/28-animal.md) of the Animal made physical: deliberation shuts down to mobilize the body. The same dump fires in a hostile negotiation as in a mugging.
+Under threat the **sympathetic nervous system** floods the body with catecholamines — the **fight / flight / freeze / fawn** response. This is the [`Animal`](../4-human/28-animal.md#emotion-and-stress)'s `Stress` response made physical: deliberation shuts down to mobilize the body. The same dump fires in a hostile negotiation as in a mugging.
 
 | Effect | Consequence |
 | ------ | ----------- |
@@ -94,7 +84,7 @@ Under threat the **sympathetic nervous system** floods the body with catecholami
 
 ## Biases That Get You Hurt
 
-Why prepared people still freeze. Each is a [cognitive bias](../7-mastery/11-thinking.md) turned dangerous, and each stalls both the boundary you don't enforce and the exit you don't take.
+Why prepared people still freeze. Each is a [cognitive bias](../7-mastery/11-thinking.md) turned dangerous; the bystander effect is treated in [Conformism](../8-socium/36-conformism.md), and each stalls both the boundary you don't enforce and the exit you don't take.
 
 | Bias | Failure it causes |
 | ---- | ----------------- |
