@@ -4,7 +4,7 @@ description: "Recovery is not idleness: sleep cleans the brain, light sets the c
 keywords: [sustain, recovery, sleep, stress]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/8-sustain/03-recovery.md
 ---
 
@@ -16,39 +16,41 @@ Recovery is not idleness: sleep cleans the brain, light sets the clock, and brea
 
 ## Sleep
 
-The single most important health habit — call it 75% of health. Quality depends on light, temperature, food, caffeine, screens, and regularity.
+The habit the rest depend on. Quality depends on light, temperature, food, caffeine, screens, and regularity.
 
-- Sleep is active cleaning, not rest. At night the brain burns more oxygen and glucose while the glymphatic system, its drainage, flushes out toxins. Without it the mind breaks down within weeks.
-- Sleep as much as YOU need, and go to bed at the same time every night.
-- Timing beats early rising. Melatonin is made mainly from 9 PM to 3 AM, so going to bed after midnight loses half your recovery. Early risers live longer for the hours they sleep, not the hour they wake.
-- Sleep debt can't be repaid. The brain needs four to six full cycles a night; a skipped night kills neurons that don't return, and weekend catch-up won't restore them.
-- Under six hours costs years of life: immunity drops, disease risk climbs, the heart ages as if decades older, and Harvard research shows those people age twice as fast. The best anti-aging treatment isn't Botox — it's sleep.
-- Keep the room dark, cool (15–19°C), and quiet. Temperature matters more than duration: above 20°C the body won't reach deep phases, and six hours in a cool room restore you better than nine in a warm one.
-- Even faint light through curtains halves melatonin. Without melatonin, muscles don't rebuild, skin doesn't renew, and fat doesn't burn.
-- Alcohol doesn't help you sleep. It blocks the phase that restores memory and emotion, so eight hours in bed still leave you drained.
-- Poor sleep spreads. A partner who sleeps badly raises their cortisol and lowers your own sleep quality.
-- Keep a one-hour wind-down and read a book — the body is a clock and loves routine. A warm bath 1–2 hours before helps; avoid bright or blue light for 1–3 hours before. To fall asleep, use 4-7-8 breathing: inhale 4, hold 7, exhale 8.
+- Sleep is active cleaning, not rest. During sleep the glymphatic system clears metabolic waste, and the day is consolidated into `Memory`.
+- Sleep as much as you need, and go to bed at the same time every night.
+- Regularity beats early rising. Melatonin release is driven by darkness rather than by the clock, so a consistent schedule and a dark room matter more than a particular bedtime.
+- Sleep debt is not fully repayable. Sleep runs in cycles across the night, and a short night is not made good by a long weekend.
+- Chronically short sleep is associated with lower immunity and worse cardiovascular and metabolic outcomes.
+- Keep the room dark, cool, and quiet. A room too warm interferes with the deep phases.
+- Light reaching the eyes suppresses melatonin, so darkness matters as much as time in bed.
+- Alcohol doesn't help you sleep. It fragments sleep architecture, so time in bed stops corresponding to rest.
+- Poor sleep spreads. A partner who sleeps badly tends to cost you sleep too.
+- Keep a one-hour wind-down and read a book — the body settles into a schedule it can predict. A warm bath before bed helps, as does avoiding bright light in the hours before it. A breathing pattern with a longer exhale than inhale helps at the point of falling asleep.
 
 ## Sunlight
 
-- Get morning sunlight within 1 hour of waking. It sets your body clock.
+- Get outdoor light early in the day. It sets your body clock.
 - Morning sun is the strongest natural antidepressant: 10 minutes without sunglasses triggers serotonin, which later converts to melatonin.
-- 5–25 minutes daily, more on cloudy days. Avoid midday glare and protect your skin in the midday sun.
+- Longer on cloudy days than bright ones. Avoid midday glare and protect your skin in the midday sun.
 - Sunset light signals the body to prepare for sleep.
 
 ## Stress
 
-- Chronic stress kills your immune system. Acute stress builds it — exercise is good stress.
+- Chronic stress degrades immune function. Acute stress builds it — exercise is good stress.
 - Expose yourself to manageable challenges to build resilience. Small, steady action beats bursts of intensity.
-- Rest and recovery are mandatory, not optional. Stillness restores focus: 15 minutes of nothing, daily.
+- Rest and recovery are mandatory, not optional. Stillness restores focus: a daily period of doing nothing.
 - Move your body, connect with people, breathe deeply to release stress.
-- Physiological sigh: max inhale + extra inhale + slow exhale = instant calm.
-- Ground yourself. Standing barefoot on grass or earth for 15 minutes equalizes your electrical potential, lowers blood viscosity, and reduces cortisol.
+- Physiological sigh: a full inhale, a second short inhale, then a long exhale.
+- Ground yourself. Unhurried time outdoors lowers the arousal that indoor days sustain.
 
 What the response costs you is in [Energy](05-energy.md); under a real threat the same system runs at full force — see [the body under threat](06-security.md#the-body-under-threat).
 
 ## Breathing
 
 - Breathe through your nose. Use your diaphragm.
-- Slow nasal breathing (around 6 breaths per minute) raises immunoglobulin A, the antibody guarding your mucous membranes. Your breath is your strongest natural antibiotic.
+- Slow nasal breathing lowers arousal, and is the fastest lever available on it.
 - Never practice intensive breathing while driving or in water.
+
+*NOTE*: this page describes habits, not treatment. Persistent sleep problems are a clinical matter.
