@@ -1,10 +1,10 @@
 ---
 title: "Dynamic Processes"
-description: "**Process** := controlled Queue of Words from the same Dictionary=SampleSpace."
+description: "The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, and the landmarks of a Flow."
 keywords: [reality, process, circuit, flow]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/1-reality/02-process.md
 ---
 
@@ -12,24 +12,26 @@ source: docs/1-reality/02-process.md
 
 ![Dynamic Processes](/images/1-reality/02-process.svg)
 
-**`Process`** := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+The `Process` as a controlled `Queue` of `Word`s: its `Circuit`, the kinds of `Circuit`, and the landmarks of a `Flow`.
 
 ## The Reality Spine
 
-> Process → System → Probability → Entropy → Evolution → Being.
-
-The section reads outward from the single step, and ends with what is taking it.
-
 | Layer | Reading |
 | --- | --- |
-| **Process** — how one step is taken | this file — `Circuit`, its kinds, and the landmarks of a `Flow` |
-| **System** — what many things make | [Systems](07-system.md) — `Participant`, `Communication`, `Emergence`, `Equilibrium` |
-| **Probability** — how likelihood is measured | [Probability](10-probability.md) — expectation, updating, limit laws, long-run behavior |
-| **Entropy** — what `Order` costs | [Entropy](14-entropy.md) — dissipation and self-organization |
-| **Evolution** — how a `Paradigm` moves | [Evolution](15-evolution.md) — adaptation, stagnation, crisis · [Limits](16-limits.md) — freedom, the ceiling, breakthrough |
-| **Being** — what is doing all this | [Being](22-being.md) — `Reality` as representation · [Transcendence](24-transcendence.md) — one `Consciousness` · [The Given](27-given.md) — perceived versus constructed |
+| **`Process`** — how one step is taken | this file — `Circuit`, its kinds, and the landmarks of a `Flow` |
+| **`System`** — what many things make | [Systems](07-system.md) — `Participant`, `Communication`, `Emergence`, `Equilibrium` |
+| **`Probability`** — how likelihood is measured | [Probability](10-probability.md) — expectation, updating, limit laws, long-run behavior |
+| **`Entropy`** — what `Order` costs | [Entropy](14-entropy.md) — dissipation and self-organization |
+| **`Evolution`** — how a `Paradigm` moves | [Evolution](15-evolution.md) — adaptation, stagnation, crisis · [Limits](16-limits.md) — freedom, the ceiling, breakthrough |
+| **`Being`** — what is doing all this | [Being](22-being.md) — `Reality` as representation · [Transcendence](24-transcendence.md) — one `Consciousness` · [The Given](27-given.md) — perceived versus constructed |
 
 ## Parts of a Process
+
+**`Process`** := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+
+> `Process := Queue<Word ∈ Dictionary=SampleSpace> :: controlled`
+
+---
 
 **`Controller<Schema>`** := an `Azon` that responds to a State-`Ingress` with a `Probability Distribution` over `Volume`.
 
@@ -79,9 +81,7 @@ The section reads outward from the single step, and ends with what is taking it.
 
 ## Kinds of Circuit
 
-*DEF*: `Circuit` is `memoryless`
-:= `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`
-:= the distribution depends only on the present `Ingress`, not on prior history
+*DEF*: a `Circuit` is **memoryless** if its distribution depends only on the present `State`, not on prior history: `P(State[i+1] | State[i], ..., State[0]) = P(State[i+1] | State[i])`.
 
 *NOTE*: any finite-history process is recovered by enlarging the `State` to encode it.
 
@@ -91,19 +91,15 @@ The section reads outward from the single step, and ends with what is taking it.
 
 > `T[i][j] := P(State → j | State = i) :: rows sum to 1`
 
-*NOTE*: a Markov kernel — the transition rule of the `Flow`. Since every `Circuit` is one, every `Flow` is a Markov chain: the `Circuit` is the kernel, the `Flow` is the process it unrolls. Multi-`State` evolution is matrix power — the `k`-step distribution is `T^k`.
+*NOTE*: a Markov kernel — the transition rule of a `memoryless` `Flow`. Where the `Circuit` is `memoryless`, the `Flow` is a Markov chain: the `Circuit` is the kernel, the `Flow` is the process it unrolls. Multi-`State` evolution is matrix power — the `k`-step distribution is `T^k`.
 
 ---
 
-*DEF*: `Circuit` is `deterministic`
-:= `∃Point<i> :: i -> PD(x) = x IS Point ? 1 : 0`
-:= exist `MassPoint`.
+*DEF*: a `Circuit` is **deterministic** if its distribution is a point mass — one `State` carries all the probability: `∃Point<i> :: i → PD(x) = x IS Point ? 1 : 0`.
 
 ---
 
-*DEF*: `Circuit` is `periodic`
-:= `∃m, k: ∀n > k, State[m+n] = State[n]`
-:= a `Flow` composed of infinite repetitions of a `Plan`.
+*DEF*: a `Circuit` is **periodic** if it is a `Flow` composed of infinite repetitions of a `Plan`: `∃m, k: ∀n > k, State[m+n] = State[n]`.
 
 ## Landmarks of a Flow
 
