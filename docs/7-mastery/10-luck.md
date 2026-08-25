@@ -4,7 +4,7 @@ description: "Why some people are consistently \"lucky\": luck is half blind sta
 keywords: [mastery, luck]
 license: UNLICENSED
 created: 2026-08-02
-modified: 2026-08-15
+modified: 2026-08-25
 source: docs/7-mastery/10-luck.md
 ---
 
@@ -14,41 +14,40 @@ source: docs/7-mastery/10-luck.md
 
 Why some people are consistently "lucky": luck is half blind statistics and half a tunable interface of attention and position — and the interface is the part you can train.
 
-Chronic bad luck is not a curse. It is largely a side effect of **perceptual blindness** — the same inattentional blindness that lets you miss an obvious thing while your attention is locked elsewhere. Under chronic stress the `Mind` trips an evolutionary fuse and narrows attention to a tunnel that sees only the direct threat or task; you go blind to opportunities a step away. Luck, conversely, is **cognitive surplus** — the relaxed `Mind`'s capacity to notice a peripheral signal where a frightened one sees only grey noise.
+Chronic bad luck is not a curse. It is largely a side effect of **perceptual blindness** — the same inattentional blindness that lets you miss an obvious thing while your attention is locked elsewhere. Under chronic stress the `Mind` narrows attention to a tunnel that sees only the direct threat or task; you go blind to opportunities a step away. Luck, conversely, is **cognitive surplus** — the relaxed `Mind`'s capacity to notice a peripheral signal where a frightened one sees only grey noise.
 
-## Luck is mostly blind — at scale
+## Luck Is Mostly Blind at Scale
 
 Honesty first: at the level of large numbers, chance is disciplined and cannot be out-played inside the standard field.
 
-- **Talent loses to luck.** In a fair-start agent simulation (Pluchino, Rapisarda & Biondo, 2018), the wealthiest agents were not the most talented but **mediocrities who caught an early streak of random positive events**. A first random nudge compounds into *cumulative advantage* — the *Matthew effect*, "to those who have, more is given" — and swamps personal merit.
+- **Talent loses to luck.** In a fair-start agent simulation (Pluchino, Rapisarda & Biondo, 2018), the wealthiest agents were not the most talented but **mediocrities who caught an early streak of random positive events**. A first random nudge compounds into *cumulative advantage* — the *Matthew effect* — and swamps personal merit.
 - **Survivorship bias.** Studying the biographies of winners (the Forbes list) teaches the shape of luck, not a repeatable method — you never see the identical effort that lost. (See [Clear Thinking → Survivorship Bias](11-thinking.md#evaluation).)
-- **Chance is regular in bulk.** Rare independent events follow a Poisson distribution — Bortkiewicz's classic count of Prussian cavalry deaths from horse-kicks (late 19th c.). On large numbers the macro-statistic takes its due.
+- **Chance is regular in bulk.** Rare independent events follow a Poisson distribution. On large numbers the macro-statistic takes its due.
 - **Black swans dominate the tail.** Taleb's warning: crises and regulatory shocks grind up plans regardless of anyone's inner state, and crediting your own intuition for a random hit is the *Texas sharpshooter* fallacy — drawing the target around the bullet holes after the fact.
 
-## But the interface is tunable
+## The Tunable Interface
 
 Luck does not create chances; it **assimilates** them (Busch). The macro-lottery deals the first cards blind, but the individual's *interface* with randomness decides whether a chance that arrives is caught.
 
 - **The attention filter decides.** Two people share an elevator with an investor: identical exogenous chance. The anxious one buries himself in his phone; the low-fear one looks up and starts a light conversation. Same event, opposite outcomes — the difference is the filter, not the luck.
-- **Broad beats narrow.** A narrow "laser" of attention (the anxious over-obeyer following instructions to the letter) burns bright but sees nothing off-axis; a soft "street-lantern" beam reveals the whole alley — the crack, the dropped wallet, and the lurking danger alike (Wiseman's *geometry of attention*).
-- **The hot hand is real.** For decades the streak was dismissed as an illusion of a `Mind` gluing coincidences into a story (Gilovich, Vallone & Tversky, 1985). Miller & Sanjurjo (2018) found a conditional-probability error in that analysis; corrected, the streak is genuine. Mechanism: a first success lowers background cortisol and steadies the body, raising the real odds of the next — a brief resonance between your biology and the environment's motion.
+- **Broad beats narrow.** Narrow attention resolves its target sharply and registers nothing outside it; broad attention reports weaker signals across a wider field, including the ones that were not being looked for (Wiseman's *geometry of attention*).
+- **The hot hand is real.** For decades the streak was dismissed as an illusion of a `Mind` gluing coincidences into a story (Gilovich, Vallone & Tversky, 1985). Miller & Sanjurjo (2018) found a conditional-probability error in that analysis; corrected, the streak is genuine.
 - **Position matters — structural holes.** Luck concentrates at the *bridges* between otherwise isolated clusters (Burt). Whoever spans a "structural hole" receives rare, non-redundant `Information` first, which from outside looks like uncanny intuition.
-- **The bridge is usually a weak tie.** Close friends move inside your cluster and largely know what you know; the old colleague and the half-forgotten acquaintance sit in other clusters and carry what you do not have (Granovetter). This is why openings and promotions arrive through loose contacts far more often than through close ones — a result since reproduced at the scale of tens of millions of connections.
-- **Plasticity beats rigid plans under chaos.** When the planning horizon shrinks to weeks, a rigid long-term plan shatters like a crystal at the first tectonic shift while an adaptive stance bends like a polymer. Crisis-lucky people hold contradictory options at once without freezing (dialectical thinking) and read millions of micro-signals they could never package into a plan (*implicit learning*).
+- **The bridge is usually a weak tie.** Close friends move inside your cluster and largely know what you know; the old colleague and the half-forgotten acquaintance sit in other clusters and carry what you do not have (Granovetter). This is why openings and promotions arrive through loose contacts far more often than through close ones.
+- **Plasticity beats rigid plans under chaos.** When the planning horizon shrinks to weeks, a rigid long-term plan fails at the first structural change while an adaptive stance absorbs it. Crisis-lucky people hold contradictory options at once without freezing (dialectical thinking) and read millions of micro-signals they could never package into a plan (*implicit learning*).
 
-## Widening your share
-
-You cannot change the number on the dice, but you can enlarge the palm that catches them. A clenched fist of total control makes chance bounce off.
+## Widening Your Share
 
 - **Widen attention.** Run soft, scanning focus rather than a hunting laser, so peripheral signals reach awareness.
-- **The barbell (Taleb), 90/10.** Keep ~90% of life in boring, reinforced safety as a rear guard against the next storm; deliberately hand ~10% to chaos as asymmetric bets — engineered so the downside is near zero and the upside is open-ended.
+- **The barbell.** Taleb's portfolio shape, applied to effort: keep most of it in reinforced safety and deliberately expose a small remainder to chaos as asymmetric bets — engineered so the downside is bounded and the upside is not.
 - **Broker structural holes.** Step outside your professional and class capsule for non-redundant `Information` — the engineer at the restoration lecture, the lawyer at the poetry slam — to let fresh data into the system. Keep the loose contacts alive too: a weak tie costs almost nothing to maintain and is the channel most openings actually travel. Meeting someone of no present use is not wasted; usefulness is not knowable in advance, and you have to be worth knowing for the tie to hold.
 - **Leave conversational hooks.** Trade a dry job title for a small living detail (a night course, a side project); it enlarges the surface area on which chance chains can start.
-- **Rejection therapy.** Deliberately collect small refusals (ask for a discount, a five-minute favor) to desensitize the threat response, relax the filter, and let the field widen again.
+- **Collect small refusals.** Ask for a discount, a five-minute favor. Each refusal that costs nothing is evidence the filter can be relaxed without consequence.
 
-## The honest caveat
+## The Honest Caveat
 
-None of this defeats the macro-lottery, and the "open palm" is a scarce luxury. In turbulent, low-trust environments, background anxiety is not a personal defect but an evolutionarily rational defense — the system punishes relaxedness, and the tighter you clamp, the blinder you go, a vicious loop. Worse, turning serendipity into another anxious optimization ("am I searching for luck efficiently enough?") spikes stress and re-clamps the very filter you meant to open. And the capacity to relax is itself partly set by the safety of one's past. Hold both truths: you cannot out-play blind chance, yet living in constant spasm guarantees blindness to the one chance that arrives. Practice the open palm anyway, without gripping the result — the same effort-and-release balance as [Rajdo → Force and Surrender](../4-human/24-approach.md#the-mirror-and-the-two-intentions).
+None of this defeats the macro-lottery, and that openness is a scarce luxury. In turbulent, low-trust environments, background anxiety is not a personal defect but an evolutionarily rational defense — the system punishes relaxedness, and the tighter you clamp, the blinder you go, a vicious loop. Worse, turning serendipity into another anxious optimization ("am I searching for luck efficiently enough?") spikes stress and re-clamps the very filter you meant to open. And the capacity to relax is itself partly set by the safety of one's past. 
+Both hold: blind chance cannot be out-played, and permanent tension guarantees blindness to the chance that does arrive. Stay open to it anyway, without gripping the result — the same effort-and-release balance as [Rajdo → Force and Surrender](../4-human/24-approach.md#the-mirror-and-the-two-intentions).
 
 ## Sources
 
