@@ -4,7 +4,7 @@ description: "Natural numbers (Number), intervals, sequences, and selections."
 keywords: [math, numerals]
 license: UNLICENSED
 created: 2026-05-26
-modified: 2026-08-08
+modified: 2026-08-25
 source: docs/0-math/04-numerals.md
 ---
 
@@ -14,39 +14,45 @@ source: docs/0-math/04-numerals.md
 
 Natural numbers (`Number`), intervals, sequences, and selections.
 
-`Number` provides the substrate for any totally-ordered structure.
-
 ## Natural Numbers
 
 **`Plus`** := The `Azon` that responds to a `Sign` with its `Singleton`.
 
-> `Plus := x -> {x}`
+> `Plus := x → {x}`
 
-**`Namerals`** := `Set` of all `Power`s of `Plus`.
+---
 
-> `NAT := { 1 , Plus, Plus^... }`
+**`Numerals`** := `Set` of all `Power`s of `Plus`.
 
-**`Number`** := `Element` of `Namerals`.
+> `Numerals := { Unit, Plus, Plus², Plus³, ... }`
 
-> `N := Plus^N`
+---
 
-**`Total Order`** := property of `Number`s that for any `a, b`, exactly one of `a < b`, `a = b`, `a > b` holds, `∀a, b: ∃c: a.c = b ∨ b.c = a`.
+**`Number`** := `Element` of `Numerals`.
+
+> `n ∈ Numerals`
+
+---
+
+**`Total Order`** := property of `Number`s that for any `a, b` exactly one of `a < b`, `a = b`, `a > b` holds.
+
+> `∀a, b: ∃c: a.c = b ∨ b.c = a`
 
 ## Ranges
 
-**`Interval`** := Set of all `Number`s not greater than `N`.
+**`Interval`** := `Set` of all `Number`s not greater than `N`.
 
 > `Interval(N) := {n : n ≤ N}`
 
 ---
 
-**`Ray`** := Set of all `Number`s strictly greater than `N`.
+**`Ray`** := `Set` of all `Number`s strictly greater than `N`.
 
 > `Ray(N) := {n : n > N}`
 
 ---
 
-**`Range`** := Set of all `Number`s strictly greater than `N` and at most `M`, with `N < M`.
+**`Range`** := `Set` of all `Number`s strictly greater than `N` and at most `M`, with `N < M`.
 
 > `Range(N, M) := {n : N < n ≤ M}`
 
@@ -60,37 +66,37 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 **`Queue`** := `Azon` over `Ray`.
 
-> `Queue = Azon :: DOM = Ray(N)`
+> `Queue :: Azon :: DOM = Ray(N)`
 
 ---
 
 **`Scoring`** := `Azon` into `Numerals`.
 
-> `Scoring := Azon :: COD ⊆ Number`
+> `Scoring :: Azon :: COD ⊆ Numerals`
 
 ---
 
-**`Vector`**  := `Scoring` `Tuple`.
+**`Vector`** := `Scoring` `Tuple`.
 
-> `Vector := Scoring :: DOM = BI(N), COD ⊆ Number`
+> `Vector :: Scoring :: DOM = Interval(N), COD ⊆ Numerals`
 
 ## Selection
 
-**`Mask`** := bijective `Tuple` of length `n` into a `Interval` of length `m > n`.
+**`Mask`** := injective `Tuple` of length `n` into an `Interval` of length `m > n`.
 
-> `Mask := BI(n) → BI(m)`
+> `Mask := Interval(n) → Interval(m)`
 
 ---
 
-**`Selection`** := `Composition` of a `Selection-Mask` with a `Tuple`.
+**`Selection`** := `Composition` of a `Mask` with a `Tuple`.
 
-> `Selection := Tuple . Mask`
+> `Selection := Tuple.Mask`
 
-## 2D
+## Matrices
 
-**`Matrix`** (2D-array) := A `Tuple` of `Tuple`.
+**`Matrix`** (2D-array) := A `Tuple` of `Tuple`s.
 
-> `Matrix :: BI(n) → Tuple`
+> `Matrix :: Interval(n) → Tuple`
 
 ---
 
