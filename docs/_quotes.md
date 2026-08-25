@@ -1,16 +1,20 @@
 ---
 title: "Quotes"
-description: "The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy."
+description: "A curated, numbered list of quotations. Content files cite them by number, as [[12]] or [[8,9,10]]."
 keywords: [quotes]
 license: UNLICENSED
 created: 2026-05-26
-modified: 2026-06-23
+modified: 2026-08-25
 source: docs/_quotes.md
 ---
 
 # Quotes
 
 ![Quotes](/images/_quotes.svg)
+
+A curated, numbered list of quotations. Content files cite them by number, as [[12]] or [[8,9,10]].
+
+The numbering is load-bearing: 43 of the 46 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered.
 
 1. The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy. — Steven Weinberg
 
@@ -22,11 +26,11 @@ source: docs/_quotes.md
 
 5. Great men are not born great, they grow great. — Mario Puzo
 
-6. What do you want here, a cursed, where you want to embark? Please — Do not lead us to lightness from our Egyptian Dark!
+6. What do you want here, accursed one, and where would you have us embark? Do not lead us out of our Egyptian darkness into the light!
 
-7. Мы, страдающие неврастенией злые обезьяны, пойдем дальше — не из надежды и не из мечты, а потому что иначе не умеем.
+7. We neurasthenic, ill-tempered apes will go on — not out of hope, and not out of a dream, but because we do not know how to do otherwise.
 
-8. You can designate [your Truth] for yourself, for this is given to you. — Moses 3:17
+8. You can designate [your Truth] for yourself, for this is given to you.
 
 9. We shape our world with our mind — We don't perceive reality the way it is, we perceive reality the way we are.
 
@@ -60,9 +64,9 @@ source: docs/_quotes.md
 
 24. If you don't have the strength to win, then at least have the strength not to bow. — Dzhokhar Dudayev
 
-25. To remain oppressed but human, rather than a walking corpse, one must realize where the Line passes, beyond which one cannot retreat under any circumstances, even if it costs Life. If you survived at the cost of crossing that line, you will continue a life that has lost all meaning.
+25. To remain oppressed but human, rather than a walking corpse, one must realize where the Line passes, beyond which one cannot retreat under any circumstances, even if it costs Life. If you survived at the cost of crossing that line, you will continue a life that has lost all meaning. — Bettelheim
 
-26. Those who believed they could not influence their situation at all became literally walking corpses. First, a person rejected any attempt to make sense of their own behavior and stopped acting by their own will: there was no internal source of movement left in them. Everything they did was determined by external pressure, they automatically executed any orders, without any selectivity. Then they began to shuffle very characteristically. Then they began to look only straight ahead. And then came death.
+26. Those who believed they could not influence their situation at all became literally walking corpses. First, a person rejected any attempt to make sense of their own behavior and stopped acting by their own will: there was no internal source of movement left in them. Everything they did was determined by external pressure, they automatically executed any orders, without any selectivity. Then they began to shuffle very characteristically. Then they began to look only straight ahead. And then came death. — Bettelheim
 
 27. Those who survived understood that they possess the last, but perhaps the most important human freedom — to choose their own attitude toward what is happening. Where there is no personal attitude, the zombie begins. — Bettelheim
 
@@ -88,7 +92,7 @@ source: docs/_quotes.md
 
 38. You can't control everything, but your attitude is yours to shape.
 
-39. Magnum opus viros magnificos facit.
+39. Magnum opus viros magnificos facit. — A great work makes great men.
 
 40. Try to do everything properly — failure will happen on its own. — Mikolaj Filip Ryzhko
 
@@ -102,4 +106,4 @@ source: docs/_quotes.md
 
 45. The pain of regret is worse than the pain of discipline. — Nathan Whitley
 
-46. Человек не способен остановиться: если где-то существует пустота, рубеж или фронтир, он будет стремиться его нарушить и преодолеть, даже не имея внятного ответа, зачем и ради чего. Потому что может, потому что это — посметь, потому что это красиво.
+46. A human being cannot stop: wherever there is an emptiness, a boundary, or a frontier, they will try to breach and cross it, without even a clear answer as to why or for what. Because they can, because it is a dare, because it is beautiful.
