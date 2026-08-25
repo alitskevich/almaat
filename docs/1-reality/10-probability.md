@@ -4,7 +4,7 @@ description: "How likelihood is measured over a Random Variable, updated by evid
 keywords: [reality, probability, bayes, ergodic]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/1-reality/10-probability.md
 ---
 
@@ -16,15 +16,21 @@ How likelihood is measured over a `Random Variable`, updated by evidence, and wh
 
 ## Measure
 
-**`Expected Value (Mean)`** := average `State` over many trials.
+**`Expected Value`** := the mean `State` over many trials.
 
 > `E(X) = Σ[x × P(x)]`
 
 ---
 
-**`Variance and Standard Deviation`** := measures of spread.
+**`Variance`** := the mean squared deviation from the `Expected Value`.
 
-> `Var(X) = E[(X − E(X))²]`, `SD = √Var(X)`
+> `Var(X) = E[(X − E(X))²]`
+
+---
+
+**`Standard Deviation`** := the square root of the `Variance`.
+
+> `SD(X) = √Var(X)`
 
 ## Update
 
@@ -40,23 +46,35 @@ How likelihood is measured over a `Random Variable`, updated by evidence, and wh
 
 ## Limit Laws
 
-**`Law of Large Numbers`** := average `State` approaches the expected value over many trials.
+**`Law of Large Numbers`** := the average of independent trials drawn from the same distribution approaches the `Expected Value` as the number of trials grows.
+
+> `(1/n) Σ Xᵢ → E(X)` as `n → ∞`
 
 ---
 
-**`Central Limit Theorem`** := averages of many trials form a normal distribution.
+**`Central Limit Theorem`** := for independent trials drawn from the same distribution with finite `Variance`, the distribution of their average approaches a normal one as the number of trials grows.
+
+> `√n · ((1/n) Σ Xᵢ − E(X)) / SD(X) → Normal(0, 1)` as `n → ∞`
+
+*NOTE*: the conditions carry the theorem. Without independence, or without finite `Variance`, the limit need not be normal.
 
 ## Long-Run Behavior
 
-**`Recurrent` / `Transient`** := a `State` returned to with probability 1 (recurrent) versus eventually abandoned (transient).
+**`Recurrent`** := a `State` returned to with probability 1.
 
-> `recurrent ⟺ P(return to State) = 1`
+> `recurrent(State) ⟺ P(return to State) = 1`
+
+---
+
+**`Transient`** := a `State` eventually abandoned — returned to with probability less than 1.
+
+> `transient(State) ⟺ P(return to State) < 1`
 
 *NOTE*: recurrent `State` are the long-run support of the `Flow`; the stochastic generalization of a `Circuit`. Transient `State` carry only the approach.
 
 ---
 
-**`Stationary Distribution`** := a `Probability Distribution` over `State` left unchanged by the `Circuit`.
+**`Stationary Distribution`** := a [`Probability Distribution`](02-process.md#parts-of-a-process) over `State` left unchanged by the `Circuit`'s [`TransitionMatrix`](02-process.md#kinds-of-circuit) `T`.
 
 > `π T = π`, `Σ π = 1`
 
