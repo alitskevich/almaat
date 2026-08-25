@@ -1,6 +1,6 @@
 ---
 title: "Graph"
-description: "Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, and what makes a Graph connected."
+description: "Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected."
 keywords: [math, graphs]
 license: UNLICENSED
 created: 2026-08-08
@@ -12,13 +12,27 @@ source: docs/0-math/03-graphs.md
 
 ![Graph](/images/0-math/03-graphs.svg)
 
-`Graph` as a `Set` of `Arrow`s, the `Vertex` types classified by in/out connectivity, and what makes a `Graph` connected.
+`Graph` as a `Set` of `Arrow`s, the `Vertex` types classified by in/out connectivity, the `Path` and `Tree` built on them, and what makes a `Graph` connected.
 
 ## Definitions
 
 **`Graph`** := `Set` of `Arrow`s.
 
 > `Graph := {Arrow}`
+
+---
+
+**`Path`** := `Tuple` of `Arrow`s of a `Graph` in which each `Arrow`'s `Codomain` is the next one's `Domain`.
+
+> `Path := [Arrow₁, ..., Arrowₙ] :: COD(Arrowᵢ) = DOM(Arrowᵢ₊₁)`
+
+*NOTE*: a `Path` is what `Composition` consumes — composing its `Arrow`s in order yields a single `Arrow` from the first `Domain` to the last `Codomain`.
+
+---
+
+**`Tree`** := `Graph` with one `Root` in which every other `Vertex` is reached by exactly one `Path`.
+
+> `Tree :: ∃! Root ∧ ∀V ≠ Root: ∃! Path(Root → V)`
 
 ## Vertex Types
 
