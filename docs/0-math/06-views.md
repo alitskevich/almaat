@@ -1,10 +1,10 @@
 ---
 title: "Presentational View"
-description: "The presentational view: Matter as a basis equipped with attributes, and the Entity, Type, and Relation built on it."
+description: "Matter as a Basis equipped with Attributes, and the Entity, Type, Point, Place, Relation, and Schema built on it."
 keywords: [math, views]
 license: UNLICENSED
 created: 2026-08-08
-modified: 2026-08-08
+modified: 2026-08-25
 source: docs/0-math/06-views.md
 ---
 
@@ -12,56 +12,81 @@ source: docs/0-math/06-views.md
 
 ![Presentational View](/images/0-math/06-views.svg)
 
-## Definitions
+`Matter` as a `Basis` equipped with `Attribute`s, and the `Entity`, `Type`, `Point`, `Place`, `Relation`, and `Schema` built on it.
 
-**`Matter`** := `Set:Basis` equipped with finite set of `Azon:Attribute`s.
+## Matter
 
-**`Attribute`** := `Azon`, which `Domain` is part of the `Basis` of `Matter`.
-
-**`Entity`** := `Element` of the `Matter`.
+**`Matter`** := `Set:Basis` equipped with a finite set of `Azon:Attribute`s.
 
 > `Matter := (Basis, {Attribute}) :: DOM(Attribute) ⊆ Basis`
-> `Entity ∈ Basis`
 
 ---
+
+**`Attribute`** := `Azon` whose `Domain` is part of the `Basis` of `Matter`.
+
+> `Attribute :: Azon :: DOM ⊆ Basis`
+
+---
+
+**`Entity`** := `Element` of the `Basis` of the `Matter`.
+
+> `Entity ∈ Basis`
+
+## Type and Volume
 
 **`Type`** := `Tuple` of `Attribute`s of `Matter`.
 
-> `Type<Matter> := [a₁, a₂, ..., aₙ] | DOM(pᵢ) ⊆ Matter::Basis`
+> `Type<Matter> := [a₁, a₂, ..., aₙ] | DOM(aᵢ) ⊆ Matter::Basis`
+
+---
 
 **`Point`** := `Tuple` of `Element`s, one drawn from `Codomain` of corresponding `Attribute` of given `Type`.
 
-> `Point<Type> := [v₁, v₂, ..., vₙ] | vᵢ ∈ COD(pᵢ IS Type[i])`
+> `Point<Type> := [v₁, v₂, ..., vₙ] | vᵢ ∈ COD(aᵢ IS Type[i])`
 
-**`Volume`** := `Set` of all possible `Point`s of the `Type` -- Cartesian product of attribute codomains.
+---
 
-> `Volume<Type> := COD(p₁) × COD(p₂) × ... × COD(pₙ)`
+**`Volume`** := `Set` of all possible `Point`s of the `Type` — the Cartesian product of the `Attribute` codomains.
 
-**`Place`** := `Set` of `Point`s of `Type` -- subset of its `Volume`.
+> `Volume<Type> := COD(a₁) × COD(a₂) × ... × COD(aₙ)`
+
+---
+
+**`Place`** := `Set` of `Point`s of `Type` — a subset of its `Volume`.
 
 > `Place<Type> := {Point} ⊆ Volume<Type>`
 
----
+## View and Content
 
 **`View`** := `Point` corresponding to the `Entity` in given `Type`.
 
-> `View<Type, Entity> := [a₁(E), a₂(E), ..., aₙ(E)] :: pᵢ IS Type[i]`
-
-**`Content`** := `Set` of all `Entity`ies, whose `View`s fall within a `Place`.
-
-> `Content(Place) := { Entity(s) :: View(Entity) ∈ Place }`
+> `View<Type, Entity> := [a₁(E), a₂(E), ..., aₙ(E)] :: aᵢ IS Type[i]`
 
 ---
 
-**`Key`** (primary key) := bijective Attribute — distinct entities have distinct values.
+**`Content`** := `Set` of every `Entity` whose `View` falls within a `Place`.
 
-> `∀a, b ∈ SDom: Key(a) = Key(b) ⟹ a = b`
+> `Content(Place) := { Entity :: View(Entity) ∈ Place }`
 
-**`Reference`** (foreign key) := Attribute, which `Values` are `Key`s of other `Type`s.
+## Keys and Relations
 
-**`Space`** := `Type` of `References`.
+**`Key`** (primary key) := injective `Attribute` — distinct `Entity` have distinct values.
 
-**`Relation := {[Ref₁, Ref₂, ...]}`** := `Place` in `Space`.
+> `∀a, b ∈ DOM(Key): Key(a) = Key(b) ⟹ a = b`
+
+---
+
+**`Reference`** (foreign key) := `Attribute` whose `Value`s are `Key`s of other `Type`s.
+
+---
+
+**`Space`** := `Type` of `Reference`s.
+
+---
+
+**`Relation`** := `Place` in `Space`.
+
+> `Relation := {[Ref₁, Ref₂, ...]}`
 
 ---
 
@@ -69,30 +94,34 @@ source: docs/0-math/06-views.md
 
 > `Schema<{Type}> := ({Type}, {Relation})`
 
----
+## Derived Places
 
-**`Region`** := A hyperrectangular `Place` constrained by subsets of the `Codomain` of corresponding Attributes.
+**`Region`** := A hyperrectangular `Place` constrained by subsets of the `Codomain` of the corresponding `Attribute`s.
 
-> `Region := Set₁ ⊆ COD(p₁) × Set₂ ⊆ COD(p₂) × ... × Set₂ ⊆ COD(pₙ)`
-
----
-
-**`Projection`** := A `Place` devived from `Place`-`Origin` by `Selection` over the Attributes of an `Type`.
-
-> `Projection<Selection over [p₁, ..., pₙ]> := Origin -> Selection(Place)`
+> `Region := Set₁ ⊆ COD(a₁) × Set₂ ⊆ COD(a₂) × ... × Setₙ ⊆ COD(aₙ)`
 
 ---
+
+**`Projection`** := A `Place` derived from `Place`-`Origin` by `Selection` over the `Attribute`s of a `Type`.
+
+> `Projection<Selection over [a₁, ..., aₙ]> := Origin → Selection(Place)`
+
+## Quality
 
 **`Quality<Type>`** := `Azon` over `Point`s of given `Volume`.
 
-*DEF*: A `Quality` with a single value called `Principle`; with two values - `Predicate` (Boolean).
+*DEF*: a `Quality` with a single value is *called* `Principle`; with two values, `Predicate` (Boolean).
 
-**`Taxon`** := A `Cluster` of the `Volume` splitted by shared values of a `Quality`.
+---
+
+**`Taxon`** := A `Cluster` of the `Volume` split by shared values of a `Quality`.
 
 > `Taxon(q) := Cluster(Volume) :: q of all points in any fragment is the same`
 
 ---
 
-**`Sigma<n>`** := smallest `Place` containing a `(n−1)/n` proportion of the `Matter`.
+**`Sigma<n>`** := smallest `Place` containing an `(n−1)/n` proportion of the `Matter`.
 
 > `Sigma<n> := argmin(|Place|) : |Content(Place)| ≥ ((n−1)/n) · |Matter|`
+
+*NOTE*: `|X|` is the count of `Element`s in `X`; `argmin` selects the argument that minimizes the quantity.
