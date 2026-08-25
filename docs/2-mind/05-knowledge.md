@@ -4,7 +4,7 @@ description: "The atomic units of belief — Opinion, Doubt, Thesis, Theory, Nam
 keywords: [mind, knowledge]
 license: UNLICENSED
 created: 2026-07-18
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/2-mind/05-knowledge.md
 ---
 
@@ -19,8 +19,6 @@ The atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `
 **`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether `Presentation` belongs to `Place`.
 
 > `Opinion :: Expression → (Presentation × Place → {0, 1})`
-
-*NOTE*: A proposition asserting membership of entities in categories.
 
 ---
 
@@ -58,7 +56,7 @@ The atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `
 
 > `Concept :: Expression → Place`
 
-*NOTE*: Denotes categories rather than instances. Aligns with Frege's distinction between Sense and Reference.
+*NOTE*: Denotes categories rather than instances.
 
 ## Knowledge Organization
 
@@ -66,16 +64,21 @@ The atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `
 
 > `Knowledge := {Theory, Concept, Opinion}_validated`
 
-*NOTE*: The four properties of well-formed `Knowledge`: **adequate** (matches observed `Presentation`), **accessible** (retrievable from `Memory`), **coherent** (internally non-contradictory), **predictive** (allows anticipation of future `State`). `Knowledge` is not Being itself — only its representation.
+*NOTE*: `Knowledge` is not Being itself — only its representation. Well-formed `Knowledge` has four properties:
+
+- **adequate** — matches observed `Presentation`
+- **accessible** — retrievable from `Memory`
+- **coherent** — internally non-contradictory
+- **predictive** — allows anticipation of future `State`
 
 ---
 
-**`Taxonomy`** := A hierarchical structure defining "is-a" general/specific relations between concepts, organizing into groups based on shared characteristics. Answers: "What are the types of things?"
+The forms `Knowledge` is organized into:
 
-**`Ontology`** := A formal explicit declarative description of a domain comprising concepts, properties, and restrictions. Answers: "What are there and how do they relate?"
-
-**`Knowledge Base`** := An ontology with a set of individual instances of classes.
-
-**`Data Model`** := Mathematical representations of physical systems containing equations that describe behavioral relationships.
-
-**`Domain-Specific Language (DSL)`** := A specialized language tailored to express operations, configurations, or processes within a specific domain.
+| Form | Description | Answers |
+| --- | --- | --- |
+| **`Taxonomy`** | Hierarchical is-a relations between concepts, grouped by shared characteristics | What are the types of things? |
+| **`Ontology`** | Formal declarative description of a domain: concepts, properties, restrictions | What is there, and how does it relate? |
+| **`Knowledge Base`** | An `Ontology` with individual instances of its classes | Which particular things are there? |
+| **`Data Model`** | Equations describing the behavioral relationships of a physical system | How does it behave? |
+| **`Domain-Specific Language`** | A language tailored to one domain's operations and configurations | How is it expressed? |
