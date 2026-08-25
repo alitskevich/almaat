@@ -4,7 +4,7 @@ description: "Things as queues of presentations over a flow: the participants, t
 keywords: [reality, system, participant, communication]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/1-reality/07-system.md
 ---
 
@@ -42,11 +42,11 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ---
 
-**`Participant`** := a `Thing` that communicates with other `Participant` of the `System`.
+**`Participant`** := a `Thing` that communicates with other `Participant`s of the `System`.
 
-> `Participant ∈ Source : ∃Communication(P → Q)`
+> `Participant(P) :: P IS Thing ∧ ∃Q ∈ System: Communication(P ↔ Q) ≠ 0`
 
-*NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure.
+*NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure. Every `Participant` is a [`Source`](../2-mind/12-mind.md): it must produce output in order to communicate.
 
 ---
 
@@ -62,7 +62,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 > `Communication(A → B) := Behavior(A) . Attention(B)`
 
-*NOTE*: the *`Composition`* of A's outward projection with B's inward selection. Asymmetric: `A → B ≠ B → A`. Operates across a single `Step` — A's output at `Step[i]` becomes B's input at `Step[i+1]`.
+*NOTE*: asymmetric: `A → B ≠ B → A`. Operates across a single `Step` — A's output at `Step[i]` becomes B's input at `Step[i+1]`.
 
 ---
 
@@ -90,7 +90,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ---
 
-**`Interface`** := a Form that constrains the `Behavior` of `Participant` relative to each other.
+**`Interface`** := a constraint on the `Behavior` of `Participant`s relative to each other.
 
 > `Interface :: admissible(Behavior, Attention) → {0, 1}`
 
@@ -98,7 +98,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ---
 
-**`Coupling`** := the persistence of mutual `Communication` between two `Participant` across multiple `Step`.
+**`Coupling`** := the persistence of mutual `Communication` between two `Participant`s across multiple `Step`s.
 
 > `Coupling(A, B) := | {Step[i] : Communication(A↔B) ≠ 0 at Step[i]}|`
 
@@ -108,7 +108,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 > `Feedback(A) :: ∃ path A → ... → A in the Coupling graph`
 
-*NOTE*: positive `Feedback` amplifies divergence from a `State`; negative `Feedback` restores it. Every stable `Halt` requires negative `Feedback`.
+*NOTE*: positive `Feedback` amplifies divergence from a `State`; negative `Feedback` restores it.
 
 ## The Whole
 
