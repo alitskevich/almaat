@@ -10,7 +10,7 @@ source: docs/0-math/04-numerals.md
 
 # Numerals
 
-![Sequence](/images/0-math/04-numerals.svg)
+![Numerals](/images/0-math/04-numerals.svg)
 
 Natural numbers (`Number`), intervals, sequences, and selections.
 

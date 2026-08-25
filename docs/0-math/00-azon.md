@@ -10,7 +10,7 @@ source: docs/0-math/00-azon.md
 
 # Azon
 
-![Foundations](/images/0-math/00-azon.svg)
+![Azon](/images/0-math/00-azon.svg)
 
 ## The Formal Spine
 

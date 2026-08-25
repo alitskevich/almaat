@@ -10,7 +10,7 @@ source: docs/INDEX.md
 
 # ALMAAT — Content Index
 
-![Content Index](/images/_index.svg)
+![ALMAAT — Content Index](/images/INDEX.svg)
 
 Master index of the ALMAAT framework. The book builds one ontology from a single
 primitive (the `Azon`) up to `Mind` and `Agent`, then applies it to the human, the

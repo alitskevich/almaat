@@ -10,7 +10,7 @@ source: docs/0-math/06-views.md
 
 # Presentational View
 
-![Type](/images/0-math/01-space.svg)
+![Presentational View](/images/0-math/06-views.svg)
 
 ## Definitions
 

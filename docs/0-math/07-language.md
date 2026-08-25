@@ -10,6 +10,8 @@ source: docs/0-math/07-language.md
 
 # Formal Language
 
+![Formal Language](/images/0-math/07-language.svg)
+
 **`Code := [ 0 | 1 ]`**  := finite tuple from `0` and `1`.
 
 **`Alphabet<N> := { Code :: |Code| = N }`** := finite set of same-length `Code`s.

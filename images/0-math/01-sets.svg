@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Sets, Equivalence, Topology" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="rough" x="-15%" y="-40%" width="130%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.024" numOctaves="3" seed="13" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="13" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="canvas" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="51" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.6 0"/>
+    </filter>
+    <style>
+      .cap { font-family: "Marker Felt", "Segoe Print", "Bradley Hand", "Brush Script MT", "Comic Sans MS", cursive; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#FBF7EF"/>
+  <g filter="url(#soft)">
+    <ellipse cx="1159" cy="268.4" rx="271.8" ry="190.2" fill="#F3E8D5" opacity="0.6"/>
+    <ellipse cx="378.1" cy="210.5" rx="247.3" ry="232.5" fill="#E9D4AE" opacity="0.6"/>
+  </g>
+  <g filter="url(#rough)">
+    <path d="M 5.7 192.5 C 436.5 115.6, 1108 115.6, 1210.1 198.6" fill="none" stroke="#1C3CC0" stroke-width="31.8" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 5.7 192.5 C 436.5 115.6, 1108 115.6, 1210.1 198.6" fill="none" stroke="#37200F" stroke-width="12.1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M -36.4 188.1 C 60.2 118.9, 906.6 118.9, 1149.3 210.4" fill="none" stroke="#1C3CC0" stroke-width="40.5" stroke-linecap="round" opacity="0.9"/>
+    <path d="M -34.1 69.6 C 118.4 -15.4, 1006.2 -15.4, 1179.3 75.5" fill="none" stroke="#B8481A" stroke-width="16.7" stroke-linecap="round" opacity="0.9"/>
+    <path d="M -34.1 69.6 C 118.4 -15.4, 1006.2 -15.4, 1179.3 75.5" fill="none" stroke="#E64A38" stroke-width="5.9" stroke-linecap="round" opacity="0.7"/>
+    <path d="M -10.4 33.1 C 306.5 162.7, 1052.7 -65.7, 1114.3 46.1" fill="none" stroke="#B8481A" stroke-width="36.9" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 105.6 209.3 C 541.7 75.1, 982 303.9, 1129.6 189" fill="none" stroke="#EFAE16" stroke-width="28" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 55.2 83.5 C 332.9 5.1, 965.3 150.2, 1174.8 90.2" fill="none" stroke="#8E4422" stroke-width="39" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 80.9 64.5 C 321.3 164.2, 705.8 -51.3, 1184.8 49.6" fill="none" stroke="#EFAE16" stroke-width="24.6" stroke-linecap="round" opacity="0.9"/>
+    <polygon points="144,220.1 140.9,241.9 109.1,241.5 97.1,226.5 81.2,208.4 110.8,204.1 140.7,198.5" fill="#1C3CC0" opacity="0.7"/>
+    <polygon points="100.4,133.6 92.6,148.5 68.3,148.2 61.5,133.6 67.7,118.4 91,120.7" fill="#1C3CC0" opacity="0.6"/>
+  </g>
+  <g>
+    <path d="M 518.4 207.1 q 9.5 18.7, -5.2 37.3" fill="none" stroke="#1C3CC0" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="520.3" cy="244.5" r="2.9" fill="#1C3CC0" opacity="0.5"/>
+    <path d="M 420.7 100.6 q 9.9 43.2, -2.4 86.4" fill="none" stroke="#B8481A" stroke-width="3.3" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="415.7" cy="187" r="5.1" fill="#B8481A" opacity="0.6"/>
+    <path d="M 810.5 104.1 q -8.8 44.2, -4.7 88.5" fill="none" stroke="#8E4422" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="813.4" cy="192.6" r="4" fill="#8E4422" opacity="0.6"/>
+    <path d="M 791.9 64.5 q -9.8 39.4, -1 78.8" fill="none" stroke="#EFAE16" stroke-width="4.4" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="793" cy="143.4" r="6.4" fill="#EFAE16" opacity="0.5"/>
+  </g>
+  <g>
+    <circle cx="453.7" cy="93" r="6.5" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="1122.7" cy="227" r="2.9" fill="#B8481A" opacity="0.7"/>
+    <circle cx="1103.6" cy="161.7" r="1.9" fill="#B8481A" opacity="0.6"/>
+    <circle cx="1096.6" cy="168.2" r="4.5" fill="#B8481A" opacity="0.4"/>
+    <ellipse cx="531.5" cy="178.7" rx="8.3" ry="1.8" fill="#B8481A" opacity="0.6" transform="rotate(68.6 531.5 178.7)"/>
+    <circle cx="487.8" cy="197.9" r="2" fill="#1C3CC0" opacity="0.8"/>
+    <circle cx="428.1" cy="187.3" r="2.7" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="303.3" cy="185" r="5.3" fill="#1C3CC0" opacity="0.7"/>
+    <circle cx="475.1" cy="156.3" r="3.4" fill="#37200F" opacity="0.6"/>
+    <circle cx="1091.1" cy="236" r="5" fill="#EFAE16" opacity="0.4"/>
+    <circle cx="636.6" cy="291.7" r="6.3" fill="#E64A38" opacity="0.7"/>
+    <circle cx="975.8" cy="164.9" r="3.5" fill="#EFAE16" opacity="0.9"/>
+    <circle cx="514.8" cy="179.9" r="5.2" fill="#EFAE16" opacity="0.9"/>
+    <circle cx="1059.5" cy="159.5" r="1.9" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="1001.7" cy="22.5" r="3.9" fill="#E64A38" opacity="0.4"/>
+    <circle cx="669.1" cy="143.7" r="3.1" fill="#EFAE16" opacity="0.5"/>
+    <circle cx="1000.1" cy="220.9" r="2.3" fill="#B8481A" opacity="0.9"/>
+    <circle cx="312.9" cy="130.3" r="5" fill="#1C3CC0" opacity="0.4"/>
+    <ellipse cx="812.8" cy="33.3" rx="9.8" ry="1.3" fill="#E64A38" opacity="0.8" transform="rotate(135.2 812.8 33.3)"/>
+    <ellipse cx="363.2" cy="96.7" rx="5.3" ry="2.8" fill="#E64A38" opacity="0.7" transform="rotate(134.6 363.2 96.7)"/>
+    <circle cx="334.5" cy="290.3" r="4.1" fill="#1C3CC0" opacity="0.7"/>
+    <ellipse cx="1039.2" cy="42.7" rx="8.5" ry="1.4" fill="#1C3CC0" opacity="0.6" transform="rotate(179.8 1039.2 42.7)"/>
+    <ellipse cx="8.9" cy="74.8" rx="5.2" ry="2.5" fill="#1C3CC0" opacity="0.5" transform="rotate(46.7 8.9 74.8)"/>
+    <circle cx="585" cy="289.4" r="1.4" fill="#E64A38" opacity="0.8"/>
+    <ellipse cx="436.5" cy="163.7" rx="3.2" ry="2.5" fill="#EFAE16" opacity="0.4" transform="rotate(90.2 436.5 163.7)"/>
+    <circle cx="508.7" cy="148.2" r="6.3" fill="#1C3CC0" opacity="0.3"/>
+    <circle cx="1120.7" cy="203.3" r="5.6" fill="#EFAE16" opacity="0.9"/>
+    <circle cx="1194.8" cy="137.1" r="2.7" fill="#B8481A" opacity="0.5"/>
+    <ellipse cx="1100" cy="195.9" rx="8.7" ry="2.6" fill="#1C3CC0" opacity="0.4" transform="rotate(56.2 1100 195.9)"/>
+  </g>
+  <rect width="1200" height="300" filter="url(#canvas)" opacity="0.05"/>
+  <g class="cap" text-anchor="middle">
+    <path d="M 369.6 230.6 q 115.2 -1.2, 230.4 0.1 t 230.4 -0.9" fill="none" stroke="#E64A38" stroke-width="4.7" stroke-linecap="round" opacity="0.9" filter="url(#rough)"/>
+    <text x="600" y="150" font-size="52" font-family="'Marker Felt','Segoe Print','Bradley Hand','Brush Script MT','Comic Sans MS',cursive" font-weight="700" paint-order="stroke" stroke="#FBF7EF" stroke-width="7" stroke-linejoin="round" fill="#37200F"><tspan x="600" dy="-0.30em" textLength="562" lengthAdjust="spacingAndGlyphs">Sets, Equivalence,</tspan><tspan x="600" dy="1.06em" textLength="250" lengthAdjust="spacingAndGlyphs">Topology</tspan></text>
+  </g>
+</svg>

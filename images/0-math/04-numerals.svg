@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Sequence" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Numerals" preserveAspectRatio="xMidYMid slice">
   <defs>
     <filter id="rough" x="-15%" y="-40%" width="130%" height="180%">
       <feTurbulence type="fractalNoise" baseFrequency="0.018 0.024" numOctaves="3" seed="81" result="n"/>
@@ -90,6 +90,6 @@
   <rect width="1200" height="300" filter="url(#canvas)" opacity="0.05"/>
   <g class="cap" text-anchor="middle">
     <path d="M 481.9 189.6 q 59 0.2, 118.1 -2.9 t 118.1 2" fill="none" stroke="#EFAE16" stroke-width="5.4" stroke-linecap="round" opacity="0.9" filter="url(#rough)"/>
-    <text x="600" y="150" font-size="60" font-family="'Marker Felt','Segoe Print','Bradley Hand','Brush Script MT','Comic Sans MS',cursive" font-weight="700" paint-order="stroke" stroke="#FBF7EF" stroke-width="8" stroke-linejoin="round" fill="#37200F"><tspan x="600" dy="0.34em" textLength="288" lengthAdjust="spacingAndGlyphs">Sequence</tspan></text>
+    <text x="600" y="150" font-size="60" font-family="'Marker Felt','Segoe Print','Bradley Hand','Brush Script MT','Comic Sans MS',cursive" font-weight="700" paint-order="stroke" stroke="#FBF7EF" stroke-width="8" stroke-linejoin="round" fill="#37200F"><tspan x="600" dy="0.34em" textLength="288" lengthAdjust="spacingAndGlyphs">Numerals</tspan></text>
   </g>
 </svg>

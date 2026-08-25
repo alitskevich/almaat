@@ -10,6 +10,8 @@ source: docs/0-math/02-composition.md
 
 # Composition
 
+![Composition](/images/0-math/02-composition.svg)
+
 **`Arrow`** := an `Azon` that responds *always* `emptily` *except once*.
 
 > `R(a,b) := x → (x IS a ? b : 0)`

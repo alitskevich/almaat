@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Influence" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="rough" x="-15%" y="-40%" width="130%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.024" numOctaves="3" seed="72" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="13" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="canvas" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="22" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.6 0"/>
+    </filter>
+    <style>
+      .cap { font-family: "Marker Felt", "Segoe Print", "Bradley Hand", "Brush Script MT", "Comic Sans MS", cursive; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#FBF7EF"/>
+  <g filter="url(#soft)">
+    <ellipse cx="558.2" cy="121.8" rx="223.5" ry="211.3" fill="#E9D4AE" opacity="0.8"/>
+    <ellipse cx="560.6" cy="118" rx="231" ry="213.2" fill="#F3E8D5" opacity="0.6"/>
+  </g>
+  <g filter="url(#rough)">
+    <path d="M -24.8 217 C 541.7 184.3, 1049.2 184.3, 1234.5 218.5" fill="none" stroke="#1C3CC0" stroke-width="25.5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M -24.8 217 C 541.7 184.3, 1049.2 184.3, 1234.5 218.5" fill="none" stroke="#EFAE16" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 45.7 206.1 C 292.7 154.7, 1109.9 244.8, 1143.6 180.5" fill="none" stroke="#1C3CC0" stroke-width="19.8" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 45.7 206.1 C 292.7 154.7, 1109.9 244.8, 1143.6 180.5" fill="none" stroke="#8E4422" stroke-width="7.1" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 2.7 271.2 C 131.5 145.9, 907 145.9, 1178.1 273.3" fill="none" stroke="#1C3CC0" stroke-width="37.4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 2.7 271.2 C 131.5 145.9, 907 145.9, 1178.1 273.3" fill="none" stroke="#1C3CC0" stroke-width="9.7" stroke-linecap="round" opacity="0.5"/>
+    <path d="M -15.8 129 C 597 208.5, 808.6 208.5, 1225.2 160.3" fill="none" stroke="#EFAE16" stroke-width="16.4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M -15.8 129 C 597 208.5, 808.6 208.5, 1225.2 160.3" fill="none" stroke="#EFAE16" stroke-width="6.9" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 23.3 150.1 C 348.7 228.5, 846.7 228.5, 1233.9 160.1" fill="none" stroke="#1C3CC0" stroke-width="26.3" stroke-linecap="round" opacity="0.9"/>
+    <polygon points="833.8,133.2 816.3,151.9 781.7,146.4 794.8,126.7 813.9,119.6" fill="#1C3CC0" opacity="0.6"/>
+  </g>
+  <g>
+    <path d="M 915.1 230.6 q -2.3 35.8, -4.1 71.6" fill="none" stroke="#1C3CC0" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="917.5" cy="302.2" r="3.1" fill="#1C3CC0" opacity="0.6"/>
+    <path d="M 1025.2 159.3 q 1.5 19.1, -3.6 38.2" fill="none" stroke="#EFAE16" stroke-width="5.2" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="1024.5" cy="197.5" r="8.2" fill="#EFAE16" opacity="0.5"/>
+  </g>
+  <g>
+    <ellipse cx="1009.3" cy="76.9" rx="9.5" ry="2.8" fill="#E64A38" opacity="0.9" transform="rotate(30.5 1009.3 76.9)"/>
+    <circle cx="130.8" cy="120.6" r="3.2" fill="#E64A38" opacity="0.5"/>
+    <circle cx="593.1" cy="189.9" r="6.5" fill="#B8481A" opacity="0.3"/>
+    <circle cx="1135.2" cy="104.9" r="6.7" fill="#8E4422" opacity="0.7"/>
+    <ellipse cx="410.7" cy="60.7" rx="7.3" ry="1.7" fill="#37200F" opacity="0.4" transform="rotate(105.5 410.7 60.7)"/>
+    <circle cx="1074.4" cy="244.1" r="4.4" fill="#E64A38" opacity="0.7"/>
+    <circle cx="1002.4" cy="65.9" r="4.5" fill="#EFAE16" opacity="0.7"/>
+    <circle cx="140.3" cy="139.6" r="5" fill="#E64A38" opacity="0.4"/>
+    <circle cx="1022.5" cy="111.4" r="1.8" fill="#EFAE16" opacity="0.5"/>
+    <circle cx="1154.4" cy="62.8" r="2.7" fill="#8E4422" opacity="0.9"/>
+    <circle cx="640.5" cy="231.1" r="3.8" fill="#E64A38" opacity="0.4"/>
+    <circle cx="637.9" cy="294.3" r="1.5" fill="#E64A38" opacity="0.6"/>
+    <ellipse cx="603.1" cy="145.1" rx="5.5" ry="2.7" fill="#E64A38" opacity="0.7" transform="rotate(68.2 603.1 145.1)"/>
+    <circle cx="1090.9" cy="44.1" r="4.9" fill="#8E4422" opacity="0.4"/>
+    <ellipse cx="969.1" cy="109.3" rx="8.7" ry="1.7" fill="#EFAE16" opacity="0.7" transform="rotate(149.3 969.1 109.3)"/>
+    <circle cx="640.9" cy="190.9" r="1.6" fill="#EFAE16" opacity="0.6"/>
+    <circle cx="1146.6" cy="89.6" r="1.8" fill="#EFAE16" opacity="0.7"/>
+    <circle cx="685.6" cy="98.7" r="3.6" fill="#E64A38" opacity="0.5"/>
+    <circle cx="1099.2" cy="52.6" r="5.2" fill="#37200F" opacity="0.3"/>
+    <ellipse cx="1093.9" cy="93.4" rx="5.4" ry="1.8" fill="#1C3CC0" opacity="0.8" transform="rotate(59.6 1093.9 93.4)"/>
+    <circle cx="564.1" cy="187.3" r="2.4" fill="#E64A38" opacity="0.6"/>
+    <circle cx="556.2" cy="216.1" r="4.4" fill="#EFAE16" opacity="0.4"/>
+    <circle cx="1088.9" cy="86.2" r="5.5" fill="#B8481A" opacity="0.5"/>
+    <circle cx="999.4" cy="63.6" r="6.5" fill="#37200F" opacity="0.5"/>
+    <circle cx="1084.1" cy="279" r="5.6" fill="#EFAE16" opacity="0.6"/>
+    <circle cx="496.1" cy="175.3" r="3.1" fill="#1C3CC0" opacity="0.6"/>
+    <circle cx="440.3" cy="179.7" r="1.3" fill="#1C3CC0" opacity="0.4"/>
+    <circle cx="1066.9" cy="40.6" r="5.3" fill="#E64A38" opacity="0.6"/>
+  </g>
+  <rect width="1200" height="300" filter="url(#canvas)" opacity="0.05"/>
+  <g class="cap" text-anchor="middle">
+    <path d="M 467.2 189.6 q 66.4 -3.9, 132.8 0.2 t 132.8 3.9" fill="none" stroke="#E64A38" stroke-width="5.4" stroke-linecap="round" opacity="0.9" filter="url(#rough)"/>
+    <text x="600" y="150" font-size="60" font-family="'Marker Felt','Segoe Print','Bradley Hand','Brush Script MT','Comic Sans MS',cursive" font-weight="700" paint-order="stroke" stroke="#FBF7EF" stroke-width="8" stroke-linejoin="round" fill="#37200F"><tspan x="600" dy="0.34em" textLength="324" lengthAdjust="spacingAndGlyphs">Influence</tspan></text>
+  </g>
+</svg>

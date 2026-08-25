@@ -10,7 +10,7 @@ source: docs/0-math/01-sets.md
 
 # Sets, Equivalence, Topology
 
-![Sets, Equivalence, Topology](/images/0-math/01-set.svg)
+![Sets, Equivalence, Topology](/images/0-math/01-sets.svg)
 
 This part introduces `Set` and the topological structures over `Set`.
 

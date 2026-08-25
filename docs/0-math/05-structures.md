@@ -10,7 +10,7 @@ source: docs/0-math/05-structures.md
 
 # Structures
 
-![Algebras](/images/0-math/03-algebras.svg)
+![Structures](/images/0-math/05-structures.svg)
 
 **`Structure`** := `Set` equipped with `Operations` on it, which are constrained by `Law`s.
 

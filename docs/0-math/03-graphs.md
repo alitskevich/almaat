@@ -10,7 +10,7 @@ source: docs/0-math/03-graphs.md
 
 # Graph
 
-![Graphs](/images/0-math/02-graph.svg)
+![Graph](/images/0-math/03-graphs.svg)
 
 **`Graph`** := `Set` of `Arrow`s.
 
