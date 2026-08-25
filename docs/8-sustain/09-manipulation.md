@@ -54,17 +54,16 @@ Behavior is governed by its consequences, and *any predictable reaction you give
 
 | Lever | How it shapes behavior | Defensive use |
 | ----- | ---------------------- | ------------- |
-| **Extinction (ignore)** | A behavior that earns no reaction fades. Expect a brief spike — an *extinction burst* — before it drops | Withhold the payoff you've been handing over; don't mistake the burst for failure. |
-| **Intermittent reward** | Unpredictable reinforcement hooks hardest — the schedule behind gambling | See the pattern, not the streak; a random payout is still bait. |
-| **Timing** | A consequence binds only to what immediately precedes it. Delayed praise or rebuke attaches to nothing | React while the act is live, not hours later; judge the action, not the person. |
-| **One signal** | A request repeated without consequence teaches that your word carries no cost | Say it once, then let the stated consequence follow — a [boundary](12-boundaries.md) in motion. |
-| **Shaping** | Complex behavior is built by rewarding small steps toward it, never demanded whole | Notice when you're being walked toward a large concession one approving nod at a time. |
-| **Pre-verbal cue** | People read your tone, pause, and first standard named before your words. The `Anchor` and the [Frame](07-frame.md) land first | Watch what your composure signals; the message arrives before the sentence does. |
+| **Extinction (ignore)** | A behavior that earns no reaction fades. Expect a brief spike — an *extinction burst* — before it drops | Withhold the payoff you've been handing over; don't mistake the burst for failure |
+| **Intermittent reward** | Unpredictable reinforcement hooks hardest — the schedule behind gambling | See the pattern, not the streak; a random payout is still bait |
+| **Timing** | A consequence binds only to what immediately precedes it. Delayed praise or rebuke attaches to nothing | React while the act is live, not hours later; judge the action, not the person |
+| **One signal** | A request repeated without consequence teaches that your word carries no cost | Say it once, then let the stated consequence follow — a [boundary](12-boundaries.md) in motion |
+| **Shaping** | Complex behavior is built by rewarding small steps toward it, never demanded whole | Notice when you're being walked toward a large concession one approving nod at a time |
+| **Pre-verbal cue** | People read your tone, pause, and first standard named before your words. The `Anchor` and the [Frame](07-frame.md) land first | Watch what your composure signals; the message arrives before the sentence does |
 
 What you react to, you train — so choose what you reinforce.
 
 ## Sources
 
-- Robert Cialdini — [Influence: The Psychology of Persuasion](https://www.cognitigence.com/blog/cialdini-7-principles-of-persuasion); [Unity](https://news.wpcarey.asu.edu/20250422-gentle-science-persuasion-part-seven-unity)
 - Robert Cialdini, "Influence: The Psychology of Persuasion" — the levers.
 - Jennifer Freyd, on DARVO — deny, attack, reverse victim and offender.
