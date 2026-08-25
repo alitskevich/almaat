@@ -1,10 +1,10 @@
 ---
 title: "Evolution"
-description: "Evolution is the dynamics of a Paradigm over time — how an Agent or System changes its Potency as Circumstances shift."
+description: "Evolution is the dynamics of a Paradigm: how it improves, adapts, stagnates, or regresses as Circumstances shift."
 keywords: [reality, evolution, adaptation, crisis]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/1-reality/15-evolution.md
 ---
 
@@ -12,9 +12,9 @@ source: docs/1-reality/15-evolution.md
 
 ![Evolution](/images/1-reality/15-evolution.svg)
 
-`Evolution` is the dynamics of how a `System` changes its `Potency` over `Circumstances` shift.
+`Evolution` is the dynamics of a `Paradigm`: how it improves, adapts, stagnates, or regresses as `Circumstances` shift.
 
-This file holds the trajectories: how a `Paradigm` improves, preserves, decays, or breaks. What bounds those trajectories is in [Limits](16-limits.md).
+What bounds those trajectories is in [Limits](16-limits.md).
 
 ## Trajectories
 
@@ -46,12 +46,12 @@ This file holds the trajectories: how a `Paradigm` improves, preserves, decays, 
 
 > `Crisis :: Potency(Paradigm, Circumstances) ≈ 0 ∧ ∄Paradigm'_attainable: Potency(Paradigm', Circumstances) > Potency(Paradigm, Circumstances)`
 
-*NOTE*: the branching point: either [`Breakthrough`](16-limits.md) yields a new `Paradigm`, or the `Agent`'s capacity to participate in the `System` collapses.
+*NOTE*: the branching point: either [`Breakthrough`](16-limits.md#the-ceiling) yields a new `Paradigm`, or the `Agent`'s capacity to participate in the `System` collapses.
 
----
+## Shared Success
 
-**`Synergy`** := a `Solution` whose `Success` is shared by all participating `Agent`s.
+**`Synergy`** := a [`Solution`](../2-mind/09-teleos.md#commitment-and-outcome) whose [`Success`](../2-mind/09-teleos.md#commitment-and-outcome) is shared by all participating [`Agent`](../2-mind/09-teleos.md#the-agent)s.
 
 > `Synergy :: ∀A ∈ Participants: Success(A)`
 
-*NOTE*: positive-sum: mutual benefit. The highest-quality `Solution` within a multi-`Agent` `System` — and the only kind compatible with sustained `Evolution`.
+*NOTE*: positive-sum: mutual benefit. The highest-quality `Solution` within a multi-`Agent` `System`.
