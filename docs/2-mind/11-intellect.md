@@ -4,7 +4,7 @@ description: "The capacity to form, validate, and apply one's own Reality — co
 keywords: [mind, intellect]
 license: UNLICENSED
 created: 2026-07-16
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/2-mind/11-intellect.md
 ---
 
@@ -32,15 +32,13 @@ The capacity to form, validate, and apply one's own `Reality` — cognition, val
 
 ## Cognitive Skills
 
-The general capacities that learning develops and then deploys:
-
 | Skill | What it does |
 | --- | --- |
-| **Logical Thinking** | Apply analysis, formalization, verification, and reasoning on a rigorous basis. Fostered by fundamental and applied mathematics: discrete math, statistics, optimization. |
-| **Critical Thinking** | Iteratively adapt existing `Knowledge` to meet the [scientific criteria](90-scientific.md), questioning deeply — *why, what-if-not, what-else* — to challenge and revise assumptions and shift viewpoints. The disciplined exercise of `Doubt` in service of `Validation`. |
-| **Strategic Thinking** | Make balanced decisions with regard for broader context and long-term outcomes. |
-| **Problem Solving** | Diagnose with attention to detail; identify root causes and estimate required effort. |
-| **Creativity** | Embrace innovation, flexibility, and paradoxical thinking to break conventional patterns. |
+| **Logical Thinking** | Apply analysis, formalization, verification, and reasoning on a rigorous basis |
+| **Critical Thinking** | The disciplined exercise of `Doubt` in service of `Validation`, against the [scientific criteria](90-scientific.md) |
+| **Strategic Thinking** | Make balanced decisions with regard for broader context and long-term outcomes |
+| **Problem Solving** | Diagnose with attention to detail; identify root causes and estimate required effort |
+| **Creativity** | Embrace innovation, flexibility, and paradoxical thinking to break conventional patterns |
 
 ## The Cognitive Cycle
 
@@ -48,7 +46,7 @@ The general capacities that learning develops and then deploys:
 
 > `Cognition :: (Signal, Knowledge) → Knowledge'`
 
-*NOTE*: Being is vastly more complex than our capacity for `Cognition`; no `Knowledge` can be simultaneously universal, final, complete, and non-contradictory (cf. Gödel). `Cognition` is open-ended — it requires constant verification and refinement.
+*NOTE*: Being is vastly more complex than our capacity for `Cognition`; no `Knowledge` can be simultaneously universal, final, complete, and non-contradictory. `Cognition` is open-ended — it requires constant verification and refinement.
 
 ---
 
@@ -88,7 +86,7 @@ The general capacities that learning develops and then deploys:
 
 > `Bias :: systematic offset in Code(Signal) ≠ ground-truth Thought`
 
-*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [07-system](../1-reality/15-evolution.md)).
+*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../1-reality/15-evolution.md)).
 
 ---
 
@@ -120,4 +118,4 @@ The general capacities that learning develops and then deploys:
 
 > `Wisdom :: (Knowledge, Experience, Rationale) → reliable Solution across Circumstances`
 
-*NOTE*: The capacity to apply the right principle — one's own `Truth` — in the right situation, effectively along the Way. Bound to the `Agent`'s lived path, not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones.
+*NOTE*: The capacity to apply the right principle — one's own `Truth` — in the right situation. Bound to the `Agent`'s lived path, not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones.
