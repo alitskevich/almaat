@@ -1,10 +1,10 @@
 ---
 title: "Sets, Equivalence, Topology"
-description: "This part introduces Set and the topological structures over Set."
+description: "Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets."
 keywords: [math, sets]
 license: UNLICENSED
 created: 2026-08-08
-modified: 2026-08-08
+modified: 2026-08-25
 source: docs/0-math/01-sets.md
 ---
 
@@ -12,13 +12,11 @@ source: docs/0-math/01-sets.md
 
 ![Sets, Equivalence, Topology](/images/0-math/01-sets.svg)
 
-This part introduces `Set` and the topological structures over `Set`.
+`Set` and its `Element`s, the equivalence relations that compare `Azon`s, and the topological structures over `Collection`s of `Set`s.
 
-## Intro
+## Sets
 
----
-
-**`Set`** := an `Azon` which `Value`s are either `fixed` or `empty`.
+**`Set`** := an `Azon` whose `Value`s are either `fixed` or `empty`.
 
 > `Set := x → (x | Zero)`
 
@@ -30,13 +28,13 @@ This part introduces `Set` and the topological structures over `Set`.
 
 *DEF*: An `Element` **belongs to** a `Set`; the `Set` **contains** the `Element`.
 
-*NOTE*:  By `AXIOM-2`: `S ∉ S`. By `AXIOM-1`: `0 ∉ S` and `S ∉ 0`.
+*NOTE*: By `AXIOM-2`: `S ∉ S`. By `AXIOM-1`: `0 ∉ S` and `S ∉ 0`.
 
 *NOTE*: `Unit` as a Set contains all `Azon`s except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
 
 ---
 
-**`Subset`** := A `Set` all of whose `Element` belong to a reference `Set`.
+**`Subset`** := A `Set` all of whose `Element`s belong to a reference `Set`.
 
 > `A ⊆ B :: ∀x: x ∈ A ⟹ x ∈ B`
 
@@ -48,9 +46,17 @@ This part introduces `Set` and the topological structures over `Set`.
 
 > `DOM(A) := {x : A(x) ≠ 0}`
 
+---
+
 **`Codomain`** := `Set` of valent Values of an `Azon`.
 
 > `COD(A) := {y : ∃x, A(x) = y ∧ y ≠ 0}`
+
+*DEF*: An `Azon` is **endogenous** if `DOM(A) = COD(A)`.
+
+*NOTE*: Any `Set` is endogenous.
+
+*DEF*: `Azon`s are **endemic** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
 
 ---
 
@@ -92,15 +98,7 @@ This part introduces `Set` and the topological structures over `Set`.
 
 *NOTE*: `Complement` is complement *within* `P`; `Absence` is complement *of* `P` — the impossible relative to a given universe of discourse.
 
-*DEF*: An `Azon` is **endogenous** if `DOM(A) = COD(A)`.
-
-*NOTE*: Any `Set` is endogenous.
-
-*DEF*: `Azon`s are **endemic** if `DOM(A₁) = DOM(A₂) ; COD(A₁) = COD(A₂)`.
-
 ## Equivalence Relations
-
----
 
 **`Intensional Distinguishability`** := There exists an `Azon`-probe that responds to `a` and `b` with different values.
 
@@ -118,15 +116,13 @@ This part introduces `Set` and the topological structures over `Set`.
 
 > `a = b := ¬DIFF(a, b) ∧ EEQ(a, b)`
 
-*NOTE*: Bilateral.
-
 ---
 
 **`Partial Equality`** := The `Set` of inputs on which two `Azon` respond total-equally.
 
-> `RAD(a, b) := {x : a(x) = b(x)}`
+> `PEQ(a, b) := {x : a(x) = b(x)}`
 
-*NOTE*: Two `Azon` are **partially-equal** up to `RAD` precision.
+*NOTE*: Two `Azon` are **partially-equal** up to `PEQ` precision.
 
 *SEE ALSO*:
 
@@ -138,35 +134,31 @@ This part introduces `Set` and the topological structures over `Set`.
 
 ## Topology
 
----
-
 **`Collection`** := A `Set` of `Set`s.
 
 > `K := {S₁, S₂, ..., Sₙ}`
 
 ---
 
-**`Intersection`** := `Set` of `Element`s which belongs to every `Set` of the `Collection`.
+**`Intersection`** := `Set` of `Element`s which belong to every `Set` of the `Collection`.
 
-> `⋂ := K -> Intersection{x : ∀S ∈ K, x ∈ S}`
+> `⋂K := {x : ∀S ∈ K, x ∈ S}`
 
-*DEF*: A `Collection` is **non-intersecting** if `⋂K = 0`.
-
----
-
-**`Union`** := `Set` of `Element`s which belongs to at least one `Set` of the `Collection`.
-
-> `⋃ := K -> Union{x : ∃S ∈ K, x ∈ S}`
-
-*DEF*: A `Collection` is **saturated to `S`** if `⋃K = S`. For any `Q ⊆ S`: `Q ∩ S = Q`, `Q ∪ S = S`.
+*DEF*: A `Collection` is **non-intersecting** if no two of its `Set`s share an `Element`: `∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0`.
 
 ---
 
-**`Set-Difference`** := `Element` in the `Union` of the `Collection` but NOT in the reference `Set`.
+**`Union`** := `Set` of `Element`s which belong to at least one `Set` of the `Collection`.
+
+> `⋃K := {x : ∃S ∈ K, x ∈ S}`
+
+*DEF*: A `Collection` is **saturated to `S`** if `⋃K = S`.
+
+---
+
+**`Set-Difference`** := `Set` of `Element`s in the `Union` of the `Collection` but NOT in the reference `Set`.
 
 > `SetDiff(K, S) := {x : x ∈ ⋃K ∧ x ∉ S}`
-
-*NOTE*: For the `Complement`: `!S ∩ S = 0`, `!S ∪ S = 1` (when working in `P = 1`).
 
 ---
 
@@ -178,6 +170,8 @@ This part introduces `Set` and the topological structures over `Set`.
 
 **`Cluster`** := A `Collection` that is non-intersecting AND saturated to a reference `Set`.
 
-> `Cluster :: ⋂(K) = 0 ∧ ⋃(K) = S`
+> `Cluster(K, S) :: (∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0) ∧ ⋃K = S`
 
-*NOTE*: A partition — mutually disjoint `Set` whose `Union` covers the reference `Set`.
+*NOTE*: A partition — mutually disjoint `Set`s whose `Union` covers the reference `Set`.
+
+*NOTE*: `{!S, S}` is a `Cluster` saturated to the `World` `P`.
