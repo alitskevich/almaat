@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync } from "node:fs";
-import { dirname, join, relative } from "node:path";
+import { dirname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 // repo root is the parent of this script's directory (scripts/)
@@ -258,44 +258,89 @@ function headingText(line) {
   return line.replace(/^#{1,6}\s+/, "").trim();
 }
 
-const files = walk(DOCS).sort();
-const report = [];
+const FENCE = /^\s*(`{3,}|~{3,})/;
+const BANNER = /^\s*!?\[[^\]]*\]\(\/images\/.*\)\s*$/;
+const HEADING = /^#{1,6}\s+\S/;
 
-for (const mdPath of files) {
-  const rel = relative(DOCS, mdPath); // e.g. 0-math/00-azon.md
-  const webPath = "/images/" + rel.replace(/\.md$/, ".svg");
-  const svgPath = join(IMG, rel.replace(/\.md$/, ".svg"));
-
-  // patch markdown
-  let lines = readFileSync(mdPath, "utf8").split("\n");
-
-  // remove any pre-existing /images/ reference line (placeholder or old)
-  lines = lines.filter((l) => !/^\s*!?\[[^\]]*\]\(\/images\/.*\)\s*$/.test(l));
-
-  // find first heading -> page title
-  let hi = lines.findIndex((l) => /^#{1,6}\s+\S/.test(l));
-  const title = hi >= 0 ? headingText(lines[hi]) : "ALMAAT";
-  const alt = title.replace(/[\[\]]/g, "");
-  const imgLine = `![${alt}](${webPath})`;
-
-  // generate + write svg (with the page title rendered as caption)
-  const svg = makeSvg(rel, title);
-  mkdirSync(dirname(svgPath), { recursive: true });
-  writeFileSync(svgPath, svg);
-
-  if (hi < 0) {
-    // no heading: prepend image
-    lines = [imgLine, "", ...lines];
-  } else {
-    // normalize blank lines right after the heading, then insert padded image
-    let j = hi + 1;
-    while (j < lines.length && lines[j] === "") lines.splice(j, 1);
-    lines.splice(hi + 1, 0, "", imgLine, "");
+// Yields [index, line] for every line outside a fenced code block, so the two
+// rewriters below never touch a markdown sample. docs/CLAUDE.md documents the
+// banner convention by showing one; without this it was edited as if real.
+function* outsideFences(lines) {
+  let open = null;
+  for (const [i, line] of lines.entries()) {
+    const fence = FENCE.exec(line);
+    if (fence) {
+      const marker = fence[1];
+      if (!open) open = { char: marker[0], len: marker.length };
+      else if (marker[0] === open.char && marker.length >= open.len) open = null;
+      continue;
+    }
+    if (!open) yield [i, line];
   }
-
-  writeFileSync(mdPath, lines.join("\n"));
-  report.push(`${rel}  ->  ${webPath}  [${alt}]`);
 }
 
-console.log(`generated ${files.length} banners\n`);
-console.log(report.join("\n"));
+// Drops any pre-existing /images/ reference line (placeholder or old).
+export function stripBannerLines(lines) {
+  const drop = new Set();
+  for (const [i, line] of outsideFences(lines)) if (BANNER.test(line)) drop.add(i);
+  return lines.filter((_, i) => !drop.has(i));
+}
+
+// Index of the line whose heading is the page title, or -1.
+export function findTitleIndex(lines) {
+  for (const [i, line] of outsideFences(lines)) if (HEADING.test(line)) return i;
+  return -1;
+}
+
+// docs/CLAUDE.md is the project spec, not content: it carries no banner.
+export function isGenerated(relPath) {
+  return relPath !== "CLAUDE.md";
+}
+
+function main() {
+  const files = walk(DOCS)
+    .filter((p) => isGenerated(relative(DOCS, p)))
+    .sort();
+  const report = [];
+
+  for (const mdPath of files) {
+    const rel = relative(DOCS, mdPath); // e.g. 0-math/00-azon.md
+    const webPath = "/images/" + rel.replace(/\.md$/, ".svg");
+    const svgPath = join(IMG, rel.replace(/\.md$/, ".svg"));
+
+    // patch markdown
+    let lines = readFileSync(mdPath, "utf8").split("\n");
+
+    lines = stripBannerLines(lines);
+
+    const hi = findTitleIndex(lines);
+    const title = hi >= 0 ? headingText(lines[hi]) : "ALMAAT";
+    const alt = title.replace(/[\[\]]/g, "");
+    const imgLine = `![${alt}](${webPath})`;
+
+    // generate + write svg (with the page title rendered as caption)
+    const svg = makeSvg(rel, title);
+    mkdirSync(dirname(svgPath), { recursive: true });
+    writeFileSync(svgPath, svg);
+
+    if (hi < 0) {
+      // no heading: prepend image
+      lines = [imgLine, "", ...lines];
+    } else {
+      // normalize blank lines right after the heading, then insert padded image
+      let j = hi + 1;
+      while (j < lines.length && lines[j] === "") lines.splice(j, 1);
+      lines.splice(hi + 1, 0, "", imgLine, "");
+    }
+
+    writeFileSync(mdPath, lines.join("\n"));
+    report.push(`${rel}  ->  ${webPath}  [${alt}]`);
+  }
+
+  console.log(`generated ${files.length} banners\n`);
+  console.log(report.join("\n"));
+}
+
+// Only generate when invoked directly; importing this module must have no side
+// effects, so the helpers above can be unit-tested.
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main();
