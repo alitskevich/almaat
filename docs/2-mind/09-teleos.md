@@ -4,7 +4,7 @@ description: "The anatomy of intentional action: who the Agent is, what drives m
 keywords: [mind, teleos]
 license: UNLICENSED
 created: 2026-07-16
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/2-mind/09-teleos.md
 ---
 
@@ -18,7 +18,7 @@ The anatomy of intentional action: who the `Agent` is, what drives motion toward
 
 **`Agent`** := A `Participant` able to commit to a projected `Goal`, to select a `Solution` reaching it, and to sustain that commitment via `Will`.
 
-> `Solution :: able<Goal + Solution + Will>`
+> `Agent :: Participant able<Goal + Solution + Will>`
 
 *NOTE*: Extends `Participant` with **telos**: the `Behavior` of an `Agent` is not solely a function of present `Communication` but is shaped by an internal model of an intended Future.
 
@@ -28,7 +28,7 @@ The anatomy of intentional action: who the `Agent` is, what drives motion toward
 
 > `Self-Efficacy :: Opinion(Agent → Future)`
 
-*NOTE*: The `Agent`'s belief about its own causal capacity. Distinct from `Potency`: `Self-Efficacy` is opinion about *self* as cause; `Potency` is opinion about *`Plan`* (or `Paradigm`, `Goal`) feasibility. `Self-Efficacy` is itself causal — believed efficacy shapes actual efficacy through `Will`.
+*NOTE*: The `Agent`'s belief about its own causal capacity. Distinct from [`Potency`](../1-reality/02-process.md#landmarks-of-a-flow): `Self-Efficacy` is opinion about *self* as cause; `Potency` is opinion about *`Plan`* (or `Paradigm`, `Goal`) feasibility. `Self-Efficacy` is itself causal — believed efficacy shapes actual efficacy through `Will`.
 
 ---
 
@@ -36,7 +36,7 @@ The anatomy of intentional action: who the `Agent` is, what drives motion toward
 
 > `Will :: Goal → const across Circumstances → Circumstances'`
 
-*NOTE*: The `Agent`'s resistance to `Communication` from the `Environment` that would re-evaluate `Drive` toward competing `Core-Need`. Without `Will`, `Goal` dissolves under environmental pressure; with rigid `Will`, the `Agent` cannot adapt to legitimate new `Knowledge`. Productive agency lives in the band between commitment and revision.
+*NOTE*: The `Agent`'s resistance to `Communication` from the `Environment` that would re-evaluate `Drive` toward competing `Core-Need`.
 
 ## Value and Drive
 
@@ -60,7 +60,7 @@ The anatomy of intentional action: who the `Agent` is, what drives motion toward
 
 > `Drive := evaluation(Being) − evaluation(Needed)`
 
-*NOTE*: The gap between current `State` and required `State` — the fundamental deficit that drives action. Without `Drive` there is no motion; with excessive `Drive` there is panic rather than direction.
+*NOTE*: The gap between current `State` and required `State` — the fundamental deficit that drives action.
 
 ---
 
@@ -124,7 +124,7 @@ The anatomy of intentional action: who the `Agent` is, what drives motion toward
 
 > `Victory :: Success(self) ∧ ∃A_other: Failure(A_other)`
 
-*NOTE*: Zero-sum by construction, and structurally fragile — those it costs become future `Communication` against the victor. See also: `Synergy`.
+*NOTE*: Zero-sum by construction, and structurally fragile — those it costs become future `Communication` against the victor. See also [`Synergy`](../1-reality/15-evolution.md#shared-success).
 
 ---
 
