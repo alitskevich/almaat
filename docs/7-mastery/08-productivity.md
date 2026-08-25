@@ -4,7 +4,7 @@ description: "Cadence and multipliers: the rhythms that keep progress steady, an
 keywords: [mastery, productivity]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-08-15
+modified: 2026-08-25
 source: docs/7-mastery/08-productivity.md
 ---
 
@@ -14,15 +14,13 @@ source: docs/7-mastery/08-productivity.md
 
 Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.
 
-`Productivity` is about creating systems and environments that enable consistent, meaningful, effective progress toward your `Goal`s.
-
 ## Rhythms
 
 **Daily**
 
 - **Protect the First Hour**: Deep work only. No email, no phone, no warm-up routine — the hour is already focus and does not need to be entered. Under employment, spend it on your own work before the employer's: the paid work gets done under its deadline, yours never gets done after hours. See [The Shape of the Day](07-attention.md#the-shape-of-the-day).
 - **2-Minute Rule**: If a task takes <2 minutes, do it now. Clear cognitive clutter.
-- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../4-human/29-self.md#memory-is-reconstruction), so a page from five years ago is the only honest evidence of how far you moved, and rereading it shows most of what then read as catastrophe to have been small. That is the cheapest available proof that today's worry will also pass.
+- **Track Small Wins**: End each day noting 3 ways you made progress. Progress creates motivation loops. Date the entries and keep the old volumes — `Memory` is [reconstruction, not record](../4-human/29-self.md#memory-is-reconstruction), so a page from five years ago is the only honest evidence of how far you moved.
 
 **Weekly**
 
@@ -33,28 +31,18 @@ The quarterly cadence belongs to direction rather than execution — see [Vision
 
 ## Momentum
 
-Advance through steady, successful steps toward goals by iterating: Observe → Reflect → Decide → Plan → Act → Repeat.
-
-```mermaid
-flowchart LR
-    Observe --> Reflect
-    Reflect --> Decide
-    Decide --> Plan
-    Plan --> Act
-    Act --> Observe
-```
+Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This is the same cycle as the [OODA loop](../8-sustain/06-security.md#the-ooda-loop), run on a longer timescale.
 
 ## Principles
 
-- **Action over planning.** Doing is the only way to understand, and many corrected attempts beat a few predicted ones — take the shots.
+- **Action over planning.** Doing is the only way to understand, and corrected attempts teach what predicted ones cannot.
 - **Consistency over intensity.** A little daily beats sporadic bursts; persistence outlasts talent, and the `Body of Work` is what remains.
 - **Ownership.** Seek mentors, but you do the work.
-- **Persuasion.** You're in sales. Convincing others is most of the job. Accept it.
+- **Persuasion.** Convincing others is a large part of the work, whatever the role.
 - **Hofstadter's Law.** Everything takes longer than expected — even accounting for this law.
-- **Simplify complexity.** Making complex things simple is the mark of intelligence.
-- **Hands-on.** Practical experience with platforms, languages, standards, frameworks, and tools.
+- **Simplify complexity.** A complex thing stated simply is easier to act on, delegate, and check.
 
-Reading is the highest-return input of all — see [Learning → Reading](09-learning.md#reading).
+On reading as an input, see [Learning → Reading](09-learning.md#reading).
 
 ## Leverage
 
@@ -69,14 +57,14 @@ Effort has a ceiling — hours are finite, and raw labor pays only while you spe
 | **Media** | Writing, audio, video reach many from one effort | Permissionless — anyone can start |
 | **Ownership** | A stake in what you build, not wages for hours | The line between working *in* a system and *on* it |
 
-Discipline is the input; leverage is the multiplier. "Work harder" hits a wall that "work with leverage" does not — the same disciplined hour, placed behind capital, code, an audience, or a stake you own, compounds instead of evaporating. Trade hours-for-tasks for assets that keep paying after the work is done.
+Discipline is the input; leverage is the multiplier.
 
 [[43]]
 
 ## Economic Wisdom
 
-- **Save Early**: Automate savings. Compound interest is magic.
+- **Save Early**: Automate savings, so the decision is made once.
 - **Live Below Means**: Spend less than you can. Never spend to impress.
-- **Invest Wisely**: Put money to work in assets that grow over time. Avoid debt and speculation.
+- **Invest Wisely**: Put money to work in assets that grow over time.
 
 [[30,31]]
