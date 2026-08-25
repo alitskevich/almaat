@@ -4,7 +4,7 @@ description: "What bounds development: the Communication an Agent is free of, th
 keywords: [reality, freedom, constraint, excellence, breakthrough]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/1-reality/16-limits.md
 ---
 
@@ -16,9 +16,9 @@ What bounds development: the `Communication` an `Agent` is free of, the `Constra
 
 ## External Bounds
 
-**`Freedom`** := independence of a `Paradigm` from `Communication` that would coerce its change.
+**`Freedom`** := an `Agent`'s independence from `Communication` that would coerce a change of its `Paradigm`.
 
-> `Freedom(Paradigm, I) :: Paradigm invariant under Communication ∈ I`
+> `Freedom(Agent, C) :: Paradigm(Agent) invariant under every Communication ∈ C`
 
 *NOTE*: the `Agent`'s ability to act on its own `Goal` without coercion from the `Environment`. Always conditional and relative to specified `Communication` — never absolute.
 
@@ -28,7 +28,7 @@ What bounds development: the `Communication` an `Agent` is free of, the `Constra
 
 > `Constraint := {Communication : restricts accessible Plan}`
 
-*NOTE*: dual to `Freedom`. Growth occurs through navigating constraints, not by eliminating them — an `Agent` with no constraints has nothing to grow against. Useful `Constraint` becomes the scaffold of `Mastery`.
+*NOTE*: dual to `Freedom`. Growth occurs through navigating constraints, not by eliminating them. Useful `Constraint` becomes the scaffold of [`Mastery`](../7-mastery/01-mastery.md).
 
 ## The Ceiling
 
@@ -52,4 +52,4 @@ What bounds development: the `Communication` an `Agent` is free of, the `Constra
 
 > `Breakthrough :: Paradigm → Paradigm' ≠ Paradigm`
 
-*NOTE*: the drive to exceed current limits and reach possibilities beyond existing constraints. Often follows [`Crisis`](15-evolution.md) — when `Improvement` is no longer sufficient, `Breakthrough` becomes the only remaining vector.
+*NOTE*: often follows [`Crisis`](15-evolution.md) — when `Improvement` is no longer sufficient, `Breakthrough` becomes the only remaining vector.
