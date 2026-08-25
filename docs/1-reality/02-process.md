@@ -27,6 +27,40 @@ The `Process` as a controlled `Queue` of `Word`s: its `Circuit`, the kinds of `C
 
 ## Parts of a Process
 
+**`Step`** := one indivisible advance of a `Process` — the unit its `Queue` is indexed by.
+
+> `Step := index into Queue`
+
+---
+
+**`State`** := a `Subset` of the `SampleSpace` — what holds at one `Step`.
+
+> `State := Subset ⊆ SampleSpace`
+
+*NOTE*: the folder's most-used Term. [`State of a Participant`](07-system.md#system-and-participant) specializes it to one `Participant`.
+
+---
+
+**`Context`** := the `Text<SampleSpace>` preceding a `State`, or `Zero` where there is none.
+
+> `Context := Text<SampleSpace> | Zero`
+
+---
+
+**`Flow`** := the `Queue` of `State`s a `Process` unrolls across successive `Step`s.
+
+> `Flow := [State(Step[i])]`
+
+*NOTE*: the `Circuit` is the rule; the `Flow` is what running it produces.
+
+---
+
+**`Ingress`** := the `State` presented to a `Controller` at a given `Step`.
+
+> `Ingress<Schema> := State at Step, typed by Schema`
+
+---
+
 **`Process`** := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
 
 > `Process := Queue<Word ∈ Dictionary=SampleSpace> :: controlled`
@@ -49,9 +83,7 @@ The `Process` as a controlled `Queue` of `Word`s: its `Circuit`, the kinds of `C
 
 > `Event<Dictionary> := (Context, { Word }, Probability)`
 
-- `Context` := some `Text<SampleSpace>` or `Zero`.
-- `State` := some `Subset` from `SampleSpace`.
-- `Probability` := some rational number from 0 to 1.
+*NOTE*: `Probability` here is a rational number from 0 to 1.
 
 ---
 
