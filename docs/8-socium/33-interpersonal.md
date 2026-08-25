@@ -4,7 +4,7 @@ description: "Society improves two ways — constrain evil and compel good from 
 keywords: [socium, interpersonal, influence]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/8-socium/33-interpersonal.md
 ---
 
@@ -15,8 +15,6 @@ source: docs/8-socium/33-interpersonal.md
 Society improves two ways — constrain evil and compel good from outside, or work on yourself and provide the example. The second is primary.
 
 ## Conduct
-
-The only thing that truly matters is having people you love and who love you.
 
 | Principle | Practice |
 | --- | --- |
@@ -37,19 +35,19 @@ The only thing that truly matters is having people you love and who love you.
 
 The distinctive attractiveness of an integrated person, arising through conscious recognition and acceptance of one's [shadow](34-identity.md#dark-shadow). It is the source of authenticity, creativity, and emotional depth, and it evokes interest, respect, inspiration — also fear.
 
-It is not an innate gift but a trainable skill: **warmth + power + presence**. The body signals "avoid me" before a word is spoken, and the first impression forms in about 7 seconds.
+It is not an innate gift but a trainable skill: **warmth + power + presence**. Much of it is read before a word is spoken.
 
 | Move | How |
 | --- | --- |
-| **Eye contact** | Hold the gaze 60–70% of the conversation — 100% is interrogation, 30% reads as avoidance. Focus on the person's eye color to land the duration naturally. |
-| **Pace and pauses** | Slow speech ~20%, pause ~1.5 seconds before answering, cut the fillers that fill a silence you fear. |
-| **Posture** | Open shoulders, visible palms (an ancient "I'm safe" signal), chin level, take up space, long stride. |
-| **Warmth first** | The brain checks "friend or foe" before "smart or not": a genuine Duchenne smile, the person's name twice, listening to understand rather than to reply. |
-| **Low voice** | Breathe from the belly, end phrases on a falling intonation, keep volume near 70%, record yourself to correct delivery. |
-| **Specifics** | Details, numbers, names, and smells build a mental picture; stories (situation → twist → lesson) are remembered about 22 times better than facts. |
-| **Mirroring** | Mirror with a 2–3 second delay — never mimicry, never aggression. Leading mirroring pulls the other into your calm. |
+| **Eye contact** | Hold the gaze for most of the conversation, but not all of it — unbroken eye contact reads as interrogation, and too little as avoidance. Focus on the person's eye color to land the duration naturally. |
+| **Pace and pauses** | Slow the speech, pause before answering, cut the fillers that fill a silence you fear. |
+| **Posture** | Open shoulders, visible palms, chin level, take up space, long stride. |
+| **Warmth first** | Warmth is assessed before competence: a genuine smile, the person's name, listening to understand rather than to reply. |
+| **Low voice** | Breathe from the belly, end phrases on a falling intonation, record yourself to correct delivery. |
+| **Specifics** | Details, numbers, names, and smells build a mental picture; a story (situation → twist → lesson) is retained where a bare fact is not. |
+| **Mirroring** | Mirror after a short delay — never mimicry, never aggression. Leading mirroring pulls the other into your calm. |
 | **Fewer words** | One thought, no apologies for existing ("glad we talked", not "thanks for hearing me out"). |
-| **Status + vulnerability** | The strongest and most dangerous move: only after the first eight, one small sincere admission of weakness (the Pratfall effect). |
+| **Status + vulnerability** | The strongest and most dangerous move: only after the first eight, one small sincere admission of weakness. |
 
 Charisma is intention plus repetition — add one move at a time.
 
@@ -62,22 +60,21 @@ Charisma is intention plus repetition — add one move at a time.
 5. **Provide evidence** — ground claims in concrete reality.
 6. **Address counterarguments** — preemptive neutralization strengthens your position.
 7. **Frame effectively** — context determines meaning.
-8. **Create urgency** — motivate through relevance and time pressure.
-9. **Repeat** — familiarity breeds acceptance.
-10. **End with a clear call to action** — direct behavior explicitly.
+8. **Make the relevance concrete** — show why it matters now, without manufacturing a deadline.
+9. **End with a clear call to action** — direct behavior explicitly.
 
 ## Elicitation
 
-In five minutes of casual conversation you can learn someone's family dynamics, finances, personality type, and emotional patterns without asking directly. The structure stays invisible because the flow feels natural.
+Ordinary conversation reveals a great deal without anything being asked directly, because the structure is invisible to the person answering. What follows is how it works, so it can be recognized when it is being done to you — see [Manipulation](../8-sustain/09-manipulation.md) for the counters.
 
 1. Ask questions, don't tell stories.
 2. Validate their feelings: "I agree, I feel the same way."
 3. Collect through open and closed questions.
 4. Share only reflections — mirror what they have already told you.
 
-**Emotional mirroring creates trust.** Reflect someone's state and they assume shared experience. Assess that state before engaging, and connect to whatever state they are in.
+Assess the other's state before engaging, and connect to whatever state they are in.
 
-**Eye direction** (left-to-right readers): looking left accesses memory, looking right constructs or fabricates. Establish a baseline first — ask known-truth questions to see their pattern before concluding.
+**Establish a baseline first** — ask known-truth questions to see the person's ordinary pattern before reading anything into a departure from it. Gaze direction is not one of the signals: see [Reading People](../8-sustain/10-reading.md#the-second-conversation).
 
 ## Company and Norms
 
