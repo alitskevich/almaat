@@ -117,7 +117,7 @@ After danger on either plane, the adrenaline crashes: shaking, nausea, exhaustio
 - **Physical** — treat injuries; the dump masks pain, so re-check later.
 - **Psychological** — expect intrusive replay; talk it through, seek support if it persists. See [Vitality](02-vitality.md).
 
-The ten distilled [Principles](01-sustain.md#principles) both planes share are in the hub.
+The ten [Principles Under Pressure](01-sustain.md#principles-under-pressure) are in the hub.
 
 ## Sources
 
