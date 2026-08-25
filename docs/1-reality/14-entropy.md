@@ -4,7 +4,7 @@ description: "Entropy is the bridge between the State of a System and the passag
 keywords: [reality, entropy, order, self-organization]
 license: UNLICENSED
 created: 2026-07-14
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/1-reality/14-entropy.md
 ---
 
@@ -14,15 +14,13 @@ source: docs/1-reality/14-entropy.md
 
 `Entropy` is the bridge between the `State` of a `System` and the passage of `Step`s: `Order` is never free, and a `System` holds `Entropy` back only by drawing `Communication` from its `Environment`.
 
-It measures how much a `System`'s observable macro-`State` leaves undetermined about the underlying `State`s of its `Participant`s — and its tendency to grow over `Step`s is what gives a `System` an arrow of time.
-
 ## Measure
 
-**`Entropy`** := a measure of the uncertainty in a `System`'s `State` — the count of micro-configurations of `Participant`s consistent with one observed macro-`State`.
+**`Entropy`** := a measure of the uncertainty in a `System`'s `State` — the count of micro-configurations of [`Participant`](07-system.md#system-and-participant)s consistent with one observed macro-`State`.
 
 > `Entropy(System) := −Σ P(State_i) · log P(State_i)`
 
-*NOTE*: high `Entropy` means many indistinguishable `State`s, so the macro-`State` carries little information about the micro-`State`. The Boltzmann (counting) and Shannon (information) forms coincide. Maximal at `Equilibrium`.
+*NOTE*: high `Entropy` means many indistinguishable `State`s, so the macro-`State` carries little information about the micro-`State`. The Boltzmann (counting) and Shannon (information) forms coincide when every micro-`State` is equally likely. Maximal at [`Equilibrium`](07-system.md#the-whole).
 
 ---
 
@@ -38,12 +36,12 @@ It measures how much a `System`'s observable macro-`State` leaves undetermined a
 
 > `Dissipation :: Entropy(System, Step[i+1]) ≥ Entropy(System, Step[i])` for an isolated `System`
 
-*NOTE*: the Second Law as a `Flow` property: with no external `Communication`, `Order` decays monotonically toward `Equilibrium`. This is the `System`-level arrow of time.
+*NOTE*: the Second Law as a `Flow` property: with no external `Communication`, `Order` never increases and the `System` drifts toward `Equilibrium`. This is the `System`-level arrow of time.
 
 ---
 
-**`Self-Organization`** := a local decrease of `Entropy` in an open `System`, paid for by a greater increase of `Entropy` in its `Environment`.
+**`Self-Organization`** := a local decrease of `Entropy` in an open `System`, paid for by a greater increase of `Entropy` in its [`Environment`](07-system.md#coupling).
 
 > `Self-Organization :: ΔEntropy(System) < 0 ∧ ΔEntropy(System ∪ Environment) > 0`
 
-*NOTE*: the mechanism behind `Emergence` of `Order` — life, learning, every durable structure. Not a violation of `Dissipation`: `Order` is imported from the `Environment` and `Entropy` is exported back to it. Requires `Feedback` to stay bounded.
+*NOTE*: the mechanism behind [`Emergence`](07-system.md#the-whole) of `Order` — life, learning, every durable structure. Not a violation of `Dissipation`: `Order` is imported from the `Environment` and `Entropy` is exported back to it.
