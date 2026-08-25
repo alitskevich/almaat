@@ -12,6 +12,18 @@ source: docs/0-math/00-azon.md
 
 ![Foundations](/images/0-math/00-azon.svg)
 
+## The Formal Spine
+
+| Layer | Reading |
+| --- | --- |
+| **Collection** — many `Azon` at once | [Sets, Equivalence, Topology](01-sets.md) — `Set`, `Element`, `Subset`, and the topological structures over them |
+| **Chaining** — one `Azon` feeding another | [Composition](02-composition.md) — `Arrow`, `Vertex`, associativity, identity, and powers |
+| **Connection** — how chains join | [Graph](03-graphs.md) — `Graph` as a `Set` of `Arrow`s, with vertices classified by in/out connectivity |
+| **Quantity** — counting and ordering | [Numerals](04-numerals.md) — `Number`, `Interval`, `Tuple`, and `Selection` |
+| **Constraint** — operations bound by laws | [Structures](05-structures.md) — `Set` equipped with `Operation`s constrained by `Law`s |
+| **Presentation** — how a thing is shown | [Presentational View](06-views.md) — `Matter`, `Attribute`, `Entity`, `Type`, and `Relation` |
+| **Notation** — how it is written | [Formal Language](07-language.md) — `Code`, `Alphabet`, `Word`, `Grammar`, `Expression`, and `Theory` |
+
 ## Definitions
 
 **`Azon`** := a *contract* made under Axioms below, that responds for each given Azon(`Sign`) with a specific Azon(`Value`).
