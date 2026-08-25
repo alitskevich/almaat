@@ -4,7 +4,7 @@ description: "The mechanism discipline runs on: a Cue → Craving → Response �
 keywords: [mastery, habits]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-08-15
+modified: 2026-08-25
 source: docs/7-mastery/05-habits.md
 ---
 
@@ -16,13 +16,13 @@ The mechanism discipline runs on: a Cue → Craving → Response → Reward loop
 
 ## Building Habits
 
-Small improvements compound dramatically — 1% daily ≈ 37x in a year. You don't rise to the level of your goals; you fall to the level of your systems.
+Small improvements compound. You do not rise to the level of your goals; you fall to the level of your systems.
 
 - **Systems over goals.** Goals set direction; systems (daily processes) drive progress. Build repeatable processes, not outcome fantasies.
-- **Identity over behavior.** Every action is a vote for who you become. "I am a runner" beats "I want to run." Change starts with `Identity`, not motivation.
-- **Compound over dramatic.** Embrace the Plateau of Latent Potential — results feel invisible until they suddenly explode.
+- **Identity over behavior.** Every action is a vote for who you become. "I am a runner" beats "I want to run." Change starts with who one takes oneself to be, not with motivation.
+- **Compound over dramatic.** Embrace the Plateau of Latent Potential — results stay invisible long after the work starts.
 
-**One habit at a time.** A batch of habits started together collapses together — the Monday overhaul is a reliable way to end the week with none of them. Add the next only once the current one no longer needs remembering. Three habits landed across a year outlast twelve attempted in January.
+**One habit at a time.** A batch of habits started together collapses together — starting several at once tends to end with none of them. Add the next only once the current one no longer needs remembering.
 
 ## The Habit Loop
 
@@ -47,3 +47,7 @@ Four laws to build good habits (invert to break bad ones):
 | **Reward** | Make it Satisfying — track streaks, immediate reinforcement, never miss twice | Make it Unsatisfying — add accountability |
 
 The `Cue` column is where [Environment](06-environment.md) does its work: the cheapest way to make a habit obvious or invisible is to change what is in the room.
+
+## Sources
+
+- James Clear, "Atomic Habits" — the Cue/Craving/Response/Reward loop, the four laws, the Plateau of Latent Potential, the Two-Minute Rule, and systems-over-goals.
