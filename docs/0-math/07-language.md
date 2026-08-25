@@ -1,10 +1,10 @@
 ---
 title: "Formal Language"
-description: "Formal language layer: codes, alphabets, words, dictionaries, rules, grammars, expressions, and theories."
+description: "How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, and the Theory derivable from an Axiom."
 keywords: [math, language]
 license: UNLICENSED
 created: 2026-08-08
-modified: 2026-08-08
+modified: 2026-08-25
 source: docs/0-math/07-language.md
 ---
 
@@ -12,26 +12,76 @@ source: docs/0-math/07-language.md
 
 ![Formal Language](/images/0-math/07-language.svg)
 
-**`Code := [ 0 | 1 ]`**  := finite tuple from `0` and `1`.
+How a `Language` is built from binary `Code` up through `Alphabet`, `Word` and `Dictionary`, the `Rule`s and `Grammar` that transform them, and the `Theory` derivable from an `Axiom`.
 
-**`Alphabet<N> := { Code :: |Code| = N }`** := finite set of same-length `Code`s.
+## Codes and Words
 
-**`Word<Alphabet> := [Codeᵢ, ...] :: Codeᵢ ∈ Alphabet`** := `Tuple` of `Code`s of given `Alphabet`.
+**`Code`** := finite `Tuple` of `0` and `1`.
 
-**`Dictionary<Alphabet> := { Word<Alphabet> }`** := `Set` of `Word`s of the same `Alphabet`.
+> `Code := [ 0 | 1 ]`
 
-**`Rule<Dictionary> "= (T → T') :: T, T' ∈ Dictionary`** := `Arrow` over `Word`s from given `Dictionary`.
+---
 
-**`Grammar<Dictionary> := {Rule<Dictionary>}`** := `Graph` of `Rule`s on given `Dictionary`.
+**`Alphabet`** := finite `Set` of same-length `Code`s.
 
-**`Conclusion<Grammar> := Composition([Rule₁,…,Ruleₙ] ∈ Grammar)`** := `Composition` of some `Path` in given `Grammar`.
+> `Alphabet<N> := { Code :: |Code| = N }`
 
-**`Expression<Word,Grammar> := Conclusion<Grammar>(Word)`** := `Value` of some `Conclusion` for given input.
+---
 
-**`Theory<Word, Grammar> := { Expression<Word, Grammar> }`** := the `Dictionary` of all `Expression`s that may be derived from the input `Word` within the `Grammar`.
+**`Word`** := `Tuple` of `Code`s of given `Alphabet`.
 
-**`Axiom<Grammar> := ¬∃ Theory :: Axiom ∈ Theory`** := `Word` that cannot be expressed in given `Grammar`.
+> `Word<Alphabet> := [Codeᵢ, ...] :: Codeᵢ ∈ Alphabet`
 
-**`Termin<Grammar> := Word :: Theory<Word, Grammar> = Zero`** := `Word` that nothing can be derived from in given `Grammar`.
+---
 
-**`Language<Axiom,Grammar> := { Termin ∈ Theory<Axiom, Grammar> }`** := A `Dictionary` of all `Termin`s, expressed from given `Axiom`s within given `Grammar`.
+**`Dictionary`** := `Set` of `Word`s of the same `Alphabet`.
+
+> `Dictionary<Alphabet> := { Word<Alphabet> }`
+
+## Rules and Grammar
+
+**`Rule`** := `Arrow` over `Word`s from given `Dictionary`.
+
+> `Rule<Dictionary> := (T → T') :: T, T' ∈ Dictionary`
+
+---
+
+**`Grammar`** := `Graph` of `Rule`s on given `Dictionary`.
+
+> `Grammar<Dictionary> := { Rule<Dictionary> }`
+
+---
+
+**`Conclusion`** := `Composition` of some `Path` in given `Grammar`.
+
+> `Conclusion<Grammar> := Composition([Rule₁, …, Ruleₙ] ∈ Grammar)`
+
+## Theories
+
+**`Expression`** := `Word` produced by a `Conclusion` from a given input `Word`.
+
+> `Expression<Word, Grammar> := Conclusion<Grammar>(Word)`
+
+---
+
+**`Theory`** := `Dictionary` of all `Expression`s that may be derived from the input `Word` within the `Grammar`.
+
+> `Theory<Word, Grammar> := { Expression<Word, Grammar> }`
+
+---
+
+**`Axiom`** := `Word` that cannot be expressed in given `Grammar`.
+
+> `Axiom<Grammar> := ¬∃ Theory :: Axiom ∈ Theory`
+
+---
+
+**`Terminal`** := `Word` that nothing can be derived from in given `Grammar`.
+
+> `Terminal<Grammar> := Word :: Theory<Word, Grammar> = Zero`
+
+---
+
+**`Language`** := `Dictionary` of all `Terminal`s expressed from given `Axiom`s within given `Grammar`.
+
+> `Language<{Axiom}, Grammar> := { Terminal ∈ Theory<Axiom, Grammar> }`
