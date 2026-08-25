@@ -4,7 +4,7 @@ description: "The human's opening into Rajdo — perceiving and accepting Being 
 keywords: [human, rajdo]
 license: UNLICENSED
 created: 2026-07-18
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/4-human/23-rajdo.md
 ---
 
@@ -14,24 +14,24 @@ source: docs/4-human/23-rajdo.md
 
 The human's opening into `Rajdo` — perceiving and accepting Being `as-is`, as one interweaving whole — and the `Awareness`, `Acceptance`, and `Love` it entails.
 
+## What Rajdo Is
+
 **`Rajdo`** := discovering, perceiving, and accepting Being `as-is`:
 
 - as an entire mental process unfolded from one single root,
-- as a unity where everything is interweaving — each particle contains the Whole,
-- as a dance, where everything changes, splitting and merging,
+- as a unity where everything is interweaving,
+- as continuous change, where things split and merge,
 - as variations of possibilities, where nothing is predetermined for sure.
 
-## What Rajdo Is
+`Rajdo` is the ultimate basis of an entire human life. It cannot be deliberately achieved, deserved, or purchased — it becomes explicit at some point.
 
-`Rajdo` is always here; it is the ultimate basis of an entire human life. It cannot be deliberately achieved, deserved, or purchased — it just becomes explicit at some point.
+It is not magic nor a superpower, but a slight shift in perspective. A person in `Rajdo` feels made of all others, and sees others as variants of the same.
 
-It is not magic nor superpower, but a slight shift in perspective: an obviousness that was always there, waiting to be noticed. It feels made of all others — *"I am because We are"* — and sees others as variants of themselves.
-
-`Rajdo` makes a person vulnerable. Overcoming this fear expands what is possible. [[3]]
+`Rajdo` makes a person vulnerable, and overcoming that vulnerability expands what is possible. [[3]]
 
 ## What Rajdo Entails
 
-**`Awareness`** := conscious alignment with `Rajdo` in every single Moment.
+**`Awareness`** := conscious alignment with `Rajdo` in every moment.
 
 - beyond any mental illusions, preconcepts, and frameworks — aware of them, but not bound by them,
 - without strong division into inner and external; dissociated from Ego, body, mind, emotions,
@@ -46,24 +46,24 @@ It is not magic nor superpower, but a slight shift in perspective: an obviousnes
 
 ---
 
-**`Self-Acceptance`** := accepting myself as one of the manifestations of God
+**`Self-Acceptance`** := accepting oneself as one of the manifestations of God.
 
 - as a whole, both dark and light sides,
-- tracking my Ego, without identifying myself with it,
+- tracking one's ego, without identifying with it,
 - outside of external validation or confirmation,
-- no blame, judgment, or envy toward myself, but only humor and irony. [[2]]
+- no blame, judgment, or envy toward oneself, but only humor and irony. [[2]]
 
 ---
 
-**`Moderation`** := contentment with 80% of what is possible.
+**`Moderation`** := contentment with less than the most that is possible.
 
-- Recognize your finitude. Write the epitaph of your current life.
+- Recognize your finitude.
 - End relations that share only a distant past.
 - Release what no longer works — without regret, resentment, or despair.
 
 ---
 
-**`Gratitude`** := all-encompassing thanks; forgiving and asking forgiveness for everything
+**`Gratitude`** := all-encompassing thanks; forgiving and asking forgiveness for everything.
 
 - toward oneself, family, every person met, the universe as a whole,
 - holding no grudges, taking nothing personally,
@@ -71,6 +71,8 @@ It is not magic nor superpower, but a slight shift in perspective: an obviousnes
 
 ---
 
-**`Love`** := genuine and limitless openness, curiosity, mutual attraction, understanding, compassion, admiration, and respect.
+**`Love`** := openness, curiosity, mutual attraction, understanding, compassion, admiration, and respect.
 
-`Rajdo` is given, not built — see [Approaching Rajdo](24-approach.md).
+How it is approached is in [Approaching Rajdo](24-approach.md).
+
+[References](../_quotes.md)
