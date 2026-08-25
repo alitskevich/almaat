@@ -36,7 +36,13 @@ The `Arrow` and its `Vertex`, and the `Composition` that feeds one `Azon`'s outp
 
 > `(A.B).C = A.(B.C)`
 
-*NOTE*: `Composition` over the same `Azon` is *called* `Power`: `A^0 = Unit`, `A^1` is the `Azon` itself, `A^n` is `A` composed with itself `n` times.
+---
+
+**`Power`** := `Composition` of an `Azon` with itself, repeated a given number of times.
+
+> `A^0 := Unit`, `A^1 := A`, `A^n := A.A^(n-1)`
+
+*NOTE*: `04-numerals.md` builds `Numerals` as the `Set` of all `Power`s of `Plus`, so this is where counting starts.
 
 ---
 
@@ -76,4 +82,10 @@ The `Arrow` and its `Vertex`, and the `Composition` that feeds one `Azon`'s outp
 
 > `curry := (({X → Y}) → Z) → (X → {(Y → Z)})`
 
-*NOTE*: Applying `curry(A)` to one `Element` yields a `Partial Application` of reduced arity.
+---
+
+**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Sign`s a curried `Azon` expects.
+
+> `PartialApp(A, x) := curry(A)(x)`
+
+*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Sign`s.
