@@ -4,7 +4,7 @@ description: "Mind as a System of Neuron and Sensor — thought as state, memory
 keywords: [mind]
 license: UNLICENSED
 created: 2026-07-18
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/2-mind/12-mind.md
 ---
 
@@ -80,16 +80,16 @@ source: docs/2-mind/12-mind.md
 
 ## The Social Origin of Mind
 
-The definitions above give the substrate. But where does the *content* of `Thought` — above all the verbal inner voice — come from? Not from inside the skull alone. Lev Vygotsky's answer: the higher functions of a `Mind` are assembled from *outside*, out of other people's `Communication`, and only later fold inward.
+Lev Vygotsky's account of where the *content* of `Thought` comes from — above all the verbal inner voice: the higher functions of a `Mind` are assembled from *outside*, out of other people's `Communication`, and only later fold inward.
 
 - **Two floors.** *Natural* functions (involuntary attention, mechanical memory) are shared with animals. *Higher* functions — voluntary attention, logical memory, planning, will — are distinctly human, and are the ones that need explaining.
 - **Interpsychic → intrapsychic.** Every higher function appears twice: first *between* people as shared `Communication`, then *within* one person as private `Thought`. Your attention, memory, and conscience were first a relation with someone else that later became you.
-- **The sign as a psychological tool.** A physical tool (axe, hammer) is aimed outward at the world; a *sign* — a `Word`, a number, a knot tied to remember — is a tool aimed *inward*, at one's own `Mind`. "With a hammer I drive a nail; with a `Word` I drive a `Thought`." (See [Language](../0-math/07-language.md).)
-- **Internalization.** A sign starts as an external prop in the hand; then the same operation runs silently in the `Mind` — the tool "grows in" and disappears into the personality. (Shown in the lab: children who need colored cards to hold a rule later hold it without them.)
-- **Inner speech.** The near-constant inner voice is *former external dialogue*, condensed and turned inward. You think in a `Language` you did not invent, with words and intonations you absorbed. The competing voices when you deliberate are the interiorized [Socium](../8-socium/30-socium.md); conscience is appropriated foreign speech you now call your own. This does not deny the person — it shows what the person is *made of*, as a unique house is still built of borrowed bricks.
+- **The sign as a psychological tool.** A physical tool (axe, hammer) is aimed outward at the world; a *sign* — a `Word`, a number, a knot tied to remember — is a tool aimed *inward*, at one's own `Mind`. (See [Language](../0-math/07-language.md).)
+- **Internalization.** A sign starts as an external prop in the hand; then the same operation runs silently in the `Mind` — the tool "grows in" and disappears into the personality.
+- **Inner speech.** The near-constant inner voice is *former external dialogue*, condensed and turned inward. You think in a `Language` you did not invent, with words and intonations you absorbed. The competing voices when you deliberate are the interiorized [Socium](../8-socium/30-socium.md); conscience is appropriated foreign speech you now call your own. This does not deny the person — it shows what the person is *made of*.
 - **Thought is accomplished, not merely expressed, in the `Word`.** A `Thought` does not pre-exist as a finished packet the `Word` wraps; until uttered — even inwardly — it is a vague cloud of intention, *born* in the act of saying it. So dialogue does not exchange the ready-made; it jointly produces what neither party held before.
 - **Zone of proximal development.** The gap between what a `Mind` can do alone and what it can do with help. Instruction should run *ahead* of development, waking what is ripening rather than drilling what has already matured — the applied side is [Learning](../7-mastery/09-learning.md).
 
-*Implication.* If a `Mind` is assembled from outside through `Word` and sign by describable laws, that same blueprint is a manipulation manual: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to `Alignment` in artificial minds.
+*Implication.* If a `Mind` is assembled from outside through `Word` and sign by describable laws, the same account describes how to influence one: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to `Alignment` in artificial minds.
 
-> *Source: Lev Vygotsky, cultural-historical psychology (*Thinking and Speech*), with A. Luria and A. Leontiev.*
+> *Source: Lev Vygotsky, cultural-historical psychology — "Thinking and Speech", with A. Luria and A. Leontiev.*
