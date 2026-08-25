@@ -146,6 +146,8 @@ source: docs/0-math/01-sets.md
 
 *DEF*: A `Collection` is **non-intersecting** if no two of its `Set`s share an `Element`: `∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0`.
 
+*DEF*: for two `Set`s, `A ∩ B := ⋂{A, B}` — the binary form used where a `Collection` is not needed.
+
 ---
 
 **`Union`** := `Set` of `Element`s which belong to at least one `Set` of the `Collection`.
@@ -153,6 +155,8 @@ source: docs/0-math/01-sets.md
 > `⋃K := {x : ∃S ∈ K, x ∈ S}`
 
 *DEF*: A `Collection` is **saturated to `S`** if `⋃K = S`.
+
+*DEF*: for two `Set`s, `A ∪ B := ⋃{A, B}` — the binary form.
 
 ---
 
