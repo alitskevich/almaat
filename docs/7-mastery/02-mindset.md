@@ -98,6 +98,19 @@ Seek full immersion, where action and awareness merge and effort stops registeri
 
 [[37,38]]
 
+## What Is Yours to Control
+
+Two things are: the action taken and the reaction chosen. Everything else —
+outcome, timing, other people's responses — is `Circumstances`. Effort spent on
+the second at the expense of the first is spent against yourself, which is why
+satisfaction has to come from the doing rather than from the result.
+
+The corollary is the effort paradox: forcing an outcome that cannot be forced —
+sleep, ease, another person's regard — produces the opposite, because the
+forcing is itself the obstruction. Full effort, released from the specific form
+the result must take, is the working stance. See
+[Force and surrender](../4-human/24-approach.md#the-mirror-and-the-two-intentions).
+
 ## Accountability
 
 Take full ownership of your life. Accept all consequences, make your own choices, be independent in reasoning.
