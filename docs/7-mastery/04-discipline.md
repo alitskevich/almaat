@@ -42,7 +42,6 @@ No sprints and no fixed-length marathons — a small increment over yesterday. O
 
 Don't say "I can do it" — ask "Can I do it?" A statement invites no answer; a question does, and the answers are the reasons and the plan.
 
-Your brain resists commands (even from you) but can't ignore unanswered questions. Questions activate problem-solving; statements trigger self-evaluation.
 
 **Five Power Questions:**
 
