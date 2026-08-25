@@ -4,7 +4,7 @@ description: "Defense against violence. Most of it is won before contact; the fi
 keywords: [sustain, defense]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/8-sustain/13-defense.md
 ---
 
@@ -18,7 +18,7 @@ The groundwork — mindset, awareness, the OODA loop, the body under threat, and
 
 ## Reading Threat
 
-**Victim selection.** Predatory violence is rarely random: aggressors choose targets that look distracted, unaware, or unable to resist. Calm alertness — upright posture, steady gait, brief eye contact, scanning — moves you out of the selection pool. Awareness is itself a deterrent.
+**Victim selection.** Predatory violence is rarely random: aggressors choose targets that look distracted, unaware, or unable to resist. Calm alertness — upright posture, steady gait, brief eye contact, scanning — makes a person a less likely choice. This describes selection patterns, not a guarantee, and never implies a victim was at fault.
 
 **Pre-attack indicators.** None is proof; clusters and sudden shifts are the signal.
 
@@ -33,7 +33,7 @@ The groundwork — mindset, awareness, the OODA loop, the body under threat, and
 
 **Positioning and distance:**
 
-- **Reactionary gap** — keep ~2 m (the "social zone"). Distance is time; time is options.
+- **Reactionary gap** — keep enough distance that you can react before contact. Distance is time; time is options.
 - **The fence** — open hands up at chest height: looks placating, guards your centerline, measures range.
 - **Exits and cover** — know where they are before you need them. Keep your back uncommitted.
 
@@ -41,26 +41,26 @@ Talking it down comes before any of the rest — see [De-escalation](08-de-escal
 
 ## Fighting
 
-Only when escape is impossible. **The goal is not to win but to end the opponent's fight**: make them *unable* to continue (ability) or *unwilling* to continue (will). Either buys the gap to escape. A fight you "win" but stay in is one you may lose to the next factor — a weapon, his friend, the ground.
+Only when escape is impossible. **The goal is not to win but to end the opponent's fight**: make them *unable* to continue (ability) or *unwilling* to continue (will). Either buys the gap to escape. A fight you "win" but stay in is one you may lose to the next factor — a weapon, an accomplice, the ground.
 
-A fight ends on whichever layer collapses first. There are four, and you can act on any of them:
+A fight ends on whichever layer collapses first:
 
 | Layer | Breaks | Ways to end their fight |
 | ----- | ------ | ----------------------- |
-| **Physical** | Ability | Incapacitate the tools of fighting: vision (eyes), breath (throat, solar plexus), mobility (knees, balance). They cannot continue regardless of will — see [Targets](#targets). |
-| **Psychological** | Will | Reverse the predator's expectation. Explosive resistance, surprise, and pain signal *wrong target, higher cost than planned*; the resolve that assumed an easy victim collapses. |
-| **Social** | Will | Raise the audience cost. Witnesses, noise, allies, approaching authority — being *seen* turns private dominance into public liability, and predators avoid attention. |
-| **Moral** | Will | Remove the justification and offer an exit. Most violence runs on a story of being right; give a face-saving way to stop and the drive dissolves — what [de-escalation](08-de-escalation.md) buys. |
+| **Physical** | Ability | Incapacitate the tools of fighting: vision (eyes), breath (throat, solar plexus), mobility (knees, balance). They cannot continue regardless of will — see [Targets](#targets) |
+| **Psychological** | Will | Reverse the predator's expectation. Explosive resistance, surprise, and pain signal *wrong target, higher cost than planned*; the resolve that assumed an easy victim collapses |
+| **Social** | Will | Raise the audience cost. Witnesses, noise, allies, approaching authority — being *seen* turns private dominance into public liability, and predators avoid attention |
+| **Moral** | Will | Remove the justification and offer an exit. Most violence runs on a story of being right; give a face-saving way to stop and the drive dissolves — what [de-escalation](08-de-escalation.md) buys |
 
-Physical force breaks *ability*; the other three break *will* — and will breaks faster and cheaper than bodies do, which is why most fights are decided before or without contact.
+Physical force breaks *ability*; the other three break *will*.
 
 | Principle | Why |
 | --------- | --- |
 | **Gross motor over finesse** | Fine technique fails under adrenaline; palm strikes, elbows, knees, kicks survive |
 | **Explosive commitment** | Half-effort invites escalation; act decisively or not at all |
-| **Continuous until you can flee** | Strike → create space → run; don't stop to admire your work |
+| **Continuous until you can flee** | Strike → create space → run; do not stop to look |
 | **Use the environment** | Walls, doors, distance, improvised tools; level the asymmetry |
-| **Stay off the ground** | Grappling is fatal against multiple attackers or weapons — stay mobile, upright |
+| **Stay off the ground** | Grappling greatly increases the risk against multiple attackers or weapons — stay mobile, upright |
 | **Protect your head** | Hands up, chin down; the brain is the thing being defended |
 
 ### Targets
@@ -69,12 +69,14 @@ Strike where small force does large effect, to disrupt and disengage.
 
 | Target | Effect |
 | ------ | ------ |
-| **Eyes** | Reflexive flinch, blurred vision — buys an exit |
+| **Eyes** | Reflexive flinch, blurred vision — buys an exit. Can blind permanently |
 | **Nose** | Pain, watering eyes, disorientation |
-| **Throat** | Disrupts breathing — high effect, only against a genuine threat |
-| **Solar plexus** | Winds the diaphragm, doubles them over |
+| **Throat** | Disrupts breathing. Can fracture the larynx and kill — only against a threat to life |
+| **Solar plexus** | Winds the diaphragm |
 | **Groin** | Pain and collapse, opening to run |
-| **Knees** | Compromises mobility — they can't chase |
+| **Knees** | Compromises mobility. Can disable permanently |
+
+*NOTE*: every target below can cause lasting injury. Proportionality is a legal requirement, not a preference — see the Legal and Ethical Frame below.
 
 **Distance, weapons, numbers:**
 
@@ -97,6 +99,6 @@ Ethically this mirrors [the prohibition on violence](../8-socium/31-ecology.md#e
 ## Sources
 
 - [Pre-attack indicators](https://www.cvpsd.org/post/how-to-use-pre-attack-indicators-as-a-signal-in-violent-situation); [reading body language for safety](https://www.randykinglive.com/blog/reading-the-room-how-body-language-can-keep-you-safer)
-- [Vulnerable target areas](https://www.lvshaolin.com/what-are-the-most-vulnerable-parts-of-the-human-body-to-target-in-self-defense-situations/); [escape, not win](https://www.healthline.com/health/womens-health/self-defense-tips-escape)
+- Anatomical and legal specifics are jurisdiction- and situation-dependent; this page is an orientation, not instruction. Seek qualified training and local legal advice.
 - [Proportionality in self-defense law](https://www.cvpsd.org/post/proportionality-in-civilian-self-defense-what-it-means-and-why-it-matters)
 - Shared foundations and recovery sources are in [Security](06-security.md#sources).
