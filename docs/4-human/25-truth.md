@@ -1,10 +1,10 @@
 ---
 title: "Truth and Faith"
-description: "One's own answers to the existential questions, the Principles that follow from them, and the Faith that holds to both."
+description: "One's own answers to the existential questions, the Core Values that follow from them, and the Faith that holds to both."
 keywords: [human, truth, faith]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/4-human/25-truth.md
 ---
 
@@ -12,13 +12,13 @@ source: docs/4-human/25-truth.md
 
 ![Truth and Faith](/images/4-human/25-truth.svg)
 
-One's own answers to the existential questions, the `Principles` that follow from them, and the `Faith` that holds to both.
+One's own answers to the existential questions, the `Core Values` that follow from them, and the `Faith` that holds to both.
 
 **`Truth`** := one's own answers to the existential questions:
 
 *Who am I indeed — where and why? What is going on? What is beyond, and what next?*
 
-> Absolute `Truth` is unbearable by its transcendent nature, but it is the subject of continuous pursuit.
+*NOTE*: Absolute `Truth` is not attainable, but it is the subject of continuous pursuit.
 
 - May be whatever you invent, and sound however you want — idealistic or unconventional, fictional or formal.
 - Must not be constrained by external pressure or self-perception; requires no external validation or justification.
@@ -28,17 +28,17 @@ One's own answers to the existential questions, the `Principles` that follow fro
 
 ---
 
-**`CoreValues`** := the set of `Principles` reflecting one's `Truth`.
+**`Core Values`** := the set of principles reflecting one's `Truth`.
 
 ---
 
-**`Faith`** := unwavering acceptance of `Truth` and commitment to `CoreValues`, valued more than anything else.
+**`Faith`** := unwavering acceptance of `Truth` and commitment to `Core Values`, valued more than anything else.
 
 - `Faith` is not blind belief — it is a choice made regardless of circumstances.
-- `Faith` may break the automatism (Karma), and enables building oneself beyond what was predetermined.
-- `Faith` gives true **Resilience** — passing through anything while remaining alive and open, in any circumstances.
-- `Faith` fills life with meaning beyond animal existence; it is the basis of [`Happiness`](26-greatness.md) and the source of resilience and greatness.
+- `Faith` may break the automatism that [*karma*](24-approach.md#the-mirror-and-the-two-intentions) names, and enables building oneself beyond what was predetermined.
+- `Faith` gives resilience — passing through anything while remaining alive and open.
+- `Faith` fills life with meaning beyond animal existence; it is the basis of [`Happiness`](26-greatness.md).
 
 [[13,14,15,16]]
 
-[References](/#/?doc=_quotes)
+[References](../_quotes.md)
