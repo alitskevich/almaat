@@ -18,11 +18,7 @@ Mastery as the capacity for effective activity toward constant improvement, the 
 
 **`Mastery`** := The capacity for abundant, effective activity toward constant improvement in one's chosen field.
 
-Mastery is measured by:
-
-- **Surplus** — taking only what is needed, giving more than was taken.
-- **Body of Work** — the accumulated creations an `Agent` has produced.
-- **Super-Goals** — progressing toward the highest-level ambitions that guide your life and work.
+Mastery is measured by `Surplus`, `Body of Work`, and `Super-Goals`, defined below.
 
 ## The Mastery Framework
 
@@ -59,3 +55,27 @@ Each stage depends on the one before it.
 > `Calling := Goal | Success(Goal) ∈ Core-Need(Core-Value)`
 
 *NOTE*: the `Goal` an `Agent` recognizes as inseparable from continued participation under its own value-criterion. Distinguishes purposeful direction from generic ambition. Compare [`Mission`](../4-human/26-greatness.md), the same commitment stated from the human rather than the `Agent` side.
+
+---
+
+**`Surplus`** := What an `Agent` returns beyond what it consumed.
+
+> `Surplus := given − taken`
+
+*NOTE*: the measure that distinguishes `Mastery` from mere competence — a master's output exceeds their draw on the `System`.
+
+---
+
+**`Body of Work`** := The accumulated `Outcome`s an `Agent` has produced and can be judged by.
+
+> `Body of Work := [Outcome(Practice[i])]`
+
+*NOTE*: what remains when the `Agent` stops. Consistency over intensity is what builds it — see [Productivity](08-productivity.md).
+
+---
+
+**`Super-Goal`** := A `Goal` whose horizon exceeds any single `Plan`, and which orders the `Goal`s beneath it.
+
+> `Super-Goal :: Goal :: ∀Plan: horizon(Super-Goal) > horizon(Plan)`
+
+*NOTE*: the highest-level ambition a life is arranged around. `Vision` is the work of finding one — see [Vision](03-vision.md).
