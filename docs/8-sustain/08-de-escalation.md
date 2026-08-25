@@ -4,7 +4,7 @@ description: "Breaking open aggression with words: keep your own deliberation on
 keywords: [sustain, security, de-escalation]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/8-sustain/08-de-escalation.md
 ---
 
@@ -18,44 +18,42 @@ Breaking open aggression with words: keep your own deliberation online, let the 
 
 ## The Mechanism It Exploits
 
-An insult does not land on reason. It hits the [`Animal`](../4-human/28-animal.md), the guard that answers a threat before thought engages. Daniel Goleman named this the **amygdala hijack**: the reactive brain seizes the wheel and the deliberating brain goes offline — under it you are, plainly, dumber. Hence the perfect reply that arrives at 2 a.m. See [the body under threat](06-security.md#the-body-under-threat).
+An insult does not land on reason. It hits the [`Animal`](../4-human/28-animal.md), the guard that answers a threat before thought engages. Under a threat response, deliberation is degraded — see [the body under threat](06-security.md#the-body-under-threat). This is why the effective reply usually arrives long after the exchange. See [the body under threat](06-security.md#the-body-under-threat).
 
 A confrontation therefore has two silent goals: **keep your own deliberation online**, and **let the other side stay in reaction** — the one still thinking while the other emotes sets the terms. A sudden, unexpected move also resets their reaction (see [the OODA Loop](06-security.md#the-ooda-loop)) and buys a window to lead.
 
-## Judo, Not Karate
+## Redirect, Do Not Meet Force
 
-Meeting force with force ("No, *you're* wrong") is verbal karate: the louder, angrier party wins, and usually both just crack heads. Judo accepts the force and redirects it — you step alongside the push instead of becoming the wall it expects.
+Meeting force with force ("No, *you're* wrong") is verbal karate: the louder, angrier party wins, and usually both escalate. Judo accepts the force and redirects it — you step alongside the push instead of becoming the wall it expects.
 
 | Principle | Karate (loses) | Judo (leads) |
 | --------- | -------------- | ------------ |
-| **React to the goal, not the insult** | Defend your ego; forget what you came for | The insult is bait — see past it to the [`Goal`](../2-mind/09-teleos.md). A short, near-empty *deflector* ("I hear you.") strips the jab of force without swallowing it. |
-| **Empathy as a tool, not kindness** | Throw arguments at someone who cannot hear them | Naming their state ("I understand why you're furious") releases the hijack and brings their thinking brain back. Empathy ≠ agreement; it is reconnaissance — what drives them, and where the lever is. |
-| **Redirect, don't collide** | Pin them in front of others; demand they yield whole | Agree with the emotion, steer the substance: "You're right to be angry — *that's exactly why* let's do this." A cornered person fights; one given a door walks through it. |
+| **React to the goal, not the insult** | Defend your ego; forget what you came for | The insult is bait — see past it to the [`Goal`](../2-mind/09-teleos.md). A short, near-empty *deflector* ("I hear you.") strips the jab of force without swallowing it |
+| **Empathy as a tool, not kindness** | Throw arguments at someone who cannot hear them | Naming their state ("I understand why you're furious") releases the hijack and brings their thinking brain back. Empathy ≠ agreement; it is reconnaissance — what drives them, and where the lever is |
+| **Redirect, don't collide** | Pin them in front of others; demand they yield whole | Agree with the emotion, steer the substance: "You're right to be angry — *that's exactly why* we should do this." A cornered person fights; one given a door walks through it |
 
-**Let them save face.** "You can have the last word; I get the last action." The result is what you came for, not the sentence. The same holds where the threat is physical: calm voice, non-threatening posture, no insults, no cornering. Most fights are about ego, and an exit defuses more than a challenge. Defending your pride is not self-defense.
+**Let them save face.** let them have the last word, and keep the last action The result is what you came for, not the sentence. The same holds where the threat is physical: calm voice, non-threatening posture, no insults, no cornering. Most fights are about ego, and an exit defuses more than a challenge. 
 
 ## LEAPS
 
-Taking an angry person down to a working conversation.
 
 | Step | Move |
 | ---- | ---- |
-| **Listen** | Hear what is said; don't load your reply while they speak — they feel it and escalate. |
-| **Empathize** | Name the emotion aloud ("I see this matters to you"). This is the button that switches the thinking brain back on. |
-| **Ask** | Questions pull them from feeling into fact — a thinking brain is no longer a shouting one. |
-| **Paraphrase** | Restate their point in your words; they feel heard, and the claim softens into workable form. |
-| **Summarize** | Sum up and close on a concrete next step. |
+| **Listen** | Hear what is said; don't load your reply while they speak — they feel it and escalate |
+| **Empathize** | Name the emotion aloud ("I see this matters to you"). Naming the state is what allows the exchange to continue as a conversation |
+| **Ask** | Questions pull them from feeling into fact — a thinking brain is no longer a shouting one |
+| **Paraphrase** | Restate their point in your words; they feel heard, and the claim softens into workable form |
+| **Summarize** | Sum up and close on a concrete next step |
 
 ## Voluntary Compliance
 
-Getting a reluctant person to act by their own choice.
 
 | Step | Move |
 | ---- | ---- |
-| **Ask** | Request, don't command. Most people comply here if the ask is fair. |
-| **Explain why** | A reason removes half the resistance; people do far more willingly what they understand. |
-| **Give options** | Lay out both paths — good one appealing, bad one plain. They choose, so they comply without resentment. Pressure that feels like a free choice. |
-| **Confirm** | "Is there anything I can say or do to get your cooperation?" One honest last chance, dignity intact. |
+| **Ask** | Request, don't command. Most people comply here if the ask is fair |
+| **Explain why** | A reason removes half the resistance; people do far more willingly what they understand |
+| **Give options** | Lay out both paths — good one appealing, bad one plain. They choose, so they comply without resentment. Pressure that feels like a free choice |
+| **Confirm** | "Is there anything I can say or do to get your cooperation?" (Thompson's line) One honest last chance, dignity intact |
 | **Act** | Only now, the consequence you named — without anger, without "I told you so." |
 
 ## Words That Detonate
@@ -66,11 +64,11 @@ Each carries one of two messages — *your feelings are wrong* or *you are stupi
 | --------- | --------------- | ------- |
 | "Calm down" | Commands *and* judges the emotion as wrong | Name the state: "I can see this is serious." |
 | "Come here" | A handler's order; the body resists before the mind knows why | "Can you come over for a second?" |
-| "You wouldn't understand" | Says they aren't worth explaining to | Give the reason. |
+| "You wouldn't understand" | Says they aren't worth explaining to | Give the reason |
 | "Because those are the rules" | The same dismissal dressed as authority | "This is needed because…" |
-| "What's your problem" / "What do you want me to do about it" | Writes the person off as a nuisance | Ask what outcome they want. |
+| "What's your problem" / "What do you want me to do about it" | Writes the person off as a nuisance | Ask what outcome they want |
 
-> Whoever loses their temper has already lost; the one who stays cold leads. This is a trained muscle, not a trait — Thompson himself was hot-tempered.
+Whoever loses their temper has already lost the exchange. This is trained, not innate: Thompson himself was hot-tempered.
 
 ## Sources
 
