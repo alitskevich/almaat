@@ -4,7 +4,7 @@ description: "**Animal** := the intertwined psychic, energetic, and hormonal pro
 keywords: [human, animal, emotion, stress]
 license: UNLICENSED
 created: 2026-06-24
-modified: 2026-08-16
+modified: 2026-08-25
 source: docs/4-human/28-animal.md
 ---
 
@@ -24,7 +24,6 @@ The `Animal`:
 - avoids suffering, energy expenditure, and uncertainty; seeks pleasure, comfort, and social connection.
 - is prone to cognitive biases and irrational behaviors that undermine its well-being and growth.
 - is easily hijacked by external influences — media, social norms, marketing — that exploit those vulnerabilities for profit or control.
-- is the source of our greatest joys and deepest sufferings alike, and the key to our full potential.
 
 ## Emotion and Stress
 
@@ -41,9 +40,9 @@ The `Animal`:
 **`Stress`** := organism mobilization for decision-making in response to sudden danger.
 
 - Shuts down rational thinking; suppresses the immune system.
-- Triggers one of three responses: fight, flee, or adapt.
+- Triggers the [threat response](../8-sustain/06-security.md#the-body-under-threat): fight, flight, freeze, or fawn.
 
-The `Animal` constantly scans for threats — and invents them when none exist.
+The `Animal` scans continuously for threats, and reports them where none are present.
 
 ---
 
@@ -55,7 +54,7 @@ The `Animal` constantly scans for threats — and invents them when none exist.
 
 ---
 
-**`Laughter`** := reaction to a perception shift that caused a pattern break — originally the relief of discovering no real threat in what caused fear. Humor reveals the unexpected structure of reality and helps us cope with it.
+**`Laughter`** := reaction to a perception shift that caused a pattern break — originally the relief of discovering no real threat in what caused fear.
 
 ---
 
@@ -66,21 +65,27 @@ The `Animal` constantly scans for threats — and invents them when none exist.
 **`Suppression`** := blocking the outward expression of an `Emotion` without resolving its cause.
 
 - Suppression is not regulation. Regulation (breathing, naming, reframing) lowers the arousal; suppression only hides it while the arousal persists as chronic load.
-- Held anger keeps the `Stress` response partly switched on. Sustained, this shows as raised blood pressure, elevated cortisol, weakened immunity, disturbed sleep and digestion — the body pays for what the face conceals.
+- Held anger keeps the `Stress` response partly switched on, so the arousal it was meant to discharge persists as chronic load.
 - The `Animal`'s mobilized energy must discharge somewhere. Blocked, it leaks as irritability, tension, or bodily symptoms; vented, it only rehearses the `Rage`. The exit is neither storing nor venting but regulating, then addressing the cause.
 
 ## Reward and Compulsion
 
 **Two systems compete.** A `Goal`-directed system thinks, plans, and decides to quit — slow and conscious. An automatic system replays the learned `Behavior` in milliseconds. In a craving the automatic system fires before the conscious one engages. This is a gap in speed, not weakness of character.
 
-The `Animal` seeks pleasure and novelty. Modern products supply both past any natural limit, and the reward circuit pays for it.
-
 **`Supernormal Stimulus`** := an artificial trigger exaggerated beyond anything in nature, hijacking a drive evolved for weaker real cues — food engineered past satiety, feeds past curiosity, pornography past mating.
 
-**`Desensitization`** := the blunting of the reward circuit by repeated supernormal hits. Baseline pleasure falls and ever-stronger input is needed for the same effect — an **escalation treadmill** where yesterday's dose goes flat.
+---
 
-**`Coolidge Effect`** := novelty itself renewing arousal. Endless variety — not only intensity — keeps the circuit firing, which is why an infinite digital feed escalates faster than any fixed stimulus.
+**`Desensitization`** := the blunting of the reward circuit by repeated supernormal hits. Baseline pleasure falls and ever-stronger input is needed for the same effect — so that a dose which once sufficed no longer registers.
 
-**`Foraging Search`** := scanning a wide field for the few items worth taking — the berry among the leaves — treating each find as possibly survival-relevant. A feed is a field of nothing but berries: a search that once ended when the bush was stripped now has no stopping point. Wide-search attention is caught hardest, since the trait that makes it good at finding is the one the feed consumes.
+---
 
-The circuit is not broken. Removed from the supernormal stimulus, it up-regulates over weeks — the basis of [Architecture over willpower](../7-mastery/06-environment.md#architecture-over-willpower).
+**`Coolidge Effect`** := novelty itself renewing arousal. Endless variety — not only intensity — keeps the circuit firing; an endlessly varied feed therefore sustains arousal that a fixed stimulus would not.
+
+---
+
+**`Foraging Search`** := scanning a wide field for the few items worth taking, treating each find as possibly survival-relevant.
+
+The search evolved to terminate when the field was exhausted. A feed is not exhaustible, so the terminating condition never arrives. Wide-search attention is caught hardest, since the trait that makes it good at finding is the one the feed consumes.
+
+The circuit is not broken. Removed from the supernormal stimulus, it recovers — the basis of [Architecture over willpower](../7-mastery/06-environment.md#architecture-over-willpower).
