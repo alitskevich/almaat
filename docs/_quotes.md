@@ -1,6 +1,6 @@
 ---
 title: "Quotes"
-description: "A curated, numbered list of quotations. Content files cite them by number, as [[12]] or [[8,9,10]]."
+description: "A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]]."
 keywords: [quotes]
 license: UNLICENSED
 created: 2026-05-26
@@ -12,7 +12,7 @@ source: docs/_quotes.md
 
 ![Quotes](/images/_quotes.svg)
 
-A curated, numbered list of quotations. Content files cite them by number, as [[12]] or [[8,9,10]].
+A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]].
 
 The numbering is load-bearing: 43 of the 46 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered.
 
