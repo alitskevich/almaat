@@ -25,6 +25,8 @@ Define your authentic Way — life's mission, ambitions, high-level goals.
 
 [[39]]
 
+*Define your lifelong aims, drilled down into small concrete everyday goals, which will wake you up every morning and thrill you all along the time.*
+
 *The Conflict*: Determination creates an existential tension between immediate animal satisfaction and long-term rational goals. This confrontation defines the human being's tragedy and greatness. [Self-Honesty](02-mindset.md#self-honesty) converts that tension from a battle into fuel.
 
 ## Build Mental Models
