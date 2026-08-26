@@ -38,11 +38,11 @@ The `Arrow` and its `Vertex`, and the `Composition` that feeds one `Azon`'s outp
 
 ---
 
-**`Power`** := `Composition` of an `Azon` with itself, repeated a given number of times.
+**`Iterate`** := `Composition` of an `Azon` with itself, repeated a given number of times.
 
 > `A^0 := Unit`, `A^1 := A`, `A^n := A.A^(n-1)`
 
-*NOTE*: `04-numerals.md` builds `Numerals` as the `Set` of all `Power`s of `Plus`, so this is where counting starts.
+*NOTE*: `04-numerals.md` builds `Numerals` as the `Set` of all `Iterate`s of `Plus`, so this is where counting starts.
 
 ---
 

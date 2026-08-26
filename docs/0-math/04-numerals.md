@@ -22,7 +22,7 @@ Natural numbers (`Number`), intervals, sequences, and selections.
 
 ---
 
-**`Numerals`** := `Set` of all `Power`s of `Plus`.
+**`Numerals`** := `Set` of all `Iterate`s of `Plus`.
 
 > `Numerals := { Unit, Plus, Plus², Plus³, ... }`
 
