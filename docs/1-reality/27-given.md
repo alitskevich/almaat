@@ -39,6 +39,6 @@ This is not solipsism: the manifest is `Being` disclosing itself, and it is shar
 
 ## The Redirection
 
-The far cosmos and deep past are optional constructions that do not touch how you live.
+The far cosmos and deep past are optional constructions that do not touch how you live. The governing question is therefore not *what exists* or *what is fundamental* but **what matters** — what you are, and why life is given.
 
 Improving the outer world never improves the state of the "I"; changing the "I" reorders every value.
