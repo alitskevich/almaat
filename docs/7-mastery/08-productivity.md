@@ -31,7 +31,7 @@ The quarterly cadence belongs to direction rather than execution — see [Vision
 
 ## Momentum
 
-Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This is the same cycle as the [OODA loop](../8-sustain/06-security.md#the-ooda-loop), run on a longer timescale.
+Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This runs the [OODA loop](../8-sustain/06-security.md#the-ooda-loop) on a longer timescale, with a planning step added.
 
 ## Principles
 
