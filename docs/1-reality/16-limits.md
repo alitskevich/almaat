@@ -12,8 +12,6 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 **`Freedom`** := an `Agent`'s independence from `Communication` that would coerce a change of its `Paradigm`.
 
-> `Freedom(Agent, C) :: Paradigm(Agent) invariant under every Communication ∈ C`
-
 *NOTE*: the `Agent`'s ability to act on its own `Goal` without coercion from the `Environment`. Always conditional and relative to specified `Communication` — never absolute.
 
 ---
