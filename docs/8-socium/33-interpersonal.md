@@ -23,7 +23,7 @@ Society improves two ways — constrain evil and compel good from outside, or wo
 | **Listening** | Ask more, talk less — real listening builds connection and insight faster than eager answering. Ask for advice rather than feedback; people are flattered and answer more usefully. |
 | **Communication** | Find common language, navigate opposing viewpoints, share your vision clearly. |
 | **Collaboration** | Accept criticism, resolve conflicts, keep the environment safe. |
-| **Positive-sum** | The best way to win is to help the other person win; shared goals before personal ones. |
+| **Positive-sum** | The best way to win is to help the other person win — [`Synergy`](../1-reality/15-evolution.md#shared-success) in a two-person exchange; shared goals before personal ones. |
 | **Equal dignity, differentiated merit** | People are equal in dignity and differ in mindset, conduct, and competence. Do not measure others by yourself. |
 | **Ask** | You will get yes more often than you expect. |
 | **Warm connections** | When in doubt, reach out and push past the awkwardness. A handwritten thank-you note every two weeks; gratitude compounds. |
