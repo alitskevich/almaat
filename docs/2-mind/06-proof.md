@@ -12,7 +12,7 @@ keywords: [mind, proof, logic]
 
 > `Proof<Theory> := Conclusion<Theory> :: Conclusion(Axiom) ∈ Thesis`
 
-*NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `Presentation` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../0-math/07-language.md#theories).
+*NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `View` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../0-math/07-language.md#theories).
 
 ---
 

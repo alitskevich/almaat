@@ -45,7 +45,7 @@ keywords: [mind, scientific]
 ```mermaid
 stateDiagram-v2
   [*] --> Characterizations
-  Characterizations --> Hypotheses: observed Presentation
+  Characterizations --> Hypotheses: observed View
   Hypotheses --> Predictions: Reasoning
   Predictions --> Experiments: test design
   Experiments --> Characterizations: refine / falsify

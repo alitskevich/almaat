@@ -131,7 +131,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Volume` | Obshar |
 | `Place` | Mesto |
 | `View` | Vid |
-| `Presentation` | Prajava |
 | `Matter` | Materia |
 | `Basis` | Asnova* |
 | `Origin` | Vytok* |

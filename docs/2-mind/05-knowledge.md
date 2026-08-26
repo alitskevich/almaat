@@ -10,13 +10,13 @@ keywords: [mind, knowledge]
 
 ## Units of Belief
 
-**`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether `Presentation` belongs to `Place`.
+**`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether a [`View`](../0-math/06-views.md#view-and-content) belongs to `Place`.
 
-> `Opinion :: Expression → (Presentation × Place → {0, 1})`
+> `Opinion :: Expression → (View × Place → {0, 1})`
 
 ---
 
-**`Doubt`** := A suspended `Opinion` — the recognition that current `Knowledge` is insufficient to evaluate membership of a `Presentation` in a `Place`.
+**`Doubt`** := A suspended `Opinion` — the recognition that current `Knowledge` is insufficient to evaluate membership of a `View` in a `Place`.
 
 > `Doubt :: Opinion → suspended`
 
@@ -34,9 +34,9 @@ keywords: [mind, knowledge]
 
 ## Naming
 
-**`Name`** := An `Expression` of `Language` associated with `Presentation` (Entities) of the `Matter`.
+**`Name`** := An `Expression` of `Language` associated with `View`s (Entities) of the `Matter`.
 
-> `Name :: Expression → Presentation`
+> `Name :: Expression → View`
 
 *NOTE*: Picks out particular instances. Complement: `Concept`.
 
@@ -56,7 +56,7 @@ keywords: [mind, knowledge]
 
 *NOTE*: `Knowledge` is not Being itself — only its representation. Well-formed `Knowledge` has four properties:
 
-- **adequate** — matches observed `Presentation`
+- **adequate** — matches observed `View`
 - **accessible** — retrievable from `Memory`
 - **coherent** — internally non-contradictory
 - **predictive** — allows anticipation of future `State`
