@@ -73,7 +73,7 @@ A choice is ethical if it remains good when applied universally to all members o
 5. A society built on conscience surpasses one built on violence
 6. People of conscience have no insurmountable conflicts
 7. If you cannot be a threat, you are only a tool
-8. You cannot buy peace at the cost of your dignity
+8. You cannot buy peace at the cost of your dignity — see [`Kapot`](../4-human/26-greatness.md)
 9. The triumph of despotism is forcing slaves to declare themselves free
 10. Only unconditional principle has the force of moral law
 

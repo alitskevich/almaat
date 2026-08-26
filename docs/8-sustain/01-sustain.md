@@ -46,4 +46,4 @@ Ten for the Self half, five for the Body half.
 7. A boundary without a consequence is a suggestion.
 8. The goal is to get free, not to win. Force ends the instant the threat does.
 9. Decide in advance; freezing is the failure to have pre-decided.
-10. Dignity over convenience — you cannot buy peace at the cost of your own standing.
+10. Dignity over convenience — you cannot buy peace at the cost of your own standing; see [`Kapot`](../4-human/26-greatness.md).
