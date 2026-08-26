@@ -56,7 +56,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Text<Dictionary>`** := `Tuple=Plan` of `Word`s from the same `Dictionary=SampleSpace`.
+**`Text<Dictionary>` / `Plan`** := `Tuple` of `Word`s from the same `Dictionary=SampleSpace`.
 
 > `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
 
