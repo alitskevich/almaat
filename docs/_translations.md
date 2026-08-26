@@ -110,7 +110,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Point` | Kropka |
 | `Volume` | Obshar |
 | `Place` | Mesto |
-| `View` | Vid,Prajava |
+| `View` | Vid |
+| `Presentation` | Prajava |
 | `Matter` | Materia |
 | `Content` | Zmest |
 | `Key` | Kliuq |
@@ -250,55 +251,55 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| Human Being | QALAVELK |
-| Inspiration | NADXNENNE |
-| Dignity | GODNOST |
-| Awareness | SVEDOMOST |
-| Conscience | SUMLENNE |
-| Absolute Truth | JSTINA |
-| Own Truth | PRAVDA |
-| Intellect | ROZUM |
-| Faith | SVERA |
-| Happiness | SQASTTE |
-| `Mission` | SHLAXT |
-| Resilience | TRYVALOST |
-| Greatness | VELIQ |
-| Maturity | DAROSLOST |
-| Openness | ADKRYTOST |
-| Joy | RAJDOST |
-| Acceptance | PRYNIATTE |
-| Moderation | STIPLOST |
-| Gratitude | UDJAQNOST |
-| Forgiveness | DARAVANNE |
-| Asking Forgiveness | PRABAQENNE |
-| `Kapot` | QERTA |
-| Death | SMERT |
-| Embrace Mortality | PRYNIATTE SMERTI |
-| Self-role | JA-ROLIA* |
-| Self-observer | JA-NAZIRALNIK* |
-| Self-consciousness | JA-SVEDOMAST* |
-| Open Individualism | ADKRYTAJA ASOBNAST* |
+| `Human Being` | Qalavelk |
+| `Inspiration` | Nadxnenne |
+| `Dignity` | Godnost |
+| `Awareness` | Svedomost |
+| `Conscience` | Sumlenne |
+| `Absolute Truth` | Jstina |
+| `Own Truth` | Pravda |
+| `Intellect` | Rozum |
+| `Faith` | Svera |
+| `Happiness` | Sqastte |
+| `Mission` | Shlaxt |
+| `Resilience` | Tryvalost |
+| `Greatness` | Veliq |
+| `Maturity` | Daroslost |
+| `Openness` | Adkrytost |
+| `Joy` | Rajdost |
+| `Acceptance` | Pryniatte |
+| `Moderation` | Stiplost |
+| `Gratitude` | Udjaqnost |
+| `Forgiveness` | Daravanne |
+| `Asking Forgiveness` | Prabaqenne |
+| `Kapot` | Qerta |
+| `Death` | Smert |
+| `Embrace Mortality` | Pryniatte Smerti |
+| `Self-role` | Ja-rolia* |
+| `Self-observer` | Ja-naziralnik* |
+| `Self-consciousness` | Ja-svedomast* |
+| `Open Individualism` | Adkrytaja Asobnast* |
 
 ## The Living Animal — `4-human/28-animal`
 
 | Term | Belarusian |
 |---|---|
-| Animal | ZHYVELA |
-| Emotion | EMOCIJA |
-| Fear | STRAX |
-| Rage | JAROST |
-| Laughter | SMEX |
-| Feeling | PAQUTTE |
-| Persona | Asoba |
-| Social Mask | MASKA |
-| Dark Shadow | TATUM |
-| Charisma | VAJBA |
+| `Animal` | Zhyvela |
+| `Emotion` | Emocija |
+| `Fear` | Strax |
+| `Rage` | Jarost |
+| `Laughter` | Smex |
+| `Feeling` | Paqutte |
+| `Persona` | Asoba |
+| `Social Mask` | Maska |
+| `Dark Shadow` | Tatum |
+| `Charisma` | Vajba |
 
 ## Socium — `8-socium/30-socium`
 
 | Term | Belarusian |
 |---|---|
-| Love | AMORA |
+| `Love` | Amora |
 
 ## Trances — `8-socium/35-transes`
 
@@ -321,19 +322,19 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Determination` | NASTYRNOST |
+| `Determination` | Nastyrnost |
 
 ## Environment — `7-mastery/06-environment`
 
 | Term | Belarusian |
 |---|---|
-| `Environment Design` | SILA ABSTAVINAW |
+| `Environment Design` | Sila Abstavinaw |
 
 ## Productivity — `7-mastery/08-productivity`
 
 | Term | Belarusian |
 |---|---|
-| `Productivity` | RUPLIVOST |
+| `Productivity` | Ruplivost |
 | `Save Early` | Ashqadnast |
 | `Live Below Means` | Skromnast |
 
@@ -341,4 +342,4 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| Depression | MLIAVA |
+| `Depression` | Mliava |
