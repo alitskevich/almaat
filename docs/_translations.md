@@ -64,7 +64,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Tree` | Dreva |
 | `Transposition` | Perestyk |
 | `Translation` | Pereklad |
-| `Source` *(graph junction)* | Naqatkom |
 | `Sink` | Konqatkom |
 | `Link` *(pass-through)* | Zmyqkaj |
 | `Fork` | Razvilkaj |

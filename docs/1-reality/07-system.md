@@ -46,7 +46,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 > `Participant(P) :: P IS Thing ∧ ∃Q ∈ System: Communication(P ↔ Q) ≠ 0`
 
-*NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure. Every `Participant` is a [`Source`](../2-mind/12-mind.md): it must produce output in order to communicate.
+*NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure. Every `Participant` is a [`Source`](../0-math/01-sets.md#sets): it must produce output in order to communicate.
 
 ---
 

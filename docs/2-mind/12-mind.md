@@ -16,11 +16,7 @@ source: docs/2-mind/12-mind.md
 
 ## The Substrate
 
-**`Source`** := An `Azon` with a non-empty `Codomain` — an `Azon` considered from the perspective of its outputs.
-
-> `Source :: Azon, COD ≠ 0`
-
-*NOTE*: In a `System`, a `Source` is any `Azon` characterized primarily by the values it produces for other `Participant`s.
+In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characterized primarily by the values it produces for other `Participant`s.
 
 ---
 

@@ -60,6 +60,12 @@ source: docs/0-math/01-sets.md
 
 ---
 
+**`Source`** := An `Azon` with a non-empty `Codomain` — an `Azon` considered from the perspective of its outputs.
+
+> `Source :: Azon, COD ≠ 0`
+
+---
+
 **`Appearance`** := `Set` of all `Azon` whose `Domain` or `Codomain` contains the reference `Azon`.
 
 > `APPEAR(a) := {X : a ∈ DOM(X) ∨ a ∈ COD(X)}`
