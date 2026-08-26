@@ -164,34 +164,17 @@ This surfaces exactly which `docs/*.md` files were **added, renamed, removed, or
 retitled** since the baseline. For each change, update the matching `INDEX.md` entry
 (link path, title, and the frontmatter `description`). Then record the new baseline:
 
-- **Last full reconciliation:** 2026-08-07 — `INDEX.md` reconciled against the live tree after
-  commit `c4dcb67` extracted `9-engx` into its own repository, folded `A-science` into `2-mind`
-  (`90-science`, `99-branches`), renamed `1-reality/01-space` → `0-math/05-presentations`, and
-  removed `2-mind/09-computation` and `7-mastery/14-methodology`. In the same pass, 75 relative
-  links left stale by the earlier `1-nature`/`3-intellect`/`5-socium` reorg were retargeted.
-  At that point every INDEX link and every relative `.md` link in `docs/` resolved to a real file.
-- **2026-08-15 — `7-mastery` restructured.** The folder's six files became eleven, laid out as the
-  `Mindset → Vision → Discipline → Productivity → Growth` spine it had always declared:
-  `01-mastery` is now the hub, `04-productivity` was split across `03`–`08`, `06`/`07`/`24` were
-  renumbered `09`/`10`/`11`, and the 0-byte `03-mindset` was deleted. `Depression` moved to
-  `8-sustain/05-energy.md`; the tribe section moved to `8-socium/33-interpersonal.md`.
-  The claim above that every link resolved as of 2026-08-07 no longer held: a later `0-math`/`2-mind`
-  rename left 17 dead links, now recorded in `scripts/check-docs.baseline.txt`.
-- **2026-08-16 — `1-reality`, `2-mind` and `4-human` restructured.** The ontology layers had the
-  opposite defect from the applied folders: dense formal material with almost no navigation
-  (`02-process.md` and `21-human.md` had zero headings). Each folder gained a hub with a spine table
-  and per-file sections; `1-reality` 3 → 9 files, `2-mind` 6 → 11, `4-human` 4 → 8, all keeping the
-  global number sequence. Every Term definition was preserved (verified by diff, not assertion).
-  These folders GREW — +12%, +6.5%, +2.9% — because navigation costs words and formal definitions
-  have no slack. That is the expected outcome here, not a failure.
-- **2026-08-16 — `8-socium` and `8-sustain` restructured** on the same pattern. `8-socium` went 6 → 8
-  files, staying in the global `30`–`37` range (`34-identity` and `36-conformism` extracted; `30-socium`
-  is now the hub). `8-sustain` went 3 → 13 files in its own `01`–`13` space: the 460-line
-  `05-security.md` split across `06`–`13`, the 14-item `01-vitality.md` regrouped by mechanism into
-  `02`–`05`, and `01-sustain.md` is the hub. Six of the baselined link failures were fixed in the
-  process; 11 remain, all from the `0-math`/`2-mind` rename.
-- **Baseline commit:** `c4dcb67` ("up", 2026-08-04) — the commit whose changes the 2026-08-07
-  reconciliation absorbed. Diff from here for the next sync.
+- **Last full reconciliation:** 2026-08-27 — `INDEX.md` regenerated from the tree at
+  `0e1dc84`. All 71 content files are indexed exactly once; each entry's link text is
+  that file's frontmatter `title` and its blurb is the frontmatter `description`,
+  quoted character for character and verified by re-extracting both and diffing.
+  `0-math/07-language.md` had had no entry at all. This closed a 192-commit revision
+  pass over `docs/` that also emptied the undefined-Term class (every backticked
+  Capitalized name now resolves to a definition), removed every upward reference from
+  a definition to a higher layer, and rebuilt `_translations.md` to 330 rows with no
+  duplicate gloss and no row for a Term the book does not define.
+- **Baseline commit:** `0e1dc84` (2026-08-27) — the commit at which `INDEX.md` was
+  regenerated from frontmatter. Diff from here for the next sync.
 
 Notes:
 
