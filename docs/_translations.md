@@ -41,6 +41,10 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Set-Difference` | Dapasok |
 | `Power-Set` | Glyba |
 | `Cluster` | Kryga |
+| `Extensional Equivalence` | Zmestavaja Rownasc* |
+| `Intensional Distinguishability` | Sutnasnaja Adroznasc* |
+| `Partial Equality` | Qastkovaja Rownasc* |
+| `Total Equality` | Pownaja Rownasc* |
 
 ## Graph — `0-math/03-graphs`
 
@@ -63,6 +67,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Pair` | Para |
 | `Composition` | Stvor |
 | `Singleton` | Ton |
+| `Bijective` | Adnaznaqnae* |
+| `Currying` | Karyng* |
+| `Identity` | Tojesnasc* |
+| `Iterate` | Pawtor* |
+| `Null` | Nishto* |
+| `Partial Application` | Qastkovae Padanne* |
 
 ## Formal Language — `0-math/07-language`
 
@@ -79,6 +89,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Terminal` | Nazva |
 | `Ground` | Tlo |
 | `Language` | Mova |
+| `Axiom` | Padvalina* |
 
 ## Numerals — `0-math/04-numerals`
 
@@ -95,6 +106,17 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Selection` | Otbor |
 | `Matrix` | Mantra |
 | `Flat` | Sklejka |
+| `Numerals` | Liqby* |
+| `Plus` | Prybawka* |
+| `Scoring` | Padlik* |
+| `Total Order` | Powny Rad* |
+| `Vector` | Vektar* |
+
+## Structures — `0-math/05-structures`
+
+| Term | Belarusian |
+|---|---|
+| `Law` | Zakon* |
 
 ## Presentational View — `0-math/06-views`
 
@@ -119,6 +141,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Predicate` *(2-value Quality)* | Bikon |
 | `Norm` | Norma |
 | `Measure` *(pending primitive)* | Mera |
+| `Attribute` | Prymeta* |
+| `Entity` | Sutnasc* |
+| `Quality<Type>` | Jakost Typu* |
+| `Sigma<n>` | Jadro<n>* |
+| `Space` | Shyr* |
+| `Type` | Typ* |
 
 ## Dynamic Processes — `1-reality/02-process`
 
@@ -149,6 +177,55 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Feedback` | Vodguk |
 | `Emergence` | Uznika* |
 | `Equilibrium` | Roynja* |
+| `Context` | Ataqenne* |
+| `Controller<Schema>` | Kirawnik* |
+| `Independent Events` | Nezaleznyja Zjavy* |
+| `Ingress` | Uvod* |
+| `Law of Total Probability` | Zakon Pownaj Veragodnasci* |
+| `MutuallyExclusiveEvents` | Nesumiasqalnyja Zjavy* |
+| `Probability Distribution` | Razmerkavanne Veragodnasci* |
+| `Process` | Praces* |
+| `Random Variable` | Vypadkovaja Veliqynia* |
+| `Text<Dictionary>` | Tekst* |
+| `TransitionMatrix` | Matryca Perexodaw* |
+
+## System — `1-reality/07-system`
+
+| Term | Belarusian |
+|---|---|
+| `State of a Participant` | Stan Udelnika* |
+
+## Probability — `1-reality/10-probability`
+
+| Term | Belarusian |
+|---|---|
+| `Bayes' Theorem` | Tearema Bajesa* |
+| `Central Limit Theorem` | Centralnaja Graniqnaja Tearema* |
+| `Conditional Probability` | Umownaja Veragodnasc* |
+| `Ergodic` | Ergadyqny* |
+| `Expected Value` | Qakanae Znaqenne* |
+| `Law of Large Numbers` | Zakon Vialikix Likaw* |
+| `Recurrent` | Zvarotny* |
+| `Standard Deviation` | Standartnae Adxilenne* |
+| `Stationary Distribution` | Stalae Razmerkavanne* |
+| `Transient` | Praxodny* |
+| `Variance` | Dyspersija* |
+
+## Entropy — `1-reality/14-entropy`
+
+| Term | Belarusian |
+|---|---|
+| `Dissipation` | Rasseivanne* |
+| `Entropy` | Entrapija* |
+| `Order` | Lad* |
+| `Self-Organization` | Samaarganizacyja* |
+
+## Being — `1-reality/22-being`
+
+| Term | Belarusian |
+|---|---|
+| `Consciousness` | Prytomnasc* |
+| `Sensation` | Adquvanne* |
 
 ## Intellect — `2-mind/11-intellect`
 
@@ -166,7 +243,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Sensor` | Datqyk |
 | `Neuron` | Nejron |
 | `Thought` | Dumka |
-| `Signal` | Poklik* |
+| `Signal` | Pasyl* |
 | `Message` | Vestka |
 | `Memory` | Pamiac |
 | `Codebook` | Kodavik* |
@@ -183,11 +260,39 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Bias` | Naxil |
 | `Paradigm` | Vega |
 
+## Proof — `2-mind/06-proof`
+
+| Term | Belarusian |
+|---|---|
+| `Formalism` | Farmalizm* |
+| `Interpretation` | Vytlumaqenne* |
+
 ## Computation — `2-mind/07-computation`
 
 | Term | Belarusian |
 |---|---|
 | `Program` | Pragrama |
+| `Algorithm` | Algarytm* |
+| `Computation` | Liqenne* |
+| `Correctness` | Slushnasc* |
+| `Data` | Danyja* |
+| `Dataflow` | Rux Danyx* |
+| `Equational Reasoning` | Rawnannae Razvazhanne* |
+| `Referential Transparency` | Spasylkavaja Prazrystasc* |
+| `Runtime` | Vykananne* |
+| `Runtime-Contract` | Damova Vykanannia* |
+| `Specification` | Apisanne* |
+| `Transformation` | Perawtvarenne* |
+| `Transformer` | Perawtvaralnik* |
+
+## Reasoning — `2-mind/08-reasoning`
+
+| Term | Belarusian |
+|---|---|
+| `Inference` | Vysnova* |
+| `Intuition` | Qujka* |
+| `Logic` | Logika* |
+| `Reasoning` | Razvazhanne* |
 
 ## Agency and Teleology — `2-mind/09-teleos`
 
@@ -219,6 +324,22 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Veto` | Zaborona* |
 | `Forward-Responsibility` | Napieradnaja Adkaznasc* |
 | `Computational-Irreducibility` | Nieskaratnasc Liku* |
+| `Decision-Context` | Ataqenne Rashennia* |
+
+## Predictive Perception — `2-mind/13-predictive`
+
+| Term | Belarusian |
+|---|---|
+| `Predictive-Perception` | Napieradnae Uspryjmanne* |
+
+## Scientific Knowledge — `2-mind/90-scientific`
+
+| Term | Belarusian |
+|---|---|
+| `Scientific Criteria` | Navukovyja Merki* |
+| `Scientific Knowledge` | Navukovaja Veda* |
+| `Scientific Method` | Navukovy Sposab* |
+| `Scientific Process` | Navukovy Praces* |
 
 ## Growth — `1-reality/15-evolution`, `7-mastery/01-mastery`
 
@@ -240,6 +361,9 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Practice` | Praca* |
 | `Mastery` | Spryt* |
 | `Calling` | Pokliq* |
+| `Body of Work` | Darobak* |
+| `Super-Goal` | Zvyshmeta* |
+| `Surplus` | Prybytak* |
 
 ## Human Being — `4-human/21-human`
 
@@ -271,8 +395,21 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Embrace Mortality` | Pryniatte Smerti |
 | `Self-role` | Ja-rolia* |
 | `Self-observer` | Ja-naziralnik* |
-| `Self-consciousness` | Ja-svedomast* |
+| `Self-Consciousness` | Ja-svedomast* |
 | `Open Individualism` | Adkrytaja Asobnast* |
+
+## Rajdo — `4-human/23-rajdo`
+
+| Term | Belarusian |
+|---|---|
+| `Rajdo` | Pryniatte Byccia* |
+| `Self-Acceptance` | Ja-pryniatte* |
+
+## Truth — `4-human/25-truth`
+
+| Term | Belarusian |
+|---|---|
+| `Truth` | Saprawdnasc* |
 
 ## The Living Animal — `4-human/28-animal`
 
@@ -288,12 +425,44 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Social Mask` | Maska |
 | `Dark Shadow` | Tatum |
 | `Charisma` | Vajba |
+| `Coolidge Effect` | Efekt Kulidzha* |
+| `Desensitization` | Prytuplenne* |
+| `Foraging Search` | Poshuk Spazhyvy* |
+| `Stress` | Napruga* |
+| `Supernormal Stimulus` | Zvyshdrazhnilnik* |
+| `Suppression` | Prydushenne* |
 
 ## Socium — `8-socium/30-socium`
 
 | Term | Belarusian |
 |---|---|
 | `Love` | Amora |
+
+## Social Ecology — `8-socium/31-ecology`
+
+| Term | Belarusian |
+|---|---|
+| `Community` | Gramada* |
+| `Contract` | Damova* |
+| `Role` | Rolia* |
+| `Trust` | Daver* |
+
+## Culture — `8-socium/32-culture`
+
+| Term | Belarusian |
+|---|---|
+| `Idemon` | Dumavik* |
+
+## Politics — `8-socium/37-politics`
+
+| Term | Belarusian |
+|---|---|
+| `Elite` | Verxi* |
+| `Legitimacy` | Zakonnasc* |
+| `Plebs` | Nizy* |
+| `Power` | Ulada* |
+| `Sovereign-State` | Dzjarzhava* |
+| `Status` | Stanovishqa* |
 
 ## Trances — `8-socium/35-transes`
 
@@ -331,6 +500,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Productivity` | Ruplivost |
 | `Save Early` | Ashqadnast |
 | `Live Below Means` | Skromnast |
+| `Invest Wisely` | Ukladaj Razumna* |
 
 ## Energy — `8-sustain/05-energy`
 
