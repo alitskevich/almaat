@@ -1,10 +1,10 @@
 ---
 title: "ALMAAT — Content Index"
-description: "Master index of the ALMAAT framework."
+description: "Master index of the ALMAAT framework: every section and every file, grouped by ontological layer."
 keywords: [almaat]
 license: UNLICENSED
 created: 2026-06-23
-modified: 2026-08-07
+modified: 2026-08-26
 source: docs/INDEX.md
 ---
 
@@ -12,9 +12,9 @@ source: docs/INDEX.md
 
 ![ALMAAT — Content Index](/images/INDEX.svg)
 
-Master index of the ALMAAT framework. The book builds one ontology from a single
-primitive (the `Azon`) up to `Mind` and `Agent`, then applies it to the human, the
-disciplines of mastery, and the collective. Sections are ordered by ontological layer.
+Master index of the ALMAAT framework: every section and every file, grouped by ontological layer.
+
+The book builds one ontology from a single primitive (the `Azon`) up through the formal layer, dynamics, and mind, then applies it to the human, the disciplines of mastery, the collective, and the body.
 
 - [Welcome](welcome.md) — what ALMAAT is and how the layers stack.
 - [Quotes](_quotes.md) — curated quotations.
