@@ -16,7 +16,7 @@ source: docs/8-socium/36-conformism.md
 
 ## The Default Is Obedience
 
-In Milgram's 1963 experiment, ordinary people were told to deliver rising electric shocks to a stranger and could hear the cries through the wall. A majority went to the maximum, the dial marked *death* — not sadists, but people who obeyed an experimenter telling them to continue. Two variations matter as much: when one other participant refused, obedience collapsed, and a substantial minority refused even without help.
+In Milgram's 1963 experiment (*Behavioral Study of Obedience*), ordinary people were told to deliver rising electric shocks to a stranger in the next room, who pounded on the wall at 300 volts and then fell silent. A majority went to the maximum — the last switch on a board labelled from *Slight Shock* to *Danger: Severe Shock* and finally *XXX* — not sadists, but people who obeyed an experimenter telling them to continue. Two variations matter as much: when two other participants refused, obedience collapsed, and a substantial minority refused even without help.
 
 ## The Good Face
 
