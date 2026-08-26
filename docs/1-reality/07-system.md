@@ -22,9 +22,9 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 ---
 
-**`Event(Thing)`** := a change of `State` of a `Thing` between consecutive `Step` — a triple of moment, before-state, after-state.
+**`Transition(Thing)`** := a change of `State` of a `Thing` between consecutive `Step` — a triple of moment, before-state, after-state.
 
-> `Event(Thing) := (Step[i], State(Thing, Step[i]), State(Thing, Step[i+1]))`
+> `Transition(Thing) := (Step[i], State(Thing, Step[i]), State(Thing, Step[i+1]))`
 
 ---
 

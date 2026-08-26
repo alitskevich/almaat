@@ -22,7 +22,7 @@ Whether the `Solution` an `Agent` reaches is freely authored, or a determined ou
 
 ---
 
-**`Determinism`** := Every `Event`, including a `Solution`, follows necessarily from the prior `State` under fixed law.
+**`Determinism`** := Every [`Transition`](../1-reality/07-system.md#thing-and-trajectory), including a `Solution`, follows necessarily from the prior `State` under fixed law.
 
 > `Determinism :: State(t) ⟹ State(t+1)`
 

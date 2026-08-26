@@ -143,7 +143,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Halt` | Krant |
 | `Bifurcation` | Razvoda* |
 | `Thing` | Shtuka |
-| `Event` | Zjava |
+| `Transition` | Zjava |
 | `Trajectory` | Trajektoria |
 | `System` | Svarga |
 | `Participant` | Udelnik |
