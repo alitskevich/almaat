@@ -57,3 +57,28 @@ test("isGenerated excludes the project spec and includes content files", () => {
   assert.equal(isGenerated("welcome.md"), true);
   assert.equal(isGenerated("0-math/00-azon.md"), true);
 });
+
+// --- conventions-pass helpers, shared with check-docs.mjs ---
+
+import { bannerPathFor, isContentFile, stripFences } from "./check-docs.mjs";
+
+test("bannerPathFor uses no folder segment for files directly under docs/", () => {
+  assert.equal(bannerPathFor("welcome.md"), "/images/welcome.svg");
+  assert.equal(bannerPathFor("_quotes.md"), "/images/_quotes.svg");
+});
+
+test("bannerPathFor keeps the folder segment for files in a section", () => {
+  assert.equal(bannerPathFor("0-math/00-azon.md"), "/images/0-math/00-azon.svg");
+});
+
+test("isContentFile excludes the project spec but not the index", () => {
+  assert.equal(isContentFile("CLAUDE.md"), false);
+  assert.equal(isContentFile("INDEX.md"), true);
+  assert.equal(isContentFile("8-sustain/06-security.md"), true);
+});
+
+test("stripFences removes fenced blocks so their headings are not counted", () => {
+  const body = "# Real\n\n```markdown\n# Example\n```\n\n## Section\n";
+  const stripped = stripFences(body);
+  assert.equal([...stripped.matchAll(/^# (.+)$/gm)].length, 1);
+});
