@@ -460,17 +460,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Collective Mind` | Gramadski Rozum* |
 | `Idemon` | Dumavik* |
 
-## Politics — `8-socium/37-politics`
-
-| Term | Belarusian |
-|---|---|
-| `Elite` | Viarxi* |
-| `Legitimacy` | Legitymnasc* |
-| `Plebs` | Nizy* |
-| `Power` | Ulada* |
-| `Sovereign-State` | Dzjarzhava* |
-| `Status` | Stanovishqa* |
-
 ## Identity — `8-socium/34-identity`
 
 | Term | Belarusian |
@@ -493,6 +482,17 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | `Conformism` | Pakornast* |
 | `Moral Courage` | Smelast* |
+
+## Politics — `8-socium/37-politics`
+
+| Term | Belarusian |
+|---|---|
+| `Elite` | Viarxi* |
+| `Legitimacy` | Legitymnasc* |
+| `Plebs` | Nizy* |
+| `Power` | Ulada* |
+| `Sovereign-State` | Dzjarzhava* |
+| `Status` | Stanovishqa* |
 
 ## Vision — `7-mastery/03-vision`
 
