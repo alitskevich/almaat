@@ -22,9 +22,9 @@ Identity is the continuous story a person tells about themselves, in which bound
 
 ## The Three Sides
 
-1. **`Perceived Self`** — who I perceive myself to be
+1. **[`Self-role`](../4-human/29-self.md#three-layers-of-the-self)** — who I perceive myself to be
 2. **`Aspirational Self`** — who I want to become
-3. **`Projected Self`** — who I want others to perceive me as
+3. **[`Persona`](#persona)** — who I want others to perceive me as, defined below
 
 The gap between the three sides is psychically painful, and is also the source of emotional drive toward growth.
 
