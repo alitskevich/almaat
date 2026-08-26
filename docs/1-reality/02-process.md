@@ -16,6 +16,12 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
+**`SampleSpace`** := the `Dictionary` a `Process` draws its `Word`s from — everything that can hold at a `Step`.
+
+> `SampleSpace := Dictionary`
+
+---
+
 **`State`** := a `Subset` of the `SampleSpace` — what holds at one `Step`.
 
 > `State := Subset ⊆ SampleSpace`
@@ -44,9 +50,9 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Process`** := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+**`Process`** := controlled `Queue` of `Word`s from the same `SampleSpace`.
 
-> `Process := Queue<Word ∈ Dictionary=SampleSpace> :: controlled`
+> `Process := Queue<Word ∈ SampleSpace> :: controlled`
 
 ---
 
@@ -56,7 +62,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Text<Dictionary>` / `Plan`** := `Tuple` of `Word`s from the same `Dictionary=SampleSpace`.
+**`Text<Dictionary>` / `Plan`** := `Tuple` of `Word`s from the same `Dictionary`.
 
 > `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
 

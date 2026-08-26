@@ -30,7 +30,7 @@ The formal core: the primitive `Azon` and the structures built directly from it.
 
 How static primitives become living systems that act, and how `Reality` itself is read: Process → System → Probability → Entropy → Evolution → Being.
 
-- [Dynamic Processes](1-reality/02-process.md) — `Process` := controlled `Queue` of `Word`s from the same `Dictionary=SampleSpace`.
+- [Dynamic Processes](1-reality/02-process.md) — `Process` := controlled `Queue` of `Word`s from the same `SampleSpace`.
 - [Systems](1-reality/07-system.md) — things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does.
 - [Probability](1-reality/10-probability.md) — how likelihood is measured over a `Random Variable`, updated by evidence, and what a `Flow` settles into over many `Step`s.
 - [Entropy](1-reality/14-entropy.md) — the bridge between the `State` of a `System` and the passage of `Step`s: `Order` is never free.
