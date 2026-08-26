@@ -116,7 +116,7 @@ follow the same banner convention (`/images/<folder>/index.svg`).
 ## Terminology and formatting
 
 - **Canonical Terms are capitalized and backticked**: `Azon`, `Set`, `Agent`, `Flow`.
-  Cross-reference related Terms with relative links, e.g. `[07-system](../1-reality/07-system.md)`.
+  Cross-reference related Terms with relative links, e.g. `[Systems](1-reality/07-system.md)`.
 - **Formal definitions are prose, not tables.** A definition opens with the bolded backticked
   Term, then `:=`, then the defining clause; the formula follows as a blockquote, and `---`
   separates consecutive definitions. See `0-math/00-azon.md`, the reference example:

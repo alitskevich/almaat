@@ -64,7 +64,7 @@ The `Structure`: a `Set` equipped with `Operation`s constrained by `Law`s, and t
 
 - A `Relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. `Setoid` and `Poset` are built on relations, not operations proper.
 - An `Action` acts *from* a second `Set` `Ω`. This is the shape behind `Module`, `Vector Space` and `Group with Operators`, which extend a single-set algebra into a two-set structure.
-- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [02-graph](03-graph.md)) — operations and `Azon` are the same kind of thing.
+- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [Composition](02-composition.md)) — operations and `Azon` are the same kind of thing.
 
 | Structure | Definition | Example |
 | --- | --- | --- |
