@@ -47,13 +47,13 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Intensional Distinguishability` | Sutnasnaja Adroznasc* |
 | `Partial Equality` | Qastkovaja Rownasc* |
 | `Total Equality` | Pownaja Rownasc* |
+| `Source` | Rodnik |
 
 ## Graph — `0-math/03-graphs`
 
 | Term | Belarusian |
 |---|---|
 | `Graph` | Tiaga |
-| `Structure` | Stroj |
 | `Cycle` | Kola |
 | `Path` | Cug |
 | `Tree` | Dreva |
@@ -94,6 +94,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Ground` | Tlo |
 | `Language` | Mova |
 | `Axiom` | Padvalina* |
+| `Theory` | Vyznanne |
 
 ## Numerals — `0-math/04-numerals`
 
@@ -122,6 +123,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | `Law` | Zakon* |
 | `Operation` | Aperacyja* |
+| `Structure` | Stroj |
 
 ## Presentational View — `0-math/06-views`
 
@@ -137,7 +139,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Content` | Zmest |
 | `Key` | Kliuq |
 | `Relation` | Adnosiny |
-| `State` | Stan |
 | `Schema` | Skema |
 | `Region` | Ramka |
 | `Projection` | Vid-zboku |
@@ -167,23 +168,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Circuit` | Dvigun |
 | `Halt` / `Absorbing State` | Krant |
 | `Bifurcation` | Razvoda* |
-| `Thing` | Shtuka |
-| `Transition` | Perexod |
-| `Trajectory` | Trajektoria |
-| `System` | Svarga |
-| `Participant` | Udelnik |
 | `Input` | Podaqa |
-| `Outcome` | Vynik |
-| `Communication` | Uplyv |
-| `Attention` | Uvaga |
-| `Behavior` | Pavoda |
-| `Environment` | Aserodde |
-| `Being` | Najavnoe |
-| `Interface` | Oblik |
-| `Coupling` | Spluq |
-| `Feedback` | Vodguk |
-| `Emergence` | Uznika* |
-| `Equilibrium` | Roynja* |
 | `Context` | Ataqenne* |
 | `Controller<Schema>` | Kirawnik<Skema>* |
 | `Independent Events` | Nezaleznyja Zjavy* |
@@ -197,12 +182,30 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Random Variable` | Vypadkovaja Veliqynia* |
 | `Text<Dictionary>` | Tekst<Slogvar>* |
 | `TransitionMatrix` | Mantra Perexodaw* |
+| `State` | Stan |
+| `Future` | Majbutnee |
+| `Potency` | Magna |
+| `Circumstances` | Varunki |
 
 ## System — `1-reality/07-system`
 
 | Term | Belarusian |
 |---|---|
 | `State of a Participant` | Stan Udelnika* |
+| `Thing` | Shtuka |
+| `Transition` | Perexod |
+| `Trajectory` | Trajektoria |
+| `System` | Svarga |
+| `Participant` | Udelnik |
+| `Communication` | Uplyv |
+| `Attention` | Uvaga |
+| `Behavior` | Pavoda |
+| `Environment` | Aserodde |
+| `Interface` | Oblik |
+| `Coupling` | Spluq |
+| `Feedback` | Vodguk |
+| `Emergence` | Uznika* |
+| `Equilibrium` | Roynja* |
 
 ## Probability — `1-reality/10-probability`
 
@@ -235,19 +238,18 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | `Consciousness` | Svedomost |
 | `Sensation` | Adquvanne* |
+| `Being` | Najavnoe |
+| `Reality` | Realia |
 
 ## Intellect — `2-mind/11-intellect`
 
 | Term | Belarusian |
 |---|---|
-| `Theory` | Vyznanne |
 | `Name` | Jmia |
 | `Concept` | Paniatte |
 | `Opinion` | Merkovanne |
 | `Thesis` | Domysl |
-| `Proof` | Dokaz |
 | `Doubt` | Sumlev* |
-| `Source` | Rodnik |
 | `Mind` | Razvaga |
 | `Sensor` | Datqyk |
 | `Neuron` | Nejron |
@@ -257,9 +259,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Memory` | Pamiac |
 | `Codebook` | Kodavik* |
 | `Meaning` | Tlumaq* |
-| `Information` | Infa |
 | `Knowledge` | Veda |
-| `Reality` | Realia |
 | `Experience` | Dosved |
 | `Cognition` | Paznanne |
 | `Validation` | Dostip |
@@ -267,6 +267,10 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Prediction` | Vesqun* |
 | `Skill` | Navyk |
 | `Bias` | Naxil |
+| `Rationale` | Racyja |
+| `Strategy` | Strategia |
+| `Wisdom` | Mudra* |
+| `Intellect` | Rozum |
 
 ## Proof — `2-mind/06-proof`
 
@@ -274,6 +278,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | `Formalism` | Farmalizm* |
 | `Interpretation` | Vytlumaqenne* |
+| `Proof` | Dokaz |
 
 ## Computation — `2-mind/07-computation`
 
@@ -293,6 +298,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Transformation` | Perawtvarenne* |
 | `Transformer` | Perawtvaralnik* |
 | `Equivalence` | Rawnaznaqnasc* |
+| `Information` | Infa |
 
 ## Reasoning — `2-mind/08-reasoning`
 
@@ -310,9 +316,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Agent` | Dzejaq |
 | `Self-Efficacy` | Ragna |
 | `Will` | Volia |
-| `Future` | Majbutnee |
-| `Potency` | Magna |
-| `Circumstances` | Varunki |
 | `Core-Value` | Skarb |
 | `Core-Need` | Patreba |
 | `Drive` | Prugna |
@@ -334,6 +337,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Forward-Responsibility` | Napieradnaja Adkaznasc* |
 | `Computational-Irreducibility` | Nieskaratnasc Liku* |
 | `Decision-Context` | Ataqenne Rashennia* |
+| `Outcome` | Vynik |
 
 ## Predictive Perception — `2-mind/13-predictive`
 
@@ -362,9 +366,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Freedom` | Svaboda |
 | `Constraint` | Skuta |
 | `Excellence` | Daskanalost |
-| `Rationale` | Racyja |
-| `Strategy` | Strategia |
-| `Wisdom` | Mudra* |
 | `Improvement` | Dhivna |
 | `Breakthrough` | Dxarna |
 | `Practice` | Praca* |
@@ -381,21 +382,15 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Human Being` | Qalavelk |
 | `Inspiration` | Nadxnenne |
 | `Dignity` | Godnost |
-| `Awareness` | Prytomnasc* |
 | `Conscience` | Sumlenne |
 | `Absolute Truth` | Jstina |
 | `Own Truth` | Pravda |
-| `Intellect` | Rozum |
-| `Faith` | Svera |
 | `Happiness` | Sqastte |
 | `Mission` | Shlaxt |
 | `Resilience` | Tryvalost |
 | `Greatness` | Veliq |
 | `Openness` | Adkrytost |
 | `Joy` | Rajdost |
-| `Acceptance` | Pryniatte |
-| `Moderation` | Stiplost |
-| `Gratitude` | Udjaqnost |
 | `Forgiveness` | Daravanne |
 | `Asking Forgiveness` | Prabaqenne |
 | `Kapot` | Qerta |
@@ -413,12 +408,17 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Love` | Amora |
 | `Rajdo` | Pryniatte Byccia* |
 | `Self-Acceptance` | Ja-pryniatte* |
+| `Awareness` | Prytomnasc* |
+| `Acceptance` | Pryniatte |
+| `Moderation` | Stiplost |
+| `Gratitude` | Udjaqnost |
 
 ## Truth — `4-human/25-truth`
 
 | Term | Belarusian |
 |---|---|
 | `Truth` | Saprawdnasc* |
+| `Faith` | Svera |
 
 ## The Living Animal — `4-human/28-animal`
 
