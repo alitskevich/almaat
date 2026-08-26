@@ -55,7 +55,7 @@ flowchart LR
 
 The transfer of responsibility that grants `Legitimacy` is [conformism](36-conformism.md) at the scale of a population.
 
-An `Agent` who cannot be a threat is, to `Power`, a tool — axiom 7 of the [social contract](31-ecology.md#key-axioms).
+An `Agent` who cannot be a threat is, to `Power`, a tool — axiom 6 of the [social contract](31-ecology.md#key-axioms).
 
 ## The State
 

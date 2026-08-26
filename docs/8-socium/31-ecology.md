@@ -70,12 +70,12 @@ A choice is ethical if it remains good when applied universally to all members o
 1. Those without their own truth will be colonized by others'
 2. Those without their own will execute others'
 3. Rights are not given — they are taken, with the obligation to defend them; see [Rights](../4-human/98-manifesto.md#rights)
-5. A society built on conscience surpasses one built on violence
-6. People of conscience have no insurmountable conflicts
-7. If you cannot be a threat, you are only a tool
-8. You cannot buy peace at the cost of your dignity — see [`Kapot`](../4-human/26-greatness.md)
-9. The triumph of despotism is forcing slaves to declare themselves free
-10. Only unconditional principle has the force of moral law
+4. A society built on conscience surpasses one built on violence
+5. People of conscience have no insurmountable conflicts
+6. If you cannot be a threat, you are only a tool
+7. You cannot buy peace at the cost of your dignity — see [`Kapot`](../4-human/26-greatness.md)
+8. The triumph of despotism is forcing slaves to declare themselves free
+9. Only unconditional principle has the force of moral law
 
 ## Game Theory
 
