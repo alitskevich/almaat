@@ -42,7 +42,7 @@ The reward circuit recovers once the [supernormal stimulus](../4-human/28-animal
 
 A compulsion is a mechanism, not a moral flaw. Treat the urge as a process to manage, not a character to fix.
 
-The automatic system fires before the deliberate one engages — a gap in speed, not weakness of character. See [two systems compete](../4-human/28-animal.md#reward-and-compulsion).
+The automatic system fires before the deliberate one engages — see [two systems compete](../4-human/28-animal.md#reward-and-compulsion).
 
 **Stress tips the balance.** Chronic stress weakens the goal-directed system and strengthens automatic patterns, so relapse arrives under fatigue and pressure. Shame and self-blame run the *same* [`Stress`](../4-human/28-animal.md#emotion-and-stress) response and so cement the compulsion. Vulnerability is partly inherited and partly adaptation — a short path to relief, not a breakage.
 
