@@ -36,7 +36,7 @@ Against an **engineered compulsion** — a product built by a system that optimi
 | **Taper and expect the dip** | Cutting a supernormal stimulus often brings a temporary crash before baseline pleasure returns. Plan for it; it passes. |
 | **Cut the whole class** | Short-form video, feeds, and games run the same loop — removing one while feeding another stalls recovery. |
 
-The reward circuit recovers once the [supernormal stimulus](../4-human/28-animal.md#reward-and-compulsion) is removed.
+[The reward circuit recovers once the supernormal stimulus is removed](../4-human/28-animal.md#reward-and-compulsion).
 
 ## Breaking a Compulsion
 
