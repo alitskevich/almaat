@@ -19,6 +19,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Azon` | Az |
 | `Zero` | Puston |
 | `Unit` | Proston |
+| `Sign` | Znak* |
+| `Value` | Znaqenne* |
 
 ## Sets, Equivalence, Topology — `0-math/01-sets`
 

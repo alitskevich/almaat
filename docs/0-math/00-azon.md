@@ -16,6 +16,14 @@ keywords: [math, azon]
 
 ---
 
+**`Sign`** := what an `Azon` responds to — the `x` of `Azon := x → y`.
+
+---
+
+**`Value`** := what an `Azon` responds with — the `y`.
+
+---
+
 **`Zero`** := `Azon` that *always* responds with itself
 
 > `Zero := x → Zero`
