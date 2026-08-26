@@ -83,7 +83,7 @@ The applied disciplines that raise the human toward excellence, ordered as the f
 - [Mindset](7-mastery/02-mindset.md) — the inner stance mastery is built on: owning every desire as your own, and reading cause from the inside.
 - [Vision](7-mastery/03-vision.md) — direction: the authentic Way, the `Goal`s worth spending a life on, and the reviews that keep them honest.
 - [Discipline](7-mastery/04-discipline.md) — the will to act without waiting to feel like it: a system of ritual and integrity, not a character trait.
-- [Habits](7-mastery/05-habits.md) — the mechanism discipline runs on: a `Cue` → `Craving` → `Response` → `Reward` loop that compounds small actions into `Identity`.
+- [Habits](7-mastery/05-habits.md) — the mechanism discipline runs on: a `Cue` → `Craving` → `Response` → `Reward` loop that compounds small actions into identity.
 - [Environment](7-mastery/06-environment.md) — architecture beats willpower: design the surroundings, cut the cue, replace the reward, and spend resolve once instead of daily.
 - [Attention](7-mastery/07-attention.md) — what the working day is made of: attention profiles, the order of stimulation, and the block that must be protected to reach the work.
 - [Productivity](7-mastery/08-productivity.md) — cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.

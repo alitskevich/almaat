@@ -1,6 +1,6 @@
 ---
 title: "Habits"
-description: "The mechanism discipline runs on: a Cue → Craving → Response → Reward loop that compounds small actions into Identity."
+description: "The mechanism discipline runs on: a Cue → Craving → Response → Reward loop that compounds small actions into identity."
 keywords: [mastery, habits]
 license: UNLICENSED
 created: 2026-06-24
@@ -12,7 +12,7 @@ source: docs/7-mastery/05-habits.md
 
 ![Habits](/images/7-mastery/05-habits.svg)
 
-The mechanism discipline runs on: a Cue → Craving → Response → Reward loop that compounds small actions into Identity.
+The mechanism discipline runs on: a Cue → Craving → Response → Reward loop that compounds small actions into identity.
 
 ## Building Habits
 
