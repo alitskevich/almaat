@@ -148,7 +148,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Measure` *(pending primitive)* | Mera |
 | `Attribute` | Prykmeta* |
 | `Entity` | Asobnik* |
-| `Quality<Type>` | Jakost Typu* |
+| `Quality<Type>` | Jakost<Typ>* |
 | `Sigma<n>` | Jadro<n>* |
 | `Space` | Shyr* |
 | `Reference` | Spasylka* |
@@ -185,17 +185,17 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Emergence` | Uznika* |
 | `Equilibrium` | Roynja* |
 | `Context` | Ataqenne* |
-| `Controller<Schema>` | Kirawnik* |
+| `Controller<Schema>` | Kirawnik<Skema>* |
 | `Independent Events` | Nezaleznyja Zjavy* |
 | `Ingress` | Uvod* |
 | `Law of Total Probability` | Zakon Pownaj Veragodnasci* |
-| `MutuallyExclusiveEvents` | Nesumiasqalnyja Zjavy* |
+| `MutuallyExclusiveEvents` | Nesumiashqalnyja Zjavy* |
 | `SampleSpace` | Prastor Vynikaw* |
 | `Probability` | Veragodnasc* |
 | `Probability Distribution` | Razmerkavanne Veragodnasci* |
 | `Process` | Praces* |
 | `Random Variable` | Vypadkovaja Veliqynia* |
-| `Text<Dictionary>` | Tekst* |
+| `Text<Dictionary>` | Tekst<Slogvar>* |
 | `TransitionMatrix` | Mantra Perexodaw* |
 
 ## System — `1-reality/07-system`
@@ -513,7 +513,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Productivity` | Ruplivost |
 | `Save Early` | Ashqadnast |
 | `Live Below Means` | Skromnast |
-| `Invest Wisely` | Ukladaj Razumna* |
+| `Invest Wisely` | Razumnae Ukladanne* |
 | `Leverage` | Ryqag* |
 
 ## Energy — `8-sustain/05-energy`
