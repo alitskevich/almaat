@@ -253,7 +253,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Faith | SVERA |
 | Happiness | SQASTTE |
 | `Mission` | SHLAXT |
-| Wisdom | MUDROST |
 | Resilience | TRYVALOST |
 | Greatness | VELIQ |
 | Maturity | DAROSLOST |
@@ -297,16 +296,15 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| Mastery | Majsterstvo |
 | Determination | NASTYRNOST |
 | Save Early | Ashqadnast |
 | Live Below Means | Skromnast |
 | `Conformism` | Pakornast* |
 | `Moral Courage` | Smelast* |
-| `Inferiority Trance` | Trans Niepaŭnasci* |
-| `Real Self` | Ja-Sapraŭdnae* |
+| `Inferiority Trance` | Trans Niepawnasci* |
+| `Real Self` | Ja-Saprawdnae* |
 | `Ideal Self` | Ja-Idealnae* |
-| `Self-Compassion` | Samaspaĉuvanne* |
+| `Self-Compassion` | Samaspaquvanne* |
 | `Radical Acceptance` | Skroznae Pryniacce* |
 
 ## Productivity — `7-mastery/08-productivity`
