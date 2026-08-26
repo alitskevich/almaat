@@ -74,6 +74,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Code` | Kod |
 | `Alphabet` | Bukvar |
 | `Word` | Slogva |
 | `Dictionary` | Slogvar |
@@ -132,11 +133,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Flow` | Rux |
 | `Plan` | Plan |
 | `Step` | Mig |
+| `Event` | Zjava |
 | `Circuit` | Dvigun |
 | `Halt` | Krant |
 | `Bifurcation` | Razvoda* |
 | `Thing` | Shtuka |
-| `Transition` | Zjava |
+| `Transition` | Perexod |
 | `Trajectory` | Trajektoria |
 | `System` | Svarga |
 | `Participant` | Udelnik |
@@ -172,7 +174,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Signal` | Signal |
 | `Message` | Vestka |
 | `Memory` | Pamiac |
-| `Codebook` | Kod |
+| `Codebook` | Kodavik* |
 | `Meaning` | Tlumaq* |
 | `Information` | Infa |
 | `Knowledge` | Veda |
@@ -185,6 +187,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Skill` | Navyk |
 | `Bias` | Naxil |
 | `Paradigm` | Vega |
+
+## Computation — `2-mind/07-computation`
+
+| Term | Belarusian |
+|---|---|
+| `Program` | Pragrama |
 
 ## Agency and Teleology — `2-mind/09-teleos`
 
