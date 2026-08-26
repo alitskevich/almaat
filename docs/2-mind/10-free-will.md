@@ -69,7 +69,7 @@ Why carry an `Authorship-Illusion` at all? A `System` whose parts each act on mo
 To bind a constantly-renewing process to its own future, one part must hold a unified, time-extended view and feel itself to be the whole that persists. The felt single `Agent` is that locus: the thing for which consequences land, so that long-range `Core-Value` can outrank short-range impulse.
 
 This makes the illusion functionally real. Believing one is the author strengthens the control and motivation that produce better `Solution` — the same point as [`Self-Efficacy`](09-teleos.md#the-agent) being itself causal.
- So even if `Free-Will` is not metaphysically given, it earns its keep: an illusion that reliably shapes `Behavior` is, on the plane where the `Agent` lives, real. Compare the idealist framing in [22-being](../1-reality/22-being.md), where the choice is yours because it follows from what you are.
+ So even if `Free-Will` is not metaphysically given, it earns its keep: an illusion that reliably shapes `Behavior` is, on the plane where the `Agent` lives, real. Compare the idealist framing in [Being](../1-reality/22-being.md), where the choice is yours because it follows from what you are.
 
 ## Compassion as Corollary
 

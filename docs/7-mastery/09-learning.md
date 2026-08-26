@@ -36,7 +36,7 @@ Reps alone plateau. [`Practice`](01-mastery.md#terms) compounds only when aimed 
 **Discomfort is the signal.** Comfort means you have left the band where correction happens.
 
 - **Aim at the weakness.** Drill the specific sub-skill that fails, not the whole performance you already pass.
-- **Tighten the feedback.** Shorten the gap between attempt and correction; delayed feedback teaches little (see [Conditioning → timing](../8-sustain/09-manipulation.md#conditioning)).
+- **Tighten the feedback.** Shorten the gap between attempt and correction; delayed feedback teaches little (see [Manipulation → Conditioning](../8-sustain/09-manipulation.md#conditioning)).
 - **Volume over perfection.** Many corrected attempts beat a few flawless ones; the reps are what reshape `Memory`. Staying in that discomfort is what [Discipline](04-discipline.md) is for, and years of it is [`Mastery`](01-mastery.md).
 
 ## Making It Stick

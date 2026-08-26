@@ -26,7 +26,7 @@ A boundary without a consequence is a suggestion — [principle 7](01-sustain.md
 | **Money** | Loans, gifts, shared costs |
 | **Emotional labor** | Whose feelings you manage |
 | **Values** | What you will and won't be party to |
-| **Information** | What you disclose, and to whom — see [Graduated disclosure](10-reading.md#unreadability) |
+| **Information** | What you disclose, and to whom — see [Graduated Disclosure](10-reading.md#graduated-disclosure) |
 
 A boundary is **statement + consequence + consistent enforcement**. The consequence is yours to control ("then I'll leave the call"), never a threat to control them. Inconsistent enforcement teaches others the limit is negotiable.
 
