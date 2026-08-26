@@ -78,7 +78,7 @@ Biases occur due to limitations of the human brain:
 | **Scarcity Bias** | Valuing things more when they are rare or perceived to be limited |
 | **Contrast Effect** | Judging something by what sits next to it rather than on its own merits — a cost feels small beside a larger one |
 | **Paradox of Choice** | Too many options reduce satisfaction and stall decisions instead of helping; more alternatives mean more regret and comparison |
-| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible — so success stories teach the shape of luck, not a repeatable method. See [Luck & Serendipity](10-luck.md) |
+| **Survivorship Bias** | Judging from the winners you can see while the identical efforts that failed stay invisible. See [Luck & Serendipity](10-luck.md) |
 
 ## Logical Fallacies
 
