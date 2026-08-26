@@ -33,6 +33,8 @@ The quarterly cadence belongs to direction rather than execution — see [Vision
 
 Advance through steady, successful steps by iterating: Observe → Reflect → Decide → Plan → Act → Repeat. This runs the [OODA loop](../8-sustain/06-security.md#the-ooda-loop) on a longer timescale, with a planning step added.
 
+*Mastery is forged in trials and feedback. Success at the universal level cannot be taught — only earned through overcoming.*
+
 ## Principles
 
 - **Action over planning.** Doing is the only way to understand, and corrected attempts teach what predicted ones cannot.
@@ -66,7 +68,5 @@ Discipline is the input; leverage is the multiplier.
 - **Save Early**: Automate savings, so the decision is made once.
 - **Live Below Means**: Spend less than you can. Never spend to impress.
 - **Invest Wisely**: Put money to work in assets that grow over time.
-
-*Mastery is forged in trials and feedback. Success at the universal level cannot be taught — only earned through overcoming.*
 
 [[31]]
