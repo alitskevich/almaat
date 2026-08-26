@@ -57,6 +57,6 @@ Where the architecture has not yet caught up, two moves convert a live urge from
 
 **Work with a relapse, don't moralize it.** A relapse is data, not a verdict. The danger is the next 10 minutes and the "what-the-hell effect" — perfectionism that turns one slip into a collapse. Acknowledge it without drama → ask "what did I feel just before?" → take one small step now.
 
-**Identity and connection.** "I don't smoke" works better than "I'm trying to quit" — `Behavior` follows the identity one claims, built from small proofs (see [Building Habits](05-habits.md#building-habits)). Environment is part of the mechanism: isolation deepens compulsion and a rich environment loosens it, which is why company counts as architecture.
+**Identity and connection.** "I don't smoke" works better than "I'm trying to quit" — [`Behavior` follows the identity one claims](05-habits.md#building-habits). Environment is part of the mechanism: isolation deepens compulsion and a rich environment loosens it, which is why company counts as architecture.
 
 Company is environment too — the norms you absorb are set by whoever you are around most. See [Influence → Company and Norms](../8-socium/33-interpersonal.md#company-and-norms).
