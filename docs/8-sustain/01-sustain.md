@@ -10,8 +10,6 @@ keywords: [sustain]
 
 ## Principles Under Pressure
 
-Ten for the Self half, five for the Body half.
-
 ### The Body
 
 1. Consistency beats intensity: what you do daily decides more than what you do hard.

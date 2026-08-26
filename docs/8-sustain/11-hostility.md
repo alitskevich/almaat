@@ -32,7 +32,7 @@ Open conflict is expensive. Declaring a fight to your face stakes reputation and
 
 ## The Root
 
-Ressentiment is **desire plus powerlessness**. Wanting what you have — discipline, standing, calm — but unwilling to pay what you paid, the psyche must either admit "he could, I could not," or devalue the thing wanted. The hatred is aimed at the mirror: your discipline indicts their slackness merely by existing, so you are hated for the comparison, not for any wrong. The seed sits in everyone — the half-second sting at another's win is universal — and the difference is what is done with it:.
+Ressentiment is **desire plus powerlessness**. Wanting what you have — discipline, standing, calm — but unwilling to pay what you paid, the psyche must either admit "he could, I could not," or devalue the thing wanted. The hatred is aimed at the mirror: your discipline indicts their slackness merely by existing, so you are hated for the comparison, not for any wrong. The seed sits in everyone — the half-second sting at another's win is universal — and the difference is what is done with it.
 
 ## Response
 
