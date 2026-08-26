@@ -32,7 +32,9 @@ Ervin Staub studied how ordinary people become accomplices to mass killing. It n
 
 ## Moral Courage
 
-`Moral Courage` is not the absence of [Fear](../4-human/28-animal.md); it is acting against fear because something matters more than comfort. It rarely looks like the movies — no speech, no applause. It begins in small daily moments: not laughing at a joke you find vile, not agreeing with a claim you believe is false because arguing is awkward, not endorsing what you think unjust because the majority does. Each small act is training, and an unused muscle atrophies. See [Courage and Enjoyment](../7-mastery/02-mindset.md#courage-and-enjoyment).
+**`Moral Courage`** := acting against fear because something matters more than comfort.
+
+*NOTE*: not the absence of [Fear](../4-human/28-animal.md) — fear is present and outweighed. It rarely looks like the movies — no speech, no applause. It begins in small daily moments: not laughing at a joke you find vile, not agreeing with a claim you believe is false because arguing is awkward, not endorsing what you think unjust because the majority does. Each small act is training, and an unused muscle atrophies. See [Courage and Enjoyment](../7-mastery/02-mindset.md#courage-and-enjoyment).
 
 **One voice changes the room.** In Asch's line experiments most participants conformed to an obviously wrong majority at least once, and a single dissenting voice cut conformity sharply. Conformism runs on the appearance of unanimity, and the trap has a name: *pluralistic ignorance*, where each person privately disagrees but fakes agreement because everyone else seems to, so most stay silent believing they are the minority when they are not. A consistent minority shifts the majority — but only if it speaks.
 

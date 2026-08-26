@@ -8,17 +8,19 @@ keywords: [socium, transes, inferiority]
 
 ![Social Trances](/images/8-socium/35-transes.svg)
 
+**`Inferiority Trance`** := a near-constant, invisible sense that something is wrong with oneself.
+
 It is a trance in the literal sense: as in a dream, you do not know you are in it. It fills thoughts, choices, and relationships yet stays invisible, and confidence is no evidence of its absence. Its voice is unmistakable: *not for someone like you; you should have stayed quiet; you let everyone down; you don't matter.* [Acceptance of Imperfection](../7-mastery/02-mindset.md#acceptance-of-imperfection) and [Self-Honesty](../7-mastery/02-mindset.md#self-honesty) name the same machinery from the side of the cure.
 
 ## Three Sources
 
 None is escapable, so no one grows up uninfected.
 
-**Mass media.** Body and success ideals have inflated past what is naturally reachable: the presented standards for both men and women have moved past what training alone reaches. Chasing the image breeds `Body Dysmorphia`, obsessive distress over a small or imagined flaw, often paired with depression, anxiety, and eating disorders. But media does not create the feeling, it *monetizes* it. The fitness, surgery, and supplement industries sell relief from a wound already there, and we take the bait only because we already believed something was wrong with us.
+**Mass media.** Body and success ideals have inflated past what is naturally reachable: the presented standards for both men and women have moved past what training alone reaches. Chasing the image breeds body dysmorphia, obsessive distress over a small or imagined flaw, often paired with depression, anxiety, and eating disorders. But media does not create the feeling, it *monetizes* it. The fitness, surgery, and supplement industries sell relief from a wound already there, and we take the bait only because we already believed something was wrong with us.
 
 **Suppression of feeling.** An old conflict: the `Animal` in us against the keeper of the social order. Our drives — aggression, lust, envy, hatred — clash with the rules of a safe society, so morality brands them shameful. The error is branding not only harmful *acts* but the *feelings*, which cannot be controlled because they arrive unasked. Suppression is only pretense: a feeling is the signal of a need, and an ignored signal grows louder. Gendered rules ("girls don't get angry", "boys don't cry") add shame about the feeling itself. A feeling owned loses its charge; a feeling suppressed keeps its charge. See [Self-Empathy and Self-Trust](../7-mastery/02-mindset.md#self-trust).
 
-**Conditional love in childhood.** The self splits into the `Real Self` (who I feel I am) and the `Ideal Self` (who I want to be). Healthy growth needs unconditional acceptance — being valued regardless of success or error. When love is conditional on performance ("good *if* you get top marks"), the `Real Self` feels defective, the `Ideal Self` becomes a standard that always finds you short, and worth becomes a receding prize. Five marks: constant self-editing; fear of mistakes, each felt as proof of who you really are; no satisfaction in success, since the bar moves with you; living inside others' expectations, cut off from your own needs; and parents who pass it down, never having been shown another option. Adults compound it by treating children as unfinished humans ("you'll have opinions when you grow up"), so the child feels unreal and hopes worth arrives with adulthood. It does not arrive on its own.
+**Conditional love in childhood.** The self splits into the real self (who I feel I am) and the ideal self (who I want to be). Healthy growth needs unconditional acceptance — being valued regardless of success or error. When love is conditional on performance ("good *if* you get top marks"), the real self feels defective, the ideal self becomes a standard that always finds you short, and worth becomes a receding prize. Five marks: constant self-editing; fear of mistakes, each felt as proof of who you really are; no satisfaction in success, since the bar moves with you; living inside others' expectations, cut off from your own needs; and parents who pass it down, never having been shown another option. Adults compound it by treating children as unfinished humans ("you'll have opinions when you grow up"), so the child feels unreal and hopes worth arrives with adulthood. It does not arrive on its own.
 
 ## Three Strategies
 
@@ -40,7 +42,7 @@ The same split runs motivation. **Avoidance** (away-from) is driven by disgust a
 
 ## The Way Out
 
-Fighting, fleeing, or repairing the trance all act from the premise *something is wrong with me*, so each attempt re-confirms it — fighting shame summons more shame. The exit is the opposite move: `Radical Acceptance`, in three steps.
+Fighting, fleeing, or repairing the trance all act from the premise *something is wrong with me*, so each attempt re-confirms it — fighting shame summons more shame. The exit is the opposite move: radical acceptance, in three steps.
 
 **Recognize.** Catch the trance by its tells — the merciless inner voice, fear, shame, envy, anxiety — and name the feeling plainly, aloud: "I feel shame." Naming is not a trick: it [describes the state instead of enacting it](../4-human/28-animal.md#emotion-and-stress), which is what breaks the automatic fight-or-fix response.
 

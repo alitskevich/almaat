@@ -461,6 +461,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Collective Mind` | Gramadski Rozum* |
 | `Idemon` | Dumavik* |
 
 ## Politics — `8-socium/37-politics`
@@ -479,10 +480,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Term | Belarusian |
 |---|---|
 | `Inferiority Trance` | Trans Niepawnasci* |
-| `Real Self` | Ja-Saprawdnae* |
-| `Ideal Self` | Ja-Idealnae* |
+| `Aspirational Self` | Ja-Idealnae* |
 | `Self-Compassion` | Samaspaquvanne* |
-| `Radical Acceptance` | Skroznae Pryniacce* |
 
 ## Conformism — `8-socium/36-conformism`
 

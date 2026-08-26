@@ -10,7 +10,7 @@ keywords: [socium, culture]
 
 ## Collective Mind
 
-The `Collective Mind` (mentality) is invisible to those inside it: it sets the bounds of thought before any thought is examined.
+**`Collective Mind`** := the mentality of a group — invisible to those inside it, it sets the bounds of thought before any thought is examined.
 
 ### Idemons
 
