@@ -16,11 +16,9 @@ The capacity to form, validate, and apply one's own `Reality` — cognition, val
 
 ## Reality and Experience
 
-**`Reality`** := The totality of conceptions about Being — the space of which `Knowledge` is the validated subset.
+[`Reality`](../1-reality/22-being.md#reality) is defined with `Being` — the representation `Consciousness` builds from `Sensation`. [`Knowledge`](05-knowledge.md) is what a `Mind` builds from it to predict and act.
 
-> `Reality := space of conceptions about Being; Knowledge ⊆ Reality`
-
-*NOTE*: **Objective Reality** is the intersection of `Knowledge` across a community of knowers — the shared subset on which `Communication` is reliable.
+**Objective Reality** is the intersection of `Knowledge` across a community of knowers — the shared subset on which `Communication` is reliable.
 
 ---
 
