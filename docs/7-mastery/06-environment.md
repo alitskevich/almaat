@@ -29,12 +29,12 @@ Against an **engineered compulsion** — a product built by a system that optimi
 
 | Move | Why it works |
 | ---- | ------------ |
-| **Cut access at the source** | Block at the router or DNS, not the app — friction you cannot undo in a weak moment. |
-| **Raise activation energy** | Phone out of the bedroom, logged out, screen grayscale. Every added step is a decision point in your favor. |
-| **Break the scene** | Habits bind to place, time, and people (phone in bed, cigarette on the balcony). Physically removing the cue stops the automatic trigger. |
-| **Replace the reward** | Leave no vacuum — substitute a strong natural reward: hard training, cold exposure, real connection. See [Energy → Fitness](../8-sustain/05-energy.md#fitness). |
-| **Taper and expect the dip** | Cutting a supernormal stimulus often brings a temporary crash before baseline pleasure returns. Plan for it; it passes. |
-| **Cut the whole class** | Short-form video, feeds, and games run the same loop — removing one while feeding another stalls recovery. |
+| **Cut access at the source** | Block at the router or DNS, not the app — friction you cannot undo in a weak moment |
+| **Raise activation energy** | Phone out of the bedroom, logged out, screen grayscale. Every added step is a decision point in your favor |
+| **Break the scene** | Habits bind to place, time, and people (phone in bed, cigarette on the balcony). Physically removing the cue stops the automatic trigger |
+| **Replace the reward** | Leave no vacuum — substitute a strong natural reward: hard training, cold exposure, real connection. See [Energy → Fitness](../8-sustain/05-energy.md#fitness) |
+| **Taper and expect the dip** | Cutting a supernormal stimulus often brings a temporary crash before baseline pleasure returns. Plan for it; it passes |
+| **Cut the whole class** | Short-form video, feeds, and games run the same loop — removing one while feeding another stalls recovery |
 
 [The reward circuit recovers once the supernormal stimulus is removed](../4-human/28-animal.md#reward-and-compulsion).
 
@@ -52,7 +52,7 @@ Where the architecture has not yet caught up, two moves convert a live urge from
 
 | Principle | Move | Why it works |
 | --------- | ---- | ------------ |
-| **Pause** | When the urge hits, tell yourself "in 10 minutes" and just watch it. | The urge has a peak and a decay. The wave passes on its own, and the decision gets made from a calm state instead of the peak. |
+| **Pause** | When the urge hits, tell yourself "in 10 minutes" and just watch it | The urge has a peak and a decay. The wave passes on its own, and the decision gets made from a calm state instead of the peak |
 | **Rename** | Name the want plainly — "this is anxiety looking for an exit," not "I need a drink." | [Naming describes the state instead of enacting it](../4-human/28-animal.md#emotion-and-stress), which is what makes it possible to wait it out |
 
 **Work with a relapse, don't moralize it.** A relapse is data, not a verdict. The danger is the next 10 minutes and the "what-the-hell effect" — perfectionism that turns one slip into a collapse. Acknowledge it without drama → ask "what did I feel just before?" → take one small step now.

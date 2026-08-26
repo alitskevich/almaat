@@ -18,18 +18,18 @@ Society improves two ways — constrain evil and compel good from outside, or wo
 
 | Principle | Practice |
 | --- | --- |
-| **Reliability** | Honor commitments consistently. Reputation is your most important asset — decades to build, a moment to destroy. |
-| **Ownership** | Stop waiting for permission. Take responsibility for what is in your sphere even when it is not your fault; it builds confidence and control. |
-| **Listening** | Ask more, talk less — real listening builds connection and insight faster than eager answering. Ask for advice rather than feedback; people are flattered and answer more usefully. |
-| **Communication** | Find common language, navigate opposing viewpoints, share your vision clearly. |
-| **Collaboration** | Accept criticism, resolve conflicts, keep the environment safe. |
-| **Positive-sum** | The best way to win is to help the other person win — [`Synergy`](../1-reality/15-evolution.md#shared-success) in a two-person exchange; shared goals before personal ones. |
-| **Equal dignity, differentiated merit** | People are equal in dignity and differ in mindset, conduct, and competence. Do not measure others by yourself. |
-| **Ask** | You will get yes more often than you expect. |
-| **Warm connections** | When in doubt, reach out and push past the awkwardness. A handwritten thank-you note every two weeks; gratitude compounds. |
-| **Yes early, no later** | Youth favors yes, experience favors no: yes to opportunities, no to distractions. |
-| **Humility** | Confidence without humility is arrogance; the combination makes someone worth following. |
-| **Perspective** | Nobody is watching you as much as you think; everyone is focused on themselves. |
+| **Reliability** | Honor commitments consistently. Reputation is your most important asset — decades to build, a moment to destroy |
+| **Ownership** | Stop waiting for permission. Take responsibility for what is in your sphere even when it is not your fault; it builds confidence and control |
+| **Listening** | Ask more, talk less — real listening builds connection and insight faster than eager answering. Ask for advice rather than feedback; people are flattered and answer more usefully |
+| **Communication** | Find common language, navigate opposing viewpoints, share your vision clearly |
+| **Collaboration** | Accept criticism, resolve conflicts, keep the environment safe |
+| **Positive-sum** | The best way to win is to help the other person win — [`Synergy`](../1-reality/15-evolution.md#shared-success) in a two-person exchange; shared goals before personal ones |
+| **Equal dignity, differentiated merit** | People are equal in dignity and differ in mindset, conduct, and competence. Do not measure others by yourself |
+| **Ask** | You will get yes more often than you expect |
+| **Warm connections** | When in doubt, reach out and push past the awkwardness. A handwritten thank-you note every two weeks; gratitude compounds |
+| **Yes early, no later** | Youth favors yes, experience favors no: yes to opportunities, no to distractions |
+| **Humility** | Confidence without humility is arrogance; the combination makes someone worth following |
+| **Perspective** | Nobody is watching you as much as you think; everyone is focused on themselves |
 
 ## Charisma
 
@@ -39,15 +39,15 @@ It is not an innate gift but a trainable skill: **warmth + power + presence**. M
 
 | Move | How |
 | --- | --- |
-| **Eye contact** | Hold the gaze for most of the conversation, but not all of it — unbroken eye contact reads as interrogation, and too little as avoidance. Focus on the person's eye color to land the duration naturally. |
-| **Pace and pauses** | Slow the speech, pause before answering, cut the fillers that fill a silence you fear. |
-| **Posture** | Open shoulders, visible palms, chin level, take up space, long stride. |
-| **Warmth first** | Warmth is assessed before competence: a genuine smile, the person's name, listening to understand rather than to reply. |
-| **Low voice** | Breathe from the belly, end phrases on a falling intonation, record yourself to correct delivery. |
-| **Specifics** | Details, numbers, names, and smells build a mental picture; a story (situation → twist → lesson) is retained where a bare fact is not. |
-| **Mirroring** | Mirror after a short delay — never mimicry, never aggression. Leading mirroring pulls the other into your calm. |
-| **Fewer words** | One thought, no apologies for existing ("glad we talked", not "thanks for hearing me out"). |
-| **Status + vulnerability** | The strongest and most dangerous move: only after the first eight, one small sincere admission of weakness. |
+| **Eye contact** | Hold the gaze for most of the conversation, but not all of it — unbroken eye contact reads as interrogation, and too little as avoidance. Focus on the person's eye color to land the duration naturally |
+| **Pace and pauses** | Slow the speech, pause before answering, cut the fillers that fill a silence you fear |
+| **Posture** | Open shoulders, visible palms, chin level, take up space, long stride |
+| **Warmth first** | Warmth is assessed before competence: a genuine smile, the person's name, listening to understand rather than to reply |
+| **Low voice** | Breathe from the belly, end phrases on a falling intonation, record yourself to correct delivery |
+| **Specifics** | Details, numbers, names, and smells build a mental picture; a story (situation → twist → lesson) is retained where a bare fact is not |
+| **Mirroring** | Mirror after a short delay — never mimicry, never aggression. Leading mirroring pulls the other into your calm |
+| **Fewer words** | One thought, no apologies for existing ("glad we talked", not "thanks for hearing me out") |
+| **Status + vulnerability** | The strongest and most dangerous move: only after the first eight, one small sincere admission of weakness |
 
 Charisma is intention plus repetition — add one move at a time.
 
