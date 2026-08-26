@@ -2,17 +2,11 @@
 title: "Identity"
 description: "Identity is the continuous story a person tells about themselves, in which boundaries, self-esteem, and the imperatives to follow are formed and maintained."
 keywords: [socium, identity, persona]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/8-socium/34-identity.md
 ---
 
 # Identity
 
 ![Identity](/images/8-socium/34-identity.svg)
-
-Identity is the continuous story a person tells about themselves, in which boundaries, self-esteem, and the imperatives to follow are formed and maintained.
 
 - biology — what we are (Body, Genes)
 - mind — who we feel we are (Truth, Faith)

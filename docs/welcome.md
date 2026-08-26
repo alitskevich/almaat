@@ -2,17 +2,11 @@
 title: "Welcome to ALMAAT"
 description: "ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice."
 keywords: [welcome]
-license: UNLICENSED
-created: 2026-05-26
-modified: 2026-08-25
-source: docs/welcome.md
 ---
 
 # Welcome to ALMAAT
 
 ![Welcome to ALMAAT](/images/welcome.svg)
-
-ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice.
 
 Everything rests on one irreducible primitive, the [`Azon`](0-math/00-azon.md) — a contract that responds to each given `Sign` with a specific `Value`. `Set`, `Graph`, `Numerals` and `Language` are built from it; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act; and the applied sections carry that vocabulary into a life.
 

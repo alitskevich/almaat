@@ -2,17 +2,11 @@
 title: "Presentational View"
 description: "Matter as a Basis equipped with Attributes, and the Entity, Type, Point, Place, Relation, and Schema built on it."
 keywords: [math, views]
-license: UNLICENSED
-created: 2026-08-08
-modified: 2026-08-25
-source: docs/0-math/06-views.md
 ---
 
 # Presentational View
 
 ![Presentational View](/images/0-math/06-views.svg)
-
-`Matter` as a `Basis` equipped with `Attribute`s, and the `Entity`, `Type`, `Point`, `Place`, `Relation`, and `Schema` built on it.
 
 ## Matter
 

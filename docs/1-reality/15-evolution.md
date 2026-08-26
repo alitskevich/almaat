@@ -2,17 +2,11 @@
 title: "Evolution"
 description: "Evolution is the dynamics of a Paradigm: how it improves, adapts, stagnates, or regresses as Circumstances shift."
 keywords: [reality, evolution, adaptation, crisis]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/15-evolution.md
 ---
 
 # Evolution
 
 ![Evolution](/images/1-reality/15-evolution.svg)
-
-`Evolution` is the dynamics of a `Paradigm`: how it improves, adapts, stagnates, or regresses as `Circumstances` shift.
 
 What bounds those trajectories is in [Limits](16-limits.md).
 

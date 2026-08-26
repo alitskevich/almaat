@@ -2,17 +2,11 @@
 title: "Vision"
 description: "Direction: the authentic Way, the Goals worth spending a life on, and the reviews that keep them honest."
 keywords: [mastery, vision]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/03-vision.md
 ---
 
 # Vision
 
 ![Vision](/images/7-mastery/03-vision.svg)
-
-Direction: the authentic Way, the Goals worth spending a life on, and the reviews that keep them honest.
 
 ## Determination
 

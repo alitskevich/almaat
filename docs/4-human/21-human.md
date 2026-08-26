@@ -2,10 +2,6 @@
 title: "Human Being"
 description: "**Human Being** := composition of biological circuitry, social membership, and cultural inheritance, equipped with Intellect and Inspiration."
 keywords: [human, dignity, conscience]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/4-human/21-human.md
 ---
 
 # Human Being
@@ -31,18 +27,5 @@ source: docs/4-human/21-human.md
 - and to expect comprehensive mutual support, favor, and trust from other conscientious people in return for the same.
 
 `Conscience` grants the right, and the obligation, to fully realize one's potential.
-
-## The Human Spine
-
-| Layer | Reading |
-| --- | --- |
-| **Composition** — what a human is made of | this file — `Human Being`, `Inspiration`, `Dignity`, `Conscience` |
-| **Opening** — Being as-is | [Rajdo](23-rajdo.md) — the ground it opens |
-| **Approach** — how it is reached | [Approaching Rajdo](24-approach.md) — the shift, the traps, the two intentions |
-| **Truth** — what one holds | [Truth and Faith](25-truth.md) — one's own answers, and the commitment to them |
-| **Life** — what a life earns | [Happiness and Greatness](26-greatness.md) — saturation, `Mission`, self-respect, and the line past which `Dignity` is gone |
-| **Substrate** — the older layer | [Animal](28-animal.md) — emotion, stress, and the hijacked reward circuit |
-| **Self** — what "I" points at | [The Self and Death](29-self.md) — the three layers, and what death takes |
-| **Charter** — the collective claim | [Manifesto of Humankind](98-manifesto.md) — rights, freedoms, and the duty to defend them |
 
 [References](../_quotes.md)

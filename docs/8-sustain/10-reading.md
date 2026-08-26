@@ -2,17 +2,11 @@
 title: "Reading People"
 description: "Reading the channels a person controls least — and denying an observer the map of your own reactions."
 keywords: [sustain, security, reading, unreadability]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/10-reading.md
 ---
 
 # Reading People
 
 ![Reading People](/images/8-sustain/10-reading.svg)
-
-Reading the channels a person controls least — and denying an observer the map of your own reactions.
 
 **Establish a baseline first.** Learn how a person behaves when relaxed and truthful. Deviation from *their own* baseline is the signal — not a universal "tell."
 

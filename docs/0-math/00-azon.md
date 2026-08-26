@@ -2,29 +2,11 @@
 title: "Azon"
 description: "Azon is the framework's sole primitive: a contract responding to each given Sign with a specific Value, constrained by three axioms."
 keywords: [math, azon]
-license: UNLICENSED
-created: 2026-05-26
-modified: 2026-08-25
-source: docs/0-math/00-azon.md
 ---
 
 # Azon
 
 ![Azon](/images/0-math/00-azon.svg)
-
-`Azon` is the framework's sole primitive: a contract responding to each given `Sign` with a specific `Value`, constrained by three axioms.
-
-## The Formal Spine
-
-| Layer | Reading |
-| --- | --- |
-| **Collection** — many `Azon` at once | [Sets, Equivalence, Topology](01-sets.md) — `Set`, `Element`, `Subset`, and the topological structures over them |
-| **Chaining** — one `Azon` feeding another | [Composition](02-composition.md) — `Arrow`, `Vertex`, associativity, identity, and powers |
-| **Connection** — how chains join | [Graph](03-graphs.md) — `Graph` as a `Set` of `Arrow`s, with vertices classified by in/out connectivity |
-| **Quantity** — counting and ordering | [Numerals](04-numerals.md) — `Number`, `Interval`, `Tuple`, and `Selection` |
-| **Constraint** — operations bound by laws | [Structures](05-structures.md) — `Set` equipped with `Operation`s constrained by `Law`s |
-| **Presentation** — how a thing is shown | [Presentational View](06-views.md) — `Matter`, `Attribute`, `Entity`, `Type`, and `Relation` |
-| **Notation** — how it is written | [Formal Language](07-language.md) — `Code`, `Alphabet`, `Word`, `Grammar`, `Expression`, and `Theory` |
 
 ## Definitions
 

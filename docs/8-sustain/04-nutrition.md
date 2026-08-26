@@ -2,17 +2,11 @@
 title: "Nutrition"
 description: "What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on."
 keywords: [sustain, nutrition, food]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/04-nutrition.md
 ---
 
 # Nutrition
 
 ![Nutrition](/images/8-sustain/04-nutrition.svg)
-
-What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on.
 
 ## Water
 

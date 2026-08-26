@@ -2,17 +2,11 @@
 title: "Manifesto of Humankind"
 description: "Each Human Being is a manifestation of God, born equal in Dignity: the rights that unfold it, the freedoms that exercise it, and the duty to defend both."
 keywords: [human, manifesto, rights]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/4-human/98-manifesto.md
 ---
 
 # Manifesto of Humankind
 
 ![Manifesto of Humankind](/images/4-human/98-manifesto.svg)
-
-Each `Human Being` is a manifestation of God, born equal in `Dignity`: the rights that unfold it, the freedoms that exercise it, and the duty to defend both.
 
 Our potential is expressed through curiosity, imagination, and the pursuit of beauty, and accumulates as cultural heritage, education, and science.
 

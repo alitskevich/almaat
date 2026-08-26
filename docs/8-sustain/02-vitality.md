@@ -2,17 +2,11 @@
 title: "Vitality"
 description: "The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress."
 keywords: [sustain, vitality]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/02-vitality.md
 ---
 
 # Vitality
 
 ![Vitality](/images/8-sustain/02-vitality.svg)
-
-The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
 
 ## The Stance
 

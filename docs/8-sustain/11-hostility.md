@@ -2,17 +2,11 @@
 title: "Hidden Hostility"
 description: "Ressentiment is suppressed malice — the hatred of someone who cannot strike openly; the seven signs that reveal it, and the response that leaves it powerless."
 keywords: [sustain, security, ressentiment]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/11-hostility.md
 ---
 
 # Hidden Hostility
 
 ![Hidden Hostility](/images/8-sustain/11-hostility.svg)
-
-Ressentiment is suppressed malice — the hatred of someone who cannot strike openly; the seven signs that reveal it, and the response that leaves it powerless.
 
 **Ressentiment** (Nietzsche's term) never flows downward; no one resents the weaker. It runs upward, toward whoever lives better, holds firmer, or has achieved more. Hidden hostility in your circle is therefore a backhanded compliment: someone registered your advantage and could not bear it.
 

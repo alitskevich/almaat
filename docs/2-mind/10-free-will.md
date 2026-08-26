@@ -2,17 +2,11 @@
 title: "Free Will"
 description: "Whether the Solution an Agent reaches is freely authored, or a determined output of a prior physical State that the Agent only reports after the fact."
 keywords: [mind, free-will, determinism]
-license: UNLICENSED
-created: 2026-08-16
-modified: 2026-08-25
-source: docs/2-mind/10-free-will.md
 ---
 
 # Free Will
 
 ![Free Will](/images/2-mind/10-free-will.svg)
-
-Whether the `Solution` an `Agent` reaches is freely authored, or a determined output of a prior physical `State` that the `Agent` only reports after the fact.
 
 **`Free-Will`** := The claimed capacity of an `Agent` to select a `Solution` independent of its prior `State`.
 

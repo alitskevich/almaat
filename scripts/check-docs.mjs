@@ -93,7 +93,7 @@ for (const file of files) {
 }
 
 if (conventionsDir) {
-  const REQUIRED = ["title", "description", "keywords", "license", "created", "modified", "source"];
+  const REQUIRED = ["title", "description", "keywords"];
   const conventionsRoot = resolve(ROOT, conventionsDir);
   for (const file of walk(conventionsRoot)) {
     const relPath = relative(conventionsRoot, file);
@@ -115,16 +115,6 @@ if (conventionsDir) {
     const title = h1s[0]?.[1]?.trim();
     const expectedBanner = `![${title}](${bannerPathFor(relPath)})`;
     if (!body.includes(expectedBanner)) cfail(`banner must be exactly ${expectedBanner}`);
-    const description = frontmatter[1].match(/^description:\s*"?([\s\S]*?)"?\s*$/m)?.[1];
-    const bodyLines = body.split("\n");
-    const intro = bodyLines.slice(bodyLines.findIndex((l) => l.startsWith("![")) + 1).find((l) => l.trim() !== "");
-    // Frontmatter descriptions in this repo drop `backticks` and escape "quotes";
-    // compare on the normalized text so that convention is not treated as drift.
-    const normalize = (t) => t.trim().replace(/`/g, "").replace(/\\"/g, '"');
-    if (!intro) cfail(`no intro line after banner`);
-    else if (description && normalize(intro) !== normalize(description)) {
-      cfail(`intro line and frontmatter description differ:\n    intro: ${intro.trim()}\n    desc:  ${description.trim()}`);
-    }
   }
 }
 

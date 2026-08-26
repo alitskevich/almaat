@@ -2,17 +2,11 @@
 title: "Mind"
 description: "Mind as a System of Neuron and Sensor — thought as state, memory as disposition, and the social origin of the inner voice."
 keywords: [mind]
-license: UNLICENSED
-created: 2026-07-18
-modified: 2026-08-25
-source: docs/2-mind/12-mind.md
 ---
 
 # Mind
 
 ![Mind](/images/2-mind/12-mind.svg)
-
-`Mind` as a `System` of `Neuron` and `Sensor` — thought as state, memory as disposition, and the social origin of the inner voice.
 
 ## The Substrate
 

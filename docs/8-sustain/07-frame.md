@@ -2,17 +2,11 @@
 title: "Frame"
 description: "Whoever sets the frame sets the terms: the definition of the situation, the pause that slows it, and the words that keep your standing intact."
 keywords: [sustain, security, frame, composure]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/07-frame.md
 ---
 
 # Frame
 
 ![Frame](/images/8-sustain/07-frame.svg)
-
-Whoever sets the frame sets the terms: the definition of the situation, the pause that slows it, and the words that keep your standing intact.
 
 This is the defensive half of [Influence](../8-socium/33-interpersonal.md).
 

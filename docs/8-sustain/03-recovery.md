@@ -2,17 +2,11 @@
 title: "Recovery"
 description: "Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response."
 keywords: [sustain, recovery, sleep, stress]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/03-recovery.md
 ---
 
 # Recovery
 
 ![Recovery](/images/8-sustain/03-recovery.svg)
-
-Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
 
 ## Sleep
 

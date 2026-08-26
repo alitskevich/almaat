@@ -2,33 +2,15 @@
 title: "Mastery"
 description: "Mastery as the capacity for effective activity toward constant improvement, the five stages that build it, and the Terms that define it."
 keywords: [mastery]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/01-mastery.md
 ---
 
 # Mastery
 
 ![Mastery](/images/7-mastery/01-mastery.svg)
 
-Mastery as the capacity for effective activity toward constant improvement, the five stages that build it, and the Terms that define it.
-
 ## What Mastery Is
 
 The capacity for abundant, effective activity toward constant improvement in one's chosen field, measured by `Surplus`, `Body of Work`, and `Super-Goal`s — all defined under [Terms](#terms).
-
-## The Mastery Framework
-
-Each stage depends on the one before it.
-
-| Stage | Reading |
-| --- | --- |
-| **Mindset** — the foundation | [Mindset](02-mindset.md) — owning every desire as your own, and reading cause from the inside |
-| **Vision** — gives direction | [Vision](03-vision.md) — the authentic Way and the `Goal`s worth spending a life on |
-| **Discipline** — sustains effort | [Discipline](04-discipline.md) — the will · [Habits](05-habits.md) — the mechanism · [Environment](06-environment.md) — the architecture |
-| **Productivity** — multiplies output | [Attention](07-attention.md) — what the day is made of · [Productivity](08-productivity.md) — cadence and multipliers |
-| **Growth** — compounds everything | [Learning](09-learning.md) — turning `Experience` into `Skill` · [Luck](10-luck.md) — the tunable interface with chance · [Clear Thinking](11-thinking.md) — the errors to think past |
 
 ## Terms
 

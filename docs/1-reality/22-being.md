@@ -2,17 +2,11 @@
 title: "Being"
 description: "Being as three sides — perceptive Sensation, creative Consciousness, and representative Reality — and why Reality is a readout rather than the source."
 keywords: [reality, being, consciousness]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/22-being.md
 ---
 
 # Being
 
 ![Being](/images/1-reality/22-being.svg)
-
-`Being` as three sides — perceptive `Sensation`, creative `Consciousness`, and representative `Reality` — and why `Reality` is a readout rather than the source.
 
 ## The Three Sides
 

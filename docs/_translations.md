@@ -2,17 +2,11 @@
 title: "Term Translations"
 description: "The reverse map from each canonical English Term to its Belarusian-rooted equivalent. English stays canonical in content."
 keywords: [translations]
-license: UNLICENSED
-created: 2026-05-26
-modified: 2026-08-25
-source: docs/_translations.md
 ---
 
 # Term Translations
 
 ![Term Translations](/images/_translations.svg)
-
-The reverse map from each canonical English Term to its Belarusian-rooted equivalent. English stays canonical in content.
 
 The Belarusian forms are the original authorial transliteration that gives the framework its etymological signature. They appear here and are not used in the content itself.
 

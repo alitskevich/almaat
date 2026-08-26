@@ -2,17 +2,11 @@
 title: "Numerals"
 description: "Natural numbers (Number), intervals, sequences, and selections."
 keywords: [math, numerals]
-license: UNLICENSED
-created: 2026-05-26
-modified: 2026-08-25
-source: docs/0-math/04-numerals.md
 ---
 
 # Numerals
 
 ![Numerals](/images/0-math/04-numerals.svg)
-
-Natural numbers (`Number`), intervals, sequences, and selections.
 
 ## Natural Numbers
 

@@ -2,17 +2,11 @@
 title: "The Scientific Method"
 description: "The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the five phases that produce it."
 keywords: [mind, scientific]
-license: UNLICENSED
-created: 2026-08-08
-modified: 2026-08-25
-source: docs/2-mind/90-scientific.md
 ---
 
 # The Scientific Method
 
 ![The Scientific Method](/images/2-mind/90-scientific.svg)
-
-The empirical route to `Scientific Knowledge`: the nine criteria a claim must meet, and the five phases that produce it.
 
 ## Method
 

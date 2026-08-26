@@ -2,17 +2,11 @@
 title: "Security"
 description: "Staying sovereign against threats from others, across two planes — and the hierarchy, awareness, and physiology both planes share."
 keywords: [sustain, security]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/06-security.md
 ---
 
 # Security
 
 ![Security](/images/8-sustain/06-security.svg)
-
-Staying sovereign against threats from others, across two planes — and the hierarchy, awareness, and physiology both planes share.
 
 - **Social** — coercion, manipulation, boundary violation. The attack on your judgment and autonomy: [Frame](07-frame.md), [De-escalation](08-de-escalation.md), [Manipulation](09-manipulation.md), [Reading People](10-reading.md), [Hidden Hostility](11-hostility.md), [Boundaries](12-boundaries.md).
 - **Physical** — intimidation and violence. The attack on your body: [Physical Security](13-defense.md).

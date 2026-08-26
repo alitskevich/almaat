@@ -2,17 +2,11 @@
 title: "Computation"
 description: "Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification."
 keywords: [mind, computation]
-license: UNLICENSED
-created: 2026-08-16
-modified: 2026-08-25
-source: docs/2-mind/07-computation.md
 ---
 
 # Computation
 
 ![Computation](/images/2-mind/07-computation.svg)
-
-`Reasoning` mechanized: `Data` carried through `Transformer`s by a `Runtime`, expressed as a `Program`, prescribed by an `Algorithm`, and judged against a `Specification`.
 
 ## Computation
 

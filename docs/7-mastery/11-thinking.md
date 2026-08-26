@@ -2,17 +2,11 @@
 title: "Clear Thinking"
 description: "Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible."
 keywords: [mastery, biases]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/7-mastery/11-thinking.md
 ---
 
 # Clear Thinking
 
 ![Clear Thinking](/images/7-mastery/11-thinking.svg)
-
-Systematic errors in thinking — the biases and fallacies that corrupt judgment, and the names that make them visible.
 
 ## What is Cognitive Bias?
 

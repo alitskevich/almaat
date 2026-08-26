@@ -2,17 +2,11 @@
 title: "Manipulation"
 description: "Manipulation hijacks the Animal in a single moment and conditioning shapes it across many: the levers, the tactics, and the counters to both."
 keywords: [sustain, security, manipulation, conditioning]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/09-manipulation.md
 ---
 
 # Manipulation
 
 ![Manipulation](/images/8-sustain/09-manipulation.svg)
-
-Manipulation hijacks the Animal in a single moment and conditioning shapes it across many: the levers, the tactics, and the counters to both.
 
 It works by triggering an emotional reflex — fear, guilt, urgency, belonging — so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../7-mastery/11-thinking.md); the people who run them are typed in [Reading People](10-reading.md#counterpart-types).
 

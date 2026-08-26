@@ -2,17 +2,11 @@
 title: "Productivity"
 description: "Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked."
 keywords: [mastery, productivity]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/08-productivity.md
 ---
 
 # Productivity
 
 ![Productivity](/images/7-mastery/08-productivity.svg)
-
-Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.
 
 **`Productivity`** := the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
 

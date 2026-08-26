@@ -2,17 +2,11 @@
 title: "Formal Language"
 description: "How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, and the Theory derivable from an Axiom."
 keywords: [math, language]
-license: UNLICENSED
-created: 2026-08-08
-modified: 2026-08-25
-source: docs/0-math/07-language.md
 ---
 
 # Formal Language
 
 ![Formal Language](/images/0-math/07-language.svg)
-
-How a `Language` is built from binary `Code` up through `Alphabet`, `Word` and `Dictionary`, the `Rule`s and `Grammar` that transform them, and the `Theory` derivable from an `Axiom`.
 
 ## Codes and Words
 

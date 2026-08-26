@@ -2,17 +2,11 @@
 title: "Approaching Rajdo"
 description: "Rajdo is given, not built: the shift that reveals it, the traps that imitate it, and the two intentions — personal will and surrender — behind any aim."
 keywords: [human, rajdo, practice]
-license: UNLICENSED
-created: 2026-07-18
-modified: 2026-08-25
-source: docs/4-human/24-approach.md
 ---
 
 # Approaching Rajdo
 
 ![Approaching Rajdo](/images/4-human/24-approach.svg)
-
-`Rajdo` is given, not built: the shift that reveals it, the traps that imitate it, and the two intentions — personal will and surrender — behind any aim.
 
 It tends to surface only *after* long effort, and then only when the effort is released — never by force. Practices do not manufacture it; they clear what obscures it.
 

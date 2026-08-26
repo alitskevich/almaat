@@ -2,17 +2,11 @@
 title: "Structures"
 description: "The Structure: a Set equipped with Operations constrained by Laws, and the standard algebras built from them — magmas, ringoids, and lattices."
 keywords: [math, structures]
-license: UNLICENSED
-created: 2026-08-08
-modified: 2026-08-25
-source: docs/0-math/05-structures.md
 ---
 
 # Structures
 
 ![Structures](/images/0-math/05-structures.svg)
-
-The `Structure`: a `Set` equipped with `Operation`s constrained by `Law`s, and the standard algebras built from them — magmas, ringoids, and lattices.
 
 ## Definitions
 

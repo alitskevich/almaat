@@ -2,17 +2,11 @@
 title: "Proof"
 description: "The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into."
 keywords: [mind, proof, logic]
-license: UNLICENSED
-created: 2026-08-16
-modified: 2026-08-25
-source: docs/2-mind/06-proof.md
 ---
 
 # Proof
 
 ![Proof](/images/2-mind/06-proof.svg)
-
-The formal apparatus that carries a `Thesis` to a `Proof` — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
 
 **`Proof`** := A [`Conclusion`](../0-math/07-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 

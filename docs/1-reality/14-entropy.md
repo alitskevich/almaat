@@ -2,17 +2,11 @@
 title: "Entropy"
 description: "Entropy is the bridge between the State of a System and the passage of Steps: Order is never free, and a System holds Entropy back only by drawing Communication from its Environment."
 keywords: [reality, entropy, order, self-organization]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/14-entropy.md
 ---
 
 # Entropy
 
 ![Entropy](/images/1-reality/14-entropy.svg)
-
-`Entropy` is the bridge between the `State` of a `System` and the passage of `Step`s: `Order` is never free, and a `System` holds `Entropy` back only by drawing `Communication` from its `Environment`.
 
 ## Measure
 

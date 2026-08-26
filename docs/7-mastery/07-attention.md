@@ -2,17 +2,11 @@
 title: "Attention"
 description: "What the working day is made of: attention profiles, the order of stimulation, and the block that must be protected to reach the work."
 keywords: [mastery, attention]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/07-attention.md
 ---
 
 # Attention
 
 ![Attention](/images/7-mastery/07-attention.svg)
-
-What the working day is made of: attention profiles, the order of stimulation, and the block that must be protected to reach the work.
 
 ## Attention Profile
 

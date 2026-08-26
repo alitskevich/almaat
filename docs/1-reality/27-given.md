@@ -2,17 +2,11 @@
 title: "The Given and the Constructed"
 description: "Start from what is actually given: the perceived world is small and the universe is inferred, so the governing question is not what exists but what matters."
 keywords: [reality, given, perception, epoche]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/27-given.md
 ---
 
 # The Given and the Constructed
 
 ![The Given and the Constructed](/images/1-reality/27-given.svg)
-
-Start from what is actually given: the perceived world is small and the universe is inferred, so the governing question is not what exists but what matters.
 
 An infant is shown the world; only later does the `Mind` name it "universe" and bind it into a picture. Your adult perception is that same given, now labeled — you see no more than the infant, you only know more.
 

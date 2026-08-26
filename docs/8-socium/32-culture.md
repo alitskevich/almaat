@@ -2,17 +2,11 @@
 title: "Culture"
 description: "Culture as the shared archetypes, symbols, and active ideas that form a group's cognitive foundation, and the extraction economy built on its carriers."
 keywords: [socium, culture]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/8-socium/32-culture.md
 ---
 
 # Culture
 
 ![Culture](/images/8-socium/32-culture.svg)
-
-Culture as the shared archetypes, symbols, and active ideas that form a group's cognitive foundation, and the extraction economy built on its carriers.
 
 ## Collective Mind
 

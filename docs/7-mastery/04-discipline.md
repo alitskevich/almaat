@@ -2,17 +2,11 @@
 title: "Discipline"
 description: "The will to act without waiting to feel like it — a system of ritual and integrity, not a character trait."
 keywords: [mastery, discipline]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/04-discipline.md
 ---
 
 # Discipline
 
 ![Discipline](/images/7-mastery/04-discipline.svg)
-
-The will to act without waiting to feel like it — a system of ritual and integrity, not a character trait.
 
 [[42]]
 

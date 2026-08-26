@@ -2,17 +2,11 @@
 title: "Probability"
 description: "How likelihood is measured over a Random Variable, updated by evidence, and what a Flow settles into over many Steps."
 keywords: [reality, probability, bayes, ergodic]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/10-probability.md
 ---
 
 # Probability
 
 ![Probability](/images/1-reality/10-probability.svg)
-
-How likelihood is measured over a `Random Variable`, updated by evidence, and what a `Flow` settles into over many `Step`s.
 
 ## Measure
 

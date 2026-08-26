@@ -2,17 +2,11 @@
 title: "Graph"
 description: "Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected."
 keywords: [math, graphs]
-license: UNLICENSED
-created: 2026-08-08
-modified: 2026-08-25
-source: docs/0-math/03-graphs.md
 ---
 
 # Graph
 
 ![Graph](/images/0-math/03-graphs.svg)
-
-`Graph` as a `Set` of `Arrow`s, the `Vertex` types classified by in/out connectivity, the `Path` and `Tree` built on them, and what makes a `Graph` connected.
 
 ## Definitions
 

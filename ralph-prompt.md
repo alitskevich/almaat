@@ -89,7 +89,7 @@ Write it once, in Phase 0, to `.claude/docs-revision.local.md`:
 - <path>, <path>   (or "none")
 
 ## Conventions decided in audit
-- Section navigation: <per-folder index.md | hub file | both, and which>
+- Section navigation: `docs/INDEX.md` only — no per-folder index or hub file
 - Heading case: <Title Case | sentence case>
 - <any other repo-wide call the audit made>
 
@@ -110,7 +110,7 @@ Write it once, in Phase 0, to `.claude/docs-revision.local.md`:
 Every item must be small enough to finish and commit in one iteration, and
 specific enough that a fresh iteration knows what "done" means without
 re-deriving it. "Improve the mastery docs" is not an item. "docs/7-mastery/
-05-habits.md — H1 restated in the intro line, three H3s under no H2, two
+05-habits.md — preface paragraph restating the H1, three H3s under no H2, two
 paragraphs duplicating 04-discipline.md" is.
 
 ---
@@ -121,8 +121,9 @@ paragraphs duplicating 04-discipline.md" is.
 
 Use **`superpowers:dispatching-parallel-agents`**. Dispatch one read-only agent
 per top-level folder under `docs/`, plus one cross-cutting agent. Each folder
-agent reports, per file: frontmatter defects, banner-line defects, a missing or
-H1-restating intro line, heading-hierarchy defects, concrete prose cuts
+agent reports, per file: frontmatter defects, banner-line defects, leftover
+preface matter between the banner and the first section, heading-hierarchy
+defects, concrete prose cuts
 available, definitions formatted as tables that should be prose, dead links,
 factual claims that look invented, and content duplicated elsewhere. The
 cross-cutting agent reports: file-number collisions within a folder, Terms whose
@@ -159,10 +160,13 @@ whole audit, and every count in it is a snapshot you must re-derive yourself:
 - Banner lines are inconsistent beyond the stale paths: some files have none at
   all (`0-math/02-composition.md`), and some have alt text that does not match
   the H1 (`0-math/00-azon.md` is titled `Azon`, its banner says `Foundations`).
-- Several files have no intro line between the banner and the first `##` —
-  `0-math/00-azon.md` and `06-views.md` open straight into `## Definitions`.
-  The intro line is what the indexes quote; a file without one cannot be indexed
-  correctly.
+- Preface matter was stripped tree-wide on 2026-08-26: the four dropped
+  frontmatter fields, the intro line that restated the `description`, and every
+  spine table. Two hub files were nothing but that preface and are now empty
+  shells — `2-mind/04-knowing.md` (one orphan cross-reference left) and
+  `8-socium/30-socium.md` (title and banner only). Either give them real content
+  or delete them and retarget the links in `welcome.md`, `INDEX.md`, and
+  `2-mind/12-mind.md`.
 - `node scripts/check-docs.mjs --conventions docs` reported **25 problems** at
   the last baseline run. Re-run it yourself for the current list — do not trust
   this snapshot. Group them into Phase 4 items by defect kind, not one item per
@@ -171,8 +175,8 @@ whole audit, and every count in it is a snapshot you must re-derive yourself:
   directory name, so for files directly under `docs/` it demands
   `/images/docs/_quotes.svg` while `gen-banners.mjs` writes `/images/_quotes.svg`.
   The checker and the generator disagree, and the checker also applies the
-  banner and intro rules to `docs/CLAUDE.md` and `docs/INDEX.md`, which are not
-  content. One Phase 4 item: decide which side is right and reconcile them.
+  banner rule to `docs/CLAUDE.md` and `docs/INDEX.md`, which are not content.
+  One Phase 4 item: decide which side is right and reconcile them.
 - `scripts/check-docs.baseline.txt` holds **6** accepted link failures, five of
   them from the `0-math` renames (`01-set`, `03-graph`, `05-algebras`,
   `06-view`) plus `docs/CLAUDE.md → ../1-reality/07-system.md`. Each is its own
@@ -185,9 +189,9 @@ Fix the shape of the tree. Invariants when this phase closes:
 
 - Every file is `NN-topic.md` — two-digit number, lowercase hyphenated slug.
 - Within a folder, no two files share a number.
-- Every folder carries the navigation pattern the audit chose, and carries only
-  that one: either a `<section>/index.md` or a hub file with a spine table
-  linking every file in the folder (the `7-mastery/01-mastery.md` pattern).
+- Navigation between files lives in `docs/INDEX.md` alone. No folder carries a
+  spine table, a hub listing, or any other in-file enumeration of its siblings —
+  cross-reference a specific Term where it is used instead.
 - Every content file has a banner line whose alt text is byte-identical to its
   H1 and whose path resolves to a real SVG in `images/`.
 - `docs/` root holds only `welcome.md`, `INDEX.md`, `_quotes.md`,
@@ -282,7 +286,7 @@ the points you accept to the ledger as Phase 5 items and work them normally.
 ### Phase 6 — `docs/INDEX.md` and `docs/CLAUDE.md`
 
 `INDEX.md` first. Every section and every file, grouped by ontological layer,
-each entry quoting that file's intro line as its description. Every link
+each entry quoting that file's frontmatter `description`. Every link
 resolves. Then record the new sync baseline commit in `docs/CLAUDE.md`'s sync
 log, the way the existing entries do.
 
@@ -322,13 +326,19 @@ See *Completion Gate* below. This phase has exactly one item.
 ## Editorial Bar
 
 **Every content doc, in this order:** frontmatter → `# H1` byte-identical to the
-frontmatter `title` → banner line whose alt text equals that title → a
-self-contained intro line, byte-identical to the frontmatter `description` →
-body.
+frontmatter `title` → banner line whose alt text equals that title → the first
+section of the body.
 
-**Frontmatter** is exactly seven fields, in this order: `title`, `description`,
-`keywords`, `license`, `created`, `modified`, `source`. The checker requires all
-seven. `description` is one sentence; it is quoted, so backticks come out and
+**No preface.** Nothing sits between the banner and the first heading: no intro
+line restating the `description`, no spine table, no "what this file covers"
+enumeration of sibling docs. The `description` carries the summary; `INDEX.md`
+carries the navigation. A file whose whole content was such a preface is empty
+and should be deleted, not padded.
+
+**Frontmatter** is exactly three fields, in this order: `title`, `description`,
+`keywords`. The checker requires all three and rejects nothing else, but do not
+reintroduce `license`, `created`, `modified`, or `source` — they were dropped as
+noise. `description` is one sentence; it is quoted, so backticks come out and
 inner quotes are escaped.
 
 **Headings:** exactly one H1. No skipped levels — an H3 never follows an H1

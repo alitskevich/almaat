@@ -2,17 +2,11 @@
 title: "Transcendence"
 description: "One Consciousness dissociated into many points of view: the brain is its appearance, time and space are the filing system it generates, and a choice reveals what you are."
 keywords: [reality, transcendence, consciousness, free-will]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/24-transcendence.md
 ---
 
 # Transcendence
 
 ![Transcendence](/images/1-reality/24-transcendence.svg)
-
-One `Consciousness` dissociated into many points of view: the brain is its appearance, time and space are the filing system it generates, and a choice reveals what you are.
 
 ## One Consciousness
 

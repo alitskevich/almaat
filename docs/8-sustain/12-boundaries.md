@@ -2,17 +2,11 @@
 title: "Boundaries"
 description: "A boundary is a stated limit paired with what you will do if it is crossed; the relationship audit applies the same rule to the whole circle."
 keywords: [sustain, security, boundaries]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/12-boundaries.md
 ---
 
 # Boundaries
 
 ![Boundaries](/images/8-sustain/12-boundaries.svg)
-
-A boundary is a stated limit paired with what you will do if it is crossed; the relationship audit applies the same rule to the whole circle.
 
 It is neither a wall, which shuts everyone out, nor a wish, which depends on the other's goodwill.
 

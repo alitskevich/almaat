@@ -2,17 +2,11 @@
 title: "Conformism and Moral Courage"
 description: "Conformism is not a neutral position but an active choice with a cost; Moral Courage is its opposite — acting on your own judgment against social pressure."
 keywords: [socium, conformism, courage]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/8-socium/36-conformism.md
 ---
 
 # Conformism and Moral Courage
 
 ![Conformism and Moral Courage](/images/8-socium/36-conformism.svg)
-
-`Conformism` is not a neutral position but an active choice with a cost; `Moral Courage` is its opposite — acting on your own judgment against social pressure.
 
 ## The Default Is Obedience
 

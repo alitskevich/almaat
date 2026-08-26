@@ -2,17 +2,11 @@
 title: "Intellect"
 description: "The capacity to form, validate, and apply one's own Reality — cognition, validation, learning, skill, bias, and judgment under uncertainty."
 keywords: [mind, intellect]
-license: UNLICENSED
-created: 2026-07-16
-modified: 2026-08-25
-source: docs/2-mind/11-intellect.md
 ---
 
 # Intellect
 
 ![Intellect](/images/2-mind/11-intellect.svg)
-
-The capacity to form, validate, and apply one's own `Reality` — cognition, validation, learning, skill, bias, and judgment under uncertainty.
 
 ## Reality and Experience
 

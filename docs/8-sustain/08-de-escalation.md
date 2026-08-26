@@ -2,17 +2,11 @@
 title: "De-escalation"
 description: "Breaking open aggression with words: keep your own deliberation online, let the other side stay in reaction, and give them a door to walk through."
 keywords: [sustain, security, de-escalation]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/08-de-escalation.md
 ---
 
 # De-escalation
 
 ![De-escalation](/images/8-sustain/08-de-escalation.svg)
-
-Breaking open aggression with words: keep your own deliberation online, let the other side stay in reaction, and give them a door to walk through.
 
 [Frame](07-frame.md) and [Manipulation](09-manipulation.md) handle covert pressure. De-escalation handles someone already shouting, insulting, or threatening. The method is George Thompson's *Verbal Judo*, built for police who cannot afford to lose control on the job.
 

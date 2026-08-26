@@ -2,17 +2,11 @@
 title: "Quotes"
 description: "A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]]."
 keywords: [quotes]
-license: UNLICENSED
-created: 2026-05-26
-modified: 2026-08-25
-source: docs/_quotes.md
 ---
 
 # Quotes
 
 ![Quotes](/images/_quotes.svg)
-
-A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]].
 
 The numbering is load-bearing: 34 of the 37 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered. A number is retired when its entry leaves, never reused, so gaps are deliberate.
 

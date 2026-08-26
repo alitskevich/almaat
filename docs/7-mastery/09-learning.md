@@ -2,17 +2,11 @@
 title: "Learning"
 description: "How a Mind turns Experience into Knowledge and Skill — the disciplines and conditions that make learning reliable rather than accidental."
 keywords: [mastery, learning]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/7-mastery/09-learning.md
 ---
 
 # Learning
 
 ![Learning](/images/7-mastery/09-learning.svg)
-
-How a `Mind` turns `Experience` into `Knowledge` and `Skill` — the disciplines and conditions that make learning reliable rather than accidental.
 
 `Learning` is defined formally in [Intellect](../2-mind/11-intellect.md) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
 

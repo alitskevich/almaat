@@ -2,17 +2,11 @@
 title: "Sets, Equivalence, Topology"
 description: "Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets."
 keywords: [math, sets]
-license: UNLICENSED
-created: 2026-08-08
-modified: 2026-08-25
-source: docs/0-math/01-sets.md
 ---
 
 # Sets, Equivalence, Topology
 
 ![Sets, Equivalence, Topology](/images/0-math/01-sets.svg)
-
-`Set` and its `Element`s, the equivalence relations that compare `Azon`s, and the topological structures over `Collection`s of `Set`s.
 
 ## Sets
 

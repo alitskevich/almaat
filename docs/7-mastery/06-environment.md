@@ -2,17 +2,11 @@
 title: "Environment"
 description: "Architecture beats willpower: design the surroundings, cut the cue, replace the reward — and spend resolve once instead of daily."
 keywords: [mastery, environment]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/06-environment.md
 ---
 
 # Environment
 
 ![Environment](/images/7-mastery/06-environment.svg)
-
-Architecture beats willpower: design the surroundings, cut the cue, replace the reward — and spend resolve once instead of daily.
 
 ## Environment Design
 

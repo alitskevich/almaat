@@ -2,17 +2,11 @@
 title: "Reasoning"
 description: "Generating new a priori Knowledge from existing Knowledge — the Inference path, and the nine modes a Mind reasons in."
 keywords: [mind, reasoning]
-license: UNLICENSED
-created: 2026-07-16
-modified: 2026-08-25
-source: docs/2-mind/08-reasoning.md
 ---
 
 # Reasoning
 
 ![Reasoning](/images/2-mind/08-reasoning.svg)
-
-Generating new a priori `Knowledge` from existing `Knowledge` — the `Inference` path, and the nine modes a `Mind` reasons in.
 
 **`Reasoning`** := The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).
 

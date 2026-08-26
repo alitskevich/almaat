@@ -2,17 +2,11 @@
 title: "The Self and Death"
 description: "What survives death depends on what the self actually is: the Self-role, the Self-observer, and the Self-`Consciousness` beneath both."
 keywords: [human, self, memory, death]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/4-human/29-self.md
 ---
 
 # The Self and Death
 
 ![The Self and Death](/images/4-human/29-self.svg)
-
-What survives death depends on what the self actually is: the `Self-role`, the `Self-observer`, and the `Self-Consciousness` beneath both.
 
 ## Three Layers of the Self
 

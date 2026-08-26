@@ -2,17 +2,11 @@
 title: "Mindset"
 description: "The inner stance mastery is built on: owning every desire as your own, and reading cause from the inside."
 keywords: [mastery, mindset]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/7-mastery/02-mindset.md
 ---
 
 # Mindset
 
 ![Mindset](/images/7-mastery/02-mindset.svg)
-
-The inner stance mastery is built on: owning every desire as your own, and reading cause from the inside.
 
 ## Self-Honesty
 

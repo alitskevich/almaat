@@ -2,28 +2,11 @@
 title: "Dynamic Processes"
 description: "The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, and the landmarks of a Flow."
 keywords: [reality, process, circuit, flow]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/02-process.md
 ---
 
 # Dynamic Processes
 
 ![Dynamic Processes](/images/1-reality/02-process.svg)
-
-The `Process` as a controlled `Queue` of `Word`s: its `Circuit`, the kinds of `Circuit`, and the landmarks of a `Flow`.
-
-## The Reality Spine
-
-| Layer | Reading |
-| --- | --- |
-| **`Process`** — how one step is taken | this file — `Circuit`, its kinds, and the landmarks of a `Flow` |
-| **`System`** — what many things make | [Systems](07-system.md) — `Participant`, `Communication`, `Emergence`, `Equilibrium` |
-| **`Probability`** — how likelihood is measured | [Probability](10-probability.md) — expectation, updating, limit laws, long-run behavior |
-| **`Entropy`** — what `Order` costs | [Entropy](14-entropy.md) — dissipation and self-organization |
-| **`Evolution`** — how a `Paradigm` moves | [Evolution](15-evolution.md) — adaptation, stagnation, crisis · [Limits](16-limits.md) — freedom, the ceiling, breakthrough |
-| **`Being`** — what is doing all this | [Being](22-being.md) — `Reality` as representation · [Transcendence](24-transcendence.md) — one `Consciousness` · [The Given](27-given.md) — perceived versus constructed |
 
 ## Parts of a Process
 

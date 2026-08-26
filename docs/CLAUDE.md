@@ -2,10 +2,6 @@
 title: "ALMAAT — Project Guide"
 description: "ALMAAT is a general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown."
 keywords: [almaat]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-07
-source: docs/CLAUDE.md
 ---
 
 # ALMAAT — Project Guide
@@ -79,8 +75,8 @@ Special top-level files, prefixed with `_` or named `welcome`:
 
 1. Identify the layer the material belongs to (formal, dynamic, human, collective,
    mastery/discipline, engineering) and pick that folder.
-2. Within the folder, find the file whose intro line already covers the topic. If one
-   does, embed there.
+2. Within the folder, find the file whose frontmatter `description` already covers the
+   topic. If one does, embed there.
 3. Only if no file fits, create a new one — and update `_translations.md` (if it coins
    canonical Terms), `INDEX.md`, and the section `index.md`.
 
@@ -96,18 +92,33 @@ applied-domain folders, each an **independent number space** restarting at `01`.
 When adding a file, take the next free number in that folder's existing range. Do not
 renumber existing files just to keep the sequence dense.
 
-## Title, banner, intro
+## Frontmatter, title, banner
 
-Every content file opens with a single H1 (a few legacy files use H2) title, then a banner
-image mirroring the title, then a self-contained intro line:
+Frontmatter is exactly three fields, in this order: `title`, `description`, `keywords`.
+`description` is one sentence; it is quoted, so backticks come out and inner quotes are
+escaped. It is what the indexes quote. Do not reintroduce `license`, `created`,
+`modified`, or `source` — they were dropped as noise on 2026-08-26.
+
+Every content file then opens with a single H1 (a few legacy files use H2) title and a
+banner image mirroring it, and goes straight into the body:
 
 ```markdown
+---
+title: "Dynamic Processes"
+description: "The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, and the landmarks of a Flow."
+keywords: [reality, process, circuit, flow]
+---
+
 # Dynamic Processes
 
-![Dynamic Processes](/images/1-nature/06-process.svg)
+![Dynamic Processes](/images/1-reality/02-process.svg)
 
-<intro sentence — reused verbatim as the file's description in the indexes>
+## Parts of a Process
 ```
+
+**No preface.** Nothing sits between the banner and the first heading: no intro line
+restating the `description`, no spine table, no enumeration of the folder's other files.
+Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used.
 
 The image path is always `/images/<folder>/<filename>.svg` and the alt text equals the
 title. Assume the matching SVG will exist; do not invent a different path. Index files
@@ -151,7 +162,7 @@ git diff <baseline-commit>..HEAD -- docs/
 
 This surfaces exactly which `docs/*.md` files were **added, renamed, removed, or
 retitled** since the baseline. For each change, update the matching `INDEX.md` entry
-(link path, title, and the intro-line description). Then record the new baseline:
+(link path, title, and the frontmatter `description`). Then record the new baseline:
 
 - **Last full reconciliation:** 2026-08-07 — `INDEX.md` reconciled against the live tree after
   commit `c4dcb67` extracted `9-engx` into its own repository, folded `A-science` into `2-mind`
@@ -185,13 +196,14 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
 Notes:
 
 - INDEX entries are grouped by ontological-layer section; the description text mirrors each
-  file's intro line (see Title, banner, intro).
-- Only sections that actually have a `<section>/index.md` should carry a
-  "See section index" link — currently none do. `7-mastery` uses `01-mastery.md` as its hub
-  instead: it carries the spine table linking every file in the section.
+  file's frontmatter `description` (see Frontmatter, title, banner).
+- `INDEX.md` is the only navigation surface. No section has an `index.md`, and the per-folder
+  spine tables were removed on 2026-08-26 — `7-mastery/01-mastery.md`, `8-sustain/01-sustain.md`,
+  `2-mind/04-knowing.md` and `8-socium/30-socium.md` no longer list their siblings. The last two
+  were nothing but that table and are now empty shells awaiting content or deletion.
 - **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
-  link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks frontmatter,
-  the single H1, the banner path, and that the intro line matches the frontmatter description.
+  link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks the three
+  frontmatter fields, the single H1, and the banner path.
   Pre-existing breakage is listed in `scripts/check-docs.baseline.txt`, so the gate is
   "no new failures"; fix an entry and delete its line.
 - **Banner paths are stale tree-wide.** `images/` still carries the pre-reorg folder names
@@ -203,7 +215,8 @@ Notes:
 
 1. Source translated to English and reduced to basic terminology.
 2. Content routed to the correct file (or a correctly named new file created).
-3. Title + banner image + intro line conform to the convention above.
+3. Frontmatter + title + banner image conform to the convention above, with no preface
+   between the banner and the first heading.
 4. New Terms backticked in text and, if canonical, added to `_translations.md`.
 5. `INDEX.md` and the section `index.md` updated to match.
 6. Relative links checked — they must resolve to real files.

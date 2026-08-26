@@ -2,17 +2,11 @@
 title: "Agency & Teleology"
 description: "The anatomy of intentional action: who the Agent is, what drives motion toward a Future, what means are deployed, and how the outcome is judged."
 keywords: [mind, teleos]
-license: UNLICENSED
-created: 2026-07-16
-modified: 2026-08-25
-source: docs/2-mind/09-teleos.md
 ---
 
 # Agency & Teleology
 
 ![Agency & Teleology](/images/2-mind/09-teleos.svg)
-
-The anatomy of intentional action: who the `Agent` is, what drives motion toward a Future, what means are deployed, and how the outcome is judged.
 
 ## The Agent
 

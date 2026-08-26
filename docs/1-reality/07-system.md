@@ -2,17 +2,11 @@
 title: "Systems"
 description: "Things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does."
 keywords: [reality, system, participant, communication]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/07-system.md
 ---
 
 # Systems
 
 ![Systems](/images/1-reality/07-system.svg)
-
-Things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does.
 
 ## Thing and Trajectory
 

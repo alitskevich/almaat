@@ -2,17 +2,11 @@
 title: "Knowledge"
 description: "The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into."
 keywords: [mind, knowledge]
-license: UNLICENSED
-created: 2026-07-18
-modified: 2026-08-25
-source: docs/2-mind/05-knowledge.md
 ---
 
 # Knowledge
 
 ![Knowledge](/images/2-mind/05-knowledge.svg)
-
-The atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `Concept` — and the forms `Knowledge` is organized into.
 
 ## Units of Belief
 

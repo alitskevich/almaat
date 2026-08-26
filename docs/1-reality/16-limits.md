@@ -2,17 +2,11 @@
 title: "Limits"
 description: "What bounds development: the Communication an Agent is free of, the Constraint it navigates, and the ceiling that Improvement approaches and Breakthrough escapes."
 keywords: [reality, freedom, constraint, excellence, breakthrough]
-license: UNLICENSED
-created: 2026-07-14
-modified: 2026-08-25
-source: docs/1-reality/16-limits.md
 ---
 
 # Limits
 
 ![Limits](/images/1-reality/16-limits.svg)
-
-What bounds development: the `Communication` an `Agent` is free of, the `Constraint` it navigates, and the ceiling that `Improvement` approaches and `Breakthrough` escapes.
 
 ## External Bounds
 

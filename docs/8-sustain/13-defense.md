@@ -2,17 +2,11 @@
 title: "Physical Security"
 description: "Defense against violence. Most of it is won before contact; the fight is the rarest, costliest, least reliable layer."
 keywords: [sustain, defense]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/8-sustain/13-defense.md
 ---
 
 # Physical Security
 
 ![Physical Security](/images/8-sustain/13-defense.svg)
-
-Defense against violence. Most of it is won before contact; the fight is the rarest, costliest, least reliable layer.
 
 The groundwork — mindset, awareness, the OODA loop, the body under threat, and [recovery](06-security.md#recovery) afterwards — is shared with the social plane and lives in [Security](06-security.md).
 

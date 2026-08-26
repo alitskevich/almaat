@@ -2,17 +2,11 @@
 title: "Influence"
 description: "Society improves two ways — constrain evil and compel good from outside, or work on yourself and provide the example. The second is primary."
 keywords: [socium, interpersonal, influence]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/8-socium/33-interpersonal.md
 ---
 
 # Influence
 
 ![Influence](/images/8-socium/33-interpersonal.svg)
-
-Society improves two ways — constrain evil and compel good from outside, or work on yourself and provide the example. The second is primary.
 
 ## Conduct
 

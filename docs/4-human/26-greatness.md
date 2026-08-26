@@ -2,17 +2,11 @@
 title: "Happiness and Greatness"
 description: "What a life is measured by: the saturation Happiness reports, the Mission chosen to pursue it, the Greatness earned by persisting, and Kapot — the line past which Dignity is abandoned."
 keywords: [human, happiness, greatness]
-license: UNLICENSED
-created: 2026-06-23
-modified: 2026-08-25
-source: docs/4-human/26-greatness.md
 ---
 
 # Happiness and Greatness
 
 ![Happiness and Greatness](/images/4-human/26-greatness.svg)
-
-What a life is measured by: the saturation `Happiness` reports, the `Mission` chosen to pursue it, the `Greatness` earned by persisting, and `Kapot` — the line past which `Dignity` is abandoned.
 
 **`Happiness`** := the internal perception of the saturation of life.
 

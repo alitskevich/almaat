@@ -2,17 +2,11 @@
 title: "Composition"
 description: "The Arrow and its Vertex, and the Composition that feeds one Azon's output into another — associativity, Identity, Null, and Currying."
 keywords: [math, composition]
-license: UNLICENSED
-created: 2026-08-07
-modified: 2026-08-25
-source: docs/0-math/02-composition.md
 ---
 
 # Composition
 
 ![Composition](/images/0-math/02-composition.svg)
-
-The `Arrow` and its `Vertex`, and the `Composition` that feeds one `Azon`'s output into another — associativity, `Identity`, `Null`, and `Currying`.
 
 ## Arrows
 
@@ -78,7 +72,7 @@ The `Arrow` and its `Vertex`, and the `Composition` that feeds one `Azon`'s outp
 
 ---
 
-**`Currying`** := The `Azon` that corresponds an `Azon` over `Arrow`s to an `Azon` into `Arrow`s.
+**`Currying`** := The `Azon` that corresponds an `Azon` *over* `Arrow`s to an `Azon` *into* `Arrow`s.
 
 > `curry := (({X → Y}) → Z) → (X → {(Y → Z)})`
 

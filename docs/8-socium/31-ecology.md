@@ -2,17 +2,11 @@
 title: "Ecology"
 description: "Ecology is a sustainable social Contract — one that protects individual rights, renews the conditions for development, and leaves room for new meaning."
 keywords: [socium, ecology, ethics]
-license: UNLICENSED
-created: 2026-06-24
-modified: 2026-08-25
-source: docs/8-socium/31-ecology.md
 ---
 
 # Ecology
 
 ![Ecology](/images/8-socium/31-ecology.svg)
-
-Ecology is a sustainable social `Contract` — one that protects individual rights, renews the conditions for development, and leaves room for new meaning.
 
 It requires freedom of expression, quality education, public discourse on equal terms, and the willingness to acknowledge error in public. It rests on three claims, argued as axioms below:
 
