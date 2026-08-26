@@ -40,7 +40,7 @@ Four laws to build good habits (invert to break bad ones):
 | **Response** | Make it Easy — reduce friction, Two-Minute Rule, automate | Make it Difficult — add friction |
 | **Reward** | Make it Satisfying — track streaks, immediate reinforcement, never miss twice | Make it Unsatisfying — add accountability |
 
-The `Cue` column is where [Environment](06-environment.md) does its work: the cheapest way to make a habit obvious or invisible is to change what is in the room.
+The Cue column is where [Environment](06-environment.md) does its work: the cheapest way to make a habit obvious or invisible is to change what is in the room.
 
 ## Sources
 

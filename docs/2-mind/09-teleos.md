@@ -98,7 +98,7 @@ keywords: [mind, teleos]
 
 ## Commitment and Outcome
 
-**`Solution`** := A commitment to a specific `Plan`, chosen by trading expected `Core-Value`-satisfaction across `Potency`-weighted `Future`s against anticipated `Resources` `Cost` and accepted `Risk` under `Circumstances`.
+**`Solution`** := A commitment to a specific `Plan`, chosen by trading expected `Core-Value`-satisfaction across `Potency`-weighted `Future`s against anticipated `Resources` `Cost` and accepted risk under `Circumstances`.
 
 > `Solution := argmax_{Plan} (Core-Value-utility × Potency − Cost − Risk | Circumstances)`
 

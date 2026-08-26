@@ -14,7 +14,7 @@ keywords: [mind, scientific]
 
 ## Scientific Criteria
 
-**`Scientific Criteria`** := The nine requirements a `Knowledge` claim must satisfy, from `Inner Correctness` to `Reproducibility`.
+**`Scientific Criteria`** := The nine requirements a `Knowledge` claim must satisfy, from Inner Correctness to Reproducibility.
 
 **`Scientific Knowledge`** := `Knowledge` that definitely meets `Scientific Criteria`.
 

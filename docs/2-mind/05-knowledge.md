@@ -69,6 +69,6 @@ The forms `Knowledge` is organized into:
 | --- | --- | --- |
 | **Taxonomy** | Hierarchical is-a relations between concepts, grouped by shared characteristics | What are the types of things? |
 | **Ontology** | Formal declarative description of a domain: concepts, properties, restrictions | What is there, and how does it relate? |
-| **Knowledge Base** | An `Ontology` with individual instances of its classes | Which particular things are there? |
+| **Knowledge Base** | An ontology with individual instances of its classes | Which particular things are there? |
 | **Data Model** | Equations describing the behavioral relationships of a physical system | How does it behave? |
 | **Domain-Specific Language** | A language tailored to one domain's operations and configurations | How is it expressed? |

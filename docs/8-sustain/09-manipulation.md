@@ -44,7 +44,7 @@ Cialdini's principles of influence are neutral tools — persuasion when honest,
 
 ## Conditioning
 
-Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the methods used on animals work on people, because both run on the [Habit Loop](../7-mastery/05-habits.md#the-habit-loop) of cue and `Reward`. You are conditioned whenever someone farms a reliable response out of you; you condition others by what you reinforce — and attention itself is the `Reward`.
+Behavior is governed by its consequences, and *any predictable reaction you give is a consequence*. Comfort an outburst and you reward the outburst — it returns next week. Much of what is sold as "soft skills" is plain behavioral training: the methods used on animals work on people, because both run on the [Habit Loop](../7-mastery/05-habits.md#the-habit-loop) of cue and reward. You are conditioned whenever someone farms a reliable response out of you; you condition others by what you reinforce — and attention itself is the reward.
 
 | Lever | How it shapes behavior | Defensive use |
 | ----- | ---------------------- | ------------- |
@@ -53,7 +53,7 @@ Behavior is governed by its consequences, and *any predictable reaction you give
 | **Timing** | A consequence binds only to what immediately precedes it. Delayed praise or rebuke attaches to nothing | React while the act is live, not hours later; judge the action, not the person |
 | **One signal** | A request repeated without consequence teaches that your word carries no cost | Say it once, then let the stated consequence follow — a [boundary](12-boundaries.md) in motion |
 | **Shaping** | Complex behavior is built by rewarding small steps toward it, never demanded whole | Notice when you're being walked toward a large concession one approving nod at a time |
-| **Pre-verbal cue** | People read your tone, pause, and first standard named before your words. The `Anchor` and the [Frame](07-frame.md) land first | Watch what your composure signals; the message arrives before the sentence does |
+| **Pre-verbal cue** | People read your tone, pause, and first standard named before your words. The anchor and the [Frame](07-frame.md) land first | Watch what your composure signals; the message arrives before the sentence does |
 
 What you react to, you train — so choose what you reinforce.
 

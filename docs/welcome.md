@@ -14,12 +14,12 @@ Everything rests on one irreducible primitive, the [`Azon`](0-math/00-azon.md) â
 
 | Section | What it covers |
 | --- | --- |
-| [Math](0-math/00-azon.md) | The formal core: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structures`, the presentational view, and formal `Language` |
-| [Reality](1-reality/02-process.md) | Dynamics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, and `Being` |
+| [Math](0-math/00-azon.md) | The formal core: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structure`s, the presentational view, and formal `Language` |
+| [Reality](1-reality/02-process.md) | Dynamics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, limits, and `Being` |
 | [Mind](2-mind/04-knowing.md) | Knowing: `Knowledge`, `Proof`, `Computation`, `Reasoning`, agency, free will, `Intellect`, and the scientific method |
 | [Human](4-human/21-human.md) | The individual: `Dignity`, `Rajdo`, `Truth`, `Happiness`, the `Animal`, the self, and the manifesto |
 | [Mastery](7-mastery/01-mastery.md) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking |
-| [Socium](8-socium/30-socium.md) | The collective: the social `Contract`, `Culture`, influence, identity, conformism, and power |
+| [Socium](8-socium/30-socium.md) | The collective: the social `Contract`, culture, influence, identity, conformism, and power |
 | [Sustain](8-sustain/01-sustain.md) | Body and defense: vitality, recovery, nutrition, energy, security, frame, boundaries |
 
 Every section is listed file by file in the [Content Index](INDEX.md). Terms are capitalized and backticked, and each has one canonical home â€” the [Term Translations](_translations.md) map them to their Belarusian-rooted equivalents.

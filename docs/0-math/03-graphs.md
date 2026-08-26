@@ -24,7 +24,7 @@ keywords: [math, graphs]
 
 ---
 
-**`Tree`** := `Graph` with one `Root` in which every other `Vertex` is reached by exactly one `Path`.
+**`Tree`** := `Graph` with one root in which every other `Vertex` is reached by exactly one `Path`.
 
 > `Tree :: ∃! Root ∧ ∀V ≠ Root: ∃! Path(Root → V)`
 

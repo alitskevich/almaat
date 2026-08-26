@@ -56,8 +56,8 @@ keywords: [math, structures]
 
 ## Basic Structures
 
-- A `Relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. `Setoid` and `Poset` are built on relations, not operations proper.
-- An `Action` acts *from* a second `Set` `Ω`. This is the shape behind modules, vector spaces and groups with operators, which extend a single-set algebra into a two-set structure.
+- A `Relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. Setoids and posets are built on relations, not operations proper.
+- An action acts *from* a second `Set` `Ω`. This is the shape behind modules, vector spaces and groups with operators, which extend a single-set algebra into a two-set structure.
 - An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [Composition](02-composition.md)) — operations and `Azon` are the same kind of thing.
 
 | Structure | Definition | Example |
@@ -68,7 +68,7 @@ keywords: [math, structures]
 | **Poset** | Partially ordered set with `compare` defined partially | `≤: a,b => a,b in S ? (a < b ? T : F) : U` |
 | **Setoid** | `Set` with `eq` equivalence | `eq: (a, b) => a == b ? T : F` (Reflexive + Symmetric + Transitive) |
 
-**Equivalence vs. order.** A `Setoid` requires Reflexive + Symmetric + Transitive (equivalence). A `Poset` requires Reflexive + Antisymmetric + Transitive (partial order).
+**Equivalence vs. order.** A setoid requires Reflexive + Symmetric + Transitive (equivalence). A poset requires Reflexive + Antisymmetric + Transitive (partial order).
 
 ## Magma and Descendants
 
