@@ -64,11 +64,11 @@ The anatomy of intentional action: who the `Agent` is, what drives motion toward
 
 ---
 
-**`Circumstances`** := The conjunction of `Core-Need`, `Drive`, `Self-Efficacy`, `Potency`, and `Resources`.
+**`Decision-Context`** := The conjunction of `Core-Need`, `Drive`, `Self-Efficacy`, `Potency`, and `Resources`.
 
-> `Circumstances := (Core-Need, Drive, Self-Efficacy, Potency, Resources)`
+> `Decision-Context := (Core-Need, Drive, Self-Efficacy, Potency, Resources)`
 
-*NOTE*: The complete decision context. A `Solution` taken without surveying all five components is partial.
+*NOTE*: what an `Agent` surveys before committing; a `Solution` taken without all five is partial. Distinct from [`Circumstances`](../1-reality/02-process.md#landmarks-of-a-flow), which is the situation the `Agent` does not set.
 
 ## Goal and Means
 

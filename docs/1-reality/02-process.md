@@ -135,7 +135,15 @@ The `Process` as a controlled `Queue` of `Word`s: its `Circuit`, the kinds of `C
 
 ## Landmarks of a Flow
 
-**`Potency`** := an evaluation of a `Plan` under given `Circumstances`.
+**`Circumstances`** := the `State` bearing on a `Plan`'s evaluation that the `Plan` does not determine.
+
+*NOTE*: what an actor does not set — outcome, timing, and other participants' responses. `Circumstances` is what a `Paradigm` must track: see [Evolution](15-evolution.md).
+
+---
+
+**`Potency`** := an evaluation of a `Plan`, or of the `Paradigm` that generates `Plan`s, under given `Circumstances`.
+
+*NOTE*: written `Potency(Plan, Circumstances)` for one `Plan`, `Potency(Paradigm, Circumstances)` for the `Paradigm` as a whole, and `Potency(Plan, Paradigm, Circumstances)` where a `Plan` is evaluated within a specific `Paradigm`.
 
 ---
 
