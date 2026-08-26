@@ -85,7 +85,7 @@ The `Structure`: a `Set` equipped with `Operation`s constrained by `Law`s, and t
 | **`Loop`** | A quasi-group with identity | |
 | **`Semi-group`** | An associative magma | `combine: a,b => (...) => a(b(...))` |
 | **`Semi-lattice`** | An idempotent and commutative semigroup | Idempotent and commutative |
-| **`Monoid`** | A semigroup with a `unit` — equivalently, an associative `Loop` | `unit: () => 1` (LR-identity) |
+| **`Monoid`** | A semigroup with a `unit` | `unit: () => 1` (LR-identity) |
 | **`Group`** | A monoid with an `inverse` | `inverse: a => -a` (LR-inverse) |
 | **`Abelian Group`** | A group with commutative `sum` | `sum: (a,b) => c` (associative + commutative) |
 
