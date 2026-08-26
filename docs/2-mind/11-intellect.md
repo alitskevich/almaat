@@ -8,6 +8,12 @@ keywords: [mind, intellect]
 
 ![Intellect](/images/2-mind/11-intellect.svg)
 
+## What Intellect Is
+
+**`Intellect`** := the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../1-reality/22-being.md#reality).
+
+*NOTE*: the sections below name its parts — `Cognition` forms, `Validation` corrects, `Learning` retains, `Skill` applies, and `Rationale` carries it under insufficient `Knowledge`.
+
 ## Reality and Experience
 
 [`Reality`](../1-reality/22-being.md#reality) is defined with `Being` — the representation `Consciousness` builds from `Sensation`. [`Knowledge`](05-knowledge.md) is what a `Mind` builds from it to predict and act.

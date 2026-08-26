@@ -8,7 +8,7 @@ keywords: [human, dignity, conscience]
 
 ![Human Being](/images/4-human/21-human.svg)
 
-**`Human Being`** := composition of biological circuitry, social membership, and cultural inheritance, equipped with `Intellect` and `Inspiration`.
+**`Human Being`** := composition of biological circuitry, social membership, and cultural inheritance, equipped with [`Intellect`](../2-mind/11-intellect.md) and `Inspiration`.
 
 ---
 
