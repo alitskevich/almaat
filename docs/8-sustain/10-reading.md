@@ -68,11 +68,11 @@ You hand over the map through four channels:
 | **Behavior under pressure** | Pressure drops the mask, so manipulators stage small pressure to watch it |
 | **Constancies** | What you always do in a given situation. Predictability is the lever: stage the situation, harvest the response |
 
-### The gap
+### The Gap
 
 Put a pause between stimulus and response (see [Composure](07-frame.md#composure)). The manipulator bets on the automatic reaction; a pause replaces a known answer with an unknown one. Uncertainty is the absence of a map.
 
-### Graduated disclosure
+### Graduated Disclosure
 
 Release information about yourself by *proof*, not by warmth or by where the conversation drifts.
 
@@ -84,11 +84,11 @@ Release information about yourself by *proof*, not by warmth or by where the con
 
 Most people invert this, handing the lower levels too early out of a wish to be understood. **Proof of loyalty is conduct, not feeling**: a kept word, being spoken well of in your absence, being taken your side when it cost them, a confidence held and never used. Until then, stay public — the caution the trustworthy understand, not coldness.
 
-### Deliberate variation
+### Deliberate Variation
 
 Keep consistency *of values*: holding your word builds trust. Break consistency *of reactions*: always deflating at praise, always yielding to pressure, always defending under criticism — each draws the map. Vary the response and leave the principle untouched — a plain "thank you" and a change of subject, an easy yes where it does not matter, agreement with a criticism that lands, laughter at a jab meant to wound. An observer who cannot predict you cannot aim at you, and manipulators move to easier targets. This is [Conditioning](09-manipulation.md#conditioning) turned on its owner: what you no longer reliably give, no one can farm.
 
-### Managed distance
+### Managed Distance
 
 The early signals — manufactured urgency, praise out of proportion just before a request, a voice that isolates you from every other voice, feeling reliably worse after contact — are cheap to neutralize while small. The answer is rarely confrontation (the practiced manipulator turns it into your guilt, see DARVO) nor an abrupt cutoff, but gradually less disclosure, less time alone, less reliance, without announcement — the [Relationship Audit](12-boundaries.md#the-relationship-audit) in motion.
 
