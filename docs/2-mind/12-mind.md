@@ -64,9 +64,17 @@ source: docs/2-mind/12-mind.md
 
 ---
 
-**`Message`** := A `Signal` intended by a `Source` to be decoded by a receiver's `Code`.
+**`Codebook`** := the mapping a `Mind` holds between `Signal` and `Thought`.
 
-> `Message := Signal under (sender intent, receiver Code)`
+> `Codebook :: Signal ↔ Thought`
+
+*NOTE*: what encodes a `Thought` for transmission and decodes an arriving `Signal`. Two `Mind`s communicate reliably only where their `Codebook`s agree.
+
+---
+
+**`Message`** := A `Signal` intended by a `Source` to be decoded by a receiver's `Codebook`.
+
+> `Message := Signal under (sender intent, receiver Codebook)`
 
 *NOTE*: The unit `Communication` exchanges. A `Message` is a `Signal` viewed *under* a sender's intent and a receiver's decoding apparatus — not raw sensory pattern but pattern shaped for transmission.
 

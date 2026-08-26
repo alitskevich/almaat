@@ -80,11 +80,11 @@ The capacity to form, validate, and apply one's own `Reality` — cognition, val
 
 ---
 
-**`Bias`** := A systematic distortion in a `Mind`'s `Code` that produces consistent mis-mapping of `Signal` to `Thought`.
+**`Bias`** := A systematic distortion in a `Mind`'s [`Codebook`](12-mind.md) that produces consistent mis-mapping of `Signal` to `Thought`.
 
-> `Bias :: systematic offset in Code(Signal) ≠ ground-truth Thought`
+> `Bias :: systematic offset in Codebook(Signal) ≠ ground-truth Thought`
 
-*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Code`-mappings make the discrepancy visible. `Bias` at the `Code` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../1-reality/15-evolution.md)).
+*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Codebook`s make the discrepancy visible. `Bias` at the `Codebook` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../1-reality/15-evolution.md)).
 
 ---
 

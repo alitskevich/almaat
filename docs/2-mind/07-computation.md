@@ -1,6 +1,6 @@
 ---
 title: "Computation"
-description: "Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as Code, prescribed by an Algorithm, and judged against a Specification."
+description: "Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification."
 keywords: [mind, computation]
 license: UNLICENSED
 created: 2026-08-16
@@ -12,7 +12,7 @@ source: docs/2-mind/07-computation.md
 
 ![Computation](/images/2-mind/07-computation.svg)
 
-`Reasoning` mechanized: `Data` carried through `Transformer`s by a `Runtime`, expressed as `Code`, prescribed by an `Algorithm`, and judged against a `Specification`.
+`Reasoning` mechanized: `Data` carried through `Transformer`s by a `Runtime`, expressed as a `Program`, prescribed by an `Algorithm`, and judged against a `Specification`.
 
 ## Computation
 
@@ -46,9 +46,9 @@ source: docs/2-mind/07-computation.md
 
 **`Contract`** := Conditions and limitations that guarantee predictable runtime behavior; errors reported when violated.
 
-## Code
+## Program
 
-**`Code`** := Text in some formal language interpreted by runtime as instructions for data transformations.
+**`Program`** := Text in some formal language interpreted by a `Runtime` as instructions for `Data` transformations.
 
 ---
 

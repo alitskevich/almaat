@@ -179,7 +179,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Signal` | Signal |
 | `Message` | Vestka |
 | `Memory` | Pamiac |
-| `Code` | Kod |
+| `Codebook` | Kod |
 | `Meaning` | Tlumaq* |
 | `Information` | Infa |
 | `Knowledge` | Veda |
