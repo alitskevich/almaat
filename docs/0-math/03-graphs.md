@@ -34,11 +34,11 @@ A `Vertex` is classified by how many `Arrow`s enter and leave it, written `(in:o
 
 | Term | Type | Description |
 |---|---|---|
-| **`Root`** | `(0:n)` | no ingoing `Arrow` |
-| **`Leaf`** | `(n:0)` | no outgoing `Arrow` |
-| **`Relay`** | `(1:1)` | one in, one out |
-| **`Fan-Out`** | `(1:n)` | one in, many out |
-| **`Fan-In`** | `(n:1)` | many in, one out |
+| **Root** | `(0:n)` | no ingoing `Arrow` |
+| **Leaf** | `(n:0)` | no outgoing `Arrow` |
+| **Relay** | `(1:1)` | one in, one out |
+| **Fan-Out** | `(1:n)` | one in, many out |
+| **Fan-In** | `(n:1)` | many in, one out |
 
 ## Connectivity
 

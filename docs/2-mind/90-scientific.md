@@ -22,15 +22,15 @@ keywords: [mind, scientific]
 
 | Criterion | Requirement |
 | --- | --- |
-| **`Inner Correctness`** | Does not break the axioms of logic |
-| **`Occam's Razor`** | Is minimal in the concepts it uses |
-| **`Critical Resistance`** | Withstands questioning from other points of view: *why*, *what if not*, *what is the alternative*, *what about edge cases* |
-| **`Fair Principle`** | Highlights its own weaknesses and looks for its own incorrectness |
-| **`Popper Principle`** | Offers ways to be dismissed (falsifiability), keeping the door open to revision |
-| **`Objectiveness`** | Stands apart from subjective prejudice and preference |
-| **`External Consistency`** | Does not contradict existing `Knowledge` in the context |
-| **`Predictability`** | Predicts the behavior of the object in question |
-| **`Reproducibility`** | Stays stable when reproduced under the described conditions and steps |
+| **Inner Correctness** | Does not break the axioms of logic |
+| **Occam's Razor** | Is minimal in the concepts it uses |
+| **Critical Resistance** | Withstands questioning from other points of view: *why*, *what if not*, *what is the alternative*, *what about edge cases* |
+| **Fair Principle** | Highlights its own weaknesses and looks for its own incorrectness |
+| **Popper Principle** | Offers ways to be dismissed (falsifiability), keeping the door open to revision |
+| **Objectiveness** | Stands apart from subjective prejudice and preference |
+| **External Consistency** | Does not contradict existing `Knowledge` in the context |
+| **Predictability** | Predicts the behavior of the object in question |
+| **Reproducibility** | Stays stable when reproduced under the described conditions and steps |
 
 ## The Scientific Process
 
