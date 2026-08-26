@@ -124,6 +124,6 @@ keywords: [math, views]
 
 **`Sigma<n>`** := smallest `Place` containing an `(n−1)/n` proportion of the `Matter`.
 
-> `Sigma<n> := argmin(|Place|) : |Content(Place)| ≥ ((n−1)/n) · |Matter|`
+> `Sigma<n> := argmin(|Place|) : |Content(Place)| ≥ ((n−1)/n) · |Basis|`
 
 *NOTE*: `|X|` is the count of `Element`s in `X`; `argmin` selects the argument that minimizes the quantity.

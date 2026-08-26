@@ -12,8 +12,6 @@ keywords: [reality, process, circuit, flow]
 
 **`Step`** := one indivisible advance of a `Process` — the unit its `Queue` is indexed by.
 
-> `Step := index into Queue`
-
 ---
 
 **`SampleSpace`** := the `Dictionary` a `Process` draws its `Word`s from — everything that can hold at a `Step`.
@@ -44,9 +42,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Ingress`** := the `State` presented to a `Controller` at a given `Step`.
-
-> `Ingress<Schema> := State at Step, typed by Schema`
+**`Ingress<Schema>`** := the `State` presented to a `Controller<Schema>` at a given `Step`, typed by that `Schema`.
 
 ---
 

@@ -30,7 +30,7 @@ keywords: [math, numerals]
 
 **`Total Order`** := property of `Number`s that for any `a, b` exactly one of `a < b`, `a = b`, `a > b` holds.
 
-> `∀a, b: ∃c: a.c = b ∨ b.c = a`
+> `∀a, b: (a < b) ∨ (a = b) ∨ (b < a)`
 
 ## Ranges
 

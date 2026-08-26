@@ -78,4 +78,4 @@ keywords: [math, language]
 
 **`Language`** := `Dictionary` of all `Terminal`s expressed from given `Axiom`s within given `Grammar`.
 
-> `Language<{Axiom}, Grammar> := { Terminal ∈ Theory<Axiom, Grammar> }`
+> `Language<{Axiom}, Grammar> := { Terminal ∈ Theory<A, Grammar> : A ∈ {Axiom} }`
