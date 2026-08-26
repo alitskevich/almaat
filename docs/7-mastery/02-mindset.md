@@ -120,4 +120,3 @@ Named plainly, this is an **internal locus of control** — reading the causes o
 ## Sources
 
 - [References](../_quotes.md) for the bracketed markers above.
-- Florence Scovel Shinn, "The Game of Life and How to Play It" — the five distinctions under Speech and Belief.

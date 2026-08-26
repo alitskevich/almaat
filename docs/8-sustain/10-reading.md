@@ -51,7 +51,7 @@ Words are the most controlled thing a person owns. The body runs on the older, f
 
 ## Unreadability
 
-Manipulation needs a **map** — a model of how you predictably react, built quietly over months before anything is asked. Without it an attack is blind fire; with it, one accurate shot. Most people never notice the study; they read the probing as interest. The counter Machiavelli drew from the courts is to deny the map: not coldness, but reactions an observer cannot predict. He named its two faces, the **lion** to frighten wolves and the **fox** to see the trap.
+Manipulation needs a **map** — a model of how you predictably react, built quietly over months before anything is asked. Without it an attack is blind fire; with it, one accurate shot. Most people never notice the study; they read the probing as interest. The counter is to deny the map: not coldness, but reactions an observer cannot predict. Machiavelli's two faces serve here — the **lion** to frighten wolves, the **fox** to see the trap (*The Prince*, ch. 18) — though he set them against force and deceit rather than against being read.
 
 You hand over the map through four channels:
 

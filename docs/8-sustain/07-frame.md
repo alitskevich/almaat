@@ -63,6 +63,6 @@ A refusal only holds if it carries a consequence — see [Boundaries](12-boundar
 ## Sources
 
 - Erving Goffman — [Frame Analysis](https://www.britannica.com/topic/frame-analysis) (1974)
-- Chris Voss, "Never Split the Difference" — the calibrated question and the late-night voice. (2016)
+- Chris Voss, "Never Split the Difference" — the calibrated question. (2016)
 - Manuel J. Smith, "When I Say No, I Feel Guilty" — fogging and the broken record. (fogging, broken record)
 - Stephen Karpman, "Fairy Tales and Script Drama Analysis" — the drama triangle and its Rescuer role. (1968)
