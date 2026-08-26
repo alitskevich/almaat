@@ -106,6 +106,10 @@ keywords: [mind, teleos]
 
 ---
 
+**`Outcome`** := What executing a `Solution` produces.
+
+---
+
 **`Success`** := Achievement of a `Goal` without worsening overall `Potency`.
 
 > `Success :: Goal achieved ∧ ΔPotency ≥ 0`

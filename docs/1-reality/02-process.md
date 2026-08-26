@@ -68,11 +68,13 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
+**`Probability`** := a rational number from 0 to 1.
+
+---
+
 **`Event<Dictionary>`** := triplet of `Context`, `State`, and `Probability`.
 
 > `Event<Dictionary> := (Context, { Word }, Probability)`
-
-*NOTE*: `Probability` here is a rational number from 0 to 1.
 
 ---
 
@@ -82,7 +84,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Law of Total Probability`** := the `Probabilities` of `MutuallyExclusiveEvents` sum to 1.
+**`Law of Total Probability`** := the `Probability` values of `MutuallyExclusiveEvents` sum to 1.
 
 ---
 

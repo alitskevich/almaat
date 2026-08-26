@@ -188,6 +188,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Ingress` | Uvod* |
 | `Law of Total Probability` | Zakon Pownaj Veragodnasci* |
 | `MutuallyExclusiveEvents` | Nesumiasqalnyja Zjavy* |
+| `Probability` | Veragodnasc* |
 | `Probability Distribution` | Razmerkavanne Veragodnasci* |
 | `Process` | Praces* |
 | `Random Variable` | Vypadkovaja Veliqynia* |
