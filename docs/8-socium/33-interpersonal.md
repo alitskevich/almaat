@@ -53,6 +53,8 @@ Charisma is intention plus repetition — add one move at a time.
 
 ## Persuasion
 
+The levers persuasion uses, and the form each takes when concealed, are in [Manipulation](../8-sustain/09-manipulation.md#the-seven-levers).
+
 1. **Align to your audience** — start from their psychology, needs, and point of view; show how they benefit.
 2. **Build credibility first** — authority before influence; never threaten their identity or predictability.
 3. **Appeal to emotion and logic** — both systems drive decisions.
