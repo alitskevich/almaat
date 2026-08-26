@@ -14,9 +14,9 @@ source: docs/2-mind/06-proof.md
 
 The formal apparatus that carries a `Thesis` to a `Proof` — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
 
-**`Proof`** := A `Derivation` of `Thesis` according to a `Theory`.
+**`Proof`** := A [`Conclusion`](../0-math/07-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 
-> `Proof := Derivation(Thesis) under Theory`
+> `Proof := Conclusion(Thesis) under Theory`
 
 *NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `Presentation` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../0-math/07-language.md#theories).
 

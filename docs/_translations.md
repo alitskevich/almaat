@@ -80,7 +80,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Dictionary` | Slogvar |
 | `Rule` | Pravilo |
 | `Grammar` | Pravapis |
-| `Derivation` | Vyvod |
+| `Conclusion` | Vyvod |
 | `Expression` | Vyraz |
 | `Terminal` | Nazva |
 | `Ground` | Tlo |
