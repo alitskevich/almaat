@@ -159,6 +159,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Paradigm` | Vega |
 | `Engine` | Ruxavik |
 | `Flow` | Rux |
 | `Plan` | Zadum* |
@@ -267,7 +268,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Prediction` | Vesqun* |
 | `Skill` | Navyk |
 | `Bias` | Naxil |
-| `Paradigm` | Vega |
 
 ## Proof — `2-mind/06-proof`
 

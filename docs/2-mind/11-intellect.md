@@ -88,11 +88,7 @@ keywords: [mind, intellect]
 
 ---
 
-**`Paradigm`** := A method of using `Knowledge` that enables evaluating and directing the Future for practical success in a given `System`.
-
-> `Paradigm :: Knowledge → Solution under System`
-
-*NOTE*: Based on empirical `Knowledge`, scientific method, and proven `Experience`. The integrated apparatus that converts `Knowledge` into `Solution` — and the central object of `Evolution`.
+A `Mind` realizes its [`Paradigm`](../1-reality/02-process.md#landmarks-of-a-flow) as a method of using `Knowledge`: the apparatus that converts `Knowledge` into `Solution`, built from empirical `Knowledge`, scientific method, and proven `Experience`.
 
 ## Under Uncertainty
 

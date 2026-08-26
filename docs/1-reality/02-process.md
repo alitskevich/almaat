@@ -128,6 +128,12 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
+**`Paradigm`** := a method that generates `Plan`s for a `System`.
+
+> `Paradigm :: System → {Plan}`
+
+---
+
 **`Potency`** := an evaluation of a `Plan`, or of the `Paradigm` that generates `Plan`s, under given `Circumstances`.
 
 *NOTE*: written `Potency(Plan, Circumstances)` for one `Plan`, `Potency(Paradigm, Circumstances)` for the `Paradigm` as a whole, and `Potency(Plan, Paradigm, Circumstances)` where a `Plan` is evaluated within a specific `Paradigm`.
