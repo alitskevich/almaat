@@ -122,6 +122,6 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`Equilibrium`** := a `State` of the `System` at which all `Communication` among `Participant`s balance, yielding a [`Halt`](02-process.md#landmarks-of-a-flow) for the whole.
 
-> `Equilibrium :: Framework(State_sys) = {State_sys}`
+> `Equilibrium :: Circuit(State_sys) = δ_Step`
 
 *NOTE*: the system-level `Halt`. Disturbance by external `Communication` yields either return to the same `Equilibrium` (stable), drift to a different one (metastable), or unbounded divergence (unstable).
