@@ -392,7 +392,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Mission` | Shlaxt |
 | `Resilience` | Tryvalost |
 | `Greatness` | Veliq |
-| `Maturity` | Daroslost |
 | `Openness` | Adkrytost |
 | `Joy` | Rajdost |
 | `Acceptance` | Pryniatte |
@@ -412,6 +411,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Love` | Amora |
 | `Rajdo` | Pryniatte Byccia* |
 | `Self-Acceptance` | Ja-pryniatte* |
 
@@ -431,9 +431,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Rage` | Jarost |
 | `Laughter` | Smex |
 | `Feeling` | Paqutte |
-| `Persona` | Asoba |
-| `Social Mask` | Maska |
-| `Dark Shadow` | Tatum |
 | `Charisma` | Vajba |
 | `Coolidge Effect` | Efekt Kulidzha* |
 | `Desensitization` | Prytuplenne* |
@@ -446,12 +443,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Love` | Amora |
 
 ## Social Ecology — `8-socium/31-ecology`
 
 | Term | Belarusian |
 |---|---|
+| `Maturity` | Daroslost |
 | `Community` | Gramada* |
 | `Contract` | Damova* |
 | `Role` | Rolia* |
@@ -475,12 +472,20 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Sovereign-State` | Dzjarzhava* |
 | `Status` | Stanovishqa* |
 
+## Identity — `8-socium/34-identity`
+
+| Term | Belarusian |
+|---|---|
+| `Persona` | Asoba |
+| `Social Mask` | Maska |
+| `Dark Shadow` | Tatum |
+| `Aspirational Self` | Ja-Idealnae* |
+
 ## Trances — `8-socium/35-transes`
 
 | Term | Belarusian |
 |---|---|
 | `Inferiority Trance` | Trans Niepawnasci* |
-| `Aspirational Self` | Ja-Idealnae* |
 | `Self-Compassion` | Samaspaquvanne* |
 
 ## Conformism — `8-socium/36-conformism`
