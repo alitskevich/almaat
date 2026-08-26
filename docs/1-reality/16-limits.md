@@ -10,13 +10,13 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 ## External Bounds
 
-**`Freedom`** := an `Agent`'s independence from `Communication` that would coerce a change of its `Paradigm`.
+**`Freedom`** := a `Participant`'s independence from `Communication` that would coerce a change of its `Paradigm`.
 
-*NOTE*: the `Agent`'s ability to act on its own `Goal` without coercion from the `Environment`. Always conditional and relative to specified `Communication` — never absolute.
+*NOTE*: the ability to act on one's own `Plan` without coercion from the `Environment`. Always conditional and relative to specified `Communication` — never absolute.
 
 ---
 
-**`Constraint`** := the set of `Communication` that limit the range of accessible `Plan` for an `Agent`.
+**`Constraint`** := the set of `Communication` that limit the range of accessible `Plan` for a `Participant`.
 
 > `Constraint := {Communication : restricts accessible Plan}`
 

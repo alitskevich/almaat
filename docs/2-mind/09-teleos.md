@@ -122,7 +122,15 @@ keywords: [mind, teleos]
 
 > `Victory :: Success(self) ∧ ∃A_other: Failure(A_other)`
 
-*NOTE*: Zero-sum by construction, and structurally fragile — those it costs become future `Communication` against the victor. See also [`Synergy`](../1-reality/15-evolution.md#shared-success).
+*NOTE*: Zero-sum by construction, and structurally fragile — those it costs become future `Communication` against the victor. Contrast `Synergy` below.
+
+---
+
+**`Synergy`** := A `Solution` whose `Success` is shared by all participating `Agent`s.
+
+> `Synergy :: ∀A ∈ Participants: Success(A)`
+
+*NOTE*: positive-sum: mutual benefit. The highest-quality `Solution` within a multi-`Agent` `System`.
 
 ---
 

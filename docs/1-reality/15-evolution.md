@@ -41,11 +41,3 @@ What bounds those trajectories is in [Limits](16-limits.md).
 > `Crisis :: Potency(Paradigm, Circumstances) ≈ 0 ∧ ∄Paradigm'_attainable: Potency(Paradigm', Circumstances) > Potency(Paradigm, Circumstances)`
 
 *NOTE*: the branching point: either [`Breakthrough`](16-limits.md#the-ceiling) yields a new `Paradigm`, or the `Agent`'s capacity to participate in the `System` collapses.
-
-## Shared Success
-
-**`Synergy`** := a [`Solution`](../2-mind/09-teleos.md#commitment-and-outcome) whose [`Success`](../2-mind/09-teleos.md#commitment-and-outcome) is shared by all participating [`Agent`](../2-mind/09-teleos.md#the-agent)s.
-
-> `Synergy :: ∀A ∈ Participants: Success(A)`
-
-*NOTE*: positive-sum: mutual benefit. The highest-quality `Solution` within a multi-`Agent` `System`.
