@@ -64,7 +64,7 @@ The `Animal` scans continuously for threats, and reports them where none are pre
 
 **`Suppression`** := blocking the outward expression of an `Emotion` without resolving its cause.
 
-- Suppression is not regulation. Regulation (breathing, naming, reframing) lowers the arousal; suppression only hides it while the arousal persists as chronic load.
+- Suppression is not regulation. Regulation lowers the arousal — breathing, reframing, and naming, which describes a state instead of enacting it. Suppression only hides it, and the arousal persists as chronic load.
 - Held anger keeps the `Stress` response partly switched on, so the arousal it was meant to discharge persists as chronic load.
 - The `Animal`'s mobilized energy must discharge somewhere. Blocked, it leaks as irritability, tension, or bodily symptoms; vented, it only rehearses the `Rage`. The exit is neither storing nor venting but regulating, then addressing the cause.
 

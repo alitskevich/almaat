@@ -45,7 +45,7 @@ Manipulation runs on **speed and pressure**. Slow the pace and most tactics lose
 | **The decision pause** | "I'll get back to you." Removes the artificial urgency most demands depend on |
 | **The refusal pause** | A silence held *after* a "no," instead of rushing to soften it |
 
-Chris Voss's negotiation toolkit fits here as defense: **tactical empathy** (name the other side's state to defuse it, without conceding), **labeling** (naming an emotion lowers its charge), and the **accusation audit** (pre-empt the worst thing they could say about you so it loses its sting).
+Chris Voss's negotiation toolkit fits here as defense: **tactical empathy** (name the other side's state to defuse it, without conceding), **labeling** ([naming an emotion lowers its charge](../4-human/28-animal.md#emotion-and-stress)), and the **accusation audit** (pre-empt the worst thing they could say about you so it loses its sting).
 
 ## Language
 

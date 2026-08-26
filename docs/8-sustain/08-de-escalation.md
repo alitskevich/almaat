@@ -40,7 +40,7 @@ Meeting force with force ("No, *you're* wrong") is verbal karate: the louder, an
 | Step | Move |
 | ---- | ---- |
 | **Listen** | Hear what is said; don't load your reply while they speak — they feel it and escalate |
-| **Empathize** | Name the emotion aloud ("I see this matters to you"). Naming the state is what allows the exchange to continue as a conversation |
+| **Empathize** | Name the emotion aloud ("I see this matters to you"). [Naming the state](../4-human/28-animal.md#emotion-and-stress) is what allows the exchange to continue as a conversation |
 | **Ask** | Questions pull them from feeling into fact — a thinking brain is no longer a shouting one |
 | **Paraphrase** | Restate their point in your words; they feel heard, and the claim softens into workable form |
 | **Summarize** | Sum up and close on a concrete next step |

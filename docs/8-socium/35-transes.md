@@ -48,7 +48,7 @@ The same split runs motivation. **Avoidance** (away-from) is driven by disgust a
 
 Fighting, fleeing, or repairing the trance all act from the premise *something is wrong with me*, so each attempt re-confirms it — fighting shame summons more shame. The exit is the opposite move: `Radical Acceptance`, in three steps.
 
-**Recognize.** Catch the trance by its tells — the merciless inner voice, fear, shame, envy, `Anxiety` — and name the feeling plainly, aloud: "I feel shame." Naming is not a trick: a feeling described is a feeling you are no longer only inside of, which is what breaks the automatic fight-or-fix response.
+**Recognize.** Catch the trance by its tells — the merciless inner voice, fear, shame, envy, `Anxiety` — and name the feeling plainly, aloud: "I feel shame." Naming is not a trick: it [describes the state instead of enacting it](../4-human/28-animal.md#emotion-and-stress), which is what breaks the automatic fight-or-fix response.
 
 **Allow.** Acceptance is not approval and not the hunt for a silver lining; it is neutral, the absence of resistance — the way you accept that today it rains. Let the feeling register in the body, the tight throat and the cold weight in the chest. Once the friction between you and the feeling stops, the suffering it was striking stops with it.
 

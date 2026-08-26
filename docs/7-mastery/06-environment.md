@@ -53,7 +53,7 @@ Where the architecture has not yet caught up, two moves convert a live urge from
 | Principle | Move | Why it works |
 | --------- | ---- | ------------ |
 | **Pause** | When the urge hits, tell yourself "in 10 minutes" and just watch it. | The urge has a peak and a decay. The wave passes on its own, and the decision gets made from a calm state instead of the peak. |
-| **Rename** | Name the want plainly — "this is anxiety looking for an exit," not "I need a drink." | Naming the state describes it rather than obeys it, which is what makes it possible to wait it out. |
+| **Rename** | Name the want plainly — "this is anxiety looking for an exit," not "I need a drink." | [Naming describes the state instead of enacting it](../4-human/28-animal.md#emotion-and-stress), which is what makes it possible to wait it out |
 
 **Work with a relapse, don't moralize it.** A relapse is data, not a verdict. The danger is the next 10 minutes and the "what-the-hell effect" — perfectionism that turns one slip into a collapse. Acknowledge it without drama → ask "what did I feel just before?" → take one small step now.
 
