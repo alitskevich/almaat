@@ -68,6 +68,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Vertex` | Styk |
 | `Pair` | Para |
 | `Composition` | Stvor |
+| `Subject` | Dzejnik* |
+| `Object` | Pradmet* |
 | `Singleton` | Ton |
 | `Bijective` | Adnaznaqnae* |
 | `Currying` | Karyng* |
@@ -130,6 +132,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `View` | Vid |
 | `Presentation` | Prajava |
 | `Matter` | Materia |
+| `Basis` | Asnova* |
+| `Origin` | Vytok* |
 | `Content` | Zmest |
 | `Key` | Kliuq |
 | `Relation` | Adnosiny |

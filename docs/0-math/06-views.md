@@ -12,6 +12,10 @@ keywords: [math, views]
 
 **`Matter`** := `Set:Basis` equipped with a finite set of `Azon:Attribute`s.
 
+---
+
+**`Basis`** := the `Set` a `Matter` is built on.
+
 > `Matter := (Basis, {Attribute}) :: DOM(Attribute) ⊆ Basis`
 
 ---
@@ -99,6 +103,10 @@ keywords: [math, views]
 **`Projection`** := A `Place` derived from `Place`-`Origin` by `Selection` over the `Attribute`s of a `Type`.
 
 > `Projection<Selection over [a₁, ..., aₙ]> := Origin → Selection(Place)`
+
+---
+
+**`Origin`** := the `Place` a `Projection` derives from.
 
 ## Quality
 

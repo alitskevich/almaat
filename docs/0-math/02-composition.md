@@ -62,6 +62,14 @@ keywords: [math, composition]
 
 *DEF*: a `Composition` is **well-consumed** when its `Object` is valent on the entire output of its `Subject`: `COD(A) ⊆ DOM(B)`.
 
+---
+
+**`Subject`** := in a `Composition`, the `Azon` whose output is taken.
+
+---
+
+**`Object`** := in a `Composition`, the `Azon` that takes it as input.
+
 ## Derived
 
 **`Singleton`** := `fixed` `Arrow`.
