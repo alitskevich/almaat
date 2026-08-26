@@ -38,13 +38,13 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`System`** := a `Set` of `Participant`s coupled by mutual `Communication`.
 
-> `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P ↔ Q) ≠ 0`
+> `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P → Q) ≠ 0 ∨ Communication(Q → P) ≠ 0`
 
 ---
 
-**`Participant`** := a `Thing` that communicates with other `Participant`s of the `System`.
+**`Participant`** := a `Thing` that produces `Communication` toward another `Thing`.
 
-> `Participant(P) :: P IS Thing ∧ ∃Q ∈ System: Communication(P ↔ Q) ≠ 0`
+> `Participant(P) :: P IS Thing ∧ ∃Q ≠ P: Communication(P → Q) ≠ 0`
 
 *NOTE*: the atomic unit of a `System` — defined by its role in the network of `Communication`, not by its internal structure. Every `Participant` is a [`Source`](../0-math/01-sets.md#sets): it must produce output in order to communicate.
 
@@ -52,7 +52,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`State of a Participant`** := the `State` of a `Participant` at a given `Step`.
 
-> `State(U, Step) :: State over the Presentations of U at Step`
+> `State(U, Step) :: State over the Views of U at Step`
 
 *NOTE*: what `Behavior` projects outward and what `Attention` of others receives.
 
@@ -60,7 +60,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`Communication`** := projection of one `Participant`'s `Behavior` into another's `Attention`.
 
-> `Communication(A → B) := Behavior(A) . Attention(B)`
+> `Communication(A → B) := Attention(B) . Behavior(A)`
 
 *NOTE*: asymmetric: `A → B ≠ B → A`. Operates across a single `Step` — A's output at `Step[i]` becomes B's input at `Step[i+1]`.
 
@@ -68,7 +68,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`Behavior`** := a `Participant`'s projection of its own `State` toward other `Participant`s.
 
-> `Behavior(A) :: State(A) → Attention(other)`
+> `Behavior(A) :: State(A) → View`
 
 *NOTE*: the sending half — the externally-visible aspect of a `Participant` — what it contributes to the `System`.
 
@@ -76,7 +76,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`Attention`** := a `Participant`'s selection of *other* `Participant`s' `Behavior` into its own `State`.
 
-> `Attention(B) :: Behavior(other) → State(B)`
+> `Attention(B) :: View → State(B)`
 
 *NOTE*: the receiving half. `Attention` is selective: not every available `Behavior` enters a `Participant`'s input.
 
@@ -84,7 +84,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`Environment`** := the part of the `System` that has mutual `Communication` with a `Participant`.
 
-> `Environment(P) := {Q ∈ System : Communication(P↔Q) ≠ 0}`
+> `Environment(P) := {Q ∈ System : Communication(P → Q) ≠ 0 ∧ Communication(Q → P) ≠ 0}`
 
 *NOTE*: the `Participant`'s local neighborhood — the subset of the `System` it actually exchanges `Behavior`/`Attention` with.
 
@@ -100,7 +100,7 @@ Things as queues of presentations over a flow: the participants, the communicati
 
 **`Coupling`** := the persistence of mutual `Communication` between two `Participant`s across multiple `Step`s.
 
-> `Coupling(A, B) := | {Step[i] : Communication(A↔B) ≠ 0 at Step[i]}|`
+> `Coupling(A, B) := | {Step[i] : Communication(A → B) ≠ 0 ∧ Communication(B → A) ≠ 0 at Step[i]}|`
 
 ---
 
