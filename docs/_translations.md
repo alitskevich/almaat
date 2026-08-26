@@ -121,6 +121,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Term | Belarusian |
 |---|---|
 | `Law` | Zakon* |
+| `Operation` | Aperacyja* |
 
 ## Presentational View — `0-math/06-views`
 
@@ -151,6 +152,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Quality<Type>` | Jakost Typu* |
 | `Sigma<n>` | Jadro<n>* |
 | `Space` | Shyr* |
+| `Reference` | Spasylka* |
 | `Type` | Typ* |
 
 ## Dynamic Processes — `1-reality/02-process`
@@ -163,7 +165,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Step` | Mig |
 | `Event` | Zjava |
 | `Circuit` | Dvigun |
-| `Halt` | Krant |
+| `Halt` / `Absorbing State` | Krant |
 | `Bifurcation` | Razvoda* |
 | `Thing` | Shtuka |
 | `Transition` | Perexod |
@@ -188,6 +190,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Ingress` | Uvod* |
 | `Law of Total Probability` | Zakon Pownaj Veragodnasci* |
 | `MutuallyExclusiveEvents` | Nesumiasqalnyja Zjavy* |
+| `SampleSpace` | Prastor Vynikaw* |
 | `Probability` | Veragodnasc* |
 | `Probability Distribution` | Razmerkavanne Veragodnasci* |
 | `Process` | Praces* |
@@ -290,6 +293,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Specification` | Apisanne* |
 | `Transformation` | Perawtvarenne* |
 | `Transformer` | Perawtvaralnik* |
+| `Equivalence` | Rawnaznaqnasc* |
 
 ## Reasoning — `2-mind/08-reasoning`
 
