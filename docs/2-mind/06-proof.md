@@ -10,7 +10,7 @@ keywords: [mind, proof, logic]
 
 **`Proof`** := A [`Conclusion`](../0-math/07-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 
-> `Proof := Conclusion(Thesis) under Theory`
+> `Proof<Theory> := Conclusion<Theory> :: Conclusion(Axiom) ∈ Thesis`
 
 *NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `Presentation` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../0-math/07-language.md#theories).
 
