@@ -32,7 +32,7 @@ keywords: [reality, system, participant, communication]
 
 **`System`** := a `Set` of `Participant`s coupled by mutual `Communication`.
 
-> `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P → Q) ≠ 0 ∨ Communication(Q → P) ≠ 0`
+> `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P → Q) ≠ 0 ∧ Communication(Q → P) ≠ 0`
 
 ---
 
