@@ -44,7 +44,7 @@ source: docs/2-mind/07-computation.md
 
 ---
 
-**`Contract`** := Conditions and limitations that guarantee predictable runtime behavior; errors reported when violated.
+**`Runtime-Contract`** := Conditions and limitations that guarantee predictable `Runtime` behavior; errors reported when violated.
 
 ## Program
 
