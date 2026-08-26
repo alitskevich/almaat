@@ -323,7 +323,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Productivity | RUPLIVOST |
 | Save Early | Ashqadnast |
 | Live Below Means | Skromnast |
-| The Tribe | SILA TABORA |
 
 ## Energy — `8-sustain/05-energy`
 
