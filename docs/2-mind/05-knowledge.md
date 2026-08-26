@@ -36,11 +36,7 @@ The atomic units of belief — `Opinion`, `Doubt`, `Thesis`, `Theory`, `Name`, `
 
 ---
 
-**`Theory`** := A set of Terms — `Name` and `Concept` — for `Opinion` over a `Language` (Logic) and an `Attribute-Space` (`Reality`).
-
-> `Theory := ({Name}, {Concept}, Language, Attribute-Space)`
-
-*NOTE*: A *coordinated vocabulary plus the inferential machinery* that lets `Opinion` combine into `Thesis`.
+[`Theory`](../0-math/07-language.md#theories) is the `Dictionary` of `Expression`s derivable within a `Grammar`. A `Mind` holds one interpreted: its `Name`s and `Concept`s are `Expression`s of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over an `Attribute-Space` — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
 
 ## Naming
 

@@ -18,7 +18,7 @@ The formal apparatus that carries a `Thesis` to a `Proof` — formalism, interpr
 
 > `Proof := Derivation(Thesis) under Theory`
 
-*NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `Presentation` within specific Logics. `Thesis` and `Theory` are defined in [Knowledge](05-knowledge.md).
+*NOTE*: Subjects themselves remain inaccessible; we form `Opinion` about their `Presentation` within specific Logics. `Thesis` is defined in [Knowledge](05-knowledge.md), `Theory` in [Formal Language](../0-math/07-language.md#theories).
 
 ---
 
