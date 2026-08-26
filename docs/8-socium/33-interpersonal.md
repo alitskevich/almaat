@@ -93,7 +93,7 @@ Three roles are worth keeping deliberately:
 
 ```mermaid
 mindmap
-  root((Tribe))
+  root((Company))
     Challenger
       Uncomfortable truths
       Sharpens standards
