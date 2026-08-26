@@ -49,3 +49,7 @@ Taking information in is not retaining it. Retention has its own mechanics:
 ## Reading
 
 Reading is the highest-bandwidth way into other `Mind`s — compressed `Experience` you did not have to live. It pays only when active: question the text, connect it to what you already hold, and convert it into an attempt. A book read without application is `Information` that never became `Knowledge`.
+
+## Sources
+
+- Peter C. Brown, Henry L. Roediger III and Mark A. McDaniel, "Make It Stick" — retrieval practice, spacing and interleaving. (2014)

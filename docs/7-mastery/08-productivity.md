@@ -73,4 +73,7 @@ Discipline is the input; leverage is the multiplier.
 
 [[31]]
 
-[References](../_quotes.md)
+## Sources
+
+- Eric Jorgenson, "The Almanack of Naval Ravikant" — the leverage taxonomy this section adapts. (2020)
+- [References](../_quotes.md) for the bracketed markers above.

@@ -55,3 +55,7 @@ Where the architecture has not yet caught up, two moves convert a live urge from
 **Identity and connection.** "I don't smoke" works better than "I'm trying to quit" — [`Behavior` follows the identity one claims](05-habits.md#building-habits). Environment is part of the mechanism: isolation deepens compulsion and a rich environment loosens it, which is why company counts as architecture.
 
 Company is environment too — the norms you absorb are set by whoever you are around most. See [Influence → Company and Norms](../8-socium/33-interpersonal.md#company-and-norms).
+
+## Sources
+
+- Janet Polivy and C. Peter Herman — the what-the-hell effect, from their research on dietary restraint.
