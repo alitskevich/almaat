@@ -16,9 +16,7 @@ Mastery as the capacity for effective activity toward constant improvement, the 
 
 ## What Mastery Is
 
-**`Mastery`** := The capacity for abundant, effective activity toward constant improvement in one's chosen field.
-
-Mastery is measured by `Surplus`, `Body of Work`, and `Super-Goals`, defined below.
+The capacity for abundant, effective activity toward constant improvement in one's chosen field, measured by `Surplus`, `Body of Work`, and `Super-Goal`s — all defined under [Terms](#terms).
 
 ## The Mastery Framework
 
