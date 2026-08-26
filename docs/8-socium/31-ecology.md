@@ -101,4 +101,4 @@ The dilemma changes when the game repeats — when you meet the same people agai
 - **Forgiving** — do not hold grudges; one defection earns one response, not endless war.
 - **Clear** — be predictable, so others can learn to cooperate with you.
 
-Repetition makes conscience the dominant strategy and reputation an asset, because defectors are remembered and isolated — the formal echo of axioms 6 and 7.
+Repetition makes conscience the dominant strategy and reputation an asset, because defectors are remembered and isolated — the formal echo of axioms 5 and 6.
