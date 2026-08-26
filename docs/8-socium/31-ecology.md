@@ -63,13 +63,13 @@ It requires freedom of expression, quality education, public discourse on equal 
 
 ### The Kantian Principle
 
-A choice is ethical if it remains good when applied universally to all members of the community. Treat every person as an end, never merely as a means.
+A choice is ethical if it remains good when applied universally to all members of the community, and if it satisfies [Nobody as a means](../4-human/98-manifesto.md#reciprocal-respect).
 
 ### Key Axioms
 
 1. Those without their own truth will be colonized by others'
 2. Those without their own will execute others'
-3. Rights are not given — they are taken, with the obligation to defend them
+3. Rights are not given — they are taken, with the obligation to defend them; see [Rights](../4-human/98-manifesto.md#rights)
 5. A society built on conscience surpasses one built on violence
 6. People of conscience have no insurmountable conflicts
 7. If you cannot be a threat, you are only a tool
