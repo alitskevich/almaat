@@ -55,19 +55,14 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Arrow` | Strelka |
 | `Pair` | Para |
 | `Singleton` | Ton |
-| `Plusator` | Plusator |
 | `Graph` | Tiaga |
 | `Vertex` | Styk |
 | `Structure` | Stroj |
 | `Cycle` | Kola |
 | `Path` | Cug |
 | `Tree` | Dreva |
-| `Transposition` | Perestyk |
 | `Translation` | Pereklad |
-| `Sink` | Konqatkom |
 | `Link` *(pass-through)* | Zmyqkaj |
-| `Fork` | Razvilkaj |
-| `Merge` | Sborkaj |
 
 ## Composition — `0-math/02-composition`
 
@@ -86,7 +81,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Grammar` | Pravapis |
 | `Derivation` | Vyvod |
 | `Expression` | Vyraz |
-| `Expression-Set` | Vyraznost |
 | `Terminal` | Nazva |
 | `Ground` | Tlo |
 | `Language` | Mova |
@@ -216,7 +210,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Cost` | Cana* |
 | `Failure` | Praval |
 | `Risk` | Vatra* |
-| `Trade-off` | Vagaj* |
 | `Free-Will` | Svabodnaja Volia* |
 | `Determinism` | Pradvyznaqanasc* |
 | `Authorship-Illusion` | Maroka Dzejstva* |
@@ -267,9 +260,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Openness | ADKRYTOST |
 | Joy | RAJDOST |
 | Acceptance | PRYNIATTE |
-| Let Past Go | ADPUSKANNE |
 | Moderation | STIPLOST |
-| Avoid Expectations | PAXUIZM |
 | Gratitude | UDJAQNOST |
 | Forgiveness | DARAVANNE |
 | Asking Forgiveness | PRABAQENNE |
@@ -310,7 +301,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Determination | NASTYRNOST |
 | Save Early | Ashqadnast |
 | Live Below Means | Skromnast |
-| Clear Vision | MROJA |
 | `Conformism` | Pakornast* |
 | `Moral Courage` | Smelast* |
 | `Inferiority Trance` | Trans Niepaŭnasci* |
