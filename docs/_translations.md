@@ -502,6 +502,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Save Early` | Ashqadnast |
 | `Live Below Means` | Skromnast |
 | `Invest Wisely` | Ukladaj Razumna* |
+| `Leverage` | Ryqag* |
 
 ## Energy — `8-sustain/05-energy`
 

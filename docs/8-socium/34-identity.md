@@ -24,7 +24,7 @@ The gap between the three sides is psychically painful, and is also the source o
 
 ## Persona
 
-`Persona` (the social mask) is how a `Human` manifests in communication with other people — a set of principles and strategies for dealing with the social environment. It seeks social connection over personal comfort:
+`Persona` (the social mask) is how a `Human Being` manifests in communication with other people — a set of principles and strategies for dealing with the social environment. It seeks social connection over personal comfort:
 
 - **Belonging** — acceptance as part of one's own tribe: *I am like you, I am with you.*
 - **Validation** — external approval, recognition, and respect: *I am worthy of love and respect.*

@@ -14,7 +14,7 @@ In Milgram's 1963 experiment (*Behavioral Study of Obedience*), ordinary people 
 
 ## The Good Face
 
-Modern `Conformism` is not the obvious coward who runs or betrays. It is the decent person who believes being good means not making trouble, not rocking the boat, doing what is expected. Erich Fromm called this *automatic conformity*: not trembling and hiding, but functioning without ever asking a question.
+Modern conformism is not the obvious coward who runs or betrays. It is the decent person who believes being good means not making trouble, not rocking the boat, doing what is expected. Erich Fromm called this *automatic conformity*: not trembling and hiding, but functioning without ever asking a question.
 
 Such a person cannot stay neutral, because another's independence is a threat: if one can think, speak, and live differently, why did he stay silent and endure? To protect his own choice of comfort he becomes the first to point at the rule-breaker and the first to back restrictions on those who do not fit.
 
@@ -38,7 +38,7 @@ Ervin Staub studied how ordinary people become accomplices to mass killing. It n
 
 ## Four Moves
 
-- **Close the gap between private and public view.** Thinking one thing and saying another is not diplomacy but slow self-erosion: each silence costs a little self-respect, and the payments compound until you no longer know what you think. This is the slavery Goethe meant — "Whoever cannot be master of himself will always be a slave." The size of the gap measures your `Conformism`. See [Self-Honesty](../7-mastery/02-mindset.md#self-honesty).
+- **Close the gap between private and public view.** Thinking one thing and saying another is not diplomacy but slow self-erosion: each silence costs a little self-respect, and the payments compound until you no longer know what you think. This is the slavery Goethe meant — "Whoever cannot be master of himself will always be a slave." The size of the gap measures your conformism. See [Self-Honesty](../7-mastery/02-mindset.md#self-honesty).
 - **Separate morality from law.** Permitted does not mean right; forbidden does not mean wrong. Obedience by itself is not a virtue — a well-trained dog obeys perfectly.
 - **Take small risks regularly.** Do not wait for a heroic moment.
 - **Stop waiting for someone else to speak first.** Everyone defers to a more qualified someone, who thinks the same of you, so no one speaks.

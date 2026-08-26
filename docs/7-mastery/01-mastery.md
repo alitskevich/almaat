@@ -58,4 +58,4 @@ The capacity for abundant, effective activity toward constant improvement in one
 
 > `Super-Goal :: Goal :: ∀Plan: horizon(Super-Goal) > horizon(Plan)`
 
-*NOTE*: the highest-level ambition a life is arranged around. `Vision` is the work of finding one — see [Vision](03-vision.md).
+*NOTE*: the highest-level ambition a life is arranged around. Finding one is the work of [Vision](03-vision.md).

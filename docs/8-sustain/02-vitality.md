@@ -12,7 +12,7 @@ keywords: [sustain, vitality]
 
 - Health is a tool, not a goal. Obsessing over health is its own disease.
 - Health requires daily effort. Small habits, done consistently, compound; panic and "magic pills" do not.
-- Fear does not change behavior. [`Discipline`](../7-mastery/04-discipline.md) does.
+- Fear does not change behavior. [Discipline](../7-mastery/04-discipline.md) does.
 - Know your own limits — they differ from others'.
 - Use only what you need. Avoid excess.
 

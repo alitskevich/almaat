@@ -46,7 +46,7 @@ On reading as an input, see [Learning → Reading](09-learning.md#reading).
 
 Effort has a ceiling — hours are finite, and raw labor pays only while you spend them.
 
-**Leverage** multiplies the output of the same effort, so results stop scaling with hours worked and start scaling with judgment.
+**`Leverage`** := what multiplies the output of the same effort, so that results scale with judgment rather than with hours worked.
 
 | Form | What it multiplies | Note |
 | ---- | ------------------ | ---- |
