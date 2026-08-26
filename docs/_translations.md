@@ -52,11 +52,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Arrow` | Strelka |
-| `Pair` | Para |
-| `Singleton` | Ton |
 | `Graph` | Tiaga |
-| `Vertex` | Styk |
 | `Structure` | Stroj |
 | `Cycle` | Kola |
 | `Path` | Cug |
@@ -68,7 +64,11 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `Arrow` | Strelka |
+| `Vertex` | Styk |
+| `Pair` | Para |
 | `Composition` | Stvor |
+| `Singleton` | Ton |
 
 ## Formal Language — `0-math/07-language`
 
@@ -292,20 +292,28 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | Love | AMORA |
 
-## Mindset — `7-mastery/02-mindset`
+## Trances — `8-socium/35-transes`
 
 | Term | Belarusian |
 |---|---|
-| Determination | NASTYRNOST |
-| Save Early | Ashqadnast |
-| Live Below Means | Skromnast |
-| `Conformism` | Pakornast* |
-| `Moral Courage` | Smelast* |
 | `Inferiority Trance` | Trans Niepawnasci* |
 | `Real Self` | Ja-Saprawdnae* |
 | `Ideal Self` | Ja-Idealnae* |
 | `Self-Compassion` | Samaspaquvanne* |
 | `Radical Acceptance` | Skroznae Pryniacce* |
+
+## Conformism — `8-socium/36-conformism`
+
+| Term | Belarusian |
+|---|---|
+| `Conformism` | Pakornast* |
+| `Moral Courage` | Smelast* |
+
+## Mindset — `7-mastery/02-mindset`
+
+| Term | Belarusian |
+|---|---|
+| Determination | NASTYRNOST |
 
 ## Productivity — `7-mastery/08-productivity`
 
@@ -313,5 +321,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | Environment Design | SILA ABSTAVINAW |
 | Productivity | RUPLIVOST |
+| Save Early | Ashqadnast |
+| Live Below Means | Skromnast |
 | The Tribe | SILA TABORA |
+
+## Energy — `8-sustain/05-energy`
+
+| Term | Belarusian |
+|---|---|
 | Depression | MLIAVA |
