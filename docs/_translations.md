@@ -113,7 +113,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Numerals` | Liqby* |
 | `Plus` | Prybawka* |
 | `Scoring` | Padlik* |
-| `Total Order` | Powny Rad* |
+| `Total Order` | Powny Lad* |
 | `Vector` | Vektar* |
 
 ## Structures — `0-math/05-structures`
@@ -147,7 +147,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Norm` | Norma |
 | `Measure` *(pending primitive)* | Mera |
 | `Attribute` | Prykmeta* |
-| `Entity` | Sutnasc* |
+| `Entity` | Asobnik* |
 | `Quality<Type>` | Jakost Typu* |
 | `Sigma<n>` | Jadro<n>* |
 | `Space` | Shyr* |
@@ -196,7 +196,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Process` | Praces* |
 | `Random Variable` | Vypadkovaja Veliqynia* |
 | `Text<Dictionary>` | Tekst* |
-| `TransitionMatrix` | Matryca Perexodaw* |
+| `TransitionMatrix` | Mantra Perexodaw* |
 
 ## System — `1-reality/07-system`
 
@@ -233,7 +233,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Consciousness` | Prytomnasc* |
+| `Consciousness` | Svedomost |
 | `Sensation` | Adquvanne* |
 
 ## Intellect — `2-mind/11-intellect`
@@ -371,7 +371,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Mastery` | Spryt* |
 | `Calling` | Pokliq* |
 | `Body of Work` | Darobak* |
-| `Super-Goal` | Zvyshmeta* |
+| `Super-Goal` | Zvyshajmeta* |
 | `Surplus` | Nadlishak* |
 
 ## Human Being — `4-human/21-human`
@@ -381,7 +381,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Human Being` | Qalavelk |
 | `Inspiration` | Nadxnenne |
 | `Dignity` | Godnost |
-| `Awareness` | Svedomost |
+| `Awareness` | Prytomnasc* |
 | `Conscience` | Sumlenne |
 | `Absolute Truth` | Jstina |
 | `Own Truth` | Pravda |
