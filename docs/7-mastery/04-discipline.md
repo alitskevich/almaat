@@ -52,3 +52,5 @@ Don't say "I can do it" — ask "Can I do it?" A statement invites no answer; a 
 5. *Reflection*: "What did this teach me for next time?"
 
 For the longer written form of the same move, see [Questions on Paper](03-vision.md#questions-on-paper).
+
+[References](../_quotes.md)

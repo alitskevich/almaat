@@ -70,3 +70,5 @@ Discipline is the input; leverage is the multiplier.
 - **Invest Wisely**: Put money to work in assets that grow over time.
 
 [[31]]
+
+[References](../_quotes.md)
