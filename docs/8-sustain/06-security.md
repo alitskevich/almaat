@@ -19,7 +19,7 @@ Staying sovereign against threats from others, across two planes — and the hie
 
 Both rest on the same [Animal](../4-human/28-animal.md) that reacts before thought and the same [biases](../7-mastery/11-thinking.md) that get people hurt. Both are won mostly *before* contact. And both are **defense, not domination** — the goal is to stay intact and free, not to make others lose. See [Ethics](../8-socium/31-ecology.md#ethics).
 
-> **Note:** This page is educational. It is not legal advice or a fight manual. The lawful purpose of force is to stop an imminent threat and escape — nothing more.
+*NOTE*: This page is educational. It is not legal advice or a fight manual. The lawful purpose of force is to stop an imminent threat and escape — nothing more.
 
 ## The Hierarchy of Defense
 

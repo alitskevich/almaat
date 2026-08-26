@@ -96,4 +96,6 @@ Lev Vygotsky's account of where the *content* of `Thought` comes from — above 
 
 *Implication.* If a `Mind` is assembled from outside through word and sign by describable laws, the same account describes how to influence one: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to `Alignment` in artificial minds.
 
-> *Source: Lev Vygotsky, cultural-historical psychology — "Thinking and Speech", with A. Luria and A. Leontiev.*
+## Sources
+
+- Lev Vygotsky, "Thinking and Speech" — cultural-historical psychology and the social origin of mind, with A. Luria and A. Leontiev.
