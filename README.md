@@ -1,44 +1,47 @@
 # ALMAAT
 
-A general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown. One ontology, built from a single irreducible primitive (the `Azon`) up through `Set`, `Graph`, `Sequence`, `Space`, dynamic `System`, `Mind`, `Agent`, and `Growth`, then applied to the human, the collective, and software engineering.
+A general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown.
 
-```text
-Azon → Set → Graph → Sequence → Space → System → Mind → Agent → Growth
-        └── formal ──┘    └── dynamic ──┘    └── applied ──┘
-```
+It builds one ontology from a single irreducible primitive — the `Azon`, a contract that responds to each given `Sign` with a specific `Value` — and never introduces a term it has not defined. `Set`, `Graph`, `Numerals` and `Language` are built from that primitive; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act. The applied sections then carry that same vocabulary into a life: mastery, the collective, and the body.
+
+It is for anyone who wants a single consistent vocabulary for thinking about minds, systems and how to live — read straight through, or entered at any file through the index.
 
 ## Read it
 
-- [`docs/welcome.md`](docs/welcome.md) — entry page, the layers at a glance.
-- [`docs/INDEX.md`](docs/INDEX.md) — master index of every section and file.
-- Each section folder under `docs/` has its own `index.md`.
+- [`docs/welcome.md`](docs/welcome.md) — the entry page, layers at a glance.
+- [`docs/INDEX.md`](docs/INDEX.md) — every section and every file, each with its one-line description.
 
 ## Sections
 
-Content lives in `docs/`, one folder per ontological layer or applied domain:
+Content lives in `docs/`, one folder per ontological layer or applied domain. The leading digit places a folder in the ontology's order; numbers rise roughly with depth, and the two applied folders keep their own numbering.
 
-| Folder         | Topic                                                              |
-|----------------|--------------------------------------------------------------------|
-| `0-math/`      | Formal foundations: `Azon`, `Set`, `Graph`, `Algebras`, `Sequence`, `Space`. |
-| `1-nature/`    | Dynamics: `Process`, `System`, `Agency`.                           |
-| `3-intellect/` | Knowing: `Reasoning`, `Computation`, `Intellect`, `Science`, `Psyche`. |
-| `4-human/`     | The human as a layered composition of body and psyche.             |
-| `5-socium/`    | The collective: society, ecology, politics, the manifesto.         |
-| `7-mastery/`   | The disciplines: vitality, productivity, mindset, defense, security, learning. |
-| `9-engx/`      | Applied software engineering.                                      |
+| Folder | Topic |
+|---|---|
+| [`0-math/`](docs/0-math) | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structures`, the presentational view, formal `Language` |
+| [`1-reality/`](docs/1-reality) | Dynamics and metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being` |
+| [`2-mind/`](docs/2-mind) | Knowing: `Knowledge`, `Proof`, `Computation`, `Reasoning`, agency, free will, `Intellect`, `Mind`, the scientific method |
+| [`4-human/`](docs/4-human) | The human: `Rajdo`, truth and faith, happiness and greatness, the `Animal`, the self and death, the manifesto |
+| [`7-mastery/`](docs/7-mastery) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning |
+| [`8-socium/`](docs/8-socium) | The collective: ecology, culture, influence, identity, conformism, power |
+| [`8-sustain/`](docs/8-sustain) | Body and defense: vitality, recovery, nutrition, energy, security, boundaries |
 
-Top-level files: `welcome.md`, `INDEX.md`, `_quotes.md` (curated quotations), `_translations.md` (canonical English Terms → Belarusian-rooted equivalents).
+Four files sit at the root of `docs/`: `welcome.md`, `INDEX.md`, `_quotes.md` (curated quotations, cited by number) and `_translations.md` (each canonical English Term to its Belarusian-rooted equivalent).
 
-## Banners
-
-Every content file gets a generated SVG banner under `images/`, mirroring the `docs/` layout. Regenerate them all with:
-
-```bash
-npm run banners
-```
-
-The script walks `docs/`, deterministically renders one SVG per Markdown file from a path-based seed, and rewrites the `![…](/images/…)` line just below each file's heading. Don't hand-edit that line; the next run overwrites it.
+Applied software engineering lives in a separate repository, [arrmagazin/engx](https://github.com/arrmagazin/engx).
 
 ## Contributing
 
-Working on the content has its own rulebook: [`docs/CLAUDE.md`](docs/CLAUDE.md) (translate → reduce → route → index). Repo-level tooling and conventions are in [`CLAUDE.md`](CLAUDE.md) at the root.
+The content has its own rulebook: [`docs/CLAUDE.md`](docs/CLAUDE.md) — how material is routed, how a Term is defined, what the frontmatter and banner must look like. Read it before editing `docs/`.
+
+Install the hook once, then check your work:
+
+```bash
+git config core.hooksPath .githooks
+npm run check-docs
+```
+
+`check-docs` resolves every relative link and `#anchor` in `docs/`; `npm run check-docs -- --conventions docs` additionally checks frontmatter, headings and banner paths. The pre-commit hook runs it for you.
+
+Banners are generated, not written. `npm run gen-banners` renders one SVG per Markdown file into `images/` and rewrites the `![…](/images/…)` line under each heading — do not hand-edit that line.
+
+Repo-level tooling and layout are in [`CLAUDE.md`](CLAUDE.md) at the root.
