@@ -122,7 +122,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Attribute-Space` | Prastor |
 | `Point` | Kropka |
 | `Volume` | Obshar |
 | `Place` | Mesto |

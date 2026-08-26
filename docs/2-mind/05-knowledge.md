@@ -30,11 +30,11 @@ keywords: [mind, knowledge]
 
 ---
 
-[`Theory`](../0-math/07-language.md#theories) is the `Dictionary` of `Expression`s derivable within a `Grammar`. A `Mind` holds one interpreted: its `Name`s and `Concept`s are `Expression`s of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over an `Attribute-Space` — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
+[`Theory`](../0-math/07-language.md#theories) is the `Dictionary` of `Expression`s derivable within a `Grammar`. A `Mind` holds one interpreted: its `Name`s and `Concept`s are `Expression`s of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../0-math/06-views.md#matter) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
 
 ## Naming
 
-**`Name`** := An `Expression` of `Language` associated with `Presentation` (Entities) of the `Attribute-Space`.
+**`Name`** := An `Expression` of `Language` associated with `Presentation` (Entities) of the `Matter`.
 
 > `Name :: Expression → Presentation`
 
@@ -42,7 +42,7 @@ keywords: [mind, knowledge]
 
 ---
 
-**`Concept`** := An `Expression` of `Language` associated with `Place` (regions) of the `Attribute-Space`.
+**`Concept`** := An `Expression` of `Language` associated with `Place` (regions) of the `Matter`.
 
 > `Concept :: Expression → Place`
 
