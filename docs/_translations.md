@@ -90,16 +90,16 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Term | Belarusian |
 |---|---|
 | `Number` *(natural)* | Lik |
-| `Bounded-Interval` | Dlina |
+| `Interval` | Dlina |
 | `Ray` | Promenj |
 | `Range` | Adrezok |
 | `Tuple` | Radok |
 | `Queue` | Qerga |
 | `Grade` | Acenka |
-| `Selection-Mask` | Zrez |
+| `Mask` | Zrez |
 | `Selection` | Otbor |
 | `Matrix` | Mantra |
-| `Concatenation` | Sklejka |
+| `Flat` | Sklejka |
 
 ## Presentational View — `0-math/06-views`
 
@@ -252,7 +252,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Intellect | ROZUM |
 | Faith | SVERA |
 | Happiness | SQASTTE |
-| Mission / Way / Opus Magnum | SHLAXT |
+| `Mission` | SHLAXT |
 | Wisdom | MUDROST |
 | Resilience | TRYVALOST |
 | Greatness | VELIQ |
@@ -264,7 +264,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Gratitude | UDJAQNOST |
 | Forgiveness | DARAVANNE |
 | Asking Forgiveness | PRABAQENNE |
-| Dead-end / Line | QERTA |
+| `Kapot` | QERTA |
 | Death | SMERT |
 | Embrace Mortality | PRYNIATTE SMERTI |
 | Self-role | JA-ROLIA* |
