@@ -44,7 +44,7 @@ A compulsion is a mechanism, not a moral flaw. Treat the urge as a process to ma
 
 The automatic system fires before the deliberate one engages — a gap in speed, not weakness of character. See [two systems compete](../4-human/28-animal.md#reward-and-compulsion).
 
-**Stress tips the balance.** Chronic `Stress` weakens the goal-directed system and strengthens automatic patterns, so relapse arrives under fatigue and pressure. Shame and self-blame run the *same* `Stress` response and so cement the compulsion. Vulnerability is partly inherited and partly adaptation — a short path to relief, not a breakage.
+**Stress tips the balance.** Chronic stress weakens the goal-directed system and strengthens automatic patterns, so relapse arrives under fatigue and pressure. Shame and self-blame run the *same* [`Stress`](../4-human/28-animal.md#emotion-and-stress) response and so cement the compulsion. Vulnerability is partly inherited and partly adaptation — a short path to relief, not a breakage.
 
 **Willpower is finite.** Relying on it daily fails where relying on it once, to set the architecture, does not. The aim is not to control the urge but the reaction to it.
 
