@@ -18,7 +18,7 @@ Breaking open aggression with words: keep your own deliberation online, let the 
 
 ## The Mechanism It Exploits
 
-An insult does not land on reason. It hits the [`Animal`](../4-human/28-animal.md), the guard that answers a threat before thought engages. Under a threat response, deliberation is degraded — see [the body under threat](06-security.md#the-body-under-threat). This is why the effective reply usually arrives long after the exchange. See [the body under threat](06-security.md#the-body-under-threat).
+An insult does not land on reason. It hits the [`Animal`](../4-human/28-animal.md), the guard that answers a threat before thought engages — see [the body under threat](06-security.md#the-body-under-threat). This is why the effective reply usually arrives long after the exchange.
 
 A confrontation therefore has two silent goals: **keep your own deliberation online**, and **let the other side stay in reaction** — the one still thinking while the other emotes sets the terms. A sudden, unexpected move also resets their reaction (see [the OODA Loop](06-security.md#the-ooda-loop)) and buys a window to lead.
 
