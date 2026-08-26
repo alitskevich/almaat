@@ -1,6 +1,6 @@
 ---
 title: "The Scientific Method"
-description: "The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the four phases that produce it."
+description: "The empirical route to Scientific Knowledge: the nine criteria a claim must meet, and the five phases that produce it."
 keywords: [mind, scientific]
 license: UNLICENSED
 created: 2026-08-08
@@ -12,7 +12,7 @@ source: docs/2-mind/90-scientific.md
 
 ![The Scientific Method](/images/2-mind/90-scientific.svg)
 
-The empirical route to `Scientific Knowledge`: the nine criteria a claim must meet, and the four phases that produce it.
+The empirical route to `Scientific Knowledge`: the nine criteria a claim must meet, and the five phases that produce it.
 
 ## Method
 
@@ -20,7 +20,7 @@ The empirical route to `Scientific Knowledge`: the nine criteria a claim must me
 
 ## Scientific Criteria
 
-**`Scientific Criteria`** := The set of principles a `Knowledge` claim must satisfy to be accepted as `Scientific Knowledge`.
+**`Scientific Criteria`** := The nine requirements a `Knowledge` claim must satisfy, from `Inner Correctness` to `Reproducibility`.
 
 **`Scientific Knowledge`** := `Knowledge` that definitely meets `Scientific Criteria`.
 

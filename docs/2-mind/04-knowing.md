@@ -27,6 +27,6 @@ How a `Mind` builds `Knowledge`, proves and computes with it, commits to a `Goal
 | **Capacity** — the whole apparatus | [Intellect](11-intellect.md) — `Cognition`, `Validation`, `Learning`, `Skill`, `Bias`, `Paradigm` |
 | **Substrate** — what runs it | [Mind](12-mind.md) — `Neuron`, `Thought`, `Memory`, and the social origin of mind |
 | **Construction** — how perception is built | [The Predictive Brain](13-predictive.md) — perception as construction |
-| **Method** — what keeps it honest | [The Scientific Method](90-scientific.md) — the criteria and the four-phase process |
+| **Method** — what keeps it honest | [The Scientific Method](90-scientific.md) — the criteria and the five-phase process |
 
 The formal `Language` this layer is written in — `Code`, `Alphabet`, `Word`, `Grammar` — sits one layer below, in [Language](../0-math/07-language.md).
