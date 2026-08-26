@@ -252,7 +252,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | Human Being | QALAVELK |
 | Inspiration | NADXNENNE |
-| Human Dignity | GODNOST |
+| Dignity | GODNOST |
 | Awareness | SVEDOMOST |
 | Conscience | SUMLENNE |
 | Absolute Truth | JSTINA |
