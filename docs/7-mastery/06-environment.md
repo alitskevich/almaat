@@ -16,9 +16,10 @@ Architecture beats willpower: design the surroundings, cut the cue, replace the 
 
 ## Environment Design
 
-Design your [`Environment`](../1-reality/07-system.md#coupling) for the person you want to become.
+**`Environment Design`** := shaping the [`Environment`](../1-reality/07-system.md#coupling) so the desired `Behavior` is the easiest, most pleasant choice and the undesired one is harder.
 
-- Make desired behaviors the easiest, most pleasant choice; make undesired ones harder.
+Design it for the person you want to become.
+
 - Remove everything that interferes — but no more.
 - **Remove the alternatives, not only the friction.** With nothing else available, people default to whatever remains — they read, they train, they think. Boredom is a reliable engine; willpower is not.
 - **The "Butler" trick**: treat your current self as a butler for your future self — coffee machine set out, clothes laid out, everything prepared the night before. Prepare the *objects* at night; make the *decisions* while still rested, see [The Shape of the Day](07-attention.md#the-shape-of-the-day).

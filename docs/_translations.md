@@ -309,20 +309,25 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Conformism` | Pakornast* |
 | `Moral Courage` | Smelast* |
 
-## Mindset — `7-mastery/02-mindset`
+## Vision — `7-mastery/03-vision`
 
 | Term | Belarusian |
 |---|---|
-| Determination | NASTYRNOST |
+| `Determination` | NASTYRNOST |
+
+## Environment — `7-mastery/06-environment`
+
+| Term | Belarusian |
+|---|---|
+| `Environment Design` | SILA ABSTAVINAW |
 
 ## Productivity — `7-mastery/08-productivity`
 
 | Term | Belarusian |
 |---|---|
-| Environment Design | SILA ABSTAVINAW |
-| Productivity | RUPLIVOST |
-| Save Early | Ashqadnast |
-| Live Below Means | Skromnast |
+| `Productivity` | RUPLIVOST |
+| `Save Early` | Ashqadnast |
+| `Live Below Means` | Skromnast |
 
 ## Energy — `8-sustain/05-energy`
 

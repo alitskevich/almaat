@@ -16,12 +16,14 @@ Direction: the authentic Way, the Goals worth spending a life on, and the review
 
 ## Determination
 
+**`Determination`** := an attitude toward the process rather than the outcome, which allows a decision to be made without waiting for perfect conditions.
+
+*NOTE*: requires control over the [`Animal`](../4-human/28-animal.md) and over the [`Dark Shadow`](../8-socium/34-identity.md).
+
 Define your authentic Way — life's mission, ambitions, high-level goals. 
 **Authentic** is the load-bearing word. A `Goal` copied from a peer, a parent, or an approved norm has no [`Core-Value`](../2-mind/09-teleos.md) behind it, so `Will` finds nothing to hold when `Circumstances` shift — which is why a goal set as an obligation rarely survives a change of `Circumstances`. The test is whether the goal produces a felt response rather than an approving one: a `Goal` you cannot feel belongs to someone else.
 
 [[39]]
-
-Determination rests on an attitude toward the process rather than the outcome, and it is what allows a decision to be made without waiting for perfect conditions. It requires control over the [`Animal`](../4-human/28-animal.md) and over the [`Dark Shadow`](../8-socium/34-identity.md).
 
 *The Conflict*: Determination creates an existential tension between immediate animal satisfaction and long-term rational goals. This confrontation defines the human being's tragedy and greatness. [Self-Honesty](02-mindset.md#self-honesty) converts that tension from a battle into fuel.
 

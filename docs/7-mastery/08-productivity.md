@@ -14,6 +14,8 @@ source: docs/7-mastery/08-productivity.md
 
 Cadence and multipliers: the rhythms that keep progress steady, and the leverage that stops results scaling with hours worked.
 
+**`Productivity`** := the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
+
 ## Rhythms
 
 **Daily**
@@ -65,9 +67,15 @@ Discipline is the input; leverage is the multiplier.
 
 ## Economic Wisdom
 
-- **Save Early**: Automate savings, so the decision is made once.
-- **Live Below Means**: Spend less than you can. Never spend to impress.
-- **Invest Wisely**: Put money to work in assets that grow over time.
+**`Save Early`** := automating savings, so the decision is made once.
+
+---
+
+**`Live Below Means`** := spending less than you can, and never to impress.
+
+---
+
+**`Invest Wisely`** := putting money to work in assets that grow over time.
 
 [[31]]
 
