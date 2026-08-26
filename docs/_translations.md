@@ -71,12 +71,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Subject` | Dzejnik* |
 | `Object` | Pradmet* |
 | `Singleton` | Ton |
-| `Bijective` | Adnaznaqnae* |
+| `Bijective` | Uzaemna Adnaznaqnae* |
 | `Currying` | Karyng* |
 | `Identity` | Tojesnasc* |
 | `Iterate` | Pawtor* |
 | `Null` | Nishto* |
-| `Partial Application` | Qastkovae Padanne* |
+| `Partial Application` | Qastkovae Padavanne* |
 
 ## Formal Language — `0-math/07-language`
 
@@ -146,7 +146,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Predicate` *(2-value Quality)* | Bikon |
 | `Norm` | Norma |
 | `Measure` *(pending primitive)* | Mera |
-| `Attribute` | Prymeta* |
+| `Attribute` | Prykmeta* |
 | `Entity` | Sutnasc* |
 | `Quality<Type>` | Jakost Typu* |
 | `Sigma<n>` | Jadro<n>* |
@@ -161,7 +161,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Paradigm` | Vega |
 | `Engine` | Ruxavik |
 | `Flow` | Rux |
-| `Plan` | Zadum* |
+| `Plan` | Zaduma* |
 | `Step` | Mig |
 | `Event` | Zjava |
 | `Circuit` | Dvigun |
@@ -217,14 +217,14 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Recurrent` | Zvarotny* |
 | `Standard Deviation` | Standartnae Adxilenne* |
 | `Stationary Distribution` | Stalae Razmerkavanne* |
-| `Transient` | Praxodny* |
+| `Transient` | Perexodny* |
 | `Variance` | Dyspersija* |
 
 ## Entropy — `1-reality/14-entropy`
 
 | Term | Belarusian |
 |---|---|
-| `Dissipation` | Rasseivanne* |
+| `Dissipation` | Rassejvanne* |
 | `Entropy` | Entrapija* |
 | `Order` | Lad* |
 | `Self-Organization` | Samaarganizacyja* |
@@ -299,7 +299,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Term | Belarusian |
 |---|---|
 | `Inference` | Vysnova* |
-| `Intuition` | Qujka* |
+| `Intuition` | Intuicyja* |
 | `Logic` | Logika* |
 | `Reasoning` | Razvazhanne* |
 
@@ -372,7 +372,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Calling` | Pokliq* |
 | `Body of Work` | Darobak* |
 | `Super-Goal` | Zvyshmeta* |
-| `Surplus` | Prybytak* |
+| `Surplus` | Nadlishak* |
 
 ## Human Being — `4-human/21-human`
 
@@ -464,8 +464,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
-| `Elite` | Verxi* |
-| `Legitimacy` | Zakonnasc* |
+| `Elite` | Viarxi* |
+| `Legitimacy` | Legitymnasc* |
 | `Plebs` | Nizy* |
 | `Power` | Ulada* |
 | `Sovereign-State` | Dzjarzhava* |
