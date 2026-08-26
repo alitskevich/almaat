@@ -44,6 +44,8 @@ A recalled event is not the event but a copy of the last time you recalled it â€
 
 **`Open Individualism`** := the hypothesis that, beneath every `Self-role`, all conscious beings share one and the same `Self`.
 
+*NOTE*: stated ontologically as [one `Consciousness`, many dissociations](../1-reality/24-transcendence.md#one-consciousness).
+
 If so, the odds of *you* being born are not astronomical but certain: any human born is you. The duplication puzzle (a teleport copies you to Mars; which one is you?) dissolves â€” both are, because there was never a private "you" to begin with.
 
 ## Death
