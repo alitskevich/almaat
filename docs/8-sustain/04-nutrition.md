@@ -29,7 +29,7 @@ keywords: [sustain, nutrition, food]
 - A long gap between dinner and breakfast suits some people. Autophagy — the cell's own recycling, whose mechanisms earned Yoshinori Ohsumi the 2016 Nobel Prize in yeast — is often cited for it, though the human fasting window that engages it is not settled.
 - Within a meal, control blood sugar by order: vegetables first, then protein and fat, then carbs. Walk after eating.
 - The first meal sets the day's blood-sugar tone. The brain needs fuel, not a sugar hit.
-- A sweet breakfast — sugary porridge, toast with jam, juice, even "healthy" honey — spikes blood sugar. Build a low-glycemic first meal instead: eggs (choline for the brain, protein for repair, vitamin D), a handful of nuts or a spoon of olive oil (fat-soluble vitamins, less inflammation), and vegetables or greens (fiber for the microbiome that drives immunity and mood).
+- A sweet breakfast — sugary porridge, toast with jam, juice, even "healthy" honey — spikes blood sugar. Build a low-glycemic first meal instead: eggs, a handful of nuts or a spoon of olive oil, and vegetables or greens.
 - If you drink coffee, delay the first cup rather than taking it on waking, and finish before the afternoon so it does not cost that night's sleep.
 - Keep dinner light.
 

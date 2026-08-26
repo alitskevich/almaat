@@ -45,7 +45,7 @@ Meeting force with force ("No, *you're* wrong") is verbal karate: the louder, an
 | Step | Move |
 | ---- | ---- |
 | **Ask** | Request, don't command. Most people comply here if the ask is fair |
-| **Explain why** | A reason removes half the resistance; people do far more willingly what they understand |
+| **Explain why** | A reason lowers resistance; people do far more willingly what they understand |
 | **Give options** | Lay out both paths — good one appealing, bad one plain. They choose, so they comply without resentment. Pressure that feels like a free choice |
 | **Confirm** | "Is there anything I can say or do to get your cooperation?" (Thompson's line) One honest last chance, dignity intact |
 | **Act** | Only now, the consequence you named — without anger, without "I told you so." |

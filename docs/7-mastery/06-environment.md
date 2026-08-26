@@ -41,7 +41,7 @@ The automatic system fires before the deliberate one engages — see [two system
 
 **Stress tips the balance.** Chronic stress weakens the goal-directed system and strengthens automatic patterns, so relapse arrives under fatigue and pressure. Shame and self-blame run the *same* [`Stress`](../4-human/28-animal.md#emotion-and-stress) response and so cement the compulsion. Vulnerability is partly inherited and partly adaptation — a short path to relief, not a breakage.
 
-**Willpower is finite.** Relying on it daily fails where relying on it once, to set the architecture, does not. The aim is not to control the urge but the reaction to it.
+**Do not spend willpower daily.** Relying on it every day fails where relying on it once, to set the architecture, does not. The aim is not to control the urge but the reaction to it.
 
 Where the architecture has not yet caught up, two moves convert a live urge from a command into a signal:
 

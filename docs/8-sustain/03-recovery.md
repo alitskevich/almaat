@@ -26,7 +26,7 @@ The habit the rest depend on. Quality depends on light, temperature, food, caffe
 ## Sunlight
 
 - Get outdoor light early in the day. It sets your body clock.
-- Morning sun is the strongest natural antidepressant: 10 minutes without sunglasses triggers serotonin, which later converts to melatonin.
+- Daylight soon after waking anchors the circadian clock, which is what sets the evening melatonin rise. Get it without sunglasses.
 - Longer on cloudy days than bright ones. Avoid midday glare and protect your skin in the midday sun.
 - Sunset light signals the body to prepare for sleep.
 

@@ -31,7 +31,7 @@ A remedy whose first step already demands the capacity it is meant to build — 
 Focus on the task that creates the most impact. Say no to everything else.
 
 - **Concentrate on the few that matter** — a small share of activities produces most of the results, and the rest is expensive noise.
-- **Eat the frog first** — start the hardest action inside the [waking window](#the-shape-of-the-day), before the part of you that refuses is awake.
+- **Eat the frog first** — start the hardest action inside the [waking window](#the-shape-of-the-day), before the case against it has been made.
 - **Cap what is open** — three active priorities, no more. An open thread costs attention whether or not it is being worked, so the fourth is paid for by the first three.
 - **Dopamine detox** — remove shallow reward sources that compete with deep work. Order matters as much as removal: see [The Shape of the Day](#the-shape-of-the-day).
 
@@ -39,11 +39,11 @@ For the written form of this triage, see [Questions on Paper](03-vision.md#quest
 
 ## The Shape of the Day
 
-The order of stimulation across a day decides what work is possible inside it. Two mechanisms set that order.
+The order of stimulation across a day decides what work is possible inside it. Two patterns set that order.
 
 **Reward runs one way.** Ordinary work sits low on the reward scale; a feed, a game, sugar, or an unread thread sits far above it. Once the day has touched the high end, the low end stops registering as worth doing — and intent does not bring it back, because the ratchet only turns up. Hold the whole working day below the level the work itself requires, and take the peaks after it. One glance at a phone over breakfast is enough to spend the day.
 
-**Resistance arrives later than you do.** Immediately after waking there is a window before the negotiating, postponing part of the mind engages. Begin the hardest task inside it and the negotiation never takes place. This is the mechanism under [eat the frog](#focus-and-priority).
+**Resistance arrives later than you do.** Begin the hardest task immediately after waking and you begin it before the case against it has been made. This is the practice under [eat the frog](#focus-and-priority).
 
 **Routines enter focus; waking already is focus.** Coffee, cold showers, breathing, journaling, and affirmations are tools for *re-entering* focus once it has been lost. Applied at wake-up they spend the one window that needed no tool. Supplements scale an arrangement that works and cannot replace one that doesn't.
 
