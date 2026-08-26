@@ -126,7 +126,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 |---|---|
 | `Engine` | Ruxavik |
 | `Flow` | Rux |
-| `Plan` | Plan |
+| `Plan` | Zadum* |
 | `Step` | Mig |
 | `Event` | Zjava |
 | `Circuit` | Dvigun |
@@ -166,7 +166,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Sensor` | Datqyk |
 | `Neuron` | Nejron |
 | `Thought` | Dumka |
-| `Signal` | Signal |
+| `Signal` | Poklik* |
 | `Message` | Vestka |
 | `Memory` | Pamiac |
 | `Codebook` | Kodavik* |
