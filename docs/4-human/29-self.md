@@ -24,7 +24,7 @@ keywords: [human, self, memory, death]
 
 **`Self-Consciousness`** := bare awareness â€” the felt sense of being, prior to any split into observer and observed, inner and outer.
 
-*NOTE*: Non-dual: no `Self`, no object, just awareness aware of itself. The base level present in infants and in flow states, before thought cuts experience into labelled pieces.
+*NOTE*: Non-dual: no self, no object, just awareness aware of itself. The base level present in infants and in flow states, before thought cuts experience into labelled pieces.
 
 ## Memory Is Reconstruction
 
@@ -36,7 +36,7 @@ A recalled event is not the event but a copy of the last time you recalled it â€
 
 **`Self-Consciousness` owns no identity.** It performs one function: it is aware. The character, the habits, the personality are laid *over* it. Stripped of those additions, the base awareness is, at least functionally, the same in every person. It owns no individuality that would mark it as yours rather than mine; the sense of an owner is added afterward.
 
-**`Open Individualism`** := the hypothesis that, beneath every `Self-role`, all conscious beings share one and the same `Self`.
+**`Open Individualism`** := the hypothesis that, beneath every `Self-role`, all conscious beings share one and the same `Self-Consciousness`.
 
 *NOTE*: stated ontologically as [one `Consciousness`, many dissociations](../1-reality/24-transcendence.md#one-consciousness).
 

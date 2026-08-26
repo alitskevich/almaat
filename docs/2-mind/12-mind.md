@@ -88,7 +88,7 @@ Lev Vygotsky's account of where the *content* of `Thought` comes from — above 
 - **Thought is accomplished, not merely expressed, in the word.** A `Thought` does not pre-exist as a finished packet the word wraps; until uttered — even inwardly — it is a vague cloud of intention, *born* in the act of saying it. So dialogue does not exchange the ready-made; it jointly produces what neither party held before.
 - **Zone of proximal development.** The gap between what a `Mind` can do alone and what it can do with help. Instruction should run *ahead* of development, waking what is ripening rather than drilling what has already matured — the applied side is [Learning](../7-mastery/09-learning.md).
 
-*Implication.* If a `Mind` is assembled from outside through word and sign by describable laws, the same account describes how to influence one: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to `Alignment` in artificial minds.
+*Implication.* If a `Mind` is assembled from outside through word and sign by describable laws, the same account describes how to influence one: whoever controls the signs a mind learns to think with shapes not just its opinions but the *structure* of its thought. The social origin of mind is therefore also a security concern (see [Security](../8-sustain/06-security.md)) — the human parallel to alignment in artificial minds.
 
 ## Sources
 
