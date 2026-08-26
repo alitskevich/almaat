@@ -56,5 +56,5 @@ Each bound has a cost, and they trade against one another:
 | **Consistency** | Guaranteeing it limits what the system may assert about itself | An inconsistent system proves everything, so it distinguishes nothing |
 | **Decidability** | A procedure that always terminates restricts what the system can express | No general procedure decides membership; some questions run forever |
 
-No logic escapes all three at once, and decidability fails independently of the
-other two.
+No logic strong enough to express arithmetic escapes all three at once, and
+decidability fails independently of the other two.
