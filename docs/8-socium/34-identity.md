@@ -37,7 +37,7 @@ It seeks social connection over personal comfort:
 
 To get them it hides the weak sides — shame, guilt, loneliness, pain, fear — shows the sides that draw approval, and softens incoming stress. Its two characteristic reactions: to contempt or rejection, hurt turning angry and vengeful toward self and everyone around; to loss of status, a demand to be like everyone and no worse than others, dividing the world into "us" and "them".
 
-**The Marketing Character.** A character oriented toward sales — toward displaying one's qualities and, more broadly, oneself. Such people are deeply convinced they are not valuable in themselves and cannot be loved as they are, so to prove their right to love they must always do something, always be first, and receive admiration like air. The recognition never settles them, because what is loved is the mask and the achievements, not them. Its felt cost is [the impostor pattern](35-transes.md#the-impostor).
+**The Marketing Character.** Erich Fromm's marketing orientation (*Man for Himself*, 1947): a character oriented toward sales — toward displaying one's qualities and, more broadly, oneself. Such people are deeply convinced they are not valuable in themselves and cannot be loved as they are, so to prove their right to love they must always do something, always be first, and receive admiration like air. The recognition never settles them, because what is loved is the mask and the achievements, not them. Its felt cost is [the impostor pattern](35-transes.md#the-impostor).
 
 ### Dark Shadow
 
