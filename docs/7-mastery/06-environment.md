@@ -16,7 +16,7 @@ Architecture beats willpower: design the surroundings, cut the cue, replace the 
 
 ## Environment Design
 
-Design your surroundings for the person you want to become.
+Design your [`Environment`](../1-reality/07-system.md#coupling) for the person you want to become.
 
 - Make desired behaviors the easiest, most pleasant choice; make undesired ones harder.
 - Remove everything that interferes — but no more.
