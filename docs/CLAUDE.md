@@ -10,7 +10,7 @@ ALMAAT is a general-purpose framework for cognitive modeling, written as a layer
 knowledge base in Markdown. It builds a single ontology from one irreducible primitive
 (the `Azon`) up through `Set`, `Graph`, `Language`, `Sequence`, `Space`, dynamic
 `System`, `Mind`, `Agent`, and `Growth`, then applies that ontology to the human,
-society, and software engineering.
+society, and daily practice.
 
 This file is the authoritative instruction set for working in this repository. Follow it
 for every edit. When it conflicts with a one-off request, ask before deviating.
@@ -27,7 +27,7 @@ The recurring job is **ingesting source material** the user pastes in or points 
 3. **Place it in the right file.** Embed it in the existing file whose topic it extends.
    Create a new file only when no existing topic fits (see Routing and Naming below).
 4. **Keep the indexes current.** Any new file, or any change to a file's title or scope,
-   must be reflected in `INDEX.md` and the section's `index.md`. Stale indexes are a bug.
+   must be reflected in `INDEX.md`. A stale index is a bug.
 
 Never paste raw source. Ingestion means rewriting into the framework's voice.
 
@@ -38,7 +38,7 @@ Never paste raw source. Ingestion means rewriting into the framework's voice.
 - Translate → "Discipline matters more than motivation — it is a habit, not a character trait."
 - Reduce → state it plainly in the framework's register, mark concepts as `Terms`.
 - Route → this extends self-discipline, so it goes into `7-mastery/04-discipline.md`; no new file.
-- Index → no title/scope change, so indexes stay as-is. (If scope had widened, update both indexes.)
+- Index → no title/scope change, so `INDEX.md` stays as-is. (If scope had widened, update it.)
 
 ## Repository layout
 
@@ -46,13 +46,13 @@ Content lives under numbered section folders, each one ontological layer or appl
 
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
-| `0-math`       | Formal foundations: `Azon`, `Composition`, `Set`, `Algebras`, `Graph`, `Numerals`, `Presentations`. | `00`–`05`         |
+| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structures`, presentational view, formal `Language`. | `00`–`07`         |
 | `1-reality`    | Dynamics & metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `02`, `07`, `10`, `14`–`16`, `22`, `24`, `27` |
 | `2-mind`       | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
 | `4-human`      | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
-| `7-mastery`    | Mastery and its stages: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
+| `7-mastery`    | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
 | `8-socium`     | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
-| `8-sustain`    | Sustaining the body & self: vitality, recovery, nutrition, energy; security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `01`–`13` |
+| `8-sustain`    | Sustaining the body & self: sustain, vitality, recovery, nutrition, energy; security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `01`–`13` |
 
 The leading digit on a folder (`0-`, `1-`, `2-`, `4-`, `7-`, `8-`) places it within the ontology's
 ordering. The digit `8-` is shared by two applied folders (`8-socium`, `8-sustain`); gaps (`3-`,
@@ -69,25 +69,29 @@ Special top-level files, prefixed with `_` or named `welcome`:
 - `_translations.md` — canonical English Term → Belarusian-rooted equivalent. Reverse map
   only; English stays canonical in content.
 - `INDEX.md` — master content index (all sections and files).
-- `<section>/index.md` — per-section index.
 
 ## Routing: where does material go?
 
-1. Identify the layer the material belongs to (formal, dynamic, human, collective,
-   mastery/discipline, engineering) and pick that folder.
+1. Identify the layer the material belongs to (formal, dynamic, mind, human, collective,
+   mastery/discipline, sustain) and pick that folder.
 2. Within the folder, find the file whose frontmatter `description` already covers the
    topic. If one does, embed there.
 3. Only if no file fits, create a new one — and update `_translations.md` (if it coins
-   canonical Terms), `INDEX.md`, and the section `index.md`.
+   canonical Terms) and `INDEX.md`.
 
 ## Naming
 
 Content files are `NN-topic.md`, lowercase hyphenated slug, `NN` a two-digit ordering
-number. The ontology folders (`0-math`, `1-reality`, `2-mind`, `4-human`, `8-socium`)
-share **one global file-number sequence** that tracks the ontological progression
-(`00`→`99`, with `98` reserved as a capstone — the manifesto). Numbers do not strictly
-partition by folder; they roughly cluster by layer. `7-mastery` and `8-sustain` are
-applied-domain folders, each an **independent number space** restarting at `01`.
+number. Across the ontology folders (`0-math`, `1-reality`, `2-mind`, `4-human`,
+`8-socium`) the numbers **ascend roughly with ontological depth** — `0-math` `00`–`07`,
+`1-reality` `02`–`27`, `2-mind` `04`–`90`, `4-human` `21`–`98`, `8-socium` `30`–`37` —
+with `90` and `98` reserved for capstones (the scientific method, the manifesto).
+
+This is **not one global sequence**: those ranges overlap, and seven numbers repeat
+across folders (`02`, `04`, `05`, `06`, `07`, `10`, `24`). The number orders a file
+within its own folder and signals roughly where the folder sits; it is not unique
+tree-wide. `7-mastery` and `8-sustain` are applied-domain folders, each an
+**independent number space** restarting at `01`.
 
 When adding a file, take the next free number in that folder's existing range. Do not
 renumber existing files just to keep the sequence dense.
@@ -99,7 +103,7 @@ Frontmatter is exactly three fields, in this order: `title`, `description`, `key
 escaped. It is what the indexes quote. Do not reintroduce `license`, `created`,
 `modified`, or `source` — they were dropped as noise on 2026-08-26.
 
-Every content file then opens with a single H1 (a few legacy files use H2) title and a
+Every content file then opens with a single H1 title and a
 banner image mirroring it, and goes straight into the body:
 
 ```markdown
@@ -120,9 +124,10 @@ keywords: [reality, process, circuit, flow]
 restating the `description`, no spine table, no enumeration of the folder's other files.
 Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used.
 
-The image path is always `/images/<folder>/<filename>.svg` and the alt text equals the
-title. Assume the matching SVG will exist; do not invent a different path. Index files
-follow the same banner convention (`/images/<folder>/index.svg`).
+The banner path is `/images/<folder>/<filename>.svg` for a file inside a section folder,
+and `/images/<filename>.svg` for the four files at the root of `docs/`. The alt text
+equals the title, byte for byte. `scripts/gen-banners.mjs` owns this line — run
+`npm run gen-banners` rather than hand-writing a path.
 
 ## Terminology and formatting
 
@@ -148,8 +153,32 @@ follow the same banner convention (`/images/<folder>/index.svg`).
   `8-sustain`) use them heavily and correctly.
 - **Prose** is plain and direct — basic terminology, short sentences, no filler.
   Declarative, defined, unhurried.
-- When a new canonical Term is coined, add it to `_translations.md` under the matching
-  section heading. Newly-proposed Belarusian forms get a trailing asterisk (`Razvoda*`).
+- **Backticks mark a defined Term, and nothing else.** A backticked Capitalized name must
+  resolve to a definition somewhere in `docs/`. Enumeration tables bold their first column
+  without backticks (`**Deduction**`, `**Monoid**`), because those rows name entries, not
+  Terms. An external concept the book does not own stays lowercase — *modules*, *vector
+  spaces*, *ego depletion*.
+- **A definition may only name Terms from its own folder or an earlier one.** Dependencies
+  run downward through the layer order above. Where a definition needs a higher-layer Term,
+  either the Term belongs lower (move it) or the definition should generalize to a
+  lower-layer one — `Freedom` takes a `Participant`, not an `Agent`.
+- **Four forms declare a Term**, and all four count:
+
+  ```markdown
+  **`Term`** := clause                        the ordinary form
+  **`Term` / `Alias`** := clause              two names, one definition
+  **`Term`** of arity `n` on a `Set` := …     a qualifier before the `:=`
+  *DEF*: a response with `Zero` is *called* `empty`   a label introduced in passing
+  ```
+
+  A Term introduced only inside another definition's definiens is **not** declared. Write
+  it as its own definition instead.
+- When a new canonical Term is coined, add it to `_translations.md` under the section for
+  the file that defines it. Newly-proposed Belarusian forms get a trailing asterisk
+  (`Razvoda*`); the asterisk marks a proposed *form*, not a proposed placement. A compound
+  gloss reuses the gloss already assigned to its parts, so it can be decomposed:
+  `TransitionMatrix` is `Mantra Perexodaw*` because `Matrix` is `Mantra` and `Transition`
+  is `Perexod`.
 
 ## Syncing `INDEX.md`
 
@@ -183,16 +212,13 @@ Notes:
 - `INDEX.md` is the only navigation surface. No section has an `index.md`, and the per-folder
   spine tables were removed on 2026-08-26 — `7-mastery/01-mastery.md`, `8-sustain/01-sustain.md`,
   `2-mind/04-knowing.md` and `8-socium/30-socium.md` no longer list their siblings. The last two
-  were nothing but that table and are now empty shells awaiting content or deletion.
+  were nothing but that table: `2-mind/04-knowing.md` (11 lines) and `8-socium/30-socium.md`
+  (9 lines) still await content or deletion.
 - **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
   link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks the three
   frontmatter fields, the single H1, and the banner path.
   Pre-existing breakage is listed in `scripts/check-docs.baseline.txt`, so the gate is
   "no new failures"; fix an entry and delete its line.
-- **Banner paths are stale tree-wide.** `images/` still carries the pre-reorg folder names
-  (`1-nature`, `2-human`, `3-socium`) and content files point at paths like
-  `/images/4-mastery/02-productivity.svg` that no longer exist. This is a `scripts/gen-banners.mjs`
-  job, not an INDEX one — don't hand-patch individual banner paths.
 
 ## Editing checklist
 
@@ -201,5 +227,5 @@ Notes:
 3. Frontmatter + title + banner image conform to the convention above, with no preface
    between the banner and the first heading.
 4. New Terms backticked in text and, if canonical, added to `_translations.md`.
-5. `INDEX.md` and the section `index.md` updated to match.
+5. `INDEX.md` updated to match.
 6. Relative links checked — they must resolve to real files.
