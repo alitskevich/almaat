@@ -34,6 +34,6 @@ What we perceive is only the part of `Reality` our [`Sensor`](../2-mind/12-mind.
 
 **Free will as agency without alternatives.** You choose, and the choice is yours — but it follows from what you are, so there is no "could have done otherwise." A choice still matters, because it reveals what you are.
 
-No one can know it in advance: a `System` complex enough is [computationally irreducible](../2-mind/10-free-will.md), so the only way to learn a choice is to let it play out. On this view even the whole cannot anticipate its own choices.
+No one can know it in advance: a `System` complex enough is [computationally irreducible](../2-mind/10-free-will.md). On this view even the whole cannot anticipate its own choices.
 
 Continues in [The Given and the Constructed](27-given.md).
