@@ -69,7 +69,7 @@ The human as a layered composition of body and psyche, and what lies beyond: Com
 - [Human Being](4-human/21-human.md) — `Human Being` := composition of biological circuitry, social membership, and cultural inheritance, equipped with `Intellect` and `Inspiration`.
 - [Rajdo](4-human/23-rajdo.md) — the human's opening into `Rajdo`: perceiving and accepting Being `as-is`, as one interweaving whole, and the `Awareness`, `Acceptance`, and `Love` it entails.
 - [Approaching Rajdo](4-human/24-approach.md) — `Rajdo` is given, not built: the shift that reveals it, the traps that imitate it, and the two intentions behind any aim.
-- [Truth and Faith](4-human/25-truth.md) — one's own answers to the existential questions, the `Principles` that follow from them, and the `Faith` that holds to both.
+- [Truth and Faith](4-human/25-truth.md) — one's own answers to the existential questions, the `Core-Value`s that follow from them, and the `Faith` that holds to both.
 - [Happiness and Greatness](4-human/26-greatness.md) — what a life is measured by: the saturation `Happiness` reports, the `Mission` chosen to pursue it, and `Kapot`, the line past which `Dignity` is abandoned.
 - [Animal](4-human/28-animal.md) — `Animal` := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
 - [The Self and Death](4-human/29-self.md) — what survives death depends on what the self actually is: the `Self-role`, the `Self-observer`, and the `Self-Consciousness` beneath both.

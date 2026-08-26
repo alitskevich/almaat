@@ -258,7 +258,6 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Absolute Truth | JSTINA |
 | Own Truth | PRAVDA |
 | Intellect | ROZUM |
-| Core Values | SKARB |
 | Faith | SVERA |
 | Happiness | SQASTTE |
 | Mission / Way / Opus Magnum | SHLAXT |

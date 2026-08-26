@@ -1,6 +1,6 @@
 ---
 title: "Truth and Faith"
-description: "One's own answers to the existential questions, the Core Values that follow from them, and the Faith that holds to both."
+description: "One's own answers to the existential questions, the Core-Values that follow from them, and the Faith that holds to both."
 keywords: [human, truth, faith]
 license: UNLICENSED
 created: 2026-06-23
@@ -12,7 +12,7 @@ source: docs/4-human/25-truth.md
 
 ![Truth and Faith](/images/4-human/25-truth.svg)
 
-One's own answers to the existential questions, the `Core Values` that follow from them, and the `Faith` that holds to both.
+One's own answers to the existential questions, the `Core-Value`s that follow from them, and the `Faith` that holds to both.
 
 **`Truth`** := one's own answers to the existential questions:
 
@@ -28,11 +28,11 @@ One's own answers to the existential questions, the `Core Values` that follow fr
 
 ---
 
-**`Core Values`** := the set of principles reflecting one's `Truth`.
+[`Core-Value`](../2-mind/09-teleos.md) is the criterion by which an `Agent` ranks `Future`s. One's `Core-Value`s are the principles that follow from one's `Truth`.
 
 ---
 
-**`Faith`** := unwavering acceptance of `Truth` and commitment to `Core Values`, valued more than anything else.
+**`Faith`** := unwavering acceptance of `Truth` and commitment to `Core-Value`s, valued more than anything else.
 
 - `Faith` is not blind belief — it is a choice made regardless of circumstances.
 - `Faith` may break the automatism that [*karma*](24-approach.md#the-mirror-and-the-two-intentions) names, and enables building oneself beyond what was predetermined.
