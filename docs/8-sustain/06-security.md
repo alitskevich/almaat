@@ -39,9 +39,9 @@ Options ranked by cost and reliability, identical on both planes. Spend your eff
 
 A **defensive mindset** is the decision, made in advance, that you are willing and able to act — so the choice is already made when seconds matter. Skill without the will to use it fails, and will without skill is not enough either. You need both.
 
-## Awareness — Cooper's Color Code
+## Situational Awareness — Cooper's Color Code
 
-A scale of situational awareness, not paranoia. Live in Yellow — the same scale reads a room as well as a street.
+A scale of alertness, not paranoia. Live in Yellow — the same scale reads a room as well as a street.
 
 | Condition | State |
 | --------- | ----- |
