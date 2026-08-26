@@ -252,7 +252,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Sensor` | Datqyk |
 | `Neuron` | Nejron |
 | `Thought` | Dumka |
-| `Signal` | Pasyl* |
+| `Signal` | Zyk* |
 | `Message` | Vestka |
 | `Memory` | Pamiac |
 | `Codebook` | Kodavik* |
