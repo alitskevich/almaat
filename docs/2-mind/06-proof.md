@@ -46,7 +46,7 @@ Each bound has a cost, and they trade against one another:
 
 | Bound | What it costs to have | What it costs to lack |
 | --- | --- | --- |
-| **Completeness** | A system strong enough to prove every truth about arithmetic cannot also be consistent | Some true statements are unprovable inside the system, and can only be reached by strengthening it |
+| **Completeness** | A system with a listable set of axioms, strong enough to prove every truth about arithmetic, cannot also be consistent | Some true statements are unprovable inside the system, and can only be reached by strengthening it |
 | **Consistency** | Guaranteeing it limits what the system may assert about itself | An inconsistent system proves everything, so it distinguishes nothing |
 | **Decidability** | A procedure that always terminates restricts what the system can express | No general procedure decides membership; some questions run forever |
 
