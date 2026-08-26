@@ -38,7 +38,9 @@ This is the move from victim to creator — not a different person, but a differ
 
 Realize and respect your intrinsic [`Dignity`](../4-human/21-human.md) — your inherent worth rooted in your transcending nature. Be true to yourself, your values, and your unique path regardless of external pressure;
 
-[[32,33]]
+*You are the only boss of yourself.*
+
+*Know who you are indeed, where you are, and why.*
 
 ## Self-Trust
 
@@ -53,7 +55,7 @@ Accept the chaos and imperfections of Existence — most of which you cannot con
 
 Start with humble, honest acknowledgment of your weaknesses, biases, and blunders.
 
-[[34]]
+*Take what presents, don't take what doesn't.*
 
 ## Inner Before Outer
 
@@ -82,7 +84,11 @@ Be less certain. Keep an unfrozen view of the world, with room for error and gro
 - Seek feedback; challenge existing knowledge.
 - Clear preconceptions and biases.
 
-[[35]] [[28,29]]
+*Explore what's within, around, and beyond.*
+
+*Grow up in whatever you do, learn, keep your eyes open for the new things.*
+
+[[29]]
 
 ## Courage and Enjoyment
 
@@ -90,7 +96,7 @@ The danger of a mistake is routinely overrated and the cost of not acting routin
 
 **Do not defer the living.** The postponed-life stance — endure this stretch, tolerate these people, earn the money, *then* begin — spends the only part of life actually available on a later that returns nothing. A life is measured in what was lived, not years accumulated. See [`Acceptance`](../4-human/23-rajdo.md#what-rajdo-entails).
 
-[[36]]
+*Fear is fuel, challenges are gifts, and the sky is no limit.*
 
 Approach life with humor and optimism despite uncontrollable circumstances, and stay spontaneous — act from the present rather than from rigid plans.
 

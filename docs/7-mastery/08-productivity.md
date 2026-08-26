@@ -59,7 +59,7 @@ Effort has a ceiling — hours are finite, and raw labor pays only while you spe
 
 Discipline is the input; leverage is the multiplier.
 
-[[43]]
+*Confidence stems from Competence.*
 
 ## Economic Wisdom
 
@@ -67,4 +67,6 @@ Discipline is the input; leverage is the multiplier.
 - **Live Below Means**: Spend less than you can. Never spend to impress.
 - **Invest Wisely**: Put money to work in assets that grow over time.
 
-[[30,31]]
+*Mastery is forged in trials and feedback. Success at the universal level cannot be taught — only earned through overcoming.*
+
+[[31]]

@@ -14,7 +14,7 @@ source: docs/_quotes.md
 
 A curated, numbered list of quotations and maxims. Content files cite them by number, as [[12]] or [[8,9,10]].
 
-The numbering is load-bearing: 43 of the 46 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered.
+The numbering is load-bearing: 34 of the 37 entries are cited from elsewhere in `docs/`, so entries are corrected in place and never renumbered. A number is retired when its entry leaves, never reused, so gaps are deliberate.
 
 1. The desire to understand the Universe — that is one thing that slightly elevates Life above the level of farce and gives it the character of high tragedy. — Steven Weinberg
 
@@ -54,8 +54,6 @@ The numbering is load-bearing: 43 of the 46 entries are cited from elsewhere in 
 
 19. We came from Nowhere and into Nothing we shall go, and the only worthy thing in this World is to hold to what we belief into and selflessly work toward its fulfillment despite any challenges.
 
-20. Define your lifelong aims, drilled down into small concrete everyday goals, which will wake you up every morning and thrill you all along the time.
-
 21. Faith without works is dead. — James 2:26
 
 22. Those who lack their own Truth will be victimized; those who lack their own Will shall execute others'; those who lack their own Path shall wander aimlessly.
@@ -70,23 +68,9 @@ The numbering is load-bearing: 43 of the 46 entries are cited from elsewhere in 
 
 27. Those who survived understood that they possess the last, but perhaps the most important human freedom — to choose their own attitude toward what is happening. Where there is no personal attitude, the zombie begins. — Bettelheim
 
-28. Grow up in whatever you do, learn, keep your eyes open for the new things.
-
 29. There is no greater happiness in this World, brothers, than when a Person has reason and knowledge in their head...
 
-30. Mastery is forged in trials and feedback. Success at the universal level cannot be taught — only earned through overcoming.
-
 31. Perfection is not attainable, but if we chase perfection, we can catch excellence. — Vince Lombardi
-
-32. You are the only boss of yourself.
-
-33. Know who you are indeed, where you are, and why.
-
-34. Take what presents, don't take what doesn't.
-
-35. Explore what's within, around, and beyond.
-
-36. Fear is fuel, challenges are gifts, and the sky is no limit.
 
 37. Life is too important to be taken seriously. — Oscar Wilde
 
@@ -99,8 +83,6 @@ The numbering is load-bearing: 43 of the 46 entries are cited from elsewhere in 
 41. Life is unpredictable, problems unavoidable, but persist toward your goals regardless — because you decided so.
 
 42. Discipline is not a bridge to an easy life — it IS life itself. When you accept the eternal struggle, it becomes your nature.
-
-43. Confidence stems from Competence.
 
 44. Courage means saying yes to your purpose; backbone means saying no to what doesn't fulfill it. — Chase Hughes
 

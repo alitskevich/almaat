@@ -27,7 +27,9 @@ What a life is measured by: the saturation `Happiness` reports, the `Mission` ch
 
 ---
 
-**`Mission`** := the chosen way of being happy — where one's personal `Truth`, `Faith`, and `Inspiration` are applied the most, in a chosen field. [[18,19,20]]
+**`Mission`** := the chosen way of being happy — where one's personal `Truth`, `Faith`, and `Inspiration` are applied the most, in a chosen field. [[18,19]]
+
+*Define your lifelong aims, drilled down into small concrete everyday goals, which will wake you up every morning and thrill you all along the time.*
 
 ---
 
