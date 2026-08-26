@@ -59,7 +59,7 @@ An `Agent` who cannot be a threat is, to `Power`, a tool — axiom 6 of the [soc
 
 ## The State
 
-**`State`** := Centralized, sovereign power over a defined territory, providing predictable rules of engagement, security enabling long-term cooperation, mechanisms for collective action, and formal bureaucratic procedure.
+**`Sovereign-State`** := Centralized, sovereign power over a defined territory, providing predictable rules of engagement, security enabling long-term cooperation, mechanisms for collective action, and formal bureaucratic procedure.
 
 
 | Form | Definition |
