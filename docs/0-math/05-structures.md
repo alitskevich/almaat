@@ -10,22 +10,24 @@ keywords: [math, structures]
 
 ## Definitions
 
-**`Structure`** := `Set` equipped with `Operations` on it, which are constrained by `Law`s.
+**`Structure`** := `Collection` of `Sets` equipped with `Actions` on them, which are constrained by `Law`s.
 
-> `Structure := (Set, {Operation}, {Law})`
+> `Structure := (Basis:={Set}, {Action}, {Law})`
+
+*NOTE*: if there is single Set then Structure is `endogenous`, (Actions are Operations).
 
 ---
 
-**`Operation`** of arity `n` on a `Set` `S` := `Azon` whose `Domain` is `Sⁿ` and `Codomain` is `S` — that is, *closed* on `S`.
+**`Operation<Sⁿ>`** := `Azon` whose `Domain` is `Sⁿ` and `Codomain` is `S` — that is, *closed* on `S`.
 
 > `Operation<n> :: Azon :: DOM = Sⁿ, COD = S`
 
 | Term | Arity | Signature | Examples |
 | --- | --- | --- | --- |
 | **Constant** | `0-ary` | `() → S` | `unit: () => 1`, `zero: () => 0` |
-| **Unary** | `1-ary` | s`→ S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
-| **Binary** | `2-ary` | s`× S → S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
-| **`Relation`** | `2-ary` predicate | s`× S → {T, F, U}` | `eq: (a,b) => a==b`, `≤: (a,b) => a≤b` |
+| **Unary** | `1-ary` | `S → S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
+| **Binary** | `2-ary` | `S × S → S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
+| **`Relation`** | `2-ary` predicate | `S × S → {T, F}` | `eq: (a,b) => a==b`, `≤: (a,b) => a≤b` |
 | **n-ary** | `n-ary` | `Sⁿ → S` | `combine: (a₁, …, aₙ) => …` |
 | **Action** | external | `Ω × S → S` | scalar multiplication `(λ, v) => λ·v` in a vector space |
 
@@ -33,9 +35,9 @@ keywords: [math, structures]
 
 ---
 
-**`Law`** := a constraint on the `Operations` of a given `Structure`.
+**`Law`** := a constraint on the `Actions` scoped to subset of Basis of a given `Structure`.
 
-> `Law :: {Operation} → {Norm}`
+> `Law :: Action → Norm`
 
 | Law | Formula | Notes |
 | --- | --- | --- |

@@ -8,8 +8,6 @@ keywords: [mind, computation]
 
 ![Computation](/images/2-mind/07-computation.svg)
 
-## Computation
-
 **`Computation`** := The process of [`Reasoning`](08-reasoning.md) by executing `Dataflow` on given input by some real `Runtime` until the outcome is evaluated.
 
 ## Data and Transformers
