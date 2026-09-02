@@ -31,6 +31,14 @@ npm run gen-banners                         # regenerate images/, rewrite each b
 npm run absorb-watch-later                  # scripts/wl-absorb.mjs
 ```
 
+YouTube pipeline — two Claude commands, designed to run unattended under `/loop`, one session each:
+
+- `/yt-fetch` — runs `node scripts/yt-fetch.mjs`: per unchecked URL in `input/youtube.md`, writes the
+  transcript to `input/yt-<id>.md` and marks the line done (`[x]`; `[-]` = permanent skip, never retried).
+- `/yt-absorb` — runs the `/absorb` procedure on each `input/yt-*.md`, then archives it to `done/`.
+
+Start with `/loop 10m /yt-fetch` and `/loop 15m /yt-absorb` (or one session: `/loop 15m "run /yt-fetch, then /yt-absorb"`).
+
 `check-docs` ignores failures listed in `scripts/check-docs.baseline.txt`, so the gate is "no new failures". Fix an entry and delete its line by hand. Never run `--write-baseline` to clear a fresh failure: it converts a bug into accepted breakage and nothing downstream can tell the difference.
 
 ## Lint

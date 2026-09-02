@@ -44,6 +44,8 @@ Sources are raw and long; `docs/` is short and canonical. Absorb collapses the f
 - No new file when an existing one fits. No new folder, ever, without asking.
 - Verbatim quotation belongs in `_quotes.md` and nowhere else.
 - A source that yields nothing new is a valid result — say so, change nothing.
+- dropped unverifiable, suspictious, controversial, clickbait content.
+- use plain english, no fluffy or rare words, target to non-native B1 speakers.
 
 ## Done when
 

@@ -50,6 +50,8 @@ The order of stimulation across a day decides what work is possible inside it. T
 | Move | Why |
 | ---- | --- |
 | **Decide the target while rested** | Choose tomorrow's first task during today's working hours. An evening decision is made by a depleted `Agent`, and planning at night restarts the mind against sleep |
+| **Map energy before assigning tasks** | Rate energy hourly, 1–10, for a few days. Give the peaks to the highest-impact work and the troughs to routine; analytical work follows strength, originating work follows mood |
+| **Bore yourself before the block** | Ten to twenty minutes of silence — no screen, no feed, no music — drops the baseline the task will be compared against, so the work itself reads as interesting |
 | **Leave the work open** | Laptop open on the right file, everything else closed. Waking should require no decision — only sitting down |
 | **Phone out of the room overnight** | Not silenced — absent. Picked up after the first block, never before it |
 | **Work first, eat second** | Take the first block before breakfast. See [Nutrition → Timing](../8-sustain/04-nutrition.md#timing) |
@@ -62,4 +64,5 @@ A block takes time to become productive, and an interruption costs that run-up a
 
 - **Notification rights are granted by name, not held by default.** Two or three people may reach you mid-block; everyone else waits and learns to route through them.
 - **Give the sender that matters its own sound.** When every message sounds alike, every sound is an unanswered question. One distinct tone makes every other sound safely ignorable.
-- **Use one track as a cue.** The same music every block, off the moment it ends, becomes a conditioned signal. Avoid high-arousal or melancholy music — arousal you do not discharge is a cost. Keep the cue bounded: a mind never left quiet stops returning to low-stimulus work.
+- **Use one track as a cue.** The same music every block, off the moment it ends, becomes a conditioned signal. Any token works — a specific strong tea does the same — provided it stays unique to the block: a cue also consumed casually stops predicting work. Avoid high-arousal or melancholy music — arousal you do not discharge is a cost. Keep the cue bounded: a mind never left quiet stops returning to low-stimulus work.
+- **Rest as empty as the work is full.** Split the block into fixed intervals — 50 on, 10 off, sized to yourself — and keep the off-interval screen-free. A break spent in a feed raises the reward baseline mid-day and rests nothing; step away, breathe, walk. The pause is also where the gain is written — see [Learning → Making It Stick](09-learning.md#making-it-stick).

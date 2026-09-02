@@ -44,6 +44,7 @@ Taking information in is not retaining it. Retention has its own mechanics:
 | **Interleaving** | Mixing problem types trains you to *choose* the method, not just execute a known one |
 | **Teaching it** | Explaining in plain words exposes the gaps a `Bias` hides — if you cannot teach it, you have not learned it |
 | **Writing by hand** | Handwriting is slower and recruits motor planning alongside language, so the note is encoded while it is being made. Typing into a note app captures the text without encoding it — the archive grows and the `Memory` does not |
+| **Rest inside practice** | Brief pauses between attempts are when the gain is written — the brain replays the attempt during the pause. Replaying it deliberately, the rep imagined done cleanly, strengthens the same trace |
 | **Sleep** | Consolidation happens during rest, not at the desk. See [Recovery → Sleep](../8-sustain/03-recovery.md#sleep) |
 
 ## Reading

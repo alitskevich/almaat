@@ -73,7 +73,7 @@ function parseArgs(argv) {
 
 const log = (...parts) => console.log(...parts);
 
-function run(cmd, args, { cwd = ROOT, capture = true } = {}) {
+export function run(cmd, args, { cwd = ROOT, capture = true } = {}) {
   return new Promise((resolvePromise, reject) => {
     const child = spawn(cmd, args, { cwd, stdio: capture ? ["ignore", "pipe", "pipe"] : "inherit" });
     let stdout = "";
@@ -103,7 +103,7 @@ async function exists(path) {
 }
 
 /** Captions on public videos need no auth; only the playlist calls do. */
-async function cookieArgs() {
+export async function cookieArgs() {
   return (await exists(COOKIES)) ? ["--cookies", COOKIES] : [];
 }
 
@@ -121,7 +121,7 @@ async function writeLedger(ids) {
 
 // ── yt-dlp ────────────────────────────────────────────────────────────────────
 
-async function ensureYtdlp() {
+export async function ensureYtdlp() {
   if (await exists(YTDLP)) return YTDLP;
   log("· yt-dlp not cached — downloading the standalone macOS build");
   const res = await fetch(YTDLP_RELEASE, { redirect: "follow" });

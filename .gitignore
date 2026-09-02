@@ -4,3 +4,4 @@ graphify-out
 .apikey
 scripts/.cache
 .claude/*.local.md
+done

@@ -14,6 +14,7 @@ keywords: [mastery, discipline]
 
 **1. Do it poorly, but do it every day.**
 20 minutes done badly beats 0 minutes done perfectly. You don't quit from laziness — you quit from chasing perfection.
+What gets postponed is never the work but the feeling forecast for it — procrastination is mood regulation, not time management — which is why starting badly dissolves it.
 
 **2. Discipline lives in ritual, not in willpower.**
 Don't rely on motivation or willpower — discipline is a system, not a character trait. The compound effect replaces motivation.
@@ -28,6 +29,7 @@ Results arrive as a side effect.
 **4. Integrity before yourself is stronger than motivation.**
 Not public shame — but integrity before your own word. Said it → did it.
 Promise rarely, follow through always.
+Until that integrity is built, borrow it: a stake — a bet, a public promise — makes a self-set deadline cost something to miss. A deadline that costs nothing teaches that missing is safe.
 
 **5. Tiny daily improvement.**
 No sprints and no fixed-length marathons — a small increment over yesterday. One more rep, a few more minutes, one cleaner step. The gap compounds.
@@ -35,7 +37,6 @@ No sprints and no fixed-length marathons — a small increment over yesterday. O
 ## Interrogative Self-Talk
 
 Don't say "I can do it" — ask "Can I do it?" A statement invites no answer; a question does, and the answers are the reasons and the plan.
-
 
 **Five Power Questions:**
 
