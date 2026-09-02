@@ -1,6 +1,6 @@
 ---
 title: "Composition"
-description: "The Arrow and its Vertex, and the Composition that feeds one Azon's output into another — associativity, Identity, Null, and Currying."
+description: "The Arrow and the Composition that feeds one Azon's output into another — associativity, Identity, Null."
 keywords: [math, composition]
 ---
 
@@ -10,17 +10,11 @@ keywords: [math, composition]
 
 ## Arrows
 
-**`Arrow`** := an `Azon` that responds *always* `emptily` *except once*.
+**`Arrow`** := an `Azon` that responds `emptily` *always except once*.
 
-> `R(a,b) := x → (x IS a ? b : 0)`
+> `[a,b] := x → (x IS a ? b : Zero)`
 
 ---
-
-**`Vertex`** := `Sign:Subject` or `Value:Object` of `Arrow`.
-
-> `Vertex(R(a,b)) := a | b`
-
-## Composition
 
 **`Composition`** := The `Azon` built on `Arrow` by *assuming* the output of `Subject` as the input of the `Object`.
 
@@ -32,19 +26,11 @@ keywords: [math, composition]
 
 ---
 
-**`Iterate`** := `Composition` of an `Azon` with itself, repeated a given number of times.
-
-> `A^0 := Unit`, `A^1 := A`, `A^n := A.A^(n-1)`
-
-*NOTE*: `04-numerals.md` builds `Numerals` as the `Set` of all `Iterate`s of `Plus`, so this is where counting starts.
-
----
-
-**`Identity`** := Composition-preserving `Azon`.
+**`Identity<A>`** := Composition-preserving `Azon` for A.
 
 > `Id.A = A.Id = A`
 
-*NOTE*: `Unit` is the universal `Identity` (restricted to `DOM(A)` on the right, `COD(A)` on the left).
+*NOTE*: `Unit` is the *universal* `Identity` (restricted to `DOM(A)` on the right, `COD(A)` on the left).
 
 ---
 
@@ -52,7 +38,7 @@ keywords: [math, composition]
 
 > `Null.A = A.Null = Null`
 
-*NOTE*: `Zero` is universal `Null`.
+*NOTE*: `Zero` is *universal* `Null`.
 
 ---
 
@@ -61,33 +47,3 @@ keywords: [math, composition]
 > `A⁻¹.A = DOM(A) ∧ A.A⁻¹ = COD(A)`
 
 *DEF*: a `Composition` is **well-consumed** when its `Object` is valent on the entire output of its `Subject`: `COD(A) ⊆ DOM(B)`.
-
----
-
-**`Subject`** := in a `Composition`, the `Azon` whose output is taken.
-
----
-
-**`Object`** := in a `Composition`, the `Azon` that takes it as input.
-
-## Derived
-
-**`Singleton`** := `fixed` `Arrow`.
-
-> `Singleton(C) := x → (x IS C ? C : 0)`
-
-*NOTE*: `Singleton` is a `Set` with exactly one `Element`.
-
----
-
-**`Currying`** := The `Azon` that corresponds an `Azon` *over* `Arrow`s to an `Azon` *into* `Arrow`s.
-
-> `curry := (({X → Y}) → Z) → (X → {(Y → Z)})`
-
----
-
-**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Sign`s a curried `Azon` expects.
-
-> `PartialApp(A, x) := curry(A)(x)`
-
-*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Sign`s.

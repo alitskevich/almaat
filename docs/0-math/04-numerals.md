@@ -10,15 +10,37 @@ keywords: [math, numerals]
 
 ## Natural Numbers
 
+---
+
+**`Singleton`** := `fixed` `Arrow`.
+
+> `Singleton(c) := [c,c]`
+
+*NOTE*: `Singleton` is also a `Set` with exactly one `Element`.
+
+---
+
+**`Iterate`** := `Composition` of an `Azon` with itself or with its preceding Iterate.
+
+> `A^0 := Unit`, `A^1 := A`, `A^n := A.A^(n-1)`
+
+---
+
+**`Induction<A>`** := `Set` of all `Iterate`s of `Azon`.
+
+> `Induction := { Unit, A, A², A³, ... }`
+
+---
+
 **`Plus`** := The `Azon` that responds to a `Sign` with its `Singleton`.
 
 > `Plus := x → {x}`
 
 ---
 
-**`Numerals`** := `Set` of all `Iterate`s of `Plus`.
+**`Numerals`** := `Induction` of `Plus`.
 
-> `Numerals := { Unit, Plus, Plus², Plus³, ... }`
+> `Numerals := Induction<Plus>`
 
 ---
 
@@ -34,15 +56,15 @@ keywords: [math, numerals]
 
 ## Ranges
 
-**`Interval`** := `Set` of all `Number`s not greater than `N`.
+**`Interval`** := `Set` of all `Number`s less than `N`.
 
-> `Interval(N) := {n : n ≤ N}`
+> `Interval(N) := {n : n < N}`
 
 ---
 
-**`Ray`** := `Set` of all `Number`s strictly greater than `N`.
+**`Ray`** := `Set` of all `Number`s strictly not less than `N`.
 
-> `Ray(N) := {n : n > N}`
+> `Ray(N) := {n : n >= N}`
 
 ---
 

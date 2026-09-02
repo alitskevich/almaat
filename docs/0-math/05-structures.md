@@ -12,7 +12,7 @@ keywords: [math, structures]
 
 **`Structure`** := `Set` equipped with `Operation`s on it, which are constrained by `Law`s.
 
-> `Structure := (S, {Operation}, {Law})`
+> `Structure := (Set, {Operation}, {Law})`
 
 ---
 
