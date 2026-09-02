@@ -22,25 +22,25 @@ keywords: [math, language]
 
 ---
 
-**`Word`** := `Tuple` of `Code`s of given `Alphabet`.
+**`Word`** := `Tuple` of `Codes` of given `Alphabet`.
 
 > `Word<Alphabet> := [Codeᵢ, ...] :: Codeᵢ ∈ Alphabet`
 
 ---
 
-**`Dictionary`** := `Set` of `Word`s of the same `Alphabet`.
+**`Dictionary`** := `Set` of `Words` of the same `Alphabet`.
 
 > `Dictionary<Alphabet> := { Word<Alphabet> }`
 
 ## Rules and Grammar
 
-**`Rule`** := `Arrow` over `Word`s from given `Dictionary`.
+**`Rule`** := `Arrow` over `Words` from given `Dictionary`.
 
 > `Rule<Dictionary> := (T → T') :: T, T' ∈ Dictionary`
 
 ---
 
-**`Grammar`** := `Graph` of `Rule`s on given `Dictionary`.
+**`Grammar`** := `Graph` of `Rules` on given `Dictionary`.
 
 > `Grammar<Dictionary> := { Rule<Dictionary> }`
 
@@ -58,7 +58,7 @@ keywords: [math, language]
 
 ---
 
-**`Theory`** := `Dictionary` of all `Expression`s that may be derived from the input `Word` within the `Grammar`.
+**`Theory`** := `Dictionary` of all `Expressions` that may be derived from the input `Word` within the `Grammar`.
 
 > `Theory<Word, Grammar> := { Expression<Word, Grammar> }`
 
@@ -76,6 +76,6 @@ keywords: [math, language]
 
 ---
 
-**`Language`** := `Dictionary` of all `Terminal`s expressed from given `Axiom`s within given `Grammar`.
+**`Language`** := `Dictionary` of all `Terminals` expressed from given `Axioms` within given `Grammar`.
 
 > `Language<{Axiom}, Grammar> := { Terminal ∈ Theory<A, Grammar> : A ∈ {Axiom} }`

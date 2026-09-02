@@ -1,6 +1,6 @@
 ---
 title: "Composition"
-description: "The Arrow and the Composition that feeds one Azon's output into another — associativity, Identity, Null."
+description: "The Arrow and the Composition that feeds one Azon's output into another — associativity, bijection, wel-consumption, Identity, Null."
 keywords: [math, composition]
 ---
 
@@ -20,7 +20,7 @@ keywords: [math, composition]
 
 > `.(a,b) := x → a(b(x))`
 
-*NOTE*: `Composition` is **associative** by construction.
+*NOTE*: `Composition` is **`associative`** by construction.
 
 > `(A.B).C = A.(B.C)`
 
@@ -30,7 +30,7 @@ keywords: [math, composition]
 
 > `Id.A = A.Id = A`
 
-*NOTE*: `Unit` is the *universal* `Identity` (restricted to `DOM(A)` on the right, `COD(A)` on the left).
+*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM(A)` on the right, `COD(A)` on the left).
 
 ---
 
@@ -42,8 +42,10 @@ keywords: [math, composition]
 
 ---
 
-**`Bijective`** := `Azon` for which there exists an `Azon:Inverse` whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
+*DEF*: `Azon` is **`Bijective`** if there exists an `Azon:Inverse` whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
 
 > `A⁻¹.A = DOM(A) ∧ A.A⁻¹ = COD(A)`
 
-*DEF*: a `Composition` is **well-consumed** when its `Object` is valent on the entire output of its `Subject`: `COD(A) ⊆ DOM(B)`.
+*DEF*: a `Composition` is **`Well-consumed`** when its `Object` is valent on the entire output of its `Subject`:
+
+> `A.B :: COD(A) = DOM(B)`.

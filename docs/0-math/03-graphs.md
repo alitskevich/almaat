@@ -10,16 +10,16 @@ keywords: [math, graphs]
 
 ## Definitions
 
-**`Graph`** := `Set` of `Arrow`s.
+**`Graph`** := `Set` of `Arrows`.
 
 > `Graph := {[x,y]}`
 ---
 
-**`Vertex`** := one of `Sign:Subject` or `Value:Object` of `Arrow`s of `Graph`.
+**`Vertex`** := one of `Sign:Subject` or `Value:Object` of `Arrows` of `Graph`.
 
 > `Vertex<G> := {x : ∃A ∈ G, x ∈ DOM(A) ∨ x ∈ COD(A)}`
 
-A `Vertex` is classified by how many `Arrow`s enter and leave it, written `(in:out)`.
+A `Vertex` is classified by how many `Arrows` enter and leave it, written `(in:out)`.
 
 | Term | Type | Description |
 |---|---|---|
@@ -31,7 +31,7 @@ A `Vertex` is classified by how many `Arrow`s enter and leave it, written `(in:o
 
 ---
 
-**`Path`** := `Composition` of `Arrow`s of a `Graph`.
+**`Path`** := `Composition` of `Arrows` of a `Graph`.
 
 > `Path<G> := [A₁...Aₙ] :: ∀A ∈ G`
 
@@ -49,32 +49,26 @@ A `Vertex` is classified by how many `Arrow`s enter and leave it, written `(in:o
 
 > `Tree<G> :: ∃! Root ∧ ∀V ≠ Root: ∃! A ∈ G, V ∈ COD(A)`
 
-## Connectivity
-
-*DEF*: a `Graph` is **connected** if, for every proper subset `V'` of its `Vertex` set `V`, some `Arrow` crosses the boundary between `V'` and the rest.
+**`Connected Graph`** :=  `Graph`, that for every proper subset `V'` of its `Vertex` set `V`, some `Arrow` crosses the boundary between `V'` and the rest.
 
 > `∀V' ⊊ V: ∃Arrow ∈ Graph: (DOM(Arrow) ∩ V' ≠ 0 ∧ COD(Arrow) ⊄ V') ∨ (COD(Arrow) ∩ V' ≠ 0 ∧ DOM(Arrow) ⊄ V')`
 
-## Currying
-
-A `Graph` and an `Azon` are two views of the same — the `Set` of `Arrow`s `{[x,y]}` *is* the `Azon` responding to each `x` with its `y`.
+**`Functional Graph(Mapping)`** := `Graph` without `Fan-Outs`; it *is* the `Azon` responding to each `x` with single `y`.
 
 > `{[x,y]} ≃ (x → y)`
 
-*NOTE*: per single response, `[x,y] ≃ x → y`; a `Graph` reads back as an `Azon` when it holds at most one `Arrow` per `Sign`.
+---
+
+**`Currying`** := recasting an `Azon` over pair-`Signs` `[x,y]` into an `Azon` that responds to `x` with another `Azon` awaiting `y`.
+
+> `curry :: ([x,y] → z) ≃ (x → (y → z))`
+
+*NOTE*: both sides respond with the same `z`; iterating the recast unfolds any arity into a chain of single-`Sign` `Azons`.
 
 ---
 
-**`Currying`** := The `Azon` that rewrites an `Azon` *over* `Arrow`s into an `Azon` *into* `Graph`s: fixing `x` leaves the residual responses `y → A([x,y])`, which are the `Arrow`s of a `Graph`.
-
-> `curry(A) := x → {[y, A([x,y])]}`
-
-*NOTE*: type-level: `curry : ({[x,y]} → Z) → (X → {[y,z]})`; reading the `Graph` back as an `Azon`: `curry(A)(x)(y) = A([x,y])`.
-
----
-
-**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Sign`s a curried `Azon` expects.
+**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Signs` a curried `Azon` expects.
 
 > `PartialApp(A, x) := curry(A)(x)`
 
-*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Sign`s.
+*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Signs`.

@@ -14,7 +14,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`SampleSpace`** := the `Dictionary` a `Process` draws its `Word`s from — everything that can hold at a `Step`.
+**`SampleSpace`** := the `Dictionary` a `Process` draws its `Words` from — everything that can hold at a `Step`.
 
 > `SampleSpace := Dictionary`
 
@@ -34,7 +34,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Flow`** := the `Queue` of `State`s a `Process` unrolls across successive `Step`s.
+**`Flow`** := the `Queue` of `States` a `Process` unrolls across successive `Step`s.
 
 > `Flow := [State(Step[i])]`
 
@@ -46,7 +46,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Process`** := controlled `Queue` of `Word`s from the same `SampleSpace`.
+**`Process`** := controlled `Queue` of `Words` from the same `SampleSpace`.
 
 > `Process := Queue<Word ∈ SampleSpace> :: controlled`
 
@@ -58,7 +58,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Text<Dictionary>` / `Plan`** := `Tuple` of `Word`s from the same `Dictionary`.
+**`Text<Dictionary>` / `Plan`** := `Tuple` of `Words` from the same `Dictionary`.
 
 > `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
 
@@ -74,7 +74,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Circuit`** := `Set` of `MutuallyExclusiveEvents` with same-sized `Context`s under the `Law of Total Probability`.
+**`Circuit`** := `Set` of `MutuallyExclusiveEvents` with same-sized `Contexts` under the `Law of Total Probability`.
 
 > `Circuit := {Event} :: LTP`
 
@@ -84,7 +84,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`MutuallyExclusiveEvents`** := set of `Event` with the same `Context`, whose `State`s comprise a `Cluster` of `SampleSpace`.
+**`MutuallyExclusiveEvents`** := set of `Event` with the same `Context`, whose `States` comprise a `Cluster` of `SampleSpace`.
 
 ---
 
@@ -92,11 +92,11 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Random Variable`** := context-free `Circuit` — for all `Event`s with the same `State`, the `Probability` is also the same.
+**`Random Variable`** := context-free `Circuit` — for all `Events` with the same `State`, the `Probability` is also the same.
 
 ---
 
-**`Probability Distribution`** := `Azon` that responds with a `Probability` to the `State`s of a `Random Variable`.
+**`Probability Distribution`** := `Azon` that responds with a `Probability` to the `States` of a `Random Variable`.
 
 ## Kinds of Circuit
 
@@ -128,7 +128,7 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Paradigm`** := a method that generates `Plan`s for a `System`.
+**`Paradigm`** := a method that generates `Plans` for a `System`.
 
 > `Paradigm :: System → {Plan}`
 

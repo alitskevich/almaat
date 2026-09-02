@@ -1,6 +1,6 @@
 ---
 title: "Numerals"
-description: "Natural numbers (Number), intervals, sequences, and selections."
+description: "Natural numbers (Number), rationals (Ratio, Rational), intervals, sequences, and selections."
 keywords: [math, numerals]
 ---
 
@@ -20,13 +20,13 @@ keywords: [math, numerals]
 
 ---
 
-**`Iterate`** := `Composition` of an `Azon` with itself or with its preceding Iterate.
+**`Iteron`** := `Composition` of an `Azon` with itself or with its preceding Iteron.
 
 > `A^0 := Unit`, `A^1 := A`, `A^n := A.A^(n-1)`
 
 ---
 
-**`Induction<A>`** := `Set` of all `Iterate`s of `Azon`.
+**`Induction<A>`** := `Set` of all `Iterons` of `Azon`.
 
 > `Induction := { Unit, A, A², A³, ... }`
 
@@ -50,25 +50,57 @@ keywords: [math, numerals]
 
 ---
 
-**`Total Order`** := property of `Number`s that for any `a, b` exactly one of `a < b`, `a = b`, `a > b` holds.
+**`Total Order`** := property of `Numbers` that for any `a, b` exactly one of `a < b`, `a = b`, `a > b` holds.
 
 > `∀a, b: (a < b) ∨ (a = b) ∨ (b < a)`
 
+## Rational Numbers
+
+**`Add`** (`+`) := `Composition` of two `Numbers`, as `Iterons` of `Plus`.
+
+> `n + m := Plus^n.Plus^m`
+
+---
+
+**`Times`** (`·`) := `Iteron` of a `Number` by another.
+
+> `n · m := (Plus^n)^m`
+
+---
+
+**`Ratio`** := `Arrow` between two `Numbers` with a non-zero `Value`.
+
+> `Ratio := [p, q], q ≠ 0` — written `p/q`
+
+---
+
+**`Proportion`** := `Equivalence` of `Ratios` by cross-multiplication.
+
+> `[p, q] ≃ [r, s] := (p·s = r·q)`
+
+---
+
+**`Rational`** := `Set` of all `Proportion`-equivalent `Ratios`.
+
+> `p/q := {[r, s] : p·s = r·q}`
+
+*NOTE*: every `Number` `n` is the `Rational` `n/1`; `Total Order` extends to `Rationals` by `p/q < r/s := (p·s < r·q)`.
+
 ## Ranges
 
-**`Interval`** := `Set` of all `Number`s less than `N`.
+**`Interval`** := `Set` of all `Numbers` less than `N`.
 
 > `Interval(N) := {n : n < N}`
 
 ---
 
-**`Ray`** := `Set` of all `Number`s strictly not less than `N`.
+**`Ray`** := `Set` of all `Numbers` strictly not less than `N`.
 
 > `Ray(N) := {n : n >= N}`
 
 ---
 
-**`Range`** := `Set` of all `Number`s strictly greater than `N` and at most `M`, with `N < M`.
+**`Range`** := `Set` of all `Numbers` strictly greater than `N` and at most `M`, with `N < M`.
 
 > `Range(N, M) := {n : N < n ≤ M}`
 
@@ -110,7 +142,7 @@ keywords: [math, numerals]
 
 ## Matrices
 
-**`Matrix`** (2D-array) := A `Tuple` of `Tuple`s.
+**`Matrix`** (2D-array) := A `Tuple` of `Tuples`.
 
 > `Matrix :: Interval(n) → Tuple`
 

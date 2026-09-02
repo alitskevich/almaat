@@ -30,7 +30,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 ---
 
-**`Neuron`** := A `Source` that outputs a numerical Weight equal to the weighted sum of evaluations of `Neuron`s/`Sensor`s in its Context.
+**`Neuron`** := A `Source` that outputs a numerical Weight equal to the weighted sum of evaluations of `Neuron`s/`Sensors` in its Context.
 
 > `Neuron(N) := ∑ wᵢ · Nᵢ` over Context
 
@@ -58,7 +58,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 > `Codebook :: Signal ↔ Thought`
 
-*NOTE*: what encodes a `Thought` for transmission and decodes an arriving `Signal`. Two `Mind`s communicate reliably only where their `Codebook`s agree.
+*NOTE*: what encodes a `Thought` for transmission and decodes an arriving `Signal`. Two `Minds` communicate reliably only where their `Codebooks` agree.
 
 ---
 
@@ -74,7 +74,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 > `Memory :: Signal_partial → Thought_re-evoked`
 
-*NOTE*: Compression of past `Signal`s into the structure of the `Mind` itself. `Memory` is not storage of past `Thought` — it is the *disposition to reproduce them*. Re-evocation is reconstruction, not retrieval.
+*NOTE*: Compression of past `Signals` into the structure of the `Mind` itself. `Memory` is not storage of past `Thought` — it is the *disposition to reproduce them*. Re-evocation is reconstruction, not retrieval.
 
 ## The Social Origin of Mind
 

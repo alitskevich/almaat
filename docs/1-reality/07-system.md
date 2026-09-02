@@ -22,15 +22,15 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Trajectory(Thing)`** := the track of a `Thing`'s `State`s across its `Step`s.
+**`Trajectory(Thing)`** := the track of a `Thing`'s `States` across its `Step`s.
 
 > `Trajectory(Thing) := [State(Thing, Step[i]) for Step[i] in indices(Thing)]`
 
-*NOTE*: the realized `Trajectory` is one sample path of the `Flow`; the space of possible `Trajectory`s is the [`Circuit`](02-process.md#parts-of-a-process)'s support unrolled. A `Trajectory` is a function of `Thing` only where every `Step` is a point mass.
+*NOTE*: the realized `Trajectory` is one sample path of the `Flow`; the space of possible `Trajectorys` is the [`Circuit`](02-process.md#parts-of-a-process)'s support unrolled. A `Trajectory` is a function of `Thing` only where every `Step` is a point mass.
 
 ## System and Participant
 
-**`System`** := a `Set` of `Participant`s coupled by mutual `Communication`.
+**`System`** := a `Set` of `Participants` coupled by mutual `Communication`.
 
 > `System := {Participant} :: ∀P ∈ System: ∃Q ∈ System: Communication(P → Q) ≠ 0 ∧ Communication(Q → P) ≠ 0`
 
@@ -84,7 +84,7 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Interface`** := a constraint on the `Behavior` of `Participant`s relative to each other.
+**`Interface`** := a constraint on the `Behavior` of `Participants` relative to each other.
 
 > `Interface :: admissible(Behavior, Attention) → {0, 1}`
 
@@ -92,7 +92,7 @@ keywords: [reality, system, participant, communication]
 
 ---
 
-**`Coupling`** := the persistence of mutual `Communication` between two `Participant`s across multiple `Step`s.
+**`Coupling`** := the persistence of mutual `Communication` between two `Participants` across multiple `Step`s.
 
 > `Coupling(A, B) := | {Step[i] : Communication(A → B) ≠ 0 ∧ Communication(B → A) ≠ 0 at Step[i]}|`
 
@@ -110,11 +110,11 @@ keywords: [reality, system, participant, communication]
 
 > `Emergence :: Behavior(System) ⊄ ⋃ Behavior(Participant)`
 
-*NOTE*: the signature of `System`s: the whole exhibits properties no part can. Not predictable from the `State` of individual `Participant`s alone — it must be observed under `Communication`.
+*NOTE*: the signature of `System`s: the whole exhibits properties no part can. Not predictable from the `State` of individual `Participants` alone — it must be observed under `Communication`.
 
 ---
 
-**`Equilibrium`** := a `State` of the `System` at which all `Communication` among `Participant`s balance, yielding a [`Halt`](02-process.md#landmarks-of-a-flow) for the whole.
+**`Equilibrium`** := a `State` of the `System` at which all `Communication` among `Participants` balance, yielding a [`Halt`](02-process.md#landmarks-of-a-flow) for the whole.
 
 > `Equilibrium :: Circuit(State_sys) = δ_Step`
 

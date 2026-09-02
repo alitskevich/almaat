@@ -10,7 +10,7 @@ keywords: [math, structures]
 
 ## Definitions
 
-**`Structure`** := `Set` equipped with `Operation`s on it, which are constrained by `Law`s.
+**`Structure`** := `Set` equipped with `Operations` on it, which are constrained by `Law`s.
 
 > `Structure := (Set, {Operation}, {Law})`
 
@@ -23,9 +23,9 @@ keywords: [math, structures]
 | Term | Arity | Signature | Examples |
 | --- | --- | --- | --- |
 | **Constant** | `0-ary` | `() → S` | `unit: () => 1`, `zero: () => 0` |
-| **Unary** | `1-ary` | `S → S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
-| **Binary** | `2-ary` | `S × S → S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
-| **`Relation`** | `2-ary` predicate | `S × S → {T, F, U}` | `eq: (a,b) => a==b`, `≤: (a,b) => a≤b` |
+| **Unary** | `1-ary` | s`→ S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
+| **Binary** | `2-ary` | s`× S → S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
+| **`Relation`** | `2-ary` predicate | s`× S → {T, F, U}` | `eq: (a,b) => a==b`, `≤: (a,b) => a≤b` |
 | **n-ary** | `n-ary` | `Sⁿ → S` | `combine: (a₁, …, aₙ) => …` |
 | **Action** | external | `Ω × S → S` | scalar multiplication `(λ, v) => λ·v` in a vector space |
 
@@ -33,9 +33,9 @@ keywords: [math, structures]
 
 ---
 
-**`Law`** := a constraint on the `Operation`s of a given `Structure`.
+**`Law`** := a constraint on the `Operations` of a given `Structure`.
 
-> `Law :: {Operation} → {T, F}`
+> `Law :: {Operation} → {Norm}`
 
 | Law | Formula | Notes |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ keywords: [math, structures]
 | Structure | Definition | Laws |
 | --- | --- | --- |
 | **Lattice** | A poset with `∧ - meet (infimum)` and `∨ - join (supremum)` | Commutative, Associative, Absorption |
-| **Complete Lattice** | A lattice with arbitrary `meet`s and `join`s | |
+| **Complete Lattice** | A lattice with arbitrary `meets` and `joins` | |
 | **Bounded Lattice** | A lattice with `1 - greatest (top)` and `0 - least (bottom)` | `0 ≤ x ≤ 1` for every `x ∈ S` |
 | **Complemented Lattice** | A bounded lattice with unary `⊥ - complementation` | `a ∨ a⊥ = 1` and `a ∧ a⊥ = 0` |
 | **Distributive Lattice** | A lattice where meet and join distribute over each other | |

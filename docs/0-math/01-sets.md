@@ -10,7 +10,7 @@ keywords: [math, sets]
 
 ## Sets
 
-**`Set`** := an `Azon` whose `Value`s are either `fixed` or `empty`.
+**`Set`** := an `Azon` whose `Values` are either `fixed` or `empty`.
 
 > `Set := x → (x | Zero)`
 
@@ -22,17 +22,17 @@ keywords: [math, sets]
 
 *DEF*: An `Element` **belongs to** a `Set`; the `Set` **contains** the `Element`.
 
-*NOTE*: By `AXIOM-2`: `S ∉ S`. By `AXIOM-1`: `0 ∉ S` and `S ∉ 0`.
+*NOTE*: By `AXIOM-2`: s`∉ S`. By `AXIOM-1`: `0 ∉ S` and s`∉ 0`.
 
-*NOTE*: `Unit` as a Set contains all `Azon`s except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
+*NOTE*: `Unit` as a Set contains all `Azons` except itself and `Zero`: `∀x ∉ {0, 1}: x ∈ 1`.
 
 ---
 
-**`Subset`** := A `Set` all of whose `Element`s belong to a reference `Set`.
+**`Subset`** := A `Set` all of whose `Elements` belong to a reference `Set`.
 
 > `A ⊆ B :: ∀x: x ∈ A ⟹ x ∈ B`
 
-*NOTE*: Reflexive: `S ⊆ S`. Transitive: `A ⊆ B ∧ B ⊆ C ⟹ A ⊆ C`. Min/Max: `0 ⊆ S ⊆ 1`.
+*NOTE*: Reflexive: s`⊆ S`. Transitive: `A ⊆ B ∧ B ⊆ C ⟹ A ⊆ C`. Min/Max: `0 ⊆ S ⊆ 1`.
 
 ---
 
@@ -50,7 +50,7 @@ keywords: [math, sets]
 
 *NOTE*: Any `Set` is endogenous.
 
-*DEF*: `Azon`s are **endemic** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
+*DEF*: `Azons` are **endemic** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
 
 ---
 
@@ -134,17 +134,17 @@ keywords: [math, sets]
 
 ---
 
-**`Intersection`** := `Set` of `Element`s which belong to every `Set` of the `Collection`.
+**`Intersection`** := `Set` of `Elements` which belong to every `Set` of the `Collection`.
 
 > `⋂K := {x : ∀S ∈ K, x ∈ S}`
 
-*DEF*: A `Collection` is **non-intersecting** if no two of its `Set`s share an `Element`: `∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0`.
+*DEF*: A `Collection` is **non-intersecting** if no two of its `Sets` share an `Element`: `∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0`.
 
 *DEF*: for two `Set`s, `A ∩ B := ⋂{A, B}` — the binary form used where a `Collection` is not needed.
 
 ---
 
-**`Union`** := `Set` of `Element`s which belong to at least one `Set` of the `Collection`.
+**`Union`** := `Set` of `Elements` which belong to at least one `Set` of the `Collection`.
 
 > `⋃K := {x : ∃S ∈ K, x ∈ S}`
 
@@ -154,7 +154,7 @@ keywords: [math, sets]
 
 ---
 
-**`Set-Difference`** := `Set` of `Element`s in the `Union` of the `Collection` but NOT in the reference `Set`.
+**`Set-Difference`** := `Set` of `Elements` in the `Union` of the `Collection` but NOT in the reference `Set`.
 
 > `SetDiff(K, S) := {x : x ∈ ⋃K ∧ x ∉ S}`
 
@@ -170,6 +170,6 @@ keywords: [math, sets]
 
 > `Cluster(K, S) :: (∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0) ∧ ⋃K = S`
 
-*NOTE*: A partition — mutually disjoint `Set`s whose `Union` covers the reference `Set`.
+*NOTE*: A partition — mutually disjoint `Sets` whose `Union` covers the reference `Set`.
 
 *NOTE*: `{!S, S}` is a `Cluster` saturated to the `World` `P`.

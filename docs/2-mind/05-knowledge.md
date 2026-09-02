@@ -30,11 +30,11 @@ keywords: [mind, knowledge]
 
 ---
 
-[`Theory`](../0-math/07-language.md#theories) is the `Dictionary` of `Expression`s derivable within a `Grammar`. A `Mind` holds one interpreted: its `Name`s and `Concept`s are `Expression`s of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../0-math/06-views.md#matter) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
+[`Theory`](../0-math/07-language.md#theories) is the `Dictionary` of `Expressions` derivable within a `Grammar`. A `Mind` holds one interpreted: its `Names` and `Concepts` are `Expressions` of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../0-math/06-views.md#matter) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
 
 ## Naming
 
-**`Name`** := An `Expression` of `Language` associated with `View`s (Entities) of the `Matter`.
+**`Name`** := An `Expression` of `Language` associated with `Views` (Entities) of the `Matter`.
 
 > `Name :: Expression → View`
 
@@ -50,7 +50,7 @@ keywords: [mind, knowledge]
 
 ## Knowledge Organization
 
-**`Knowledge`** := A `Set` of `Opinion`s that a `Mind` uses to predict and act upon `Reality`.
+**`Knowledge`** := A `Set` of `Opinions` that a `Mind` uses to predict and act upon `Reality`.
 
 > `Knowledge := {Theory, Concept, Opinion}_validated`
 

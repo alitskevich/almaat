@@ -84,7 +84,7 @@ keywords: [mind, intellect]
 
 > `Bias :: systematic offset in Codebook(Signal) ≠ ground-truth Thought`
 
-*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Codebook`s make the discrepancy visible. `Bias` at the `Codebook` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../1-reality/15-evolution.md)).
+*NOTE*: The shadow of `Memory` — biases are stabilized weight patterns that no longer match the current `Environment`. **Invisible from within** the affected `Mind` — but detectable via `Validation` across diverse `Circumstances`, or via cross-`Mind` `Communication` where alternative `Codebooks` make the discrepancy visible. `Bias` at the `Codebook` level corresponds to **`Stagnation`** at the `Paradigm` level (in [Evolution](../1-reality/15-evolution.md)).
 
 ---
 

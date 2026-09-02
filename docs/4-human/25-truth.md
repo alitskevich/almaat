@@ -22,7 +22,7 @@ keywords: [human, truth, faith]
 
 ---
 
-[`Core-Value`](../2-mind/09-teleos.md) is the criterion by which an `Agent` ranks `Future`s. One's `Core-Value`s are the principles that follow from one's `Truth`.
+[`Core-Value`](../2-mind/09-teleos.md) is the criterion by which an `Agent` ranks `Future`s. One's `Core-Values` are the principles that follow from one's `Truth`.
 
 ---
 

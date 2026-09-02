@@ -5,7 +5,7 @@ The concrete data structures used in computing — each defined through the uppe
 | Structure | Definition | Formula | Used For |
 |---|---|---|---|
 | **Array** | An `Azon` from natural-number index to `Element` of a fixed `Set` | `A: ℕ → X` | Direct index-based access; sorting and searching algorithms |
-| **Set** | A collection of unique `Element` (see [01-set](02-set.md)) | `S ⊆ U` | Mathematical set operations (union, intersection, difference) |
+| **Set** | A collection of unique `Element` (see [01-set](02-set.md)) | s`⊆ U` | Mathematical set operations (union, intersection, difference) |
 | **Map** | An `Azon` from `Key` to `Value` | `M: K → V` | Access to elements by key; dictionaries |
 | **Hash Table** | A `Map` accessed via `Composition` with a hash `Azon` | `H = M . hash` | Efficient searching and indexing; databases, caches, dictionaries |
 | **Graph** | A `Set` of `Arrow` over a `Set` of `Vertex` (see [02-graph](03-graph.md)) | `(L, V)` | Network problems; shortest path |

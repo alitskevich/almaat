@@ -10,7 +10,7 @@ keywords: [mastery, mindset]
 
 ## Self-Honesty
 
-The mechanism that dissolves the inner problems — procrastination, laziness, lost motivation, guilt, shame, anger, fear. These are labels, not entities. Under each is the same structure: two `Goal`s in conflict, one of which you refuse to own.
+The mechanism that dissolves the inner problems — procrastination, laziness, lost motivation, guilt, shame, anger, fear. These are labels, not entities. Under each is the same structure: two `Goals` in conflict, one of which you refuse to own.
 
 **A `Goal` is just a desire** — not a thing you set and march toward, but a pull that directs attention. Nothing gets done without one, so a `Goal` is never absent: whatever you are doing right now *is* your `Goal`. Drinking water and earning a living differ only in scale.
 
@@ -41,7 +41,6 @@ Realize and respect your intrinsic [`Dignity`](../4-human/21-human.md) — your 
 Establish trust and friendship with yourself. Don't lie to yourself; keep promises to yourself, repeatedly.
 
 Self-empathy is accepting your own emotions, then using and consciously influencing them.
-
 
 ## Acceptance of Imperfection
 

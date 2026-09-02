@@ -32,7 +32,7 @@ keywords: [math, views]
 
 ## Type and Volume
 
-**`Type`** := `Tuple` of `Attribute`s of `Matter`.
+**`Type`** := `Tuple` of `Attributes` of `Matter`.
 
 > `Type<Matter> := [a₁, a₂, ..., aₙ] | DOM(aᵢ) ⊆ Matter::Basis`
 
@@ -44,13 +44,13 @@ keywords: [math, views]
 
 ---
 
-**`Volume`** := `Set` of all possible `Point`s of the `Type` — the Cartesian product of the `Attribute` codomains.
+**`Volume`** := `Set` of all possible `Points` of the `Type` — the Cartesian product of the `Attribute` codomains.
 
 > `Volume<Type> := COD(a₁) × COD(a₂) × ... × COD(aₙ)`
 
 ---
 
-**`Place`** := `Set` of `Point`s of `Type` — a subset of its `Volume`.
+**`Place`** := `Set` of `Points` of `Type` — a subset of its `Volume`.
 
 > `Place<Type> := {Point} ⊆ Volume<Type>`
 
@@ -74,7 +74,7 @@ keywords: [math, views]
 
 ---
 
-**`Reference`** (foreign key) := `Attribute` whose `Value`s are `Key`s of other `Type`s.
+**`Reference`** (foreign key) := `Attribute` whose `Values` are `Keys` of other `Type`s.
 
 ---
 
@@ -88,7 +88,7 @@ keywords: [math, views]
 
 ---
 
-**`Schema`** := `Graph` of `Relation`s between given `Type`s.
+**`Schema`** := `Graph` of `Relations` between given `Type`s.
 
 > `Schema<{Type}> := ({Type}, {Relation})`
 
@@ -100,7 +100,7 @@ keywords: [math, views]
 
 ---
 
-**`Projection`** := A `Place` derived from `Place`-`Origin` by `Selection` over the `Attribute`s of a `Type`.
+**`Projection`** := A `Place` derived from `Place`-`Origin` by `Selection` over the `Attributes` of a `Type`.
 
 > `Projection<Selection over [a₁, ..., aₙ]> := Origin → Selection(Place)`
 
@@ -110,7 +110,7 @@ keywords: [math, views]
 
 ## Quality
 
-**`Quality<Type>`** := `Azon` over `Point`s of given `Volume`.
+**`Quality<Type>`** := `Azon` over `Points` of given `Volume`.
 
 *DEF*: a `Quality` with a single value is *called* `Principle`; with two values, `Predicate` (Boolean).
 
@@ -126,4 +126,4 @@ keywords: [math, views]
 
 > `Sigma<n> := argmin(|Place|) : |Content(Place)| ≥ ((n−1)/n) · |Basis|`
 
-*NOTE*: `|X|` is the count of `Element`s in `X`; `argmin` selects the argument that minimizes the quantity.
+*NOTE*: `|X|` is the count of `Elements` in `X`; `argmin` selects the argument that minimizes the quantity.

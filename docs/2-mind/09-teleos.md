@@ -38,7 +38,7 @@ keywords: [mind, teleos]
 
 > `Core-Value :: Future × Future → order`
 
-*NOTE*: The non-negotiable ranker over `Future` — not a `Future` state itself, but the rule by which `Future`s are compared. Identity is constituted by `Core-Value`: what an `Agent` ranks above survival defines who that `Agent` is.
+*NOTE*: The non-negotiable ranker over `Future` — not a `Future` state itself, but the rule by which `Futures` are compared. Identity is constituted by `Core-Value`: what an `Agent` ranks above survival defines who that `Agent` is.
 
 ---
 
@@ -78,7 +78,7 @@ keywords: [mind, teleos]
 
 > `Purpose :: Entity → role within Plan → Goal`
 
-*NOTE*: The role assigned to an Entity within a `Plan`. The same Entity may have many `Purpose`s across different `Plan`s.
+*NOTE*: The role assigned to an Entity within a `Plan`. The same Entity may have many `Purposes` across different `Plan`s.
 
 ---
 
@@ -98,7 +98,7 @@ keywords: [mind, teleos]
 
 ## Commitment and Outcome
 
-**`Solution`** := A commitment to a specific `Plan`, chosen by trading expected `Core-Value`-satisfaction across `Potency`-weighted `Future`s against anticipated `Resources` `Cost` and accepted risk under `Circumstances`.
+**`Solution`** := A commitment to a specific `Plan`, chosen by trading expected `Core-Value`-satisfaction across `Potency`-weighted `Futures` against anticipated `Resources` `Cost` and accepted risk under `Circumstances`.
 
 > `Solution := argmax_{Plan} (Core-Value-utility × Potency − Cost − Risk | Circumstances)`
 

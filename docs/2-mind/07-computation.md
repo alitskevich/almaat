@@ -30,7 +30,7 @@ keywords: [mind, computation]
 
 ---
 
-**`Dataflow`** := Interdependent exchange of computed data between `Transformer`s over time.
+**`Dataflow`** := Interdependent exchange of computed data between `Transformers` over time.
 
 ---
 

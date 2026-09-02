@@ -22,7 +22,7 @@ It requires freedom of expression, quality education, public discourse on equal 
 
 ---
 
-**`Contract`** := An allocation of `Role`s among parties around a shared objective.
+**`Contract`** := An allocation of `Roles` among parties around a shared objective.
 
 *NOTE*: requires mutual `Maturity`, consent, and trust; reciprocal benefit — multiplied force or specialized effort; a defined scope and termination criteria.
 
