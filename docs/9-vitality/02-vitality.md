@@ -1,12 +1,20 @@
 ---
 title: "Vitality"
 description: "The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress."
-keywords: [sustain, vitality]
+keywords: [vitality]
 ---
 
 # Vitality
 
-![Vitality](/images/8-sustain/02-vitality.svg)
+![Vitality](/images/9-vitality/02-vitality.svg)
+
+## The Body
+
+1. Consistency beats intensity: what you do daily decides more than what you do hard.
+2. Sleep is the habit the others depend on.
+3. Movement is not optional, and something beats nothing.
+4. Eat food you would recognize as food.
+5. Recovery is when the adaptation happens, not the session.
 
 ## The Stance
 

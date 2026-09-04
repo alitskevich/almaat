@@ -52,11 +52,12 @@ Content lives under numbered section folders, each one ontological layer or appl
 | `4-human`      | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
 | `7-mastery`    | Mastery and its stages: mastery, mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking. | own domain, `01`–`11` |
 | `8-socium`     | The collective: socium, ecology, culture, influence, identity, trances, conformism, politics. | `30`–`37`         |
-| `8-sustain`    | Sustaining the body & self: sustain, vitality, recovery, nutrition, energy; security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `01`–`13` |
+| `8-sustain`    | Sustaining the self: security, frame, de-escalation, manipulation, reading, hostility, boundaries, defense. | own domain, `06`–`13` |
+| `9-vitality`   | The body: vitality, recovery, nutrition, energy. | own domain, `02`–`05` |
 
 The leading digit on a folder (`0-`, `1-`, `2-`, `4-`, `7-`, `8-`) places it within the ontology's
 ordering. The digit `8-` is shared by two applied folders (`8-socium`, `8-sustain`); gaps (`3-`,
-`5-`, `6-`, `9-`) are reservations for future layers. Don't renumber a folder casually — it cascades
+`5-`, `6-`) are reservations for future layers. Don't renumber a folder casually — it cascades
 through every banner image path and every cross-reference.
 
 Applied software engineering (formerly `9-engx`) has been extracted into its own repository,
@@ -90,8 +91,9 @@ with `90` and `98` reserved for capstones (the scientific method, the manifesto)
 This is **not one global sequence**: those ranges overlap, and seven numbers repeat
 across folders (`02`, `04`, `05`, `06`, `07`, `10`, `24`). The number orders a file
 within its own folder and signals roughly where the folder sits; it is not unique
-tree-wide. `7-mastery` and `8-sustain` are applied-domain folders, each an
-**independent number space** restarting at `01`.
+tree-wide. `7-mastery`, `8-sustain` and `9-vitality` are applied-domain folders, each an
+**independent number space** (`7-mastery` restarts at `01`; `8-sustain` keeps `06`–`13` and
+`9-vitality` keeps `02`–`05` from their pre-split numbering).
 
 When adding a file, take the next free number in that folder's existing range. Do not
 renumber existing files just to keep the sequence dense.
@@ -150,7 +152,7 @@ equals the title, byte for byte. `scripts/gen-banners.mjs` owns this line — ru
   2026-08-16 in favour of what the tree actually does.)
 - **Tables are for enumerations**, not definitions: parallel lists of moves, forms, biases, or
   comparisons, where every row shares a shape. The applied folders (`7-mastery`, `8-socium`,
-  `8-sustain`) use them heavily and correctly.
+  `8-sustain`, `9-vitality`) use them heavily and correctly.
 - **Prose** is plain and direct — basic terminology, short sentences, no filler.
   Declarative, defined, unhurried.
 - **Backticks mark a defined Term, and nothing else.** A backticked Capitalized name must

@@ -27,8 +27,6 @@ Options ranked by cost and reliability, identical on both planes. Spend your eff
 | **Escape** | Leave | Distance ends the threat |
 | **Resist** | Hold the frame / proportional force | Create the chance to get free |
 
-
-
 ### Mindset
 
 A **defensive mindset** is the decision, made in advance, that you are willing and able to act — so the choice is already made when seconds matter. Skill without the will to use it fails, and will without skill is not enough either. You need both.
@@ -99,9 +97,9 @@ After danger on either plane, the adrenaline crashes: shaking, nausea, exhaustio
 
 - **Immediate** — get to safety, let the shakes pass, breathe slowly to down-regulate the nervous system.
 - **Physical** — treat injuries; the dump masks pain, so re-check later.
-- **Psychological** — expect intrusive replay; talk it through, seek support if it persists. See [Vitality](02-vitality.md).
+- **Psychological** — expect intrusive replay; talk it through, seek support if it persists. See [Vitality](../9-vitality/02-vitality.md).
 
-The ten [Principles Under Pressure](01-sustain.md#principles-under-pressure) are in the hub.
+The ten [Principles Under Pressure](13-defense.md#under-pressure) are in [Physical Security](13-defense.md).
 
 ## Sources
 

@@ -516,7 +516,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Invest Wisely` | Razumnae Ukladanne* |
 | `Leverage` | Ryqag* |
 
-## Energy — `8-sustain/05-energy`
+## Energy — `9-vitality/05-energy`
 
 | Term | Belarusian |
 |---|---|

@@ -1,12 +1,12 @@
 ---
 title: "Energy"
 description: "Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like."
-keywords: [sustain, energy, fitness, depression]
+keywords: [vitality, energy, fitness, depression]
 ---
 
 # Energy
 
-![Energy](/images/8-sustain/05-energy.svg)
+![Energy](/images/9-vitality/05-energy.svg)
 
 ## The Mitochondrial View
 

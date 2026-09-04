@@ -99,15 +99,11 @@ Society as a self-perpetuating system, and the individual's standing within it: 
 - [Conformism and Moral Courage](8-socium/36-conformism.md) — Conformism is not a neutral position but an active choice with a cost; Moral Courage is its opposite — acting on your own judgment against social pressure.
 - [Power Architecture](8-socium/37-politics.md) — Politics is the distribution of power through non-violent means via social institutions — status is its hidden currency.
 
-## 8 — Sustain · Body & Defense
+## 8 — Sustain · Defense
 
-Sustaining the organism and defending the self against harm, in two halves: the body (`02`–`05`) and the self against others (`06`–`13`).
+Defending the self against harm from others (`06`–`13`), on the social and the physical plane.
 
-- [Sustain](8-sustain/01-sustain.md) — Sustaining the body and the self: the physical foundation of health and performance, and staying sovereign against threats from others.
-- [Vitality](8-sustain/02-vitality.md) — The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
-- [Recovery](8-sustain/03-recovery.md) — Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
-- [Nutrition](8-sustain/04-nutrition.md) — What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on.
-- [Energy](8-sustain/05-energy.md) — Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like.
+- [Sustain](8-sustain/index.md) — Sustaining the self: staying sovereign against threats from others, on the social and the physical plane.
 - [Security](8-sustain/06-security.md) — Staying sovereign against threats from others, across two planes — and the hierarchy, awareness, and physiology both planes share.
 - [Frame](8-sustain/07-frame.md) — Whoever sets the frame sets the terms: the definition of the situation, the pause that slows it, and the words that keep your standing intact.
 - [De-escalation](8-sustain/08-de-escalation.md) — Breaking open aggression with words: keep your own deliberation online, let the other side stay in reaction, and give them a door to walk through.
@@ -116,3 +112,12 @@ Sustaining the organism and defending the self against harm, in two halves: the 
 - [Hidden Hostility](8-sustain/11-hostility.md) — Ressentiment is suppressed malice — the hatred of someone who cannot strike openly; the seven signs that reveal it, and the response that leaves it powerless.
 - [Boundaries](8-sustain/12-boundaries.md) — A boundary is a stated limit paired with what you will do if it is crossed; the relationship audit applies the same rule to the whole circle.
 - [Physical Security](8-sustain/13-defense.md) — Defense against violence. Most of it is won before contact; the fight is the rarest, costliest, least reliable layer.
+
+## 9 — Vitality · Body
+
+The body as the physical foundation of health and performance (`02`–`05`).
+
+- [Vitality](9-vitality/02-vitality.md) — The physical foundation of human life, health, and performance: the body's ability to function optimally, resist disease, and recover from stress.
+- [Recovery](9-vitality/03-recovery.md) — Recovery is not idleness: sleep cleans the brain, light sets the clock, and breath and stillness switch off the stress response.
+- [Nutrition](9-vitality/04-nutrition.md) — What you drink, what you eat, and when — the three levers that set blood sugar, insulin, and the fuel a working day runs on.
+- [Energy](9-vitality/05-energy.md) — Health is the sound allocation of a finite energy budget: training raises its capacity, chronic stress drains it, and depression is what its collapse feels like.

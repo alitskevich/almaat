@@ -10,7 +10,7 @@ keywords: [sustain, security, boundaries]
 
 It is neither a wall, which shuts everyone out, nor a wish, which depends on the other's goodwill.
 
-A boundary without a consequence is a suggestion — [principle 7](01-sustain.md#principles-under-pressure).
+A boundary without a consequence is a suggestion — [principle 7](13-defense.md#under-pressure).
 
 | Domain | What it protects |
 | ------ | -------------- |

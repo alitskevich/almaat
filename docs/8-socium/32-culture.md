@@ -49,7 +49,7 @@ Society does not only transmit culture — it **extracts** from its carriers. Wh
 - **Attention** — hours and focus, resold to advertisers. Feeds, autoplay, and notifications are tuned to defeat your stopping point. See [Attention](../7-mastery/07-attention.md).
 - **Dopamine** — the reward circuit, hooked by variable payoff — games, scrolling, betting. Designed compulsion sold as entertainment. See [Conditioning](../8-sustain/09-manipulation.md#conditioning).
 - **Status** — manufactured insecurity, resold as goods that signal worth: cars, clothes, weddings. The need is created, then the cure is priced.
-- **Appetite** — cheap, engineered food tuned past the body's satiety signal. See [Nutrition](../8-sustain/04-nutrition.md).
+- **Appetite** — cheap, engineered food tuned past the body's satiety signal. See [Nutrition](../9-vitality/04-nutrition.md).
 
 **Optimized for the next click, not your good.** An extractive feed does not show what you like — it shows what keeps you going. Because [novelty renews arousal](../4-human/28-animal.md#reward-and-compulsion) (the Coolidge effect), maximizing engagement tends toward steadily more stimulating content.
 

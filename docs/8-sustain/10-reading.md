@@ -86,7 +86,6 @@ Keep consistency *of values*: holding your word builds trust. Break consistency 
 
 The early signals — manufactured urgency, praise out of proportion just before a request, a voice that isolates you from every other voice, feeling reliably worse after contact — are cheap to neutralize while small. The answer is rarely confrontation (the practiced manipulator turns it into your guilt, see DARVO) nor an abrupt cutoff, but gradually less disclosure, less time alone, less reliance, without announcement — the [Relationship Audit](12-boundaries.md#the-relationship-audit) in motion.
 
-
 ## Sources
 
 - Paulhus & Williams — [The Dark Triad of Personality](https://en.wikipedia.org/wiki/Dark_triad) (2002)

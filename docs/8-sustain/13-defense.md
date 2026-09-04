@@ -10,6 +10,19 @@ keywords: [sustain, defense]
 
 The groundwork — mindset, awareness, the OODA loop, the body under threat, and [recovery](06-security.md#recovery) afterwards — is shared with the social plane and lives in [Security](06-security.md).
 
+## Under Pressure
+
+1. The fight you avoid is the one you win.
+2. Awareness is cheaper than technique, and stops more attacks — social or physical.
+3. Under pressure you do not rise to the occasion; you fall to your training. Train simple, train often.
+4. Composure is the frame, and distance buys time. Both are options you keep.
+5. Manipulation needs to stay invisible — naming it disarms it.
+6. Speed serves the attacker. When in doubt, slow down.
+7. A boundary without a consequence is a suggestion.
+8. The goal is to get free, not to win. Force ends the instant the threat does.
+9. Decide in advance; freezing is the failure to have pre-decided.
+10. Dignity over convenience — you cannot buy peace at the cost of your own standing; see [`Kapot`](../4-human/26-greatness.md).
+
 ## Reading Threat
 
 **Victim selection.** Predatory violence is rarely random: aggressors choose targets that look distracted, unaware, or unable to resist. Calm alertness — upright posture, steady gait, brief eye contact, scanning — makes a person a less likely choice. This describes selection patterns, not a guarantee, and never implies a victim was at fault.

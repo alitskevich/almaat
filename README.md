@@ -23,7 +23,8 @@ Content lives in `docs/`, one folder per ontological layer or applied domain. Th
 | [`4-human/`](docs/4-human) | The human: `Rajdo`, truth and faith, happiness and greatness, the `Animal`, the self and death, the manifesto |
 | [`7-mastery/`](docs/7-mastery) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning |
 | [`8-socium/`](docs/8-socium) | The collective: ecology, culture, influence, identity, conformism, power |
-| [`8-sustain/`](docs/8-sustain) | Body and defense: vitality, recovery, nutrition, energy, security, boundaries |
+| [`8-sustain/`](docs/8-sustain) | Defense: security, frame, de-escalation, manipulation, reading people, boundaries |
+| [`9-vitality/`](docs/9-vitality) | The body: vitality, recovery, nutrition, energy |
 
 Four files sit at the root of `docs/`: `welcome.md`, `INDEX.md`, `_quotes.md` (curated quotations, cited by number) and `_translations.md` (each canonical English Term to its Belarusian-rooted equivalent).
 

@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Markdown knowledge base, not an application. Content lives under `docs/` as a layered ontology built from one primitive (`Azon`) up through formal foundations, dynamics, mind, the human, mastery, the collective, and the body. There is no application code and no dependencies. The only generated artifact is one SVG banner per Markdown file, committed alongside the content.
+A Markdown knowledge base, not an application.
+
+Content lives under `docs/` as a layered ontology built from one primitive (`Azon`) up through formal foundations, dynamics, mind, the human, mastery, the collective, and the body.
+
+There is no application code and no dependencies. The only generated artifact is one SVG banner per Markdown file, committed alongside the content.
 
 ## Authoritative content guide
 

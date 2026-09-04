@@ -37,7 +37,7 @@ Changing only the circumstances — new job, city, relationship — reproduces t
 
 ## Practices
 
-- **Breath inward.** A daily seated breathing practice that draws attention inward and steadies the mind before any external input (see [Breathing](../8-sustain/03-recovery.md#breathing)).
+- **Breath inward.** A daily seated breathing practice that draws attention inward and steadies the mind before any external input (see [Breathing](../9-vitality/03-recovery.md#breathing)).
 - **The mirror journal.** Take one stuck area and ask, "if this is a mirror, what is it reflecting?" — follow it down to the belief that carries a charge. A belief you can state plainly can be worked with; one that stays unexamined keeps operating unchanged.
 - **Chosen state in company.** Hold a genuine inner state of calm and goodwill in a public setting and watch how interactions shift — direct evidence that inner state is not private.
 - **Weekly intention.** Clarify a *direction* that is genuinely yours (not a specific form), commit fully, then explicitly release the timeline and the shape it takes.

@@ -20,6 +20,7 @@ Everything rests on one irreducible primitive, the [`Azon`](0-math/00-azon.md) â
 | [Human](4-human/21-human.md) | The individual: `Dignity`, `Rajdo`, `Truth`, `Happiness`, the `Animal`, the self, and the manifesto |
 | [Mastery](7-mastery/01-mastery.md) | The disciplines: mindset, vision, discipline, habits, environment, attention, productivity, learning, luck, clear thinking |
 | [Socium](8-socium/30-socium.md) | The collective: the social `Contract`, culture, influence, identity, conformism, and power |
-| [Sustain](8-sustain/01-sustain.md) | Body and defense: vitality, recovery, nutrition, energy, security, frame, boundaries |
+| [Sustain](8-sustain/index.md) | Defense: security, frame, de-escalation, manipulation, reading people, boundaries |
+| [Vitality](9-vitality/index.md) | The body: vitality, recovery, nutrition, energy |
 
 Every section is listed file by file in the [Content Index](INDEX.md). Terms are capitalized and backticked, and each has one canonical home â€” the [Term Translations](_translations.md) map them to their Belarusian-rooted equivalents.
