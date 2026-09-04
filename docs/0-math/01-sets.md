@@ -20,7 +20,9 @@ keywords: [math, sets]
 
 > `a ∈ S ⟺ S(a) = a`
 
-*DEF*: An `Element` **belongs to** a `Set`; the `Set` **contains** the `Element`.
+*DEF*: An `Element` **belongs to** a `Set`; it is *inside* not *outside*.
+
+*DEF*: the `Set` **contains** the `Element`.
 
 *NOTE*: By `AXIOM-2`: s`∉ S`. By `AXIOM-1`: `0 ∉ S` and s`∉ 0`.
 
@@ -52,9 +54,9 @@ keywords: [math, sets]
 
 *DEF*: `Azons` are **endemic** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
 
----
+## Presence and Absence
 
-**`Appearance`** := `Set` of all `Azon` whose `Domain` or `Codomain` contains the reference `Azon`.
+**`Presence`** := `Set` of all `Azon` whose `Domain` or `Codomain` contains the reference `Azon`.
 
 > `APPEAR(a) := {X : a ∈ DOM(X) ∨ a ∈ COD(X)}`
 
@@ -62,69 +64,27 @@ keywords: [math, sets]
 
 ---
 
-**`Plenum`** := An `Azon` that relates every `Azon` with every other `Azon` through its `Domain` and `Codomain`.
-
-> `T :: ∀x, y (x ≠ y ⟹ x ∈ DOM(T) ∧ y ∈ COD(T))`
-
-*NOTE*: Every `Azon` has its image among parts of `Plenum`. By `AXIOM-2`, `T(T) = 0`.
-
----
-
-**`World`** := A `Set` closed under `Appearance`.
+**`Universe`** := `Set` closed under `Presence`.
 
 > `P :: ∀k ∈ P, APPEAR(k) ⊆ P`
 
-*NOTE*: The universe of discourse for logical reasoning — every entity's full set of contexts is also inside.
+*NOTE*: The Universe of discourse for logical reasoning — every entity's full set of contexts is also inside.
 
 ---
 
-**`Complement`** := `Set` of `Element` *of the `World`* that do NOT belong to the reference `Set`.
+**`Complement`** := Set of all Elements of Universe that do NOT belongs to the reference `Set`.
 
 > `!S := {x ∈ P : x ∉ S}`
 
-*NOTE*: Always relative to a `World` `P`.
+*NOTE*: Always relative to a `Universe`.
 
 ---
 
-**`Absence`** := `Set` of all `Azon` that lie *outside* the `World`.
+**`Absence`** := `Set` of all `Azons` that do NOT belongs to the `Universe`.
 
 > `Absence := {x : x ∉ P}`
 
-*NOTE*: `Complement` is complement *within* `P`; `Absence` is complement *of* `P` — the impossible relative to a given universe of discourse.
-
-## Equivalence Relations
-
-**`Intensional Distinguishability`** := There exists an `Azon`-probe that responds to `a` and `b` with different values.
-
-> `DIFF(a, b) := ∃x: x(a) ≠ x(b)`
-
----
-
-**`Extensional Equivalence`** := No `Azon` in the `World` receives different responses from `a` and `b`.
-
-> `EEQ(a, b) := ¬∃x: a(x) ≠ b(x)`
-
----
-
-**`Total Equality`** := Both Intensionally non-Distinguishable by probes AND Extensionally equivalent in response.
-
-> `a = b := ¬DIFF(a, b) ∧ EEQ(a, b)`
-
----
-
-**`Partial Equality`** := The `Set` of inputs on which two `Azon` respond total-equally.
-
-> `PEQ(a, b) := {x : a(x) = b(x)}`
-
-*NOTE*: Two `Azon` are **partially-equal** up to `PEQ` precision.
-
-*SEE ALSO*:
-
-- [Identity of Indiscernibles (Wikipedia)](https://en.wikipedia.org/wiki/Identity_of_indiscernibles) — Leibniz's principle, here adapted to dual `Azon`.
-- [Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Extensionality) — basis for `EEQ`.
-- [Intension (Wikipedia)](https://en.wikipedia.org/wiki/Intension) — counterpart concept driving `DIFF`.
-- [Equivalence relation (Wikipedia)](https://en.wikipedia.org/wiki/Equivalence_relation) — reflexivity, symmetry, transitivity of `=`.
-- [Equality (mathematics) (Wikipedia)](https://en.wikipedia.org/wiki/Equality_(mathematics)) — broader survey of equality notions.
+*NOTE*: `Complement` is complement *within* `P`; `Absence` is complement *of* `P` — the impossible relative to a given Universe of discourse.
 
 ## Topology
 
@@ -160,7 +120,7 @@ keywords: [math, sets]
 
 ---
 
-**`Power-Set`** := The `Collection` of all `Subset` of the reference `Set`.
+**`PowerSet`** := The `Collection` of all `Subset` of the reference `Set`.
 
 > `2^S := {Q : Q ⊆ S}`
 
@@ -172,4 +132,38 @@ keywords: [math, sets]
 
 *NOTE*: A partition — mutually disjoint `Sets` whose `Union` covers the reference `Set`.
 
-*NOTE*: `{!S, S}` is a `Cluster` saturated to the `World` `P`.
+*NOTE*: `{!S, S}` is a `Cluster` saturated to the `Universe` `P`.
+
+## Equivalence Relations
+
+**`Intensional Distinguishability`** := There exists an `Azon`-probe that responds to `a` and `b` with different values.
+
+> `DIFF(a, b) := ∃x: x(a) ≠ x(b)`
+
+---
+
+**`Extensional Equivalence`** := No `Azon` in the `Universe` receives different responses from `a` and `b`.
+
+> `EEQ(a, b) := ¬∃x: a(x) ≠ b(x)`
+
+---
+
+**`Total Equality`** := Both Intensionally non-Distinguishable by probes AND Extensionally equivalent in response.
+
+> `a = b := ¬DIFF(a, b) ∧ EEQ(a, b)`
+
+---
+
+**`Partial Equality`** := The `Set` of inputs on which two `Azon` respond total-equally.
+
+> `PEQ(a, b) := {x : a(x) = b(x)}`
+
+*NOTE*: Two `Azon` are **partially-equal** up to `PEQ` precision.
+
+*SEE ALSO*:
+
+- [Identity of Indiscernibles (Wikipedia)](https://en.wikipedia.org/wiki/Identity_of_indiscernibles) — Leibniz's principle, here adapted to dual `Azon`.
+- [Extensionality (Wikipedia)](https://en.wikipedia.org/wiki/Extensionality) — basis for `EEQ`.
+- [Intension (Wikipedia)](https://en.wikipedia.org/wiki/Intension) — counterpart concept driving `DIFF`.
+- [Equivalence relation (Wikipedia)](https://en.wikipedia.org/wiki/Equivalence_relation) — reflexivity, symmetry, transitivity of `=`.
+- [Equality (mathematics) (Wikipedia)](https://en.wikipedia.org/wiki/Equality_(mathematics)) — broader survey of equality notions.

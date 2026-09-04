@@ -20,21 +20,21 @@ keywords: [math, numerals]
 
 ---
 
-**`Iteron`** := `Composition` of an `Azon` with itself or with its preceding Iteron.
+**`Plus`** := The `Azon` that responds to a `Sign` with its `Singleton`.
+
+> `Plus := x → {x}`
+
+---
+
+**`Power`** := `Composition` of an `Azon` with itself or with its preceding Iteron.
 
 > `A^0 := Unit`, `A^1 := A`, `A^n := A.A^(n-1)`
 
 ---
 
-**`Induction<A>`** := `Set` of all `Iterons` of `Azon`.
+**`Induction<A>`** := `Set` of all `Powers` of `Azon`.
 
 > `Induction := { Unit, A, A², A³, ... }`
-
----
-
-**`Plus`** := The `Azon` that responds to a `Sign` with its `Singleton`.
-
-> `Plus := x → {x}`
 
 ---
 
@@ -56,7 +56,7 @@ keywords: [math, numerals]
 
 ## Rational Numbers
 
-**`Add`** (`+`) := `Composition` of two `Numbers`, as `Iterons` of `Plus`.
+**`Add`** (`+`) := `Composition` of two `Numbers`, as `Powers` of `Plus`.
 
 > `n + m := Plus^n.Plus^m`
 
@@ -68,9 +68,9 @@ keywords: [math, numerals]
 
 ---
 
-**`Ratio`** := `Arrow` between two `Numbers` with a non-zero `Value`.
+**`Ratio`** := `Arrow` between two `Numbers` with a non-unit `Value`.
 
-> `Ratio := [p, q], q ≠ 0` — written `p/q`
+> `Ratio := [p, q], q ≠ Unit` — written `p/q`
 
 ---
 
