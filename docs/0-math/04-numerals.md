@@ -102,7 +102,7 @@ keywords: [math, numerals]
 
 > `Range(N, M) := {n : N < n ≤ M}`
 
-## Sequences
+## Sequentals
 
 **`Tuple`** := `Azon` over `Interval`.
 

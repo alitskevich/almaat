@@ -40,7 +40,7 @@ keywords: [math, composition]
 
 ---
 
-*DEF*: `Azon` is **`Bijective`** if there exists an `Azon:Inverse` whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
+*DEF*: `Azon` is **`Bijective`** if there exists an (`Azon`:= **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
 
 > `A⁻¹.A = DOM(A) ∧ A.A⁻¹ = COD(A)`
 

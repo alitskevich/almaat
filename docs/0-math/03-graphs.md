@@ -13,7 +13,7 @@ keywords: [math, graphs]
 > `Graph := {[x,y]}`
 ---
 
-**`Vertex`** := one of `Stim:Subject` or `Spon:Object` of `Arrows` of `Graph`.
+**`Vertex`** := one of `Stim` or `Spon` of `Arrows` of `Graph`.
 
 > `Vertex<G> := {x : ∃A ∈ G, x ∈ DOM(A) ∨ x ∈ COD(A)}`
 

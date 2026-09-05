@@ -6,21 +6,11 @@ keywords: [math, views]
 
 # Presentational View
 
-## Matter
+## Definitions
 
-**`Matter`** := `Set:Basis` equipped with a finite set of `Azon:Attribute`s.
+**`Matter`** := `Set` of (`Azons` := **`Attribute`**) with the same (`Domain` := **`Basis`**)
 
----
-
-**`Basis`** := the `Set` a `Matter` is built on.
-
-> `Matter := (Basis, {Attribute}) :: DOM(Attribute) ⊆ Basis`
-
----
-
-**`Attribute`** := `Azon` whose `Domain` is part of the `Basis` of `Matter`.
-
-> `Attribute :: Azon :: DOM ⊆ Basis`
+> `Matter<Basis> := { Attribute :: DOM(Attribute) = Basis }`
 
 ---
 
@@ -28,29 +18,11 @@ keywords: [math, views]
 
 > `Entity ∈ Basis`
 
-## Type and Volume
+---
 
 **`Type`** := `Tuple` of `Attributes` of `Matter`.
 
-> `Type<Matter> := [a₁, a₂, ..., aₙ] | DOM(aᵢ) ⊆ Matter::Basis`
-
----
-
-**`Point`** := `Tuple` of `Element`s, one drawn from `Codomain` of corresponding `Attribute` of given `Type`.
-
-> `Point<Type> := [v₁, v₂, ..., vₙ] | vᵢ ∈ COD(aᵢ IS Type[i])`
-
----
-
-**`Volume`** := `Set` of all possible `Points` of the `Type` — the Cartesian product of the `Attribute` codomains.
-
-> `Volume<Type> := COD(a₁) × COD(a₂) × ... × COD(aₙ)`
-
----
-
-**`Place`** := `Set` of `Points` of `Type` — a subset of its `Volume`.
-
-> `Place<Type> := {Point} ⊆ Volume<Type>`
+> `Type<Matter> := [a₁, a₂, ..., aₙ] | aᵢ ⊆ Matter`
 
 ## View and Content
 
@@ -75,8 +47,6 @@ keywords: [math, views]
 **`Reference`** (foreign key) := `Attribute` whose `Spons` are `Keys` of other `Type`s.
 
 ---
-
-**`Space`** := `Type` of `Reference`s.
 
 ---
 

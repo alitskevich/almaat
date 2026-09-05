@@ -8,21 +8,13 @@ keywords: [math, azon]
 
 ## Definitions
 
-**`Azon`** := an *ability* to respond to each given `Azon` (:= **`Stim`**) with a specific `Azon` (:= **`Spon`**), subject to the axioms below.
+**`Azon`** := an *ability* to assign any (`Azon`:= **`Stim`**) with a corresponding (`Azon`:= **`Spon`**). I is made under to the Axioms below
 
 > `Azon := x → y`
 
 ---
 
-**`Stim`** := what an `Azon` responds to — the `x` of `Azon := x → y`.
-
----
-
-**`Spon`** := what an `Azon` responds with — the `y`.
-
----
-
-**`Zero`** := `Azon` that *always* responds with itself
+**`Zero`** := `Azon` that *always* responds with itself to any `Stim`.
 
 > `Zero := x → Zero`
 
@@ -30,7 +22,7 @@ keywords: [math, azon]
 
 ---
 
-**`Unit`** := `Azon` that *always* responds with the `Stim` itself, *except* `emptily` — to itself.
+**`Unit`** := `Azon` that *always* responds with the `Stim` itself, *except* with `Zero` — to itself.
 
 > `Unit := x → (x IS Unit ? Zero : x)`
 

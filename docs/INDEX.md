@@ -21,9 +21,10 @@ The formal core: the primitive `Azon` and the structures built directly from it.
 - [Composition](0-math/02-composition.md) — The Arrow and its Vertex, and the Composition that feeds one Azon's output into another — associativity, Identity, Null, and Currying.
 - [Graph](0-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.
 - [Numerals](0-math/04-numerals.md) — Natural numbers (Number), intervals, sequences, and selections.
-- [Structures](0-math/05-structures.md) — The Structure: a Set equipped with Operations constrained by Laws, and the standard algebras built from them — magmas, ringoids, and lattices.
-- [Presentational View](0-math/06-views.md) — Matter as a Basis equipped with Attributes, and the Entity, Type, Point, Place, Relation, and Schema built on it.
-- [Formal Language](0-math/07-language.md) — How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, and the Theory derivable from an Axiom.
+- [Spaces](0-math/05-spaces.md) — The Space as a Tuple of Attributes, and the Basis, Point, Volume, and Place built on it.
+- [Structures](0-math/06-structures.md) — The Structure: a Set equipped with Operations constrained by Laws, and the standard algebras built from them — magmas, ringoids, and lattices.
+- [Presentational View](0-math/07-views.md) — Matter as a Basis equipped with Attributes, and the Entity, Type, Point, Place, Relation, and Schema built on it.
+- [Formal Language](0-math/08-language.md) — How a Language is built from binary Code up through Alphabet, Word and Dictionary, the Rules and Grammar that transform them, and the Theory derivable from an Axiom.
 
 ## 1 — Reality · Dynamics & Metaphysics
 

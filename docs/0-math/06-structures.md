@@ -8,28 +8,9 @@ keywords: [math, structures]
 
 ## Definitions
 
-**`Structure`** := `Collection` of `Sets` equipped with `Actions` on them, which are constrained by `Law`s.
+**`Structure`** := `Set` of same-`Basis` `Actions` under `Law`.
 
-> `Structure := (Basis:={Set}, {Action}, {Law})`
-
-*NOTE*: if there is single Set then Structure is `endogenous`, (Actions are Operations).
-
----
-
-**`Operation<Sⁿ>`** := `Azon` whose `Domain` is `Sⁿ` and `Codomain` is `S` — that is, *closed* on `S`.
-
-> `Operation<n> :: Azon :: DOM = Sⁿ, COD = S`
-
-| Term | Arity | Signature | Examples |
-| --- | --- | --- | --- |
-| **Constant** | `0-ary` | `() → S` | `unit: () => 1`, `zero: () => 0` |
-| **Unary** | `1-ary` | `S → S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
-| **Binary** | `2-ary` | `S × S → S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
-| **`Relation`** | `2-ary` predicate | `S × S → {T, F}` | `eq: (a,b) => a==b`, `≤: (a,b) => a≤b` |
-| **n-ary** | `n-ary` | `Sⁿ → S` | `combine: (a₁, …, aₙ) => …` |
-| **Action** | external | `Ω × S → S` | scalar multiplication `(λ, v) => λ·v` in a vector space |
-
-*NOTE*: a `Relation` is not closed on `S` — it lands in the three truth values `{T, F, U}`: true, false, and undefined where the `Relation` does not apply.
+> `Structure<Basis,Law> := { Action<Space<Basis>, R ∈ Basis> } :: Law(Structure) === T`
 
 ---
 
@@ -55,10 +36,6 @@ keywords: [math, structures]
 | **Jacobi** | `a * (b * c) + b * (c * a) + c * (a * b) = 0` | A weakened associativity used in Lie algebras |
 
 ## Basic Structures
-
-- A `Relation` is a predicate-valued operation — not closed on `S` but on `{T, F, U}`. Setoids and posets are built on relations, not operations proper.
-- An action acts *from* a second `Set` `Ω`. This is the shape behind modules, vector spaces and groups with operators, which extend a single-set algebra into a two-set structure.
-- An n-ary operation of arity ≥ 3 can always be `curried` into a chain of unary operations via `Composition` (see [Composition](02-composition.md)) — operations and `Azon` are the same kind of thing.
 
 | Structure | Definition | Example |
 | --- | --- | --- |

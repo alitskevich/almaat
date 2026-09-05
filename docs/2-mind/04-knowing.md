@@ -8,7 +8,7 @@ keywords: [mind, knowing]
 
 ## What This Layer Adds
 
-The layers below supply a `Process` unrolling `State`s, and a formal `Language` to write them in — `Code`, `Alphabet`, `Word`, `Grammar`, in [Language](../0-math/07-language.md).
+The layers below supply a `Process` unrolling `State`s, and a formal `Language` to write them in — `Code`, `Alphabet`, `Word`, `Grammar`, in [Language](../0-math/08-language.md).
 
 What this layer adds is *evaluation*. A [`Mind`](12-mind.md) does not merely occupy a `State`; it holds an [`Opinion`](05-knowledge.md) about whether a `View` belongs to a `Place` — and an `Opinion` can be wrong. `Doubt` is the recognition that it might be, and [`Bias`](11-intellect.md) is the case where it is wrong systematically and invisibly.
 

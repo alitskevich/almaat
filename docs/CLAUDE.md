@@ -46,7 +46,7 @@ Content lives under numbered section folders, each one ontological layer or appl
 
 | Folder         | Domain                                                                         | File numbers      |
 |----------------|--------------------------------------------------------------------------------|-------------------|
-| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Structures`, presentational view, formal `Language`. | `00`–`07`         |
+| `0-math`       | Formal foundations: `Azon`, `Set`, `Composition`, `Graph`, `Numerals`, `Space`, `Structures`, presentational view, formal `Language`. | `00`–`08`         |
 | `1-reality`    | Dynamics & metaphysics: `Process`, `System`, `Probability`, `Entropy`, `Evolution`, `Limits`, `Being`, transcendence, the given. | `02`, `07`, `10`, `14`–`16`, `22`, `24`, `27` |
 | `2-mind`       | Knowing & mind: knowing, `Knowledge`, `Proof`, `Computation`, `Reasoning`, `Teleos`, free will, `Intellect`, `Mind`, the predictive brain, scientific method. | `04`–`13`, `90` |
 | `4-human`      | The human: `Human`, `Rajdo` and approaching it, truth & faith, happiness & greatness, `Animal`, the self & death, the `Manifesto`. | `21`, `23`–`26`, `28`, `29`, `98` |
@@ -84,12 +84,12 @@ Special top-level files, prefixed with `_` or named `welcome`:
 
 Content files are `NN-topic.md`, lowercase hyphenated slug, `NN` a two-digit ordering
 number. Across the ontology folders (`0-math`, `1-reality`, `2-mind`, `4-human`,
-`8-socium`) the numbers **ascend roughly with ontological depth** — `0-math` `00`–`07`,
+`8-socium`) the numbers **ascend roughly with ontological depth** — `0-math` `00`–`08`,
 `1-reality` `02`–`27`, `2-mind` `04`–`90`, `4-human` `21`–`98`, `8-socium` `30`–`37` —
 with `90` and `98` reserved for capstones (the scientific method, the manifesto).
 
-This is **not one global sequence**: those ranges overlap, and seven numbers repeat
-across folders (`02`, `04`, `05`, `06`, `07`, `10`, `24`). The number orders a file
+This is **not one global sequence**: those ranges overlap, and eight numbers repeat
+across folders (`02`, `04`, `05`, `06`, `07`, `08`, `10`, `24`). The number orders a file
 within its own folder and signals roughly where the folder sits; it is not unique
 tree-wide. `7-mastery`, `8-sustain` and `9-vitality` are applied-domain folders, each an
 **independent number space** (`7-mastery` restarts at `01`; `8-sustain` keeps `06`–`13` and
@@ -158,17 +158,22 @@ Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used
   run downward through the layer order above. Where a definition needs a higher-layer Term,
   either the Term belongs lower (move it) or the definition should generalize to a
   lower-layer one — `Freedom` takes a `Participant`, not an `Agent`.
-- **Four forms declare a Term**, and all four count:
+- **Five forms declare a Term**, and all five count:
 
   ```markdown
   **`Term`** := clause                        the ordinary form
   **`Term` / `Alias`** := clause              two names, one definition
   **`Term`** of arity `n` on a `Set` := …     a qualifier before the `:=`
   *DEF*: a response with `Zero` is *called* `empty`   a label introduced in passing
+  … each given (`Azon`:= **`Term`**) …        an inline coinage inside a definiens
   ```
 
-  A Term introduced only inside another definition's definiens is **not** declared. Write
-  it as its own definition instead.
+  The inline form names a role within the enclosing definition (`Stim`, `Spon` in
+  `0-math/00-azon.md`); it declares the Term without a standalone entry. It attaches
+  tight, no space before the paren: `` (`Azon`:= **`Stim`**) ``. It replaced the older
+  colon-pair coinage `X:Y` (`Set:Basis`, `Stim:Subject`) on 2026-09-05; no colon-pair
+  remains. A Term merely *mentioned* in a definiens, without the marker, is still not
+  declared.
 - When a new canonical Term is coined, add it to `_translations.md` under the section for
   the file that defines it. Newly-proposed Belarusian forms get a trailing asterisk
   (`Razvoda*`); the asterisk marks a proposed *form*, not a proposed placement. A compound
@@ -193,7 +198,7 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
   `0e1dc84`. All 71 content files are indexed exactly once; each entry's link text is
   that file's frontmatter `title` and its blurb is the frontmatter `description`,
   quoted character for character and verified by re-extracting both and diffing.
-  `0-math/07-language.md` had had no entry at all. This closed a 192-commit revision
+  `0-math/08-language.md` (then numbered `07`) had had no entry at all. This closed a 192-commit revision
   pass over `docs/` that also emptied the undefined-Term class (every backticked
   Capitalized name now resolves to a definition), removed every upward reference from
   a definition to a higher layer, and rebuilt `_translations.md` to 330 rows with no

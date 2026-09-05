@@ -8,7 +8,7 @@ keywords: [mind, knowledge]
 
 ## Units of Belief
 
-**`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether a [`View`](../0-math/06-views.md#view-and-content) belongs to `Place`.
+**`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether a [`View`](../0-math/07-views.md#view-and-content) belongs to `Place`.
 
 > `Opinion :: Expression → (View × Place → {0, 1})`
 
@@ -28,7 +28,7 @@ keywords: [mind, knowledge]
 
 ---
 
-[`Theory`](../0-math/07-language.md#theories) is the `Dictionary` of `Expressions` derivable within a `Grammar`. A `Mind` holds one interpreted: its `Names` and `Concepts` are `Expressions` of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../0-math/06-views.md#matter) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
+[`Theory`](../0-math/08-language.md#theories) is the `Dictionary` of `Expressions` derivable within a `Grammar`. A `Mind` holds one interpreted: its `Names` and `Concepts` are `Expressions` of that `Language`, which is a [`Logic`](08-reasoning.md), and they range over a [`Matter`](../0-math/07-views.md#definitions) — the `Reality` the `Theory` is about. That pairing is what lets `Opinion` combine into `Thesis`.
 
 ## Naming
 

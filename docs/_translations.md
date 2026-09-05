@@ -76,7 +76,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Null` | Nishto* |
 | `Partial Application` | Qastkovae Padavanne* |
 
-## Formal Language — `0-math/07-language`
+## Formal Language — `0-math/08-language`
 
 | Term | Belarusian |
 |---|---|
@@ -115,7 +115,18 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Total Order` | Powny Lad* |
 | `Vector` | Vektar* |
 
-## Structures — `0-math/05-structures`
+## Spaces — `0-math/05-spaces`
+
+| Term | Belarusian |
+|---|---|
+| `Space` | Shyr* |
+| `Attribute` | Prykmeta* |
+| `Basis` | Asnova* |
+| `Point` | Kropka |
+| `Volume` | Obshar |
+| `Place` | Mesto |
+
+## Structures — `0-math/06-structures`
 
 | Term | Belarusian |
 |---|---|
@@ -123,16 +134,12 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Operation` | Aperacyja* |
 | `Structure` | Stroj |
 
-## Presentational View — `0-math/06-views`
+## Presentational View — `0-math/07-views`
 
 | Term | Belarusian |
 |---|---|
-| `Point` | Kropka |
-| `Volume` | Obshar |
-| `Place` | Mesto |
 | `View` | Vid |
 | `Matter` | Materia |
-| `Basis` | Asnova* |
 | `Origin` | Vytok* |
 | `Content` | Zmest |
 | `Key` | Kliuq |
@@ -145,11 +152,9 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Predicate` *(2-value Quality)* | Bikon |
 | `Norm` | Norma |
 | `Measure` *(pending primitive)* | Mera |
-| `Attribute` | Prykmeta* |
 | `Entity` | Asobnik* |
 | `Quality<Type>` | Jakost<Typ>* |
 | `Sigma<n>` | Jadro<n>* |
-| `Space` | Shyr* |
 | `Reference` | Spasylka* |
 | `Type` | Typ* |
 
