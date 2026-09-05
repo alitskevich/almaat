@@ -8,7 +8,7 @@ A Markdown knowledge base, not an application.
 
 Content lives under `docs/` as a layered ontology built from one primitive (`Azon`) up through formal foundations, dynamics, mind, the human, mastery, the collective, and the body.
 
-There is no application code and no dependencies. The only generated artifact is one SVG banner per Markdown file, committed alongside the content.
+There is no application code, no dependencies, and no generated artifacts.
 
 ## Authoritative content guide
 
@@ -19,19 +19,17 @@ When `docs/CLAUDE.md` disagrees with the filesystem (folder names, file numbers,
 ## Layout
 
 - `docs/` — all content. The substantive work happens here.
-- `images/` — generated SVG banners mirroring the `docs/` layout. Generated, but committed.
-- `scripts/` — `gen-banners.mjs`, `check-docs.mjs` with `check-docs.baseline.txt`, `gen-banners.test.mjs`, `wl-absorb.mjs`.
+- `scripts/` — `check-docs.mjs` with `check-docs.baseline.txt`, `wl-absorb.mjs`, `yt-fetch.mjs` with `yt-fetch.test.mjs`.
 - `.githooks/pre-commit` — runs the checker on any commit touching `docs/`; the file documents its own behaviour. Install once with `git config core.hooksPath .githooks`.
 - `input/`, `done/`, `texts/`, `index.json` — staging for the separate `/absorb` workflow, not content.
 
 ## Commands
 
-`package.json` is `type: module`, three scripts, no dependencies, no lockfile.
+`package.json` is `type: module`, two scripts, no dependencies, no lockfile.
 
 ```bash
 npm run check-docs                          # every relative link and #anchor in docs/
-npm run check-docs -- --conventions docs    # + frontmatter, single H1, banner path
-npm run gen-banners                         # regenerate images/, rewrite each banner line
+npm run check-docs -- --conventions docs    # + frontmatter, single H1
 npm run absorb-watch-later                  # scripts/wl-absorb.mjs
 ```
 

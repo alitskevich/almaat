@@ -6,8 +6,6 @@ keywords: [vitality]
 
 # Vitality
 
-![Vitality](/images/9-vitality/02-vitality.svg)
-
 ## The Body
 
 1. Consistency beats intensity: what you do daily decides more than what you do hard.

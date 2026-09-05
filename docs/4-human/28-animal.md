@@ -6,8 +6,6 @@ keywords: [human, animal, emotion, stress]
 
 # Animal
 
-![Animal](/images/4-human/28-animal.svg)
-
 **`Animal`** := the intertwined psychic, energetic, and hormonal processes aimed at satisfying animalistic needs.
 
 - individual survival: safety, health, satiety, peace;

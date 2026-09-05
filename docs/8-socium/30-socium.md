@@ -6,8 +6,6 @@ keywords: [socium]
 
 # Socium
 
-![Socium](/images/8-socium/30-socium.svg)
-
 ## A System of People
 
 A society is a [`System`](../1-reality/07-system.md) whose `Participants` are people. It persists because the `Communication` coupling them persists, not because any particular person does — every member is replaced within a lifetime and the thing itself carries on.

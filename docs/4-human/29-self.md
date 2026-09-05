@@ -6,8 +6,6 @@ keywords: [human, self, memory, death]
 
 # The Self and Death
 
-![The Self and Death](/images/4-human/29-self.svg)
-
 ## Three Layers of the Self
 
 **`Self-role`** := the character you can describe — autobiographical `Memory`, opinions, self-image, the story of who you are.

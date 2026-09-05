@@ -6,8 +6,6 @@ keywords: [mind]
 
 # Mind
 
-![Mind](/images/2-mind/12-mind.svg)
-
 ## The Substrate
 
 In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characterized primarily by the values it produces for other `Participant`s.

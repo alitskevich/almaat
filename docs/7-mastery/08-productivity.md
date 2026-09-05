@@ -6,8 +6,6 @@ keywords: [mastery, productivity]
 
 # Productivity
 
-![Productivity](/images/7-mastery/08-productivity.svg)
-
 **`Productivity`** := the output a steady cadence produces, multiplied by `Leverage` rather than by hours worked.
 
 ## Rhythms

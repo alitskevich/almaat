@@ -6,8 +6,6 @@ keywords: [sustain, security, reading, unreadability]
 
 # Reading People
 
-![Reading People](/images/8-sustain/10-reading.svg)
-
 **Establish a baseline first.** Learn how a person behaves when relaxed and truthful. Deviation from *their own* baseline is the signal — not a universal "tell."
 
 ## The Dark Triad

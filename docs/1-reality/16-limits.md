@@ -6,8 +6,6 @@ keywords: [reality, freedom, constraint, excellence, breakthrough]
 
 # Limits
 
-![Limits](/images/1-reality/16-limits.svg)
-
 ## External Bounds
 
 **`Freedom`** := a `Participant`'s independence from `Communication` that would coerce a change of its `Paradigm`.

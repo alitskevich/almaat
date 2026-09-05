@@ -5,5 +5,3 @@ keywords: [sustain]
 ---
 
 # Sustain
-
-![Sustain](/images/8-sustain/index.svg)

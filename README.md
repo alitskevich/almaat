@@ -2,7 +2,7 @@
 
 A general-purpose framework for cognitive modeling, written as a layered knowledge base in Markdown.
 
-It builds one ontology from a single irreducible primitive — the `Azon`, a contract that responds to each given `Sign` with a specific `Value` — and never introduces a term it has not defined. `Set`, `Graph`, `Numerals` and `Language` are built from that primitive; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act. The applied sections then carry that same vocabulary into a life: mastery, the collective, and the body.
+It builds one ontology from a single irreducible primitive — the `Azon`, an ability that responds to each given `Stim` with a specific `Spon` — and never introduces a term it has not defined. `Set`, `Graph`, `Numerals` and `Language` are built from that primitive; `Process`, `System` and `Evolution` put it in motion; `Knowledge`, `Agent` and `Mind` make it know and act. The applied sections then carry that same vocabulary into a life: mastery, the collective, and the body.
 
 It is for anyone who wants a single consistent vocabulary for thinking about minds, systems and how to live — read straight through, or entered at any file through the index.
 
@@ -32,7 +32,7 @@ Applied software engineering lives in a separate repository, [arrmagazin/engx](h
 
 ## Contributing
 
-The content has its own rulebook: [`docs/CLAUDE.md`](docs/CLAUDE.md) — how material is routed, how a Term is defined, what the frontmatter and banner must look like. Read it before editing `docs/`.
+The content has its own rulebook: [`docs/CLAUDE.md`](docs/CLAUDE.md) — how material is routed, how a Term is defined, what the frontmatter must look like. Read it before editing `docs/`.
 
 Install the hook once, then check your work:
 
@@ -41,8 +41,6 @@ git config core.hooksPath .githooks
 npm run check-docs
 ```
 
-`check-docs` resolves every relative link and `#anchor` in `docs/`; `npm run check-docs -- --conventions docs` additionally checks frontmatter, headings and banner paths. The pre-commit hook runs it for you.
-
-Banners are generated, not written. `npm run gen-banners` renders one SVG per Markdown file into `images/` and rewrites the `![…](/images/…)` line under each heading — do not hand-edit that line.
+`check-docs` resolves every relative link and `#anchor` in `docs/`; `npm run check-docs -- --conventions docs` additionally checks frontmatter and headings. The pre-commit hook runs it for you.
 
 Repo-level tooling and layout are in [`CLAUDE.md`](CLAUDE.md) at the root.

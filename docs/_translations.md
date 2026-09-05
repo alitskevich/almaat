@@ -6,8 +6,6 @@ keywords: [translations]
 
 # Term Translations
 
-![Term Translations](/images/_translations.svg)
-
 The Belarusian forms are the original authorial transliteration that gives the framework its etymological signature. They appear here and are not used in the content itself.
 
 Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belarusian forms — not part of the original authorial layer. Treat them as candidates open to revision.
@@ -19,8 +17,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Azon` | Az |
 | `Zero` | Puston |
 | `Unit` | Proston |
-| `Sign` | Znak* |
-| `Value` | Znaqenne* |
+| `Stim` | Stym* |
+| `Spon` | Spon* |
 
 ## Sets, Equivalence, Topology — `0-math/01-sets`
 

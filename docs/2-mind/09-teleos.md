@@ -6,8 +6,6 @@ keywords: [mind, teleos]
 
 # Agency & Teleology
 
-![Agency & Teleology](/images/2-mind/09-teleos.svg)
-
 ## The Agent
 
 **`Agent`** := A `Participant` able to commit to a projected `Goal`, to select a `Solution` reaching it, and to sustain that commitment via `Will`.

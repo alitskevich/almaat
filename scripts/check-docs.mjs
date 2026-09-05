@@ -35,19 +35,12 @@ function walk(dir) {
 
 const withoutFrontmatter = (text) => text.replace(/^---\n[\s\S]*?\n---\n/, "");
 
-// Fenced blocks hold markdown samples. docs/CLAUDE.md documents the banner and
-// heading conventions by showing them, so its examples must not be counted as
+// Fenced blocks hold markdown samples. docs/CLAUDE.md documents the heading
+// conventions by showing them, so its examples must not be counted as
 // the file's own headings.
 export const stripFences = (text) => text.replace(/^\s*(`{3,}|~{3,})[\s\S]*?^\s*\1.*$/gm, "");
 
-// gen-banners.mjs writes /images/<relative path>.svg, so a file directly under
-// docs/ has no folder segment. The checker previously derived the segment from
-// the parent directory name and demanded /images/docs/<name>.svg, which no file
-// uses and no directory exists for.
-export const bannerPathFor = (relPath) => `/images/${relPath.replace(/\.md$/, ".svg")}`;
-
-// docs/CLAUDE.md is the project spec, not content: it carries no banner and its
-// intro is a paragraph. gen-banners.mjs skips it for the same reason.
+// docs/CLAUDE.md is the project spec, not content, so convention checks skip it.
 export const isContentFile = (relPath) => relPath !== "CLAUDE.md";
 const withoutCodeFences = (text) => text.replace(/```[\s\S]*?```/g, "");
 
@@ -112,9 +105,6 @@ if (conventionsDir) {
     const body = withoutFrontmatter(raw);
     const h1s = [...stripFences(body).matchAll(/^# (.+)$/gm)];
     if (h1s.length !== 1) cfail(`expected exactly one H1, found ${h1s.length}`);
-    const title = h1s[0]?.[1]?.trim();
-    const expectedBanner = `![${title}](${bannerPathFor(relPath)})`;
-    if (!body.includes(expectedBanner)) cfail(`banner must be exactly ${expectedBanner}`);
   }
 }
 

@@ -17,7 +17,7 @@
 #
 # Conventions checking (`--conventions docs`) is wired in as of 2026-08-26, when that pass
 # reached zero. It enforces the three frontmatter fields (`title`, `description`, `keywords`),
-# exactly one H1, and the banner path. docs/CLAUDE.md is exempt: it is the spec, not content.
+# and exactly one H1. docs/CLAUDE.md is exempt: it is the spec, not content.
 # The intro-line rule was dropped the same day, together with the preface it required.
 
 git diff --cached --name-only --diff-filter=ACMR | grep -q '^docs/' || exit 0

@@ -6,8 +6,6 @@ keywords: [mind, knowledge]
 
 # Knowledge
 
-![Knowledge](/images/2-mind/05-knowledge.svg)
-
 ## Units of Belief
 
 **`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether a [`View`](../0-math/06-views.md#view-and-content) belongs to `Place`.

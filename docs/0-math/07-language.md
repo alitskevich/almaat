@@ -6,8 +6,6 @@ keywords: [math, language]
 
 # Formal Language
 
-![Formal Language](/images/0-math/07-language.svg)
-
 ## Codes and Words
 
 **`Code`** := finite `Tuple` of `0` and `1`.

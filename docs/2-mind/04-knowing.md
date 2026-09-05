@@ -6,8 +6,6 @@ keywords: [mind, knowing]
 
 # Knowing
 
-![Knowing](/images/2-mind/04-knowing.svg)
-
 ## What This Layer Adds
 
 The layers below supply a `Process` unrolling `State`s, and a formal `Language` to write them in — `Code`, `Alphabet`, `Word`, `Grammar`, in [Language](../0-math/07-language.md).

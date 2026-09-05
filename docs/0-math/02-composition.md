@@ -6,8 +6,6 @@ keywords: [math, composition]
 
 # Composition
 
-![Composition](/images/0-math/02-composition.svg)
-
 ## Arrows
 
 **`Arrow`** := an `Azon` that responds `emptily` *always except once*.
@@ -49,3 +47,19 @@ keywords: [math, composition]
 *DEF*: a `Composition` is **`Well-consumed`** when its `Object` is valent on the entire output of its `Subject`:
 
 > `A.B :: COD(A) = DOM(B)`.
+
+---
+
+**`Currying`** := Azon that recasting from an `Azon` over `[x,y]` into an `Azon` that responds to `x` with another `Azon` awaiting `y`.
+
+> `curry :: ([x,y] → z) ≃ (x → (y → z))`
+
+*NOTE*: both sides respond with the same `z`; iterating the recast unfolds any arity into a chain of single-`Stim` `Azons`.
+
+---
+
+**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Stims` a curried `Azon` expects.
+
+> `PartialApp(A, x) := curry(A)(x)`
+
+*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Stims`.

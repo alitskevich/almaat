@@ -6,8 +6,6 @@ keywords: [mastery, habits]
 
 # Habits
 
-![Habits](/images/7-mastery/05-habits.svg)
-
 ## Building Habits
 
 Small improvements compound. You do not rise to the level of your goals; you fall to the level of your systems.

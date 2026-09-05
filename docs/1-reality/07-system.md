@@ -6,8 +6,6 @@ keywords: [reality, system, participant, communication]
 
 # Systems
 
-![Systems](/images/1-reality/07-system.svg)
-
 ## Thing and Trajectory
 
 **`Thing(Entity)`** := a `Queue` of [`View`](../0-math/06-views.md)s of a single `Entity` across a [`Flow`](02-process.md#parts-of-a-process).

@@ -6,8 +6,6 @@ keywords: [reality, being, consciousness]
 
 # Being
 
-![Being](/images/1-reality/22-being.svg)
-
 ## The Three Sides
 
 **`Being`** := the transcendent process by which the whole experiences, invents, and instantiates itself from many points at once.

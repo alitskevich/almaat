@@ -6,8 +6,6 @@ keywords: [reality, process, circuit, flow]
 
 # Dynamic Processes
 
-![Dynamic Processes](/images/1-reality/02-process.svg)
-
 ## Parts of a Process
 
 **`Step`** := one indivisible advance of a `Process` — the unit its `Queue` is indexed by.

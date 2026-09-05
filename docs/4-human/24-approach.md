@@ -6,8 +6,6 @@ keywords: [human, rajdo, practice]
 
 # Approaching Rajdo
 
-![Approaching Rajdo](/images/4-human/24-approach.svg)
-
 It tends to surface only *after* long effort, and then only when the effort is released — never by force. Practices do not manufacture it; they clear what obscures it.
 
 ## The Shift

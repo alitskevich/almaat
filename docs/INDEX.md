@@ -6,8 +6,6 @@ keywords: [almaat]
 
 # ALMAAT — Content Index
 
-![ALMAAT — Content Index](/images/INDEX.svg)
-
 The book builds one ontology from a single primitive (the `Azon`) up through the formal layer, dynamics, and mind, then applies it to the human, the disciplines of mastery, the collective, and the body.
 
 - [Welcome to ALMAAT](welcome.md) — ALMAAT is a general-purpose framework for cognitive modeling: one ontology built from a single primitive, then applied to the human, the collective, and daily practice.
@@ -18,7 +16,7 @@ The book builds one ontology from a single primitive (the `Azon`) up through the
 
 The formal core: the primitive `Azon` and the structures built directly from it.
 
-- [Azon](0-math/00-azon.md) — Azon is the framework's sole primitive: a contract responding to each given Sign with a specific Value, constrained by three axioms.
+- [Azon](0-math/00-azon.md) — Azon is the framework's sole primitive: an ability to respond to each given Stim with a specific Spon, constrained by three axioms.
 - [Sets, Equivalence, Topology](0-math/01-sets.md) — Set and its Elements, the equivalence relations that compare Azons, and the topological structures over Collections of Sets.
 - [Composition](0-math/02-composition.md) — The Arrow and its Vertex, and the Composition that feeds one Azon's output into another — associativity, Identity, Null, and Currying.
 - [Graph](0-math/03-graphs.md) — Graph as a Set of Arrows, the Vertex types classified by in/out connectivity, the Path and Tree built on them, and what makes a Graph connected.

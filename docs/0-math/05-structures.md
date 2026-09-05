@@ -6,8 +6,6 @@ keywords: [math, structures]
 
 # Structures
 
-![Structures](/images/0-math/05-structures.svg)
-
 ## Definitions
 
 **`Structure`** := `Collection` of `Sets` equipped with `Actions` on them, which are constrained by `Law`s.

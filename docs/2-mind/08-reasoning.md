@@ -6,8 +6,6 @@ keywords: [mind, reasoning]
 
 # Reasoning
 
-![Reasoning](/images/2-mind/08-reasoning.svg)
-
 **`Reasoning`** := The process of generating new *a priori* `Knowledge` (conclusions) from existing `Knowledge` (premises).
 
 ---

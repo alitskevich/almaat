@@ -6,8 +6,6 @@ keywords: [mastery, biases]
 
 # Clear Thinking
 
-![Clear Thinking](/images/7-mastery/11-thinking.svg)
-
 ## What is Cognitive Bias?
 
 A [`Bias`](../2-mind/11-intellect.md) is a systematic error in thinking that occurs while processing and interpreting information, affecting the decisions and judgments that follow.

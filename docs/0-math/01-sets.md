@@ -6,17 +6,15 @@ keywords: [math, sets]
 
 # Sets, Equivalence, Topology
 
-![Sets, Equivalence, Topology](/images/0-math/01-sets.svg)
-
 ## Sets
 
-**`Set`** := an `Azon` whose `Values` are either `fixed` or `empty`.
+**`Set`** := an `Azon` whose `Spons` are either `fixed` or `empty`.
 
 > `Set := x → (x | Zero)`
 
 ---
 
-**`Element`** := a `valent` `Value` of a `Set`.
+**`Element`** := a `valent` `Spon` of a `Set`.
 
 > `a ∈ S ⟺ S(a) = a`
 
@@ -38,13 +36,13 @@ keywords: [math, sets]
 
 ---
 
-**`Domain`** := `Set` of valent Signs of an `Azon`.
+**`Domain`** := `Set` of valent Stims of an `Azon`.
 
 > `DOM(A) := {x : A(x) ≠ 0}`
 
 ---
 
-**`Codomain`** := `Set` of valent Values of an `Azon`.
+**`Codomain`** := `Set` of valent Spons of an `Azon`.
 
 > `COD(A) := {y : ∃x, A(x) = y ∧ y ≠ 0}`
 

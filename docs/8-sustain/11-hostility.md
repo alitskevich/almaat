@@ -6,8 +6,6 @@ keywords: [sustain, security, ressentiment]
 
 # Hidden Hostility
 
-![Hidden Hostility](/images/8-sustain/11-hostility.svg)
-
 **Ressentiment** (Nietzsche's term) never flows downward; no one resents the weaker. It runs upward, toward whoever lives better, holds firmer, or has achieved more. Hidden hostility in your circle is therefore a backhanded compliment: someone registered your advantage and could not bear it.
 
 ## Why It Hides

@@ -6,8 +6,6 @@ keywords: [vitality, recovery, sleep, stress]
 
 # Recovery
 
-![Recovery](/images/9-vitality/03-recovery.svg)
-
 ## Sleep
 
 The habit the rest depend on. Quality depends on light, temperature, food, caffeine, screens, and regularity.

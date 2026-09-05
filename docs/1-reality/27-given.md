@@ -6,8 +6,6 @@ keywords: [reality, given, perception, epoche]
 
 # The Given and the Constructed
 
-![The Given and the Constructed](/images/1-reality/27-given.svg)
-
 An infant is shown the world; only later does the `Mind` name it "universe" and bind it into a picture. Your adult perception is that same given, now labeled — you see no more than the infant, you only know more.
 
 ## What Is Given

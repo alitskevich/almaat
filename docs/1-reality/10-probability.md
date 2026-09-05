@@ -6,8 +6,6 @@ keywords: [reality, probability, bayes, ergodic]
 
 # Probability
 
-![Probability](/images/1-reality/10-probability.svg)
-
 ## Measure
 
 **`Expected Value`** := the mean `State` over many trials.

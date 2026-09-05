@@ -6,8 +6,6 @@ keywords: [mastery, mindset]
 
 # Mindset
 
-![Mindset](/images/7-mastery/02-mindset.svg)
-
 ## Self-Honesty
 
 The mechanism that dissolves the inner problems — procrastination, laziness, lost motivation, guilt, shame, anger, fear. These are labels, not entities. Under each is the same structure: two `Goals` in conflict, one of which you refuse to own.

@@ -6,8 +6,6 @@ keywords: [vitality, energy, fitness, depression]
 
 # Energy
 
-![Energy](/images/9-vitality/05-energy.svg)
-
 ## The Mitochondrial View
 
 Most chronic disease reads better as **energy resistance** — energy that no longer flows smoothly — than as an isolated molecular defect.

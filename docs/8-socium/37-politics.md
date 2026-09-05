@@ -6,8 +6,6 @@ keywords: [socium, politics, power]
 
 # Power Architecture
 
-![Power Architecture](/images/8-socium/37-politics.svg)
-
 ## The Power Ladder
 
 **`Status`** := Capacity to impose one's will on the environment, against readiness to submit to another's.

@@ -6,8 +6,6 @@ keywords: [reality, transcendence, consciousness, free-will]
 
 # Transcendence
 
-![Transcendence](/images/1-reality/24-transcendence.svg)
-
 ## One Consciousness
 
 **The brain is the appearance of `Consciousness`, not its cause.** From outside, a `Consciousness` looks like a brain — tissue and firing neurons. From inside, the same process is [`Thought`](../2-mind/12-mind.md#the-substrate), feeling, and memory.

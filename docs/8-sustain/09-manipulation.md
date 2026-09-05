@@ -6,8 +6,6 @@ keywords: [sustain, security, manipulation, conditioning]
 
 # Manipulation
 
-![Manipulation](/images/8-sustain/09-manipulation.svg)
-
 It works by triggering an emotional reflex — fear, guilt, urgency, belonging — so a decision is made before deliberation engages. Every tactic exploits a [cognitive bias](../7-mastery/11-thinking.md); the people who run them are typed in [Reading People](10-reading.md#counterpart-types).
 
 ## The Seven Levers

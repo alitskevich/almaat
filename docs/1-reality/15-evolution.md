@@ -6,8 +6,6 @@ keywords: [reality, evolution, adaptation, crisis]
 
 # Evolution
 
-![Evolution](/images/1-reality/15-evolution.svg)
-
 What bounds those trajectories is in [Limits](16-limits.md).
 
 ## Trajectories

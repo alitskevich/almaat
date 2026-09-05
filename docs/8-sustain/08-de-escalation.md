@@ -6,8 +6,6 @@ keywords: [sustain, security, de-escalation]
 
 # De-escalation
 
-![De-escalation](/images/8-sustain/08-de-escalation.svg)
-
 [Frame](07-frame.md) and [Manipulation](09-manipulation.md) handle covert pressure. De-escalation handles someone already shouting, insulting, or threatening. The method is George Thompson's *Verbal Judo*, built for police who cannot afford to lose control on the job.
 
 ## The Mechanism It Exploits

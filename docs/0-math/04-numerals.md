@@ -6,8 +6,6 @@ keywords: [math, numerals]
 
 # Numerals
 
-![Numerals](/images/0-math/04-numerals.svg)
-
 ## Natural Numbers
 
 ---
@@ -20,7 +18,7 @@ keywords: [math, numerals]
 
 ---
 
-**`Plus`** := The `Azon` that responds to a `Sign` with its `Singleton`.
+**`Plus`** := The `Azon` that responds to a `Stim` with its `Singleton`.
 
 > `Plus := x → {x}`
 
@@ -68,7 +66,7 @@ keywords: [math, numerals]
 
 ---
 
-**`Ratio`** := `Arrow` between two `Numbers` with a non-unit `Value`.
+**`Ratio`** := `Arrow` between two `Numbers` with a non-unit `Spon`.
 
 > `Ratio := [p, q], q ≠ Unit` — written `p/q`
 

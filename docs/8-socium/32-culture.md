@@ -6,8 +6,6 @@ keywords: [socium, culture]
 
 # Culture
 
-![Culture](/images/8-socium/32-culture.svg)
-
 ## Collective Mind
 
 **`Collective Mind`** := the mentality of a group — invisible to those inside it, it sets the bounds of thought before any thought is examined.

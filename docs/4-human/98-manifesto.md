@@ -6,8 +6,6 @@ keywords: [human, manifesto, rights]
 
 # Manifesto of Humankind
 
-![Manifesto of Humankind](/images/4-human/98-manifesto.svg)
-
 Our potential is expressed through curiosity, imagination, and the pursuit of beauty, and accumulates as cultural heritage, education, and science.
 
 Each of us has the intrinsic right to pursue happiness — the feeling of realizing your potential in your own way, aligned with your abilities, visions, and aspirations.

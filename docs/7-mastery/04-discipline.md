@@ -6,8 +6,6 @@ keywords: [mastery, discipline]
 
 # Discipline
 
-![Discipline](/images/7-mastery/04-discipline.svg)
-
 [[42]]
 
 ## The Five Laws of Discipline

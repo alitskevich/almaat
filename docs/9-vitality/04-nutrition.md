@@ -6,8 +6,6 @@ keywords: [vitality, nutrition, food]
 
 # Nutrition
 
-![Nutrition](/images/9-vitality/04-nutrition.svg)
-
 ## Water
 
 - Drink plain water, in the morning and before sleep, to avoid dehydration at night.

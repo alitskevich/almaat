@@ -6,8 +6,6 @@ keywords: [human, truth, faith]
 
 # Truth and Faith
 
-![Truth and Faith](/images/4-human/25-truth.svg)
-
 **`Truth`** := one's own answers to the existential questions:
 
 *Who am I indeed — where and why? What is going on? What is beyond, and what next?*

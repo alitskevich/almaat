@@ -6,8 +6,6 @@ keywords: [mastery, vision]
 
 # Vision
 
-![Vision](/images/7-mastery/03-vision.svg)
-
 ## Determination
 
 **`Determination`** := an attitude toward the process rather than the outcome, which allows a decision to be made without waiting for perfect conditions.

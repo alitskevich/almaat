@@ -6,8 +6,6 @@ keywords: [mind, scientific]
 
 # The Scientific Method
 
-![The Scientific Method](/images/2-mind/90-scientific.svg)
-
 ## Method
 
 **`Scientific Method`** := A generalized empirical *a posteriori* approach to earning `Scientific Knowledge` from experimental data, with awareness of cognitive abilities and `Bias`.

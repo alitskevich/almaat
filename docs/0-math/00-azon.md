@@ -1,26 +1,24 @@
 ---
 title: "Azon"
-description: "Azon is the framework's sole primitive: a contract responding to each given Sign with a specific Value, constrained by three axioms."
+description: "Azon is the framework's sole primitive: an ability to respond to each given Stim with a specific Spon, constrained by three axioms."
 keywords: [math, azon]
 ---
 
 # Azon
 
-![Azon](/images/0-math/00-azon.svg)
-
 ## Definitions
 
-**`Azon`** := a *contract* made under the axioms below, that responds for each given Azon(`Sign`) with a specific Azon(`Value`).
+**`Azon`** := an *ability* to respond to each given `Azon` (:= **`Stim`**) with a specific `Azon` (:= **`Spon`**), subject to the axioms below.
 
 > `Azon := x → y`
 
 ---
 
-**`Sign`** := what an `Azon` responds to — the `x` of `Azon := x → y`.
+**`Stim`** := what an `Azon` responds to — the `x` of `Azon := x → y`.
 
 ---
 
-**`Value`** := what an `Azon` responds with — the `y`.
+**`Spon`** := what an `Azon` responds with — the `y`.
 
 ---
 
@@ -32,11 +30,11 @@ keywords: [math, azon]
 
 ---
 
-**`Unit`** := `Azon` that *always* responds with the `Sign` itself, *except* `emptily` — to itself.
+**`Unit`** := `Azon` that *always* responds with the `Stim` itself, *except* `emptily` — to itself.
 
 > `Unit := x → (x IS Unit ? Zero : x)`
 
-*DEF*: a response with the `Sign` itself is *called* `fixed`.
+*DEF*: a response with the `Stim` itself is *called* `fixed`.
 
 ## Axioms
 

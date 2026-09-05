@@ -6,8 +6,6 @@ keywords: [math, graphs]
 
 # Graph
 
-![Graph](/images/0-math/03-graphs.svg)
-
 ## Definitions
 
 **`Graph`** := `Set` of `Arrows`.
@@ -15,7 +13,7 @@ keywords: [math, graphs]
 > `Graph := {[x,y]}`
 ---
 
-**`Vertex`** := one of `Sign:Subject` or `Value:Object` of `Arrows` of `Graph`.
+**`Vertex`** := one of `Stim:Subject` or `Spon:Object` of `Arrows` of `Graph`.
 
 > `Vertex<G> := {x : ∃A ∈ G, x ∈ DOM(A) ∨ x ∈ COD(A)}`
 
@@ -56,19 +54,3 @@ A `Vertex` is classified by how many `Arrows` enter and leave it, written `(in:o
 **`Functional Graph(Mapping)`** := `Graph` without `Fan-Outs`; it *is* the `Azon` responding to each `x` with single `y`.
 
 > `{[x,y]} ≃ (x → y)`
-
----
-
-**`Currying`** := recasting an `Azon` over pair-`Signs` `[x,y]` into an `Azon` that responds to `x` with another `Azon` awaiting `y`.
-
-> `curry :: ([x,y] → z) ≃ (x → (y → z))`
-
-*NOTE*: both sides respond with the same `z`; iterating the recast unfolds any arity into a chain of single-`Sign` `Azons`.
-
----
-
-**`Partial Application`** := The `Azon` obtained by supplying some, but not all, of the `Signs` a curried `Azon` expects.
-
-> `PartialApp(A, x) := curry(A)(x)`
-
-*NOTE*: the result is an `Azon` of reduced arity, still awaiting the remaining `Signs`.

@@ -6,8 +6,6 @@ keywords: [reality, entropy, order, self-organization]
 
 # Entropy
 
-![Entropy](/images/1-reality/14-entropy.svg)
-
 ## Measure
 
 **`Entropy`** := a measure of the uncertainty in a `System`'s `State` — the count of micro-configurations of [`Participant`](07-system.md#system-and-participant)s consistent with one observed macro-`State`.

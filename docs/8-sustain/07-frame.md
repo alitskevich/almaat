@@ -6,8 +6,6 @@ keywords: [sustain, security, frame, composure]
 
 # Frame
 
-![Frame](/images/8-sustain/07-frame.svg)
-
 This is the defensive half of [Influence](../8-socium/33-interpersonal.md).
 
 ## The Rescuer

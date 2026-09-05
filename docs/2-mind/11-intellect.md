@@ -6,8 +6,6 @@ keywords: [mind, intellect]
 
 # Intellect
 
-![Intellect](/images/2-mind/11-intellect.svg)
-
 ## What Intellect Is
 
 **`Intellect`** := the capacity of a [`Mind`](12-mind.md) to form, validate, and apply its own [`Reality`](../1-reality/22-being.md#reality).

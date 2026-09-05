@@ -58,7 +58,7 @@ Content lives under numbered section folders, each one ontological layer or appl
 The leading digit on a folder (`0-`, `1-`, `2-`, `4-`, `7-`, `8-`) places it within the ontology's
 ordering. The digit `8-` is shared by two applied folders (`8-socium`, `8-sustain`); gaps (`3-`,
 `5-`, `6-`) are reservations for future layers. Don't renumber a folder casually — it cascades
-through every banner image path and every cross-reference.
+through every cross-reference.
 
 Applied software engineering (formerly `9-engx`) has been extracted into its own repository,
 [arrmagazin/engx](https://github.com/arrmagazin/engx). Do not route engineering material here.
@@ -98,15 +98,14 @@ tree-wide. `7-mastery`, `8-sustain` and `9-vitality` are applied-domain folders,
 When adding a file, take the next free number in that folder's existing range. Do not
 renumber existing files just to keep the sequence dense.
 
-## Frontmatter, title, banner
+## Frontmatter and title
 
 Frontmatter is exactly three fields, in this order: `title`, `description`, `keywords`.
 `description` is one sentence; it is quoted, so backticks come out and inner quotes are
 escaped. It is what the indexes quote. Do not reintroduce `license`, `created`,
 `modified`, or `source` — they were dropped as noise on 2026-08-26.
 
-Every content file then opens with a single H1 title and a
-banner image mirroring it, and goes straight into the body:
+Every content file then opens with a single H1 title and goes straight into the body:
 
 ```markdown
 ---
@@ -117,19 +116,14 @@ keywords: [reality, process, circuit, flow]
 
 # Dynamic Processes
 
-![Dynamic Processes](/images/1-reality/02-process.svg)
-
 ## Parts of a Process
 ```
 
-**No preface.** Nothing sits between the banner and the first heading: no intro line
+**No preface.** Nothing sits between the title and the first heading: no intro line
 restating the `description`, no spine table, no enumeration of the folder's other files.
 Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used.
 
-The banner path is `/images/<folder>/<filename>.svg` for a file inside a section folder,
-and `/images/<filename>.svg` for the four files at the root of `docs/`. The alt text
-equals the title, byte for byte. `scripts/gen-banners.mjs` owns this line — run
-`npm run gen-banners` rather than hand-writing a path.
+(Banner images were removed on 2026-09-05; content files carry no images.)
 
 ## Terminology and formatting
 
@@ -210,7 +204,7 @@ retitled** since the baseline. For each change, update the matching `INDEX.md` e
 Notes:
 
 - INDEX entries are grouped by ontological-layer section; the description text mirrors each
-  file's frontmatter `description` (see Frontmatter, title, banner).
+  file's frontmatter `description` (see Frontmatter and title).
 - `INDEX.md` is the only navigation surface. No section has an `index.md`, and the per-folder
   spine tables were removed on 2026-08-26 — `7-mastery/01-mastery.md`, `8-sustain/01-sustain.md`,
   `2-mind/04-knowing.md` and `8-socium/30-socium.md` no longer list their siblings. The last two
@@ -218,7 +212,7 @@ Notes:
   (9 lines) still await content or deletion.
 - **Run `npm run check-docs` before committing content edits.** It resolves every relative `.md`
   link and every `#anchor` in `docs/`, and `--conventions <dir>` additionally checks the three
-  frontmatter fields, the single H1, and the banner path.
+  frontmatter fields and the single H1.
   Pre-existing breakage is listed in `scripts/check-docs.baseline.txt`, so the gate is
   "no new failures"; fix an entry and delete its line.
 
@@ -226,8 +220,8 @@ Notes:
 
 1. Source translated to English and reduced to basic terminology.
 2. Content routed to the correct file (or a correctly named new file created).
-3. Frontmatter + title + banner image conform to the convention above, with no preface
-   between the banner and the first heading.
+3. Frontmatter + title conform to the convention above, with no preface between the
+   title and the first heading.
 4. New Terms backticked in text and, if canonical, added to `_translations.md`.
 5. `INDEX.md` updated to match.
 6. Relative links checked — they must resolve to real files.

@@ -6,8 +6,6 @@ keywords: [sustain, defense]
 
 # Physical Security
 
-![Physical Security](/images/8-sustain/13-defense.svg)
-
 The groundwork — mindset, awareness, the OODA loop, the body under threat, and [recovery](06-security.md#recovery) afterwards — is shared with the social plane and lives in [Security](06-security.md).
 
 ## Under Pressure

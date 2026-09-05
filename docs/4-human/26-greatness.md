@@ -6,8 +6,6 @@ keywords: [human, happiness, greatness]
 
 # Happiness and Greatness
 
-![Happiness and Greatness](/images/4-human/26-greatness.svg)
-
 **`Happiness`** := the internal perception of the saturation of life.
 
 - in the moment of now, and overall,

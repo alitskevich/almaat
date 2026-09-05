@@ -6,8 +6,6 @@ keywords: [mind, proof, logic]
 
 # Proof
 
-![Proof](/images/2-mind/06-proof.svg)
-
 **`Proof`** := A [`Conclusion`](../0-math/07-language.md#rules-and-grammar) that yields `Thesis` under a given `Theory`.
 
 > `Proof<Theory> := Conclusion<Theory> :: Conclusion(Axiom) ∈ Thesis`

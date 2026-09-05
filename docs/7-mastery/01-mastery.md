@@ -6,8 +6,6 @@ keywords: [mastery]
 
 # Mastery
 
-![Mastery](/images/7-mastery/01-mastery.svg)
-
 ## What Mastery Is
 
 The capacity for abundant, effective activity toward constant improvement in one's chosen field, measured by `Surplus`, `Body of Work`, and `Super-Goals` — all defined under [Terms](#terms).

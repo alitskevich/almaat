@@ -6,8 +6,6 @@ keywords: [mind, free-will, determinism]
 
 # Free Will
 
-![Free Will](/images/2-mind/10-free-will.svg)
-
 **`Free-Will`** := The claimed capacity of an `Agent` to select a `Solution` independent of its prior `State`.
 
 > `Free-Will :: Solution chosen with ¬caused-by(prior State)`

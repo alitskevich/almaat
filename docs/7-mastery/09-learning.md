@@ -6,8 +6,6 @@ keywords: [mastery, learning]
 
 # Learning
 
-![Learning](/images/7-mastery/09-learning.svg)
-
 `Learning` is defined formally in [Intellect](../2-mind/11-intellect.md) as the update of `Memory`, and thereby of `Knowledge` and `Skill`, that makes them better predict further `Experience`. This file is the applied side: how to drive that update on purpose.
 
 ## The Learning Loop

@@ -6,8 +6,6 @@ keywords: [socium, conformism, courage]
 
 # Conformism and Moral Courage
 
-![Conformism and Moral Courage](/images/8-socium/36-conformism.svg)
-
 ## The Default Is Obedience
 
 In Milgram's 1963 experiment (*Behavioral Study of Obedience*), ordinary people were told to deliver rising electric shocks to a stranger in the next room, who pounded on the wall at 300 volts and then fell silent. A majority went to the maximum — the last switch on a board labelled from *Slight Shock* to *Danger: Severe Shock* and finally *XXX* — not sadists, but people who obeyed an experimenter telling them to continue. One variation matters as much: when two other participants refused, obedience collapsed (*Obedience to Authority*, 1974). And in the baseline condition a substantial minority refused without any such help.

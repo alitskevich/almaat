@@ -6,8 +6,6 @@ keywords: [math, views]
 
 # Presentational View
 
-![Presentational View](/images/0-math/06-views.svg)
-
 ## Matter
 
 **`Matter`** := `Set:Basis` equipped with a finite set of `Azon:Attribute`s.
@@ -74,7 +72,7 @@ keywords: [math, views]
 
 ---
 
-**`Reference`** (foreign key) := `Attribute` whose `Values` are `Keys` of other `Type`s.
+**`Reference`** (foreign key) := `Attribute` whose `Spons` are `Keys` of other `Type`s.
 
 ---
 

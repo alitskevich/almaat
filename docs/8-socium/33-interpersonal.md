@@ -6,8 +6,6 @@ keywords: [socium, interpersonal, influence]
 
 # Influence
 
-![Influence](/images/8-socium/33-interpersonal.svg)
-
 ## Conduct
 
 | Principle | Practice |

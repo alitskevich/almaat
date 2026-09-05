@@ -6,8 +6,6 @@ keywords: [socium, identity, persona]
 
 # Identity
 
-![Identity](/images/8-socium/34-identity.svg)
-
 - biology — what we are (Body, Genes)
 - mind — who we feel we are (Truth, Faith)
 - society — our roles (`Persona`)

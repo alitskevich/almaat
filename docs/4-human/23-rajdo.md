@@ -6,8 +6,6 @@ keywords: [human, rajdo]
 
 # Rajdo
 
-![Rajdo](/images/4-human/23-rajdo.svg)
-
 ## What Rajdo Is
 
 **`Rajdo`** := discovering, perceiving, and accepting Being `as-is`:

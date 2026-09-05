@@ -6,8 +6,6 @@ keywords: [mastery, environment]
 
 # Environment
 
-![Environment](/images/7-mastery/06-environment.svg)
-
 ## Environment Design
 
 **`Environment Design`** := shaping the [`Environment`](../1-reality/07-system.md#coupling) so the desired `Behavior` is the easiest, most pleasant choice and the undesired one is harder.

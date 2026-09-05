@@ -5,5 +5,3 @@ keywords: [vitality]
 ---
 
 # Vitality
-
-![Vitality](/images/9-vitality/index.svg)

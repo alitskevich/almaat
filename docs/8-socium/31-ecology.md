@@ -6,8 +6,6 @@ keywords: [socium, ecology, ethics]
 
 # Ecology
 
-![Ecology](/images/8-socium/31-ecology.svg)
-
 It requires freedom of expression, quality education, public discourse on equal terms, and the willingness to acknowledge error in public. It rests on three claims, argued as axioms below:
 
 - human rights are absolute and power is not,
