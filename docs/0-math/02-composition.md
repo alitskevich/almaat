@@ -8,15 +8,15 @@ keywords: [math, composition]
 
 ## Arrows
 
-**`Arrow`** := an `Azon` that responds `emptily` *always except once*.
+**`Arrow`** := an `Azon` that responds with `Object` only once - to the `Subject`, otherwise - `emptily`.
 
-> `[a,b] := x → (x IS a ? b : Zero)`
+> `Arrow[Subject, Object] := x → (x IS Subject ? Object : Zero)`
 
 ---
 
 **`Composition`** := The `Azon` built on `Arrow` by *assuming* the output of `Subject` as the input of the `Object`.
 
-> `.(a,b) := x → a(b(x))`
+> `.(a,b) := x → b(a(x))`
 
 *NOTE*: `Composition` is **`associative`** by construction.
 
@@ -24,15 +24,15 @@ keywords: [math, composition]
 
 ---
 
-**`Identity<A>`** := Composition-preserving `Azon` for A.
+**`Identity<A>`** := Composition-preserving (neutral) `Azon` for A.
 
-> `Id.A = A.Id = A`
+> `Id :: Id.A = A.Id = A`
 
-*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM(A)` on the right, `COD(A)` on the left).
+*NOTE*: `Unit` is the *universal* `Identity` (may be even restricted to `DOM(A)` on the left, `COD(A)` on the right).
 
 ---
 
-**`Null`** := Composition-absorbing `Azon`.
+**`Null`** := Composition-absorbing (annihilating) `Azon`.
 
 > `Null.A = A.Null = Null`
 
@@ -40,9 +40,13 @@ keywords: [math, composition]
 
 ---
 
-*DEF*: `Azon` is **`Bijective`** if there exists an (`Azon`:= **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
+*DEF*: `Azon` is **`Injective`** if distinct `Stims` never respond with the same `Spon`.
 
-> `A⁻¹.A = DOM(A) ∧ A.A⁻¹ = COD(A)`
+> `A(x) = A(y) ⟹ x = y`
+
+*DEF*: `Azon` is **`Bijective`** if there *exists* an (`Azon`:= **`Inverse`**) whose left and right `Composition` give the `Domain` and `Codomain` of the `Azon`.
+
+> `A.A⁻¹ = DOM(A) ∧ A⁻¹.A = COD(A)`
 
 *DEF*: a `Composition` is **`Well-consumed`** when its `Object` is valent on the entire output of its `Subject`:
 
@@ -50,11 +54,11 @@ keywords: [math, composition]
 
 ---
 
-**`Currying`** := Azon that recasting from an `Azon` over `[x,y]` into an `Azon` that responds to `x` with another `Azon` awaiting `y`.
+**`Currying`** := Azon from `Azons` over `[x,y]` into an `Azons` that responds to `x` with another `Azon` awaiting `y`.
 
 > `curry :: ([x,y] → z) ≃ (x → (y → z))`
 
-*NOTE*: both sides respond with the same `z`; iterating the recast unfolds any arity into a chain of single-`Stim` `Azons`.
+*NOTE*: both sides respond with the same `z`; Currying unfolds any arity into a chain of single-`Stim` `Azons`.
 
 ---
 

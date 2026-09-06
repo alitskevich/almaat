@@ -8,7 +8,7 @@ keywords: [human, rajdo]
 
 ## What Rajdo Is
 
-**`Rajdo`** := discovering, perceiving, and accepting Being `as-is`:
+**`Rajdo`** := process of discovering, perceiving, and accepting Being `as-is`:
 
 - as an entire mental process unfolded from one single root,
 - as a unity where everything is interweaving,

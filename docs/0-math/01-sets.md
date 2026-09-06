@@ -52,6 +52,10 @@ keywords: [math, sets]
 
 *DEF*: `Azons` are **endemic** if `DOM(A₁) = DOM(A₂) ∧ COD(A₁) = COD(A₂)`.
 
+*NOTE*: Let say: `Azon` *from* `Domain` *into* `Codomain` and use *⇒* to note it: `A := DOM(A) ⇒ COD(A)`.
+
+*DEF*: a `Azon` with a single `Spon` is *called* `Principle`; with two `Spons` - `Predicate`.
+
 ## Presence and Absence
 
 **`Presence`** := `Set` of all `Azon` whose `Domain` or `Codomain` contains the reference `Azon`.

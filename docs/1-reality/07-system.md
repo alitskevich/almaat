@@ -52,7 +52,7 @@ keywords: [reality, system, participant, communication]
 
 **`Communication`** := projection of one `Participant`'s `Behavior` into another's `Attention`.
 
-> `Communication(A → B) := Attention(B) . Behavior(A)`
+> `Communication(A → B) := Behavior(A) . Attention(B)`
 
 *NOTE*: asymmetric: `A → B ≠ B → A`. Operates across a single `Step` — A's output at `Step[i]` becomes B's input at `Step[i+1]`.
 
@@ -60,7 +60,7 @@ keywords: [reality, system, participant, communication]
 
 **`Behavior`** := a `Participant`'s projection of its own `State` toward other `Participant`s.
 
-> `Behavior(A) :: State(A) → View`
+> `Behavior(A) :: State(A) ⇒ View`
 
 *NOTE*: the sending half — the externally-visible aspect of a `Participant` — what it contributes to the `System`.
 
@@ -68,7 +68,7 @@ keywords: [reality, system, participant, communication]
 
 **`Attention`** := a `Participant`'s selection of *other* `Participant`s' `Behavior` into its own `State`.
 
-> `Attention(B) :: View → State(B)`
+> `Attention(B) :: View ⇒ State(B)`
 
 *NOTE*: the receiving half. `Attention` is selective: not every available `Behavior` enters a `Participant`'s input.
 
@@ -84,7 +84,7 @@ keywords: [reality, system, participant, communication]
 
 **`Interface`** := a constraint on the `Behavior` of `Participants` relative to each other.
 
-> `Interface :: admissible(Behavior, Attention) → {0, 1}`
+> `Interface :: admissible(Behavior, Attention) ⇒ {0, 1}`
 
 *NOTE*: a behavioral contract — a formal specification of admissible `Communication` patterns.
 

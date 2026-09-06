@@ -8,6 +8,14 @@ keywords: [reality, process, circuit, flow]
 
 ## Parts of a Process
 
+---
+
+**`Process`** := controlled `Queue` of `Words` from the same `SampleSpace`.
+
+> `Process := Queue<Word ∈ SampleSpace> :: controlled`
+
+---
+
 **`Step`** := one indivisible advance of a `Process` — the unit its `Queue` is indexed by.
 
 ---
@@ -44,15 +52,9 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Process`** := controlled `Queue` of `Words` from the same `SampleSpace`.
-
-> `Process := Queue<Word ∈ SampleSpace> :: controlled`
-
----
-
 **`Controller<Schema>`** := an `Azon` that responds to a State-`Ingress` with a `Probability Distribution` over `Volume`.
 
-> `Ingress<Schema> → PD(Volume<Schema>)`
+> `Ingress<Schema> ⇒ PD(Volume<Schema>)`
 
 ---
 
@@ -128,7 +130,7 @@ keywords: [reality, process, circuit, flow]
 
 **`Paradigm`** := a method that generates `Plans` for a `System`.
 
-> `Paradigm :: System → {Plan}`
+> `Paradigm :: System ⇒ {Plan}`
 
 ---
 

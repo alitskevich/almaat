@@ -32,9 +32,9 @@ keywords: [math, language]
 
 ## Rules and Grammar
 
-**`Rule`** := `Arrow` over `Words` from given `Dictionary`.
+**`Rule`** := `Arrow` between `Words` from same `Dictionary`.
 
-> `Rule<Dictionary> := (T → T') :: T, T' ∈ Dictionary`
+> `Rule<Dictionary> := [T, T'] :: T, T' ∈ Dictionary`
 
 ---
 
@@ -56,7 +56,7 @@ keywords: [math, language]
 
 ---
 
-**`Theory`** := `Dictionary` of all `Expressions` that may be derived from the input `Word` within the `Grammar`.
+**`Theory`** := `Dictionary` of all `Expressions` derived from the `Word` within the `Grammar`.
 
 > `Theory<Word, Grammar> := { Expression<Word, Grammar> }`
 

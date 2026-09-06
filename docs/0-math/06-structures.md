@@ -8,20 +8,42 @@ keywords: [math, structures]
 
 ## Definitions
 
-**`Structure`** := `Set` of same-`Basis` `Actions` under `Law`.
+---
 
-> `Structure<Basis,Law> := { Action<Space<Basis>, R ∈ Basis> } :: Law(Structure) === T`
+**`Dependency<Form>`** := `Azon`
+
+- *from* (one `View<Form>` := `**Source**`)
+- *into* (another `View<Form>` := `**Target**`).
+
+> `Dependency<Form> := Source<Form> ⇒ Target<Form>`
 
 ---
 
-**`Law`** := a constraint on the `Actions` scoped to subset of Basis of a given `Structure`.
+**`KeyMask`** := `Mask` that preserves `Bijective` correspondence between the `Points` of `Origin` and its (`Points` of `View` := `**Key**`).
 
-> `Law :: Action → Norm`
+> `KeyMask<Origin> := Mask :: ∃(Mask.p → p)`
+
+---
+
+**`Operation<Sⁿ>`** := `Dependency` *from* `S×ⁿ` *into* `S`.
+
+> `Operation<S> := S^ⁿ ⇒ S`
+
+| Term | Arity | Signature | Examples |
+| --- | --- | --- | --- |
+| **Constant** | `0-ary` | `() ⇒ S` | `unit: () => 1`, `zero: () => 0` |
+| **Unary** | `1-ary` | `S ⇒ S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
+| **Binary** | `2-ary` | `S × S ⇒ S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
+| **n-ary** | `n-ary` | `Sⁿ ⇒ S` | `combine: (a₁, …, aₙ) => …` |
+
+---
+
+**`Law`** := a `Predicate` on the `Dependencies`.
+
+> `Law<B ⊆ Basis> := Predicate<{ Dependency }>`
 
 | Law | Formula | Notes |
 | --- | --- | --- |
-| **`Zero`** | `∃0 ∈ S: ∀a ∈ S: 0 * a = a * 0 = 0` | An annihilating element |
-| **`Identity`** | `∃e ∈ S: ∀a ∈ S: e * a = a * e = a` | A neutral element |
 | **Inverse** | `∀a ∈ S: ∃a⁻¹ ∈ S: a * a⁻¹ = a⁻¹ * a = e` | Every element is undoable; requires identity |
 | **Idempotent** | `a * a = a` | Repeating an operand has no effect |
 | **Reflexive** | `∀a ∈ S: a * a` holds | For relations: every element relates to itself |
@@ -35,49 +57,126 @@ keywords: [math, structures]
 | **Latin square** | `∀a, b ∈ S: ∃! x, y ∈ S: a * x = b ∧ y * a = b` | Unique left- and right-solutions; defines a quasigroup |
 | **Jacobi** | `a * (b * c) + b * (c * a) + c * (a * b) = 0` | A weakened associativity used in Lie algebras |
 
-## Basic Structures
+---
 
-| Structure | Definition | Example |
-| --- | --- | --- |
-| **Pointed Set** | `Set` with defined units (0-ary operations) | `unit: () => 1` |
-| **Unary System** | `Set` with a single unary operation | `inc: (x) => x+1` |
-| **Pointed Unary System** | Unary system with a pointed set | `zero: ()=>0, unit: ()=>1, inv: (x)=> x==1 ? 0 : 1` |
-| **Poset** | Partially ordered set with `compare` defined partially | `≤: a,b => a,b in S ? (a < b ? T : F) : U` |
-| **Setoid** | `Set` with `eq` equivalence | `eq: (a, b) => a == b ? T : F` (Reflexive + Symmetric + Transitive) |
+**`Structure`** := `Set` of `Dependencies` under the `Law`.
 
-**Equivalence vs. order.** A setoid requires Reflexive + Symmetric + Transitive (equivalence). A poset requires Reflexive + Antisymmetric + Transitive (partial order).
+> `Structure<Dependencies,Law> := S{ Dependency } :: Law(S) === T`
 
-## Magma and Descendants
+## Common Structures
 
-| Structure | Definition | Properties |
-| --- | --- | --- |
-| **Magma (Groupoid)** | Having a single binary operation | `op: (a,b) => c` |
-| **Quasi-group** | A magma obeying the Latin square property | `∃! x, y: a * x = b ∧ y * a = b` |
-| **Loop** | A quasi-group with identity | |
-| **Semi-group** | An associative magma | `combine: a,b => (...) => a(b(...))` |
-| **Semi-lattice** | An idempotent and commutative semigroup | Idempotent and commutative |
-| **Monoid** | A semigroup with a `unit` | `unit: () => 1` (LR-identity) |
-| **Group** | A monoid with an `inverse` | `inverse: a => -a` (LR-inverse) |
-| **Abelian Group** | A group with commutative `sum` | `sum: (a,b) => c` (associative + commutative) |
+**`Pointed Unary System`** :=`Structure` having `Units` with unary `Operation`.
+
+> `zero: () => 0, unit: () => 1, inv: (x) => x == 1 ? 0 : 1`
+
+---
+
+**`POSet`** := partially ordered `Set`.
+
+> `≤: (a,b) => (a < b) ? T : F :: Reflexive + Antisymmetric + Transitive`
+
+---
+
+**`Setoid`** := `Set` with equivalence.
+
+> `eq: (a,b) => a == b ? T : F :: Reflexive + Symmetric + Transitive`
+
+*NOTE*: `Setoid` and `Poset` differ by one `Law`: Symmetric gives equivalence, Antisymmetric gives partial order.
+
+### Magma and Descendants
+
+**`Magma`** / `Groupoid` := `Structure` with a single binary `Operation`.
+
+> `op: (a,b) => c`
+
+---
+
+**`Quasi-group`** := `Magma` under the Latin square `Law`.
+
+> `∃! x, y: a * x = b ∧ y * a = b`
+
+---
+
+**`Loop`** := `Quasi-group` with identity.
+
+---
+
+**`Semi-group`** := associative `Magma`.
+
+> `combine: a,b => (...) => b(a(...))`
+
+---
+
+**`Semi-lattice`** := idempotent and commutative `Semi-group`.
+
+---
+
+**`Monoid`** := `Semi-group` with a `unit` (LR-identity).
+
+> `unit: () => 1`
+
+---
+
+**`Group`** := `Monoid` with an `inverse` (LR-inverse).
+
+> `inverse: a => -a`
+
+---
+
+**`Abelian Group`** := `Group` with commutative `sum`.
+
+> `sum: (a,b) => c :: Associative + Commutative`
 
 ## Ringoid Structures
 
-| Structure | Definition |
-| --- | --- |
-| **Ringoid** | `Set` with `add` and `multiply`, multiplication distributing over addition |
-| **Semiring** | A ringoid that is also a monoid under each operation |
-| **Near-ring** | A `Set` whose `add` is a group and whose `multiply` is a semigroup, distributing on one side only |
-| **Ring** | A semiring whose `add` is an abelian group |
-| **Boolean Ring** | A commutative ring with idempotent multiplication |
-| **Field** | A commutative ring containing a multiplicative inverse for every nonzero element |
+**`Ringoid`** := `Set` with `add` and `multiply`, multiplication distributing over addition.
+
+---
+
+**`Semiring`** := `Ringoid` that is also a `Monoid` under each `Operation`.
+
+---
+
+**`Near-ring`** := `Set` whose `add` is a `Group` and whose `multiply` is a `Semi-group`, distributing on one side only.
+
+---
+
+**`Ring`** := `Semiring` whose `add` is an `Abelian Group`.
+
+---
+
+**`Boolean Ring`** := commutative `Ring` with idempotent multiplication.
+
+---
+
+**`Field`** := commutative `Ring` with a multiplicative `inverse` for every nonzero element.
 
 ## Lattice Structures
 
-| Structure | Definition | Laws |
-| --- | --- | --- |
-| **Lattice** | A poset with `∧ - meet (infimum)` and `∨ - join (supremum)` | Commutative, Associative, Absorption |
-| **Complete Lattice** | A lattice with arbitrary `meets` and `joins` | |
-| **Bounded Lattice** | A lattice with `1 - greatest (top)` and `0 - least (bottom)` | `0 ≤ x ≤ 1` for every `x ∈ S` |
-| **Complemented Lattice** | A bounded lattice with unary `⊥ - complementation` | `a ∨ a⊥ = 1` and `a ∧ a⊥ = 0` |
-| **Distributive Lattice** | A lattice where meet and join distribute over each other | |
-| **Boolean Algebra** | A complemented distributive lattice | |
+**`Lattice`** := `Poset` with `∧` (meet, infimum) and `∨` (join, supremum).
+
+> `Lattice :: Commutative + Associative + Absorption`
+
+---
+
+**`Complete Lattice`** := `Lattice` with arbitrary meets and joins.
+
+---
+
+**`Bounded Lattice`** := `Lattice` with `1` (greatest, top) and `0` (least, bottom).
+
+> `0 ≤ x ≤ 1 :: ∀x ∈ S`
+
+---
+
+**`Complemented Lattice`** := `Bounded Lattice` with unary `⊥` complementation.
+
+> `a ∨ a⊥ = 1 ∧ a ∧ a⊥ = 0`
+
+---
+
+**`Distributive Lattice`** := `Lattice` where meet and join distribute over each other.
+
+---
+
+**`Boolean Algebra`** := `Complemented Lattice` that is also a `Distributive Lattice`.

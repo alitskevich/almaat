@@ -126,26 +126,26 @@ keywords: [math, numerals]
 
 > `Vector :: Scoring :: DOM = Interval(N), COD ⊆ Numerals`
 
-## Selection
+## Abstraction
 
-**`Mask`** := injective `Tuple` of length `n` into an `Interval` of length `m > n`.
+**`Mask`** := `Injective` `Tuple` of length `n` into an `Interval` of length `m > n`.
 
-> `Mask := Interval(n) → Interval(m)`
+> `Mask := Interval(n) ⇒ Interval(m::m > n)`
 
 ---
 
-**`Selection`** := `Composition` of a `Mask` with a `Tuple`.
+**`Abstraction`** := `Composition` of a `Mask` with a `Tuple`.
 
-> `Selection := Tuple.Mask`
+> `Abstraction := Mask.Tuple`
 
 ## Matrices
 
 **`Matrix`** (2D-array) := A `Tuple` of `Tuples`.
 
-> `Matrix :: Interval(n) → Tuple`
+> `Matrix :: Interval(n) ⇒ Tuple`
 
 ---
 
 **`Flat`** := A `Tuple` built from a `Matrix` by joining each constituent `Tuple` end-to-end.
 
-> `⊕ :: Matrix → Tuple`
+> `⊕ :: Matrix ⇒ Tuple`

@@ -15,7 +15,7 @@ keywords: [math, graphs]
 
 **`Vertex`** := one of `Stim` or `Spon` of `Arrows` of `Graph`.
 
-> `Vertex<G> := {x : ∃A ∈ G, x ∈ DOM(A) ∨ x ∈ COD(A)}`
+> `Vertex<G> :: ∃A ∈ G, Vertex ∈ DOM(A) ∨ Vertex ∈ COD(A)`
 
 A `Vertex` is classified by how many `Arrows` enter and leave it, written `(in:out)`.
 

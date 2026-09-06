@@ -144,6 +144,14 @@ Navigation lives in `INDEX.md`; cross-reference a specific Term where it is used
   (This rule previously mandated `Term | Definition | Formula | Notes` tables, which no file in
   the ontology layers has ever used — including the reference example it cited. Corrected
   2026-08-16 in favour of what the tree actually does.)
+- **Two arrows in formulas** (adopted 2026-09-06). `⇒` is the signature arrow between
+  Terms/Sets — a mapping stated at the Set level, introduced in `0-math/01-sets.md`:
+  `Operation<S> := S^ⁿ ⇒ S`, `Cognition :: (Signal, Knowledge) ⇒ Knowledge'`.
+  `→` is the value-level response between
+  concrete stimuli (`Azon := x → y`, `Zero := x → Zero`) and also marks transitions
+  (`Paradigm → Paradigm'`), convergence (`n → ∞`), and directional pairs
+  (`Communication(P → Q)`) — none of which are signatures. Example lambdas keep JS style
+  (`inc: a => a+1`).
 - **Tables are for enumerations**, not definitions: parallel lists of moves, forms, biases, or
   comparisons, where every row shares a shape. The applied folders (`7-mastery`, `8-socium`,
   `8-sustain`, `9-vitality`) use them heavily and correctly.

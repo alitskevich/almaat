@@ -69,6 +69,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Subject` | Dzejnik* |
 | `Object` | Pradmet* |
 | `Singleton` | Ton |
+| `Injective` | Adnaznaqnae* |
 | `Bijective` | Uzaemna Adnaznaqnae* |
 | `Currying` | Karyng* |
 | `Identity` | Tojesnasc* |
@@ -106,7 +107,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Queue` | Qerga |
 | `Grade` | Acenka |
 | `Mask` | Zrez |
-| `Selection` | Otbor |
+| `Abstraction` | Abstrakcyja* |
 | `Matrix` | Mantra |
 | `Flat` | Sklejka |
 | `Numerals` | Liqby* |
@@ -120,6 +121,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | Term | Belarusian |
 |---|---|
 | `Space` | Shyr* |
+| `Subspace` | Padshyr* |
 | `Attribute` | Prykmeta* |
 | `Basis` | Asnova* |
 | `Point` | Kropka |
@@ -130,6 +132,8 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 
 | Term | Belarusian |
 |---|---|
+| `KeySpace` | Shyr Kliuchow* |
+| `Key` | Kliuch* |
 | `Law` | Zakon* |
 | `Operation` | Aperacyja* |
 | `Structure` | Stroj |

@@ -22,7 +22,7 @@ keywords: [mind, proof, logic]
 
 **`Interpretation`** := A predefined mapping from each formula of a given theory into an external structure.
 
-> `Interpretation :: Formula → (Entity | {Predicate})`
+> `Interpretation :: Formula ⇒ (Entity | {Predicate})`
 
 A formula maps either to one corresponding entity — *denotation*: extension, referent, example — or to a set of predicates over such entities — *logic*: intension, meaning, sense.
 

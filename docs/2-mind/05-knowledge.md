@@ -8,9 +8,9 @@ keywords: [mind, knowledge]
 
 ## Units of Belief
 
-**`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether a [`View`](../0-math/07-views.md#view-and-content) belongs to `Place`.
+**`Opinion`** := An `Expression` of `Language` associated with an evaluation of whether a `View` belongs to `Place`.
 
-> `Opinion :: Expression → (View × Place → {0, 1})`
+> `Opinion :: Expression ⇒ (View × Place ⇒ {0, 1})`
 
 ---
 
@@ -34,7 +34,7 @@ keywords: [mind, knowledge]
 
 **`Name`** := An `Expression` of `Language` associated with `Views` (Entities) of the `Matter`.
 
-> `Name :: Expression → View`
+> `Name :: Expression ⇒ View`
 
 *NOTE*: Picks out particular instances. Complement: `Concept`.
 
@@ -42,7 +42,7 @@ keywords: [mind, knowledge]
 
 **`Concept`** := An `Expression` of `Language` associated with `Place` (regions) of the `Matter`.
 
-> `Concept :: Expression → Place`
+> `Concept :: Expression ⇒ Place`
 
 *NOTE*: Denotes categories rather than instances.
 

@@ -44,7 +44,6 @@ How static primitives become living systems that act, and how `Reality` itself i
 
 The framework's cognitive core: Content → Form → Mechanism → Process → Purpose → Capacity → Substrate → Method.
 
-- [Knowing](2-mind/04-knowing.md) — How a Mind builds Knowledge, proves and computes with it, commits to a Goal, and validates the result against Reality.
 - [Knowledge](2-mind/05-knowledge.md) — The atomic units of belief — Opinion, Doubt, Thesis, Theory, Name, Concept — and the forms Knowledge is organized into.
 - [Proof](2-mind/06-proof.md) — The formal apparatus that carries a Thesis to a Proof — formalism, interpretation, satisfaction, and the three bounds every logic runs into.
 - [Computation](2-mind/07-computation.md) — Reasoning mechanized: Data carried through Transformers by a Runtime, expressed as a Program, prescribed by an Algorithm, and judged against a Specification.

@@ -40,7 +40,7 @@ keywords: [mind, intellect]
 
 **`Cognition`** := The process of creating new or accessing existing `Knowledge`.
 
-> `Cognition :: (Signal, Knowledge) → Knowledge'`
+> `Cognition :: (Signal, Knowledge) ⇒ Knowledge'`
 
 *NOTE*: Being is vastly more complex than our capacity for `Cognition`; no `Knowledge` can be simultaneously universal, final, complete, and non-contradictory. `Cognition` is open-ended — it requires constant verification and refinement.
 
@@ -48,7 +48,7 @@ keywords: [mind, intellect]
 
 **`Validation`** := The rational transformation of existing `Knowledge` toward improvement.
 
-> `Validation :: Knowledge → Knowledge' refined`
+> `Validation :: Knowledge ⇒ Knowledge' refined`
 
 *NOTE*: Relies on openness, flexibility, unconventional perspectives, and tolerance of paradox. The active answer to `Doubt`.
 
@@ -56,7 +56,7 @@ keywords: [mind, intellect]
 
 **`Learning`** := The update of `Memory` — and thereby of `Knowledge` and `Skill` — driven by `Validation` against `Experience`.
 
-> `Learning :: (Knowledge, Experience) → Knowledge'` where `Knowledge'` better predicts further `Experience`
+> `Learning :: (Knowledge, Experience) ⇒ Knowledge'` where `Knowledge'` better predicts further `Experience`
 
 *NOTE*: The dynamic that makes `Evolution` possible at the cognitive level; complements `Validation`. Applied side: [Learning](../7-mastery/09-learning.md).
 
@@ -72,7 +72,7 @@ keywords: [mind, intellect]
 
 **`Skill`** := `Knowledge` operationalized through `Experience` into reliable `Behavior` under varying `Circumstances`.
 
-> `Skill :: Knowledge + Experience → Behavior reliable under Circumstances`
+> `Skill :: Knowledge + Experience ⇒ Behavior reliable under Circumstances`
 
 *NOTE*: `Skill` lives in the *structure* of the `Mind` — modified `Neuron` weights, i.e., `Memory` shaped by `Learning`. Verified by execution under novel conditions, not by description. `Skill` is at the `Behavior` scope; **`Mastery`** (in [Mastery](../7-mastery/01-mastery.md)) is the corresponding `Paradigm`-scope concept.
 
@@ -92,7 +92,7 @@ A `Mind` realizes its [`Paradigm`](../1-reality/02-process.md#landmarks-of-a-flo
 
 **`Rationale`** := A set of universal principles for making `Solution` under conditions of insufficient `Knowledge`.
 
-> `Rationale :: insufficient Knowledge → Solution heuristic`
+> `Rationale :: insufficient Knowledge ⇒ Solution heuristic`
 
 *NOTE*: The default heuristics applied when `Validation` cannot be completed in time. Pragmatic shortcuts grounded in accumulated `Experience` — the "good enough" function when full `Cognition` is too costly.
 
@@ -100,7 +100,7 @@ A `Mind` realizes its [`Paradigm`](../1-reality/02-process.md#landmarks-of-a-flo
 
 **`Strategy`** := A method of making `Solution` within `Communication` considering external `Circumstances`.
 
-> `Strategy :: Communication × external-Circumstances → Solution-shape`
+> `Strategy :: Communication × external-Circumstances ⇒ Solution-shape`
 
 *NOTE*: A set of abstract approaches to interacting within a `System` with respect to the broader Context. `Strategy` operates one level above tactical `Solution` — it shapes *which* problems get solved, not only *how*.
 
@@ -108,6 +108,6 @@ A `Mind` realizes its [`Paradigm`](../1-reality/02-process.md#landmarks-of-a-flo
 
 **`Wisdom`** := The integration of `Knowledge`, `Experience`, and `Rationale` into reliable `Solution` across diverse `Circumstances`.
 
-> `Wisdom :: (Knowledge, Experience, Rationale) → reliable Solution across Circumstances`
+> `Wisdom :: (Knowledge, Experience, Rationale) ⇒ reliable Solution across Circumstances`
 
 *NOTE*: The capacity to apply the right principle — one's own `Truth` — in the right situation. Bound to the `Agent`'s lived path, not transferable as `Information`. Verified by performance across unfamiliar Contexts, not within familiar ones.

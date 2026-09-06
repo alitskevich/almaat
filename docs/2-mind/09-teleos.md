@@ -34,7 +34,7 @@ keywords: [mind, teleos]
 
 **`Core-Value`** := A criterion for ranking `Future` such that, if a `Future` violates it, continued participation in the `System` is rated worse than ceasing.
 
-> `Core-Value :: Future × Future → order`
+> `Core-Value :: Future × Future ⇒ order`
 
 *NOTE*: The non-negotiable ranker over `Future` — not a `Future` state itself, but the rule by which `Futures` are compared. Identity is constituted by `Core-Value`: what an `Agent` ranks above survival defines who that `Agent` is.
 
@@ -74,7 +74,7 @@ keywords: [mind, teleos]
 
 **`Purpose`** := A method of using a given Entity to achieve a `Goal`.
 
-> `Purpose :: Entity → role within Plan → Goal`
+> `Purpose :: Entity ⇒ role within Plan ⇒ Goal`
 
 *NOTE*: The role assigned to an Entity within a `Plan`. The same Entity may have many `Purposes` across different `Plan`s.
 
@@ -82,7 +82,7 @@ keywords: [mind, teleos]
 
 **`Quality-Attribute`** := An evaluation of an Entity's suitability for a given `Purpose`.
 
-> `Quality-Attribute :: (Entity, Purpose) → Grade`
+> `Quality-Attribute :: (Entity, Purpose) ⇒ Grade`
 
 *NOTE*: Always relative to a `Purpose` — there is no "quality" in the abstract, only fit-for-use.
 

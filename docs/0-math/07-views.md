@@ -8,51 +8,41 @@ keywords: [math, views]
 
 ## Definitions
 
-**`Matter`** := `Set` of (`Azons` := **`Attribute`**) with the same (`Domain` := **`Basis`**)
+---
 
-> `Matter<Basis> := { Attribute :: DOM(Attribute) = Basis }`
+**`Matter`** := `Tuple` of (`Azons` := **`Attribute`**) with the same (`Domain` := **`Basis`**) and those `Codomains` *belongs* to the same (`Cluster` := **`Palette`**).
+
+> `Matter<Basis, Palette> := M[ Attribute, ... ] :: ∀A ∈ M: ( DOM(A) == Basis ) ∧ ( COD(A) ⊆ Palette )`
 
 ---
 
-**`Entity`** := `Element` of the `Basis` of the `Matter`.
+**`Attribution`** := `Azon` *from* `Basis` *into* `Volume` of the `Matter`.
 
-> `Entity ∈ Basis`
-
----
-
-**`Type`** := `Tuple` of `Attributes` of `Matter`.
-
-> `Type<Matter> := [a₁, a₂, ..., aₙ] | aᵢ ⊆ Matter`
-
-## View and Content
-
-**`View`** := `Point` corresponding to the `Entity` in given `Type`.
-
-> `View<Type, Entity> := [a₁(E), a₂(E), ..., aₙ(E)] :: aᵢ IS Type[i]`
+> `Attribution<Matter> := (E ∈ Basis) → [Matter[i](E),... : ∀i < n ]`
 
 ---
 
-**`Content`** := `Set` of every `Entity` whose `View` falls within a `Place`.
+**`Entity`** := `Element` of the `Basis`.
 
-> `Content(Place) := { Entity :: View(Entity) ∈ Place }`
+> `Entity<Matter> ∈ Basis`
 
-## Keys and Relations
+---
 
-**`Key`** (primary key) := injective `Attribute` — distinct `Entity` have distinct values.
+**`Content`** := `Set` of every `Entity` whose `Attribution` `Spons` falls within the `Form`.
+
+> `Content(Form) := { Entity :: Attribution(Entity) ∈ Form }`
+
+*NOTE*: Let say: `Form` *covers* its `Content`.
+
+## Keys, Relations, Schema
+
+**`Key`** (primary key) := `Injective` `Attribute`.
 
 > `∀a, b ∈ DOM(Key): Key(a) = Key(b) ⟹ a = b`
 
 ---
 
-**`Reference`** (foreign key) := `Attribute` whose `Spons` are `Keys` of other `Type`s.
-
----
-
----
-
-**`Relation`** := `Place` in `Space`.
-
-> `Relation := {[Ref₁, Ref₂, ...]}`
+**`Reference`** (foreign key) := `Attribute` whose `Spons` are `Keys` of other `Matters`.
 
 ---
 
@@ -60,37 +50,19 @@ keywords: [math, views]
 
 > `Schema<{Type}> := ({Type}, {Relation})`
 
-## Derived Places
-
-**`Region`** := A hyperrectangular `Place` constrained by subsets of the `Codomain` of the corresponding `Attribute`s.
-
-> `Region := Set₁ ⊆ COD(a₁) × Set₂ ⊆ COD(a₂) × ... × Setₙ ⊆ COD(aₙ)`
-
----
-
-**`Projection`** := A `Place` derived from `Place`-`Origin` by `Selection` over the `Attributes` of a `Type`.
-
-> `Projection<Selection over [a₁, ..., aₙ]> := Origin → Selection(Place)`
-
----
-
-**`Origin`** := the `Place` a `Projection` derives from.
-
 ## Quality
 
-**`Quality<Type>`** := `Azon` over `Points` of given `Volume`.
-
-*DEF*: a `Quality` with a single value is *called* `Principle`; with two values, `Predicate` (Boolean).
+**`Quality<Type>`** := `Azon` *from* `Codomain` of `Attribution`.
 
 ---
 
 **`Taxon`** := A `Cluster` of the `Volume` split by shared values of a `Quality`.
 
-> `Taxon(q) := Cluster(Volume) :: q of all points in any fragment is the same`
+> `Taxon(q) := K :: Cluster(K, Volume) ∧ ∀F ∈ K: ∀a, b ∈ F: q(a) = q(b)`
 
 ---
 
-**`Sigma<n>`** := smallest `Place` containing an `(n−1)/n` proportion of the `Matter`.
+**`Sigma<n>`** := smallest `Form` containing an `(n−1)/n` proportion of the `Matter`.
 
 > `Sigma<n> := argmin(|Place|) : |Content(Place)| ≥ ((n−1)/n) · |Basis|`
 

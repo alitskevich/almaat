@@ -22,7 +22,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 **`Sensor`** := A `Source` that outputs a numerical Weight in response to external `Communication`.
 
-> `Sensor :: external-Communication → Weight ∈ Number`
+> `Sensor :: external-Communication ⇒ Weight ∈ Number`
 
 *NOTE*: Within the `Mind`'s internal topology, `Sensor` is a `Source` (origin): it converts `Communication` from outside the `Mind` into an internal `Signal`.
 
@@ -38,7 +38,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 **`Thought`** := A distribution of Weight across `Neuron`s.
 
-> `Thought :: Neuron → Weight`
+> `Thought :: Neuron ⇒ Weight`
 
 *NOTE*: The internal representation — the pattern of activation across the network. `Thought` is the `Mind`'s `State`, not its `Behavior`.
 
@@ -46,7 +46,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 **`Signal`** := A distribution of Weight across `Sensor`s.
 
-> `Signal :: Sensor → Weight`
+> `Signal :: Sensor ⇒ Weight`
 
 *NOTE*: The external stimulus pattern — the input projection from the `Environment` into the `Mind`.
 
@@ -70,7 +70,7 @@ In a `System`, a [`Source`](../0-math/01-sets.md#sets) is any `Azon` characteriz
 
 **`Memory`** := A persistent modification of `Neuron` weights such that prior `Thought` can be re-evoked by partial `Signal`.
 
-> `Memory :: Signal_partial → Thought_re-evoked`
+> `Memory :: Signal_partial ⇒ Thought_re-evoked`
 
 *NOTE*: Compression of past `Signals` into the structure of the `Mind` itself. `Memory` is not storage of past `Thought` — it is the *disposition to reproduce them*. Re-evocation is reconstruction, not retrieval.
 

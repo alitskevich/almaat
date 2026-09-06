@@ -1,54 +1,68 @@
 ---
 title: "Spaces"
-description: "The Space as a Tuple of Axis, and the Palette, Point, Volume, and Place built on it."
+description: "The Space as a Tuple of Axis, and the Cluster, Point, Volume, and Form built on it."
 keywords: [math, spaces]
 ---
 
 # Spaces
 
-## Space
+## Space, Point, Volume
 
 ---
 
-**`Palette`** := `Set` of non-intersecting (`Sets`:= **`Axis`**).
+**`Space`** := `Tuple` *into* (`Elements` := `Axis`) of `Cluster`.
 
-> `Palette := { Axis }  :: ( ∀S₁ ≠ S₂ ∈ B: ⋂{S₁, S₂} = 0 )  ∧ ( DOM(S₁) == DOM(S₂) )`
-
----
-
-**`Space`** := `Tuple` into `Palette`.
-
-> `Space<Palette> := [a₁, a₂, ..., aₙ] :: DOM(S₁) ∈ Palette`
+> `Space<Cluster> := S[a₁, a₂, ..., aₙ] :: ∀i<n, A[i] ∈ Cluster`
 
 ---
 
-**`Point`** := `Tuple` of `Elements`, one drawn from corresponding `Axis` of given `Space`.
+**`Point`** := `Tuple` of `Elements`, one drawn from corresponding `Axis` of the `Space`.
 
-> `Point<Space> := [v₁, v₂, ..., vₙ] :: ∀i, v[i] ∈ Space[i]`
-
----
-
-**`Volume`** := `Set` of all `Points` of the `Space`.
-
-> `Volume<Space> := a₁ × a₂ × ... × aₙ`
-
-*NOTE*: `Volume` is *also known* as the **Cartesian product** of the `Axiss` of the `Space`.
+> `Point<Space> := P[e₁, e₂, ..., eₙ] :: ∀i<n, P[i] ∈ Space[i]`
 
 ---
 
-**`Place`** := `Subset` in `Volume` -- `Set` of `Points` of same `Space`.
+**`Form`** := `Set` of `Points` of same `Space`.
 
-> `Place<Space> := { Point } ⊆ Volume<Space>`
+> `Form<Space> := { Point<Space> }`
 
 ---
 
-**`Action`** := `Azon` over the `Space`.
+**`Volume`** (Cartesian product) := `Set` of *ALL* `Points` of the `Space`.
 
-> `Action<Space, Result> := (x ∈ Volume<Space>) → (y ∈ Result)`
+> `Volume<Space> ( a₁ × a₂ × ... × aₙ )`
+
+## Partials
+
+---
+
+**`Subspace`** := `Abstraction` of `Space`.
+
+> `Subspace<Space, Mask> := Mask.Space`
+
+---
+
+**`Zone`** := `Space` of a subsets of corresponding `Axises` of a given `Space`.
+
+> `Zone<Space> := Z[a₁, a₂, ..., aₙ] :: ∀i<n, Z[i] ⊆ Space[i]`
+
+---
+
+**`Region`** := `Volume` of the `Zone` of `Space`.
+
+> `Region := Set₁ ⊆ COD(a₁) × Set₂ ⊆ COD(a₂) × ... × Setₙ ⊆ COD(aₙ)`
+
+## Views
+
+---
+
+**`View`** := A `Form` consists of `Abstractions` on ALL `Points` of  ( given `Form` := `**Origin**`).
+
+> `View<Origin, Mask> := { Mask.Point :: ∀ Point ∈ Origin }`
 
 ## Endo-space
 
-**`EndoSpace`** := `Space` whose `Palette` is `Singleton`.
+**`EndoSpace`** := `Space` whose `Cluster` is `Singleton`.
 
 > `S^ⁿ :=  [S, S, ... S)`
 ---
@@ -56,22 +70,3 @@ keywords: [math, spaces]
 **`EndoVolume`** := `Volume` in `EndoSpace``.
 
 > `S×ⁿ :=  (S × S × ... × S)`
-
----
-
-**`Relation`** := `Place` in `EndoVolume`.
-
-> `Relation<Set> := Place ⊆ S×ⁿ`
-
----
-
-**`Operation<Sⁿ>`** := `Azon` from `S×ⁿ` into `S`.
-
-> `Operation<S> := ( x ∈ S^ⁿ ) → (y ∈ S)`
-
-| Term | Arity | Signature | Examples |
-| --- | --- | --- | --- |
-| **Constant** | `0-ary` | `() → S` | `unit: () => 1`, `zero: () => 0` |
-| **Unary** | `1-ary` | `S → S` | `inc: a => a+1`, `neg: a => -a`, `inv: a => a⁻¹`, `⊥: a => ¬a` |
-| **Binary** | `2-ary` | `S × S → S` | `add: (a,b) => a+b`, `mul: (a,b) => a·b`, `∧, ∨` |
-| **n-ary** | `n-ary` | `Sⁿ → S` | `combine: (a₁, …, aₙ) => …` |
