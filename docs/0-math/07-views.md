@@ -56,12 +56,6 @@ keywords: [math, views]
 
 ---
 
-**`Taxon`** := A `Cluster` of the `Volume` split by shared values of a `Quality`.
-
-> `Taxon(q) := K :: Cluster(K, Volume) ∧ ∀F ∈ K: ∀a, b ∈ F: q(a) = q(b)`
-
----
-
 **`Sigma<n>`** := smallest `Form` containing an `(n−1)/n` proportion of the `Matter`.
 
 > `Sigma<n> := argmin(|Place|) : |Content(Place)| ≥ ((n−1)/n) · |Basis|`

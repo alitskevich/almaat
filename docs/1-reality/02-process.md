@@ -16,30 +16,6 @@ keywords: [reality, process, circuit, flow]
 
 ---
 
-**`Step`** := one indivisible advance of a `Process` — the unit its `Queue` is indexed by.
-
----
-
-**`SampleSpace`** := the `Dictionary` a `Process` draws its `Words` from — everything that can hold at a `Step`.
-
-> `SampleSpace := Dictionary`
-
----
-
-**`State`** := a `Subset` of the `SampleSpace` — what holds at one `Step`.
-
-> `State := Subset ⊆ SampleSpace`
-
-*NOTE*: the folder's most-used Term. [`State of a Participant`](07-system.md#system-and-participant) specializes it to one `Participant`.
-
----
-
-**`Context`** := the `Text<SampleSpace>` preceding a `State`, or `Zero` where there is none.
-
-> `Context := Text<SampleSpace> | Zero`
-
----
-
 **`Flow`** := the `Queue` of `States` a `Process` unrolls across successive `Step`s.
 
 > `Flow := [State(Step[i])]`
@@ -61,16 +37,6 @@ keywords: [reality, process, circuit, flow]
 **`Text<Dictionary>` / `Plan`** := `Tuple` of `Words` from the same `Dictionary`.
 
 > `Text<Dictionary> : [ Word ∈ Dictionary, ...]`
-
----
-
-**`Probability`** := a rational number from 0 to 1.
-
----
-
-**`Event<Dictionary>`** := triplet of `Context`, `State`, and `Probability`.
-
-> `Event<Dictionary> := (Context, { Word }, Probability)`
 
 ---
 

@@ -32,7 +32,7 @@ How static primitives become living systems that act, and how `Reality` itself i
 
 - [Dynamic Processes](1-reality/02-process.md) — The Process as a controlled Queue of Words: its Circuit, the kinds of Circuit, and the landmarks of a Flow.
 - [Systems](1-reality/07-system.md) — Things as queues of presentations over a flow: the participants, the communication that couples them, and what the whole exhibits that no part does.
-- [Probability](1-reality/10-probability.md) — How likelihood is measured over a Random Variable, updated by evidence, and what a Flow settles into over many Steps.
+- [Probability](1-reality/01-probability.md) — How likelihood is measured over a Random Variable, updated by evidence, and what a Flow settles into over many Steps.
 - [Entropy](1-reality/14-entropy.md) — Entropy is the bridge between the State of a System and the passage of Steps: Order is never free, and a System holds Entropy back only by drawing Communication from its Environment.
 - [Evolution](1-reality/15-evolution.md) — Evolution is the dynamics of a Paradigm: how it improves, adapts, stagnates, or regresses as Circumstances shift.
 - [Limits](1-reality/16-limits.md) — What bounds development: the Communication an Agent is free of, the Constraint it navigates, and the ceiling that Improvement approaches and Breakthrough escapes.

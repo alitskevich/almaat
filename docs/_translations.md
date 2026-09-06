@@ -214,7 +214,7 @@ Terms marked with a trailing asterisk (e.g. `Razvoda*`) are newly-proposed Belar
 | `Emergence` | Uznika* |
 | `Equilibrium` | Roynja* |
 
-## Probability — `1-reality/10-probability`
+## Probability — `1-reality/01-probability`
 
 | Term | Belarusian |
 |---|---|

@@ -130,11 +130,17 @@ keywords: [math, sets]
 
 **`Cluster`** := A `Collection` that is non-intersecting AND saturated to a reference `Set`.
 
-> `Cluster(K, S) :: (∀S₁ ≠ S₂ ∈ K: ⋂{S₁, S₂} = 0) ∧ ⋃K = S`
+> `Cluster(S) :: K{ F } (∀F₁ ≠ F₂ ∈ K: ⋂{F₁, F₂} = 0) ∧ ⋃K = S`
 
 *NOTE*: A partition — mutually disjoint `Sets` whose `Union` covers the reference `Set`.
 
 *NOTE*: `{!S, S}` is a `Cluster` saturated to the `Universe` `P`.
+
+---
+
+**`Taxon`** := A `Cluster` of the `Domain` of `Azon` split by shared values of its `Codomain`.
+
+> `Taxon(A) := Cluster(Domain) :: ∧ ∀F ∈ Cluster: ∀a, b ∈ F: A(a) = A(b)`
 
 ## Equivalence Relations
 

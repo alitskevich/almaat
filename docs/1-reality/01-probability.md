@@ -6,6 +6,32 @@ keywords: [reality, probability, bayes, ergodic]
 
 # Probability
 
+---
+
+**`Step`** := one indivisible advance of a `Process` — the unit its `Queue` is indexed by.
+
+---
+
+**`Context`** := the `Text<SampleSpace>` preceding a `State`, or `Zero` where there is none.
+
+> `Context := Text<SampleSpace> | Zero`
+
+---
+
+**`Probability`** := a rational `Number` from 0 to 1.
+
+---
+
+**`State`** := a `Subset` of the (`Dictionary` := `SampleSpace` ).
+
+> `State := Subset ⊆ SampleSpace`
+
+---
+
+**`Event<Dictionary>`** := triplet of `Context`, `State`, and `Probability`.
+
+> `Event<Dictionary> := (Context, { Word }, Probability)`
+
 ## Measure
 
 **`Expected Value`** := the mean `State` over many trials.
